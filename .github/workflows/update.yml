@@ -1,0 +1,37 @@
+name: Update USOIL News
+
+on:
+  schedule:
+    - cron: '0 0,3,6,9,12,15,18,21 * * *'  # 3時間ごと（UTC）= JST 9,12,15,18,21,0,3,6時
+  workflow_dispatch:  # 手動実行ボタンも有効
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Run fetch_news.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetch_news.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html
+          git diff --staged --quiet || git commit -m "Update news $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
