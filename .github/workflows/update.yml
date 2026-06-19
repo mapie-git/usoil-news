@@ -1,8 +1,8 @@
 name: Update USOIL News
 
 on:
-  schedule:
-    - cron: '0 0,3,6,9,12,15,18,21 * * *'  # 3時間ごと（UTC）= JST 9,12,15,18,21,0,3,6時
+#  schedule:
+#    - cron: '0 0,3,6,9,12,15,18,21 * * *'  # 3時間ごと（UTC）= JST 9,12,15,18,21,0,3,6時
   workflow_dispatch:  # 手動実行ボタンも有効
 
 jobs:
