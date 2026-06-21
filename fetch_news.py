@@ -114,7 +114,7 @@ def generate_html(articles):
   <div class="source-guide-title">ニュースソース ガイド</div>
   <div class="source-grid">
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">Reuters</span><span class="source-type">RSS（無料）</span></div>
+      <div class="source-card-header"><span class="source-name">Reuters</span></div>
       <div class="source-metrics">
         <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
         <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
@@ -124,7 +124,7 @@ def generate_html(articles):
       <div class="source-timing">⏱ 発表から数分以内に配信。EIA統計・OPEC声明の速報は特に早い。</div>
     </div>
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">EIA（米エネルギー情報局）</span><span class="source-type">RSS（無料）</span></div>
+      <div class="source-card-header"><span class="source-name">EIA（米エネルギー情報局）</span></div>
       <div class="source-metrics">
         <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
         <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
@@ -134,7 +134,7 @@ def generate_html(articles):
       <div class="source-timing">⏱ 週次在庫統計：毎週水曜 23:30 JST（サマータイム中）に定時発表。</div>
     </div>
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">OilPrice.com</span><span class="source-type">RSS（無料）</span></div>
+      <div class="source-card-header"><span class="source-name">OilPrice.com</span></div>
       <div class="source-metrics">
         <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
         <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
@@ -144,7 +144,7 @@ def generate_html(articles):
       <div class="source-timing">⏱ 記事公開から数時間以内にRSS反映。速報より分析・背景解説向き。</div>
     </div>
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">OPEC 公式</span><span class="source-type">RSS（無料）</span></div>
+      <div class="source-card-header"><span class="source-name">OPEC 公式</span></div>
       <div class="source-metrics">
         <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
         <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
