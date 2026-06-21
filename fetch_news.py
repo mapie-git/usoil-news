@@ -121,7 +121,6 @@ def generate_html(articles):
         <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
       </div>
       <div class="source-desc">世界最大級の通信社。200拠点・2,600人の記者が24時間配信。OPEC決定・地政学リスク・大手産油国の動向など、相場を動かすニュースをいち早く報じる。金融機関が一次ソースとして使用するレベルの信頼性。</div>
-      <div class="source-timing">⏱ 発表から数分以内に配信。EIA統計・OPEC声明の速報は特に早い。</div>
     </div>
     <div class="source-card">
       <div class="source-card-header"><span class="source-name">EIA（米エネルギー情報局）</span></div>
@@ -131,7 +130,6 @@ def generate_html(articles):
         <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
       </div>
       <div class="source-desc">米国政府の公式エネルギー統計機関。週次原油在庫統計（WTI価格に最も影響する指標）を毎週水曜に発表。「誤報」の概念がない一次統計ソース。</div>
-      <div class="source-timing">⏱ 週次在庫統計：毎週水曜 23:30 JST（サマータイム中）に定時発表。</div>
     </div>
     <div class="source-card">
       <div class="source-card-header"><span class="source-name">OilPrice.com</span></div>
@@ -141,7 +139,6 @@ def generate_html(articles):
         <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
       </div>
       <div class="source-desc">原油・エネルギー市場に特化した専門メディア。分析・意見記事が多く補完情報として活用。一次情報ではなく他社記事の転載・解説も多い。</div>
-      <div class="source-timing">⏱ 記事公開から数時間以内にRSS反映。速報より分析・背景解説向き。</div>
     </div>
     <div class="source-card">
       <div class="source-card-header"><span class="source-name">OPEC 公式</span></div>
@@ -151,7 +148,6 @@ def generate_html(articles):
         <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
       </div>
       <div class="source-desc">OPEC本部からの公式声明・プレスリリース。減産合意・増産決定など価格に直撃する情報の一次ソース。更新頻度は低いが出たときのインパクトは最大級。</div>
-      <div class="source-timing">⏱ 定例会合（年数回）前後・声明発表時のみ更新。普段は低頻度。</div>
     </div>
   </div>
 </section>"""
