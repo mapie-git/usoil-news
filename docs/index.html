@@ -30,6 +30,8 @@
   .filter-btn.f-high.active{border-color:var(--high);color:var(--high)}
   .filter-btn.f-mid.active{border-color:var(--mid);color:var(--mid)}
   .filter-btn.f-low.active{border-color:var(--low);color:var(--low)}
+  .filter-btn.f-new.active{border-color:#3a9bd5;color:#3a9bd5}
+  .new-badge{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.06em;color:#fff;background:#3a9bd5;border-radius:3px;padding:1px 5px;margin-right:6px;vertical-align:2px}
   .news-list{display:flex;flex-direction:column;gap:10px}
   .news-card{background:var(--surface);border:1px solid var(--border);border-left:3px solid transparent;border-radius:4px;padding:14px 16px;transition:background .15s}
   .news-card:hover{background:#181b24}
@@ -82,15 +84,16 @@
 <body>
 <header>
   <div class="logo">USOIL <span>/ News Monitor</span></div>
-  <div class="meta">最終更新: 2026-06-22 23:39 JST ｜ 20件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
+  <div class="meta">最終更新: 2026-06-23 00:25 JST ｜ 20件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
 </header>
 <div class="status-popup" id="statusPopup">
-  ✅ 最終確認: 2026-06-22 23:39 JST<br>ニュースは最新の状態です
+  ✅ 最終確認: 2026-06-23 00:25 JST<br>ニュースは最新の状態です
 </div>
 <main>
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
     <button class="filter-btn active" onclick="filterAll(this)">ALL</button>
+    <button class="filter-btn f-new"  onclick="filterNew(this)">🔵 NEW</button>
     <button class="filter-btn f-high" onclick="filterGroup('high',this)">🔴 高</button>
     <button class="filter-btn f-mid"  onclick="filterGroup('mid',this)">🟡 中</button>
     <button class="filter-btn f-low"  onclick="filterGroup('low',this)">🟢 低</button>
@@ -111,23 +114,6 @@
         <div class="card-foot-right">
           <span class="reliability-badge rel-a" title="高信頼：客観的事実">★★★</span>
           <span class='time-tag'>06/22 18:30</span>
-        </div>
-      </div>
-    </div>
-    <div class="news-card ig-high" data-group="high">
-      <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/Qatar-Races-to-Restore-LNG-Exports-Despite-Ras-Laffan-Setback.html" target="_blank" rel="noopener">Qatar Races to Restore LNG Exports Despite Ras Laffan Setback</a></div>
-        <span class="impact-badge ig-high">HIGH</span>
-      </div>
-      <div class="summary">カタール、ラスラッファン修復中もLNG輸出再開準備。供給復旧で価格下方圧力緩和。</div>
-      <div class="card-foot">
-        <span class="meta-tag source-tag">OilPrice.com</span>
-        <span class="direction-tag bullish">↑ ブリッシュ</span>
-        <span class="meta-tag hz-short">短期</span>
-        <span class='meta-tag factor-tag'>供給回復期待</span>
-        <div class="card-foot-right">
-          <span class="reliability-badge rel-a" title="高信頼：客観的事実">★★★</span>
-          <span class='time-tag'>06/22 14:49</span>
         </div>
       </div>
     </div>
@@ -230,6 +216,23 @@
         <div class="card-foot-right">
           <span class="reliability-badge rel-a" title="高信頼：客観的事実">★★★</span>
           <span class='time-tag'>06/05 23:00</span>
+        </div>
+      </div>
+    </div>
+    <div class="news-card ig-mid" data-new="1" data-group="mid">
+      <div class="card-top">
+        <div class="headline"><span class="new-badge">NEW</span><a href="https://oilprice.com/Energy/Energy-General/The-Phantom-Peace-Deal-What-Washington-and-Tehran-Are-Really-Playing-At.html" target="_blank" rel="noopener">The Phantom Peace Deal: What Washington and Tehran Are Really Playing At</a></div>
+        <span class="impact-badge ig-mid">LOW</span>
+      </div>
+      <div class="summary">米国とイランの合意は初期段階で、実際の取引には至っていないとの分析。地政学的緊張の完全な緩和ではない。</div>
+      <div class="card-foot">
+        <span class="meta-tag source-tag">OilPrice.com</span>
+        <span class="direction-tag neutral">→ ニュートラル</span>
+        <span class="meta-tag hz-medium">中期</span>
+        <span class='meta-tag factor-tag'>地政学リスク</span>
+        <div class="card-foot-right">
+          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
+          <span class='time-tag'>06/23 00:00</span>
         </div>
       </div>
     </div>
@@ -444,13 +447,13 @@
   <div class="source-guide-title">ニュースソース ガイド</div>
   <div class="source-grid">
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">Reuters</span></div>
+      <div class="source-card-header"><span class="source-name">OilPrice.com</span></div>
       <div class="source-metrics">
-        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
       </div>
-      <div class="source-desc">世界最大級の通信社。200拠点・2,600人の記者が24時間配信。OPEC決定・地政学リスク・大手産油国の動向など、相場を動かすニュースをいち早く報じる。金融機関が一次ソースとして使用するレベルの信頼性。</div>
+      <div class="source-desc">原油・エネルギー市場に特化した専門メディア。分析・意見記事が多く補完情報として活用。一次情報ではなく他社記事の転載・解説も多い。</div>
     </div>
     <div class="source-card">
       <div class="source-card-header"><span class="source-name">EIA（米エネルギー情報局）</span></div>
@@ -462,22 +465,22 @@
       <div class="source-desc">米国政府の公式エネルギー統計機関。週次原油在庫統計（WTI価格に最も影響する指標）を毎週水曜に発表。「誤報」の概念がない一次統計ソース。</div>
     </div>
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">OilPrice.com</span></div>
+      <div class="source-card-header"><span class="source-name">Hellenic Shipping News</span></div>
       <div class="source-metrics">
-        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
         <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
       </div>
-      <div class="source-desc">原油・エネルギー市場に特化した専門メディア。分析・意見記事が多く補完情報として活用。一次情報ではなく他社記事の転載・解説も多い。</div>
+      <div class="source-desc">ギリシャ系の海運・エネルギー専門メディア。原油タンカー・OPEC動向・中東情勢など原油市場に直結するニュースを専門的にカバー。業界内で広く読まれる信頼性の高いソース。</div>
     </div>
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">OPEC 公式</span></div>
+      <div class="source-card-header"><span class="source-name">Google News（WTI/OPEC）</span></div>
       <div class="source-metrics">
-        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
       </div>
-      <div class="source-desc">OPEC本部からの公式声明・プレスリリース。減産合意・増産決定など価格に直撃する情報の一次ソース。更新頻度は低いが出たときのインパクトは最大級。</div>
+      <div class="source-desc">Reuters・Bloomberg・FT・WSJなど主要メディアの原油関連記事をGoogleが集約。RSSを廃止したReutersやOPEC関連ニュースもここ経由で取得。ソースの質はGoogleの選定に依存。</div>
     </div>
   </div>
 </section>
@@ -502,6 +505,13 @@
     btn.classList.add('active');
     document.querySelectorAll('.news-card').forEach(c=>{
       c.style.display=c.dataset.group===group?'':'none';
+    });
+  }
+  function filterNew(btn){
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.news-card').forEach(c=>{
+      c.style.display=c.dataset.new==='1'?'':'none';
     });
   }
 </script>
