@@ -292,6 +292,15 @@ def generate_html(articles):
       </div>
       <div class="source-desc">Reuters・Bloomberg・FT・WSJなど主要メディアの原油関連記事をGoogleが集約。RSSを廃止したReutersやOPEC関連ニュースもここ経由で取得。ソースの質はGoogleの選定に依存。</div>
     </div>
+    <div class="source-card">
+      <div class="source-card-header"><span class="source-name">Rigzone</span></div>
+      <div class="source-metrics">
+        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
+      </div>
+      <div class="source-desc">石油・ガス業界専門の米国メディア。掘削・生産・OPEC・中東情勢など上流部門の一次情報を豊富に配信。業界関係者にも広く読まれる信頼性の高い専門ソース。</div>
+    </div>
   </div>
 </section>"""
 
