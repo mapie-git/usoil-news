@@ -13,7 +13,7 @@ RSS_FEEDS = [
     ("OilPrice.com",      "https://oilprice.com/rss/main"),
     ("EIA",               "https://www.eia.gov/rss/todayinenergy.xml"),
     ("Hellenic Shipping", "https://www.hellenicshippingnews.com/category/oil-energy/feed/"),
-    ("MarketWatch",       "https://www.marketwatch.com/rss/realtimeheadlines"),
+    ("Google News",       "https://news.google.com/rss/search?q=WTI+crude+oil+OPEC&hl=en&gl=US&ceid=US:en"),
 ]
 
 OIL_KEYWORDS = [
@@ -242,13 +242,13 @@ def generate_html(articles):
   <div class="source-guide-title">ニュースソース ガイド</div>
   <div class="source-grid">
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">Reuters</span></div>
+      <div class="source-card-header"><span class="source-name">OilPrice.com</span></div>
       <div class="source-metrics">
-        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
       </div>
-      <div class="source-desc">世界最大級の通信社。200拠点・2,600人の記者が24時間配信。OPEC決定・地政学リスク・大手産油国の動向など、相場を動かすニュースをいち早く報じる。金融機関が一次ソースとして使用するレベルの信頼性。</div>
+      <div class="source-desc">原油・エネルギー市場に特化した専門メディア。分析・意見記事が多く補完情報として活用。一次情報ではなく他社記事の転載・解説も多い。</div>
     </div>
     <div class="source-card">
       <div class="source-card-header"><span class="source-name">EIA（米エネルギー情報局）</span></div>
@@ -260,22 +260,22 @@ def generate_html(articles):
       <div class="source-desc">米国政府の公式エネルギー統計機関。週次原油在庫統計（WTI価格に最も影響する指標）を毎週水曜に発表。「誤報」の概念がない一次統計ソース。</div>
     </div>
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">OilPrice.com</span></div>
+      <div class="source-card-header"><span class="source-name">Hellenic Shipping News</span></div>
       <div class="source-metrics">
-        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
         <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
       </div>
-      <div class="source-desc">原油・エネルギー市場に特化した専門メディア。分析・意見記事が多く補完情報として活用。一次情報ではなく他社記事の転載・解説も多い。</div>
+      <div class="source-desc">ギリシャ系の海運・エネルギー専門メディア。原油タンカー・OPEC動向・中東情勢など原油市場に直結するニュースを専門的にカバー。業界内で広く読まれる信頼性の高いソース。</div>
     </div>
     <div class="source-card">
-      <div class="source-card-header"><span class="source-name">OPEC 公式</span></div>
+      <div class="source-card-header"><span class="source-name">Google News（WTI/OPEC）</span></div>
       <div class="source-metrics">
-        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
-        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
       </div>
-      <div class="source-desc">OPEC本部からの公式声明・プレスリリース。減産合意・増産決定など価格に直撃する情報の一次ソース。更新頻度は低いが出たときのインパクトは最大級。</div>
+      <div class="source-desc">Reuters・Bloomberg・FT・WSJなど主要メディアの原油関連記事をGoogleが集約。RSSを廃止したReutersやOPEC関連ニュースもここ経由で取得。ソースの質はGoogleの選定に依存。</div>
     </div>
   </div>
 </section>"""
