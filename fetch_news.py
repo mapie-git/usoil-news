@@ -173,6 +173,7 @@ def generate_html(articles):
         "long":        ("長期",   "hz-long"),
     }
     IMPACT_LABELS = {5: "VERY HIGH", 4: "HIGH", 3: "MEDIUM", 2: "LOW", 1: "VERY LOW"}
+    RELIABILITY_STARS = {"A": "★★★", "B": "★★☆", "C": "★☆☆"}
     RELIABILITY_TITLE = {"A": "高信頼：客観的事実", "B": "中信頼：事実と予測混在", "C": "低信頼：思惑・観測"}
 
     def impact_badge(n):
@@ -189,8 +190,9 @@ def generate_html(articles):
         return f'<span class="meta-tag {cls}">{label}</span>'
 
     def reliability_badge(r):
+        stars = RELIABILITY_STARS.get(r, "★☆☆")
         title = RELIABILITY_TITLE.get(r, "")
-        return f'<span class="reliability-badge rel-{r.lower()}" title="{title}">{r}</span>'
+        return f'<span class="reliability-badge rel-{r.lower()}" title="{title}">{stars}</span>'
 
     def fmt_pub(pub):
         if not pub:
@@ -296,9 +298,11 @@ def generate_html(articles):
   .logo span{{color:var(--muted);font-weight:400}}
   .meta{{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted)}}
   main{{max-width:860px;margin:0 auto;padding:24px 16px}}
-  .status-bar{{max-width:860px;margin:12px auto 0;padding:0 16px 20px}}
-  .status-bar-inner{{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(74,144,96,.1);border:1px solid rgba(74,144,96,.3);border-radius:6px;font-size:12px;color:var(--muted)}}
-  .status-dot{{width:7px;height:7px;border-radius:50%;background:#4a9060;flex-shrink:0}}
+  .status-dot{{width:9px;height:9px;border-radius:50%;display:inline-block;cursor:pointer;vertical-align:middle;margin-left:8px;flex-shrink:0}}
+  .status-dot.ok{{background:#4a9060;box-shadow:0 0 4px rgba(74,144,96,.6)}}
+  .status-dot.warn{{background:#e84040;box-shadow:0 0 4px rgba(232,64,64,.6)}}
+  .status-popup{{position:fixed;top:50px;right:16px;background:#1e2230;border:1px solid var(--border);border-radius:8px;padding:12px 16px;font-size:12px;color:var(--text);box-shadow:0 4px 20px rgba(0,0,0,.5);z-index:999;display:none;max-width:280px;line-height:1.6}}
+  .status-popup.show{{display:block}}
   .filter-bar{{display:flex;gap:8px;margin-top:16px;margin-bottom:20px;align-items:center;flex-wrap:nowrap}}
   .filter-label{{font-size:11px;color:var(--muted);margin-right:4px}}
   .filter-btn{{font-size:11px;padding:4px 12px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}}
@@ -357,15 +361,12 @@ def generate_html(articles):
 <body>
 <header>
   <div class="logo">USOIL <span>/ News Monitor</span></div>
-  <div class="meta">最終更新: {now} ｜ {len(articles)}件</div>
+  <div class="meta">最終更新: {now} ｜ {len(articles)}件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
 </header>
+<div class="status-popup" id="statusPopup">
+  ✅ 最終確認: {now}<br>ニュースは最新の状態です
+</div>
 <main>
-  <div class="status-bar">
-    <div class="status-bar-inner">
-      <div class="status-dot"></div>
-      <span>最終確認: {now} — ニュースは最新の状態です</span>
-    </div>
-  </div>
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
     <button class="filter-btn active" onclick="filterAll(this)">ALL</button>
@@ -380,6 +381,15 @@ def generate_html(articles):
 {source_guide}
 <footer>USOIL News Monitor ｜ 重要度はAIによる自動評価です。投資判断の参考情報であり、売買を推奨するものではありません。</footer>
 <script>
+  function toggleStatus(){{
+    var p=document.getElementById('statusPopup');
+    p.classList.toggle('show');
+  }}
+  document.addEventListener('click',function(e){{
+    if(!e.target.closest('#statusDot')&&!e.target.closest('#statusPopup')){{
+      document.getElementById('statusPopup').classList.remove('show');
+    }}
+  }});
   function filterAll(btn){{
     document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
