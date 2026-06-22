@@ -204,6 +204,16 @@ def generate_html(articles):
         except Exception:
             return pub[:16]
 
+    def is_new(pub):
+        if not pub:
+            return False
+        try:
+            from email.utils import parsedate_to_datetime
+            dt = parsedate_to_datetime(pub).astimezone(JST)
+            return (datetime.now(JST) - dt).total_seconds() <= 1800
+        except Exception:
+            return False
+
     cards = ""
     for a in articles:
         n         = a.get("impact", 1)
@@ -213,15 +223,19 @@ def generate_html(articles):
         title     = a.get("title", "")
         link      = a.get("link", "#")
         source    = a.get("source", "")
-        pub       = fmt_pub(a.get("pub", ""))
+        pub_raw   = a.get("pub", "")
+        pub       = fmt_pub(pub_raw)
         horizon   = a.get("time_horizon", "short")
         factor    = a.get("main_factor", "")
         rel       = a.get("reliability", "C")
+        new_flag  = is_new(pub_raw)
+        new_attr  = ' data-new="1"' if new_flag else ""
+        new_badge = '<span class="new-badge">NEW</span>' if new_flag else ""
 
         cards += f"""
-    <div class="news-card ig-{group}" data-group="{group}">
+    <div class="news-card ig-{group}"{new_attr} data-group="{group}">
       <div class="card-top">
-        <div class="headline"><a href="{link}" target="_blank" rel="noopener">{title}</a></div>
+        <div class="headline">{new_badge}<a href="{link}" target="_blank" rel="noopener">{title}</a></div>
         {impact_badge(n)}
       </div>
       <div class="summary">{summary}</div>
@@ -312,6 +326,8 @@ def generate_html(articles):
   .filter-btn.f-high.active{{border-color:var(--high);color:var(--high)}}
   .filter-btn.f-mid.active{{border-color:var(--mid);color:var(--mid)}}
   .filter-btn.f-low.active{{border-color:var(--low);color:var(--low)}}
+  .filter-btn.f-new.active{{border-color:#3a9bd5;color:#3a9bd5}}
+  .new-badge{{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.06em;color:#fff;background:#3a9bd5;border-radius:3px;padding:1px 5px;margin-right:6px;vertical-align:2px}}
   .news-list{{display:flex;flex-direction:column;gap:10px}}
   .news-card{{background:var(--surface);border:1px solid var(--border);border-left:3px solid transparent;border-radius:4px;padding:14px 16px;transition:background .15s}}
   .news-card:hover{{background:#181b24}}
@@ -373,6 +389,7 @@ def generate_html(articles):
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
     <button class="filter-btn active" onclick="filterAll(this)">ALL</button>
+    <button class="filter-btn f-new"  onclick="filterNew(this)">🔵 NEW</button>
     <button class="filter-btn f-high" onclick="filterGroup('high',this)">🔴 高</button>
     <button class="filter-btn f-mid"  onclick="filterGroup('mid',this)">🟡 中</button>
     <button class="filter-btn f-low"  onclick="filterGroup('low',this)">🟢 低</button>
@@ -403,6 +420,13 @@ def generate_html(articles):
     btn.classList.add('active');
     document.querySelectorAll('.news-card').forEach(c=>{{
       c.style.display=c.dataset.group===group?'':'none';
+    }});
+  }}
+  function filterNew(btn){{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.news-card').forEach(c=>{{
+      c.style.display=c.dataset.new==='1'?'':'none';
     }});
   }}
 </script>
