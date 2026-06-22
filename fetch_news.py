@@ -10,10 +10,10 @@ JST = timezone(timedelta(hours=9))
 DB_PATH = "docs/cache.db"
 
 RSS_FEEDS = [
-    ("Reuters Energy",    "https://feeds.reuters.com/reuters/businessNews"),
     ("OilPrice.com",      "https://oilprice.com/rss/main"),
-    ("EIA",               "https://www.eia.gov/rss/press_releases.xml"),
-    ("OPEC",              "https://www.opec.org/opec_web/en/press_room/rss.htm"),
+    ("EIA",               "https://www.eia.gov/rss/todayinenergy.xml"),
+    ("Hellenic Shipping", "https://www.hellenicshippingnews.com/category/oil-energy/feed/"),
+    ("MarketWatch",       "https://www.marketwatch.com/rss/realtimeheadlines"),
 ]
 
 OIL_KEYWORDS = [
