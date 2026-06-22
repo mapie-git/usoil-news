@@ -114,7 +114,12 @@ def evaluate_articles(articles, conn):
 - summary: 日本語で60字以内の要約
 - time_horizon: "ultra_short"（数分〜数時間）/ "short"（1〜3日）/ "medium"（1〜4週間）/ "long"（1か月以上）
 - main_factor: 主因を日本語で10字以内（例：地政学リスク、供給過剰、需要減少、在庫増加）
-- reliability: "A"（一次情報・公式発表）/ "B"（主要メディア）/ "C"（分析・推測）
+- reliability: 以下のスコアリングで算出し "A"/"B"/"C" で返す
+  【ソース品質】Reuters/Bloomberg=+40, EIA=+50, OPEC公式=+50, その他主要メディア=+30, 専門サイト=+20, SNS/匿名=+10
+  【事実性】発生済み事実/正式発表=+40, 検討中/交渉中=+20, 観測/予測/匿名情報=+10
+  【市場感応度推定】明確な需給変化が確定=+20, 示唆あり=+10, 曖昧=0
+  合計80以上=A, 60〜79=B, 59以下=C
+  ※"このニュースから予想した価格方向が当たる可能性"として判定する
 
 必ずJSON配列のみを返し、説明文や```は不要です。
 
@@ -162,24 +167,26 @@ def generate_html(articles):
         "neutral": ("→", "ニュートラル", "neutral"),
     }
     HORIZON_LABELS = {
-        "ultra_short": "⚡ 超短期",
-        "short":       "📅 短期",
-        "medium":      "📆 中期",
-        "long":        "🗓 長期",
+        "ultra_short": ("超短期", "hz-ultra"),
+        "short":       ("短期",   "hz-short"),
+        "medium":      ("中期",   "hz-medium"),
+        "long":        ("長期",   "hz-long"),
     }
-    RELIABILITY_TITLE = {"A": "一次情報", "B": "主要メディア", "C": "分析・推測"}
+    IMPACT_LABELS = {5: "VERY HIGH", 4: "HIGH", 3: "MEDIUM", 2: "LOW", 1: "VERY LOW"}
+    RELIABILITY_TITLE = {"A": "高信頼：客観的事実", "B": "中信頼：事実と予測混在", "C": "低信頼：思惑・観測"}
 
     def impact_badge(n):
         group = impact_group(n)
-        return f'<span class="impact-badge ig-{group}">{n}</span>'
+        label = IMPACT_LABELS.get(n, "LOW")
+        return f'<span class="impact-badge ig-{group}">{label}</span>'
 
     def dir_tag(direction):
         arr, label, cls = DIRECTION_LABELS.get(direction, ("→", "ニュートラル", "neutral"))
         return f'<span class="direction-tag {cls}">{arr} {label}</span>'
 
     def horizon_tag(h):
-        label = HORIZON_LABELS.get(h, h)
-        return f'<span class="meta-tag horizon-tag">{label}</span>'
+        label, cls = HORIZON_LABELS.get(h, (h, "hz-short"))
+        return f'<span class="meta-tag {cls}">{label}</span>'
 
     def reliability_badge(r):
         title = RELIABILITY_TITLE.get(r, "")
@@ -292,7 +299,7 @@ def generate_html(articles):
   .status-bar{{max-width:860px;margin:12px auto 0;padding:0 16px}}
   .status-bar-inner{{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(74,144,96,.1);border:1px solid rgba(74,144,96,.3);border-radius:6px;font-size:12px;color:var(--muted)}}
   .status-dot{{width:7px;height:7px;border-radius:50%;background:#4a9060;flex-shrink:0}}
-  .filter-bar{{display:flex;gap:8px;margin-bottom:20px;align-items:center;flex-wrap:wrap}}
+  .filter-bar{{display:flex;gap:8px;margin-top:16px;margin-bottom:20px;align-items:center;flex-wrap:nowrap}}
   .filter-label{{font-size:11px;color:var(--muted);margin-right:4px}}
   .filter-btn{{font-size:11px;padding:4px 12px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}}
   .filter-btn:hover,.filter-btn.active{{background:var(--tag-bg);color:var(--text);border-color:var(--muted)}}
@@ -309,7 +316,7 @@ def generate_html(articles):
   .headline{{font-size:14px;font-weight:500;color:#e0e4f0;line-height:1.45;flex:1}}
   .headline a{{color:inherit;text-decoration:none}}
   .headline a:hover{{color:var(--accent)}}
-  .impact-badge{{flex-shrink:0;font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:700;width:28px;height:28px;border-radius:4px;display:flex;align-items:center;justify-content:center}}
+  .impact-badge{{flex-shrink:0;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:700;padding:3px 8px;border-radius:3px;white-space:nowrap}}
   .impact-badge.ig-high{{background:rgba(232,64,64,.18);color:var(--high);border:1px solid rgba(232,64,64,.35)}}
   .impact-badge.ig-mid{{background:rgba(232,160,32,.14);color:var(--mid);border:1px solid rgba(232,160,32,.35)}}
   .impact-badge.ig-low{{background:rgba(74,144,96,.14);color:var(--low);border:1px solid rgba(74,144,96,.35)}}
@@ -318,6 +325,10 @@ def generate_html(articles):
   .meta-tag{{font-size:10px;padding:2px 8px;border-radius:2px;background:var(--tag-bg);color:var(--muted);border:1px solid var(--border);white-space:nowrap}}
   .source-tag{{color:var(--accent);border-color:rgba(232,160,32,.25)}}
   .factor-tag{{font-style:italic}}
+  .hz-ultra{{color:#e0e4f0;border-color:rgba(224,228,240,.3)}}
+  .hz-short{{color:var(--low);border-color:rgba(74,144,96,.35)}}
+  .hz-medium{{color:var(--mid);border-color:rgba(232,160,32,.35)}}
+  .hz-long{{color:var(--high);border-color:rgba(232,64,64,.35)}}
   .time-tag{{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);margin-left:auto}}
   .direction-tag{{font-size:10px;font-weight:600;padding:2px 8px;border-radius:2px;white-space:nowrap}}
   .direction-tag.bearish{{background:rgba(232,64,64,.12);color:var(--high)}}
@@ -357,10 +368,10 @@ def generate_html(articles):
   </div>
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
-    <button class="filter-btn active" onclick="filterAll(this)">すべて</button>
-    <button class="filter-btn f-high" onclick="filterGroup('high',this)">🔴 高（4-5）</button>
-    <button class="filter-btn f-mid"  onclick="filterGroup('mid',this)">🟡 中（2-3）</button>
-    <button class="filter-btn f-low"  onclick="filterGroup('low',this)">🟢 低（1）</button>
+    <button class="filter-btn active" onclick="filterAll(this)">ALL</button>
+    <button class="filter-btn f-high" onclick="filterGroup('high',this)">🔴 高</button>
+    <button class="filter-btn f-mid"  onclick="filterGroup('mid',this)">🟡 中</button>
+    <button class="filter-btn f-low"  onclick="filterGroup('low',this)">🟢 低</button>
   </div>
   <div class="news-list" id="newsList">
     {"<div class='no-articles'>原油関連ニュースが見つかりませんでした。</div>" if not articles else cards}
