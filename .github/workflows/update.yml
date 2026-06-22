@@ -1,9 +1,7 @@
 name: Update USOIL News
 on:
   schedule:
-    - cron: '*/20 * * * *'  # 20分ごと
-    - cron: '32 14 * * 3'  # 毎週水曜 23:32 JST = 夏時間（EDT）EIA発表2分後
-    - cron: '32 15 * * 3'  # 毎週水曜 0:32 JST翌日 = 冬時間（EST）EIA発表2分後
+    - cron: '*/30 * * * *'  # 30分ごと（EIA水曜発表も30分以内に反映）
   workflow_dispatch:  # 手動実行ボタンも有効
 
 jobs:
