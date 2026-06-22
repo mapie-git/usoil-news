@@ -62,14 +62,23 @@
   .source-desc{font-size:12px;color:var(--muted);line-height:1.6}
   .source-timing{margin-top:8px;font-size:11px;color:var(--text);padding:6px 10px;background:var(--tag-bg);border-radius:3px;border-left:2px solid var(--accent)}
   footer{text-align:center;padding:24px;font-size:11px;color:var(--muted);border-top:1px solid var(--border);margin-top:32px}
+  .status-bar{max-width:860px;margin:12px auto 0;padding:0 16px;}
+  .status-bar-inner{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(74,144,96,.1);border:1px solid rgba(74,144,96,.3);border-radius:6px;font-size:12px;color:var(--muted);}
+  .status-dot{width:7px;height:7px;border-radius:50%;background:#4a9060;flex-shrink:0;}
 </style>
 </head>
 <body>
 <header>
   <div class="logo">USOIL <span>/ News Monitor</span></div>
-  <div class="meta">最終更新: 2026-06-22 08:15 JST ｜ 9件</div>
+  <div class="meta">最終更新: 2026-06-22 13:21 JST ｜ 9件</div>
 </header>
 <main>
+  <div class="status-bar">
+    <div class="status-bar-inner">
+      <div class="status-dot"></div>
+      <span>最終確認: 2026-06-22 13:21 JST — ニュースは最新の状態です</span>
+    </div>
+  </div>
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
     <button class="filter-btn active" onclick="filterAll(this)">すべて</button>
@@ -84,35 +93,71 @@
         <div class="headline"><a href="https://oilprice.com/Energy/Crude-Oil/Hormuz-Crisis-Sparks-a-Middle-East-Pipeline-Boom.html" target="_blank">Hormuz Crisis Sparks a Middle East Pipeline Boom</a></div>
         <span class="impact-badge high">HIGH</span>
       </div>
-      <div class="reason">ホルムズ海峡の供給途絶で全体の5分の1の原油流が遮断。供給懸念で強気</div>
+      <div class="reason">ホルムズ海峡封鎖で世界の1/5のLNG・石油流が遮断され、供給逼迫で油価上昇圧力</div>
       <div class="card-foot">
         <span class="source-tag">OilPrice.com</span>
         <span class="direction-tag bullish">▲ ブリッシュ</span>
         <span class="time-tag">Sun, 21 Jun 2026</span>
       </div>
     </div>
-    <div class="news-card impact-mid" data-impact="mid">
+    <div class="news-card impact-high" data-impact="high">
       <div class="card-top">
         <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/The-Hormuz-Crisis-Has-Forced-India-to-Rethink-Its-Energy-Strategy.html" target="_blank">The Hormuz Crisis Has Forced India to Rethink Its Energy Strategy</a></div>
-        <span class="impact-badge mid">MID</span>
+        <span class="impact-badge high">HIGH</span>
       </div>
-      <div class="reason">ホルムズ海峡閉鎖でインドが供給不安。需要懸念と価格上昇圧力</div>
+      <div class="reason">インドのホルムズ依存リスク顕在化で、戦略的石油確保需要増加が油価を押し上げ</div>
       <div class="card-foot">
         <span class="source-tag">OilPrice.com</span>
         <span class="direction-tag bullish">▲ ブリッシュ</span>
         <span class="time-tag">Sun, 21 Jun 2026</span>
       </div>
     </div>
-    <div class="news-card impact-mid" data-impact="mid">
+    <div class="news-card impact-high" data-impact="high">
       <div class="card-top">
         <div class="headline"><a href="https://oilprice.com/Alternative-Energy/Renewable-Energy/Energy-Security-Not-Climate-Goals-Is-Now-Driving-the-Clean-Power-Boom.html" target="_blank">Energy Security, Not Climate Goals, Is Now Driving the Clean Power Boom</a></div>
-        <span class="impact-badge mid">MID</span>
+        <span class="impact-badge high">HIGH</span>
       </div>
-      <div class="reason">ホルムズ海峡再開後も影響残存。エネルギー危機継続で上値堅い</div>
+      <div class="reason">ホルムズ危機がエネルギー安全保障重視に転換させ、石油需要の長期的な底堅さを確保</div>
       <div class="card-foot">
         <span class="source-tag">OilPrice.com</span>
         <span class="direction-tag bullish">▲ ブリッシュ</span>
         <span class="time-tag">Sat, 20 Jun 2026</span>
+      </div>
+    </div>
+    <div class="news-card impact-mid" data-impact="mid">
+      <div class="card-top">
+        <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/Britains-Energy-Crisis-Is-Driving-Manufacturing-Offshore.html" target="_blank">Britain’s Energy Crisis Is Driving Manufacturing Offshore</a></div>
+        <span class="impact-badge mid">MID</span>
+      </div>
+      <div class="reason">英国の製造業オフショア化により、エネルギー需要の地域的シフトが発生し、石油需要構造に影響</div>
+      <div class="card-foot">
+        <span class="source-tag">OilPrice.com</span>
+        <span class="direction-tag bullish">▲ ブリッシュ</span>
+        <span class="time-tag">Sun, 21 Jun 2026</span>
+      </div>
+    </div>
+    <div class="news-card impact-mid" data-impact="mid">
+      <div class="card-top">
+        <div class="headline"><a href="https://oilprice.com/Alternative-Energy/Nuclear-Power/Whatever-Happened-to-the-Small-Modular-Reactor-Revolution.html" target="_blank">Whatever Happened to the Small Modular Reactor Revolution?</a></div>
+        <span class="impact-badge mid">MID</span>
+      </div>
+      <div class="reason">SMR開発遅延により原子力による石油代替が進まず、石油需要が相対的に維持される可能性</div>
+      <div class="card-foot">
+        <span class="source-tag">OilPrice.com</span>
+        <span class="direction-tag bullish">▲ ブリッシュ</span>
+        <span class="time-tag">Sun, 21 Jun 2026</span>
+      </div>
+    </div>
+    <div class="news-card impact-mid" data-impact="mid">
+      <div class="card-top">
+        <div class="headline"><a href="https://oilprice.com/Energy/Crude-Oil/Equinor-Expands-Giant-Troll-Field-as-Europe-Hunts-for-More-Gas.html" target="_blank">Equinor Expands Giant Troll Field as Europe Hunts for More Gas</a></div>
+        <span class="impact-badge mid">MID</span>
+      </div>
+      <div class="reason">北海油田のガス供給拡大でエネルギー安定化が進むも、石油との相互代替により複合的影響</div>
+      <div class="card-foot">
+        <span class="source-tag">OilPrice.com</span>
+        <span class="direction-tag bullish">▲ ブリッシュ</span>
+        <span class="time-tag">Sun, 21 Jun 2026</span>
       </div>
     </div>
     <div class="news-card impact-mid" data-impact="mid">
@@ -120,7 +165,7 @@
         <div class="headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/Iraq-Is-Keeping-Its-Syria-Oil-RouteEven-If-Hormuz-Reopens.html" target="_blank">Iraq Is Keeping Its Syria Oil Route—Even If Hormuz Reopens</a></div>
         <span class="impact-badge mid">MID</span>
       </div>
-      <div class="reason">イラクの代替輸送ルート確保で供給リスク軽減だが、ホルムズ依存低下は構造的支援</div>
+      <div class="reason">イラクがホルムズ迂回ルート構築で脱依存を進め、供給リスク分散がWTI変動性に影響</div>
       <div class="card-foot">
         <span class="source-tag">OilPrice.com</span>
         <span class="direction-tag bullish">▲ ブリッシュ</span>
@@ -129,34 +174,10 @@
     </div>
     <div class="news-card impact-low" data-impact="low">
       <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/Britains-Energy-Crisis-Is-Driving-Manufacturing-Offshore.html" target="_blank">Britain’s Energy Crisis Is Driving Manufacturing Offshore</a></div>
+        <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/The-AI-Arms-Race-Isnt-About-Technology-Its-About-Electricity.html" target="_blank">The AI Arms Race Isn’t About Technology – It’s About Electricity</a></div>
         <span class="impact-badge low">LOW</span>
       </div>
-      <div class="reason">英国製造業の課題。WTI価格への直接的な影響は限定的</div>
-      <div class="card-foot">
-        <span class="source-tag">OilPrice.com</span>
-        <span class="direction-tag neutral">→ ニュートラル</span>
-        <span class="time-tag">Sun, 21 Jun 2026</span>
-      </div>
-    </div>
-    <div class="news-card impact-low" data-impact="low">
-      <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Alternative-Energy/Nuclear-Power/Whatever-Happened-to-the-Small-Modular-Reactor-Revolution.html" target="_blank">Whatever Happened to the Small Modular Reactor Revolution?</a></div>
-        <span class="impact-badge low">LOW</span>
-      </div>
-      <div class="reason">SMR開発進捗の遅延。原油市場への直接影響は小さい</div>
-      <div class="card-foot">
-        <span class="source-tag">OilPrice.com</span>
-        <span class="direction-tag neutral">→ ニュートラル</span>
-        <span class="time-tag">Sun, 21 Jun 2026</span>
-      </div>
-    </div>
-    <div class="news-card impact-low" data-impact="low">
-      <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Energy/Crude-Oil/Equinor-Expands-Giant-Troll-Field-as-Europe-Hunts-for-More-Gas.html" target="_blank">Equinor Expands Giant Troll Field as Europe Hunts for More Gas</a></div>
-        <span class="impact-badge low">LOW</span>
-      </div>
-      <div class="reason">北海ガス田投資。天然ガス関連で原油への直接影響は限定的</div>
+      <div class="reason">AI産業の電力需要増加は長期的には関連があるが、短期的なWTI価格への直接的な影響は限定的</div>
       <div class="card-foot">
         <span class="source-tag">OilPrice.com</span>
         <span class="direction-tag neutral">→ ニュートラル</span>
@@ -168,19 +189,7 @@
         <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/G7-Takes-Aim-at-Chinas-Grip-on-Critical-Minerals.html" target="_blank">G7 Takes Aim at China’s Grip on Critical Minerals</a></div>
         <span class="impact-badge low">LOW</span>
       </div>
-      <div class="reason">G7のレアアース戦略。長期的影響だが短期原油価格への直接性は弱い</div>
-      <div class="card-foot">
-        <span class="source-tag">OilPrice.com</span>
-        <span class="direction-tag neutral">→ ニュートラル</span>
-        <span class="time-tag">Sat, 20 Jun 2026</span>
-      </div>
-    </div>
-    <div class="news-card impact-low" data-impact="low">
-      <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Small-Modular-Reactors-Are-Becoming-a-National-Security-Priority.html" target="_blank">Why Small Modular Reactors Are Becoming a National Security Priority</a></div>
-        <span class="impact-badge low">LOW</span>
-      </div>
-      <div class="reason">米国のエネルギー安保重視。長期戦略で短期原油価格への直接影響は限定的</div>
+      <div class="reason">希土類確保の戦略的重要性は高いが、短期的なWTI価格への直接的な影響は限定的</div>
       <div class="card-foot">
         <span class="source-tag">OilPrice.com</span>
         <span class="direction-tag neutral">→ ニュートラル</span>
