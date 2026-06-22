@@ -296,7 +296,7 @@ def generate_html(articles):
   .logo span{{color:var(--muted);font-weight:400}}
   .meta{{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted)}}
   main{{max-width:860px;margin:0 auto;padding:24px 16px}}
-  .status-bar{{max-width:860px;margin:12px auto 0;padding:0 16px}}
+  .status-bar{{max-width:860px;margin:12px auto 0;padding:0 16px 20px}}
   .status-bar-inner{{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(74,144,96,.1);border:1px solid rgba(74,144,96,.3);border-radius:6px;font-size:12px;color:var(--muted)}}
   .status-dot{{width:7px;height:7px;border-radius:50%;background:#4a9060;flex-shrink:0}}
   .filter-bar{{display:flex;gap:8px;margin-top:16px;margin-bottom:20px;align-items:center;flex-wrap:nowrap}}
