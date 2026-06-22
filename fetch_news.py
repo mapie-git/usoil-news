@@ -1,11 +1,13 @@
 import os
 import json
+import sqlite3
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 import anthropic
 
 JST = timezone(timedelta(hours=9))
+DB_PATH = "docs/cache.db"
 
 RSS_FEEDS = [
     ("Reuters Energy",    "https://feeds.reuters.com/reuters/businessNews"),
@@ -21,6 +23,49 @@ OIL_KEYWORDS = [
     "libya", "iran", "saudi", "russia", "shale",
 ]
 
+# ── SQLite キャッシュ ──────────────────────────────────────────────
+
+def init_db():
+    os.makedirs("docs", exist_ok=True)
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS eval_cache (
+            url        TEXT PRIMARY KEY,
+            impact     INTEGER,
+            direction  TEXT,
+            summary    TEXT,
+            time_horizon TEXT,
+            main_factor  TEXT,
+            reliability  TEXT,
+            cached_at  TEXT
+        )
+    """)
+    conn.commit()
+    return conn
+
+def load_cache(conn, url):
+    row = conn.execute(
+        "SELECT impact,direction,summary,time_horizon,main_factor,reliability FROM eval_cache WHERE url=?",
+        (url,)
+    ).fetchone()
+    if row:
+        return {
+            "impact": row[0], "direction": row[1], "summary": row[2],
+            "time_horizon": row[3], "main_factor": row[4], "reliability": row[5],
+        }
+    return None
+
+def save_cache(conn, url, ev):
+    conn.execute(
+        "INSERT OR REPLACE INTO eval_cache VALUES (?,?,?,?,?,?,?,?)",
+        (url, ev["impact"], ev["direction"], ev["summary"],
+         ev["time_horizon"], ev["main_factor"], ev["reliability"],
+         datetime.now(JST).isoformat())
+    )
+    conn.commit()
+
+# ── RSS 取得 ────────────────────────────────────────────────────────
+
 def fetch_rss(name, url):
     articles = []
     try:
@@ -34,24 +79,42 @@ def fetch_rss(name, url):
             desc  = (item.findtext("description") or item.findtext("atom:summary", namespaces=ns) or "").strip()
             link  = (item.findtext("link") or item.findtext("atom:link", namespaces=ns) or "").strip()
             pub   = (item.findtext("pubDate") or item.findtext("atom:updated", namespaces=ns) or "").strip()
-            text = (title + " " + desc).lower()
+            text  = (title + " " + desc).lower()
             if any(k in text for k in OIL_KEYWORDS):
-                articles.append({"source": name, "title": title, "desc": desc[:200], "link": link, "pub": pub})
+                articles.append({"source": name, "title": title, "desc": desc[:300], "link": link, "pub": pub})
     except Exception as e:
         print(f"[WARN] {name}: {e}")
     return articles
 
-def evaluate_articles(articles):
+# ── Claude 評価 ─────────────────────────────────────────────────────
+
+def evaluate_articles(articles, conn):
+    uncached = []
+    for a in articles:
+        cached = load_cache(conn, a["link"])
+        if cached:
+            a.update(cached)
+            print(f"  [CACHE] {a['title'][:40]}")
+        else:
+            uncached.append(a)
+
+    if not uncached:
+        return articles
+
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     items_text = "\n".join(
         f"{i+1}. [{a['source']}] {a['title']} / {a['desc']}"
-        for i, a in enumerate(articles)
+        for i, a in enumerate(uncached)
     )
     prompt = f"""以下はWTI原油（USOIL）に関するニュース記事のリストです。
-各記事について以下をJSON配列で返してください。
-- impact: "high" / "mid" / "low"（WTI価格への影響度）
+各記事についてJSON配列で以下を返してください。
+
+- impact: 1〜5の整数（WTI価格への影響度。5=極めて高い、1=ほぼなし）
 - direction: "bullish" / "bearish" / "neutral"
-- reason: 判断理由（日本語・50字以内）
+- summary: 日本語で60字以内の要約
+- time_horizon: "ultra_short"（数分〜数時間）/ "short"（1〜3日）/ "medium"（1〜4週間）/ "long"（1か月以上）
+- main_factor: 主因を日本語で10字以内（例：地政学リスク、供給過剰、需要減少、在庫増加）
+- reliability: "A"（一次情報・公式発表）/ "B"（主要メディア）/ "C"（分析・推測）
 
 必ずJSON配列のみを返し、説明文や```は不要です。
 
@@ -59,53 +122,107 @@ def evaluate_articles(articles):
 {items_text}
 """
     message = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=2000,
+        model="claude-haiku-4-5",
+        max_tokens=3000,
         messages=[{"role": "user", "content": prompt}]
     )
-    raw = message.content[0].text.strip()
-    raw = raw.replace("```json", "").replace("```", "").strip()
+    raw = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
     evaluations = json.loads(raw)
-    for i, a in enumerate(articles):
-        if i < len(evaluations):
-            a.update(evaluations[i])
-        else:
-            a.update({"impact": "low", "direction": "neutral", "reason": "評価データなし"})
+
+    for i, a in enumerate(uncached):
+        ev = evaluations[i] if i < len(evaluations) else {}
+        result = {
+            "impact":      int(ev.get("impact", 1)),
+            "direction":   ev.get("direction", "neutral"),
+            "summary":     ev.get("summary", ""),
+            "time_horizon":ev.get("time_horizon", "short"),
+            "main_factor": ev.get("main_factor", ""),
+            "reliability": ev.get("reliability", "C"),
+        }
+        a.update(result)
+        save_cache(conn, a["link"], result)
+        print(f"  [API]   {a['title'][:40]}")
+
     return articles
+
+# ── HTML 生成 ────────────────────────────────────────────────────────
+
+def impact_group(n):
+    if n >= 4: return "high"
+    if n >= 2: return "mid"
+    return "low"
 
 def generate_html(articles):
     now = datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
-    impact_order = {"high": 0, "mid": 1, "low": 2}
-    articles.sort(key=lambda x: impact_order.get(x.get("impact", "low"), 2))
+    articles.sort(key=lambda x: -x.get("impact", 1))
 
-    def badge(impact):
-        labels = {"high": "HIGH", "mid": "MID", "low": "LOW"}
-        return f'<span class="impact-badge {impact}">{labels.get(impact, "LOW")}</span>'
+    DIRECTION_LABELS = {
+        "bullish": ("↑", "ブリッシュ", "bullish"),
+        "bearish": ("↓", "ベアリッシュ", "bearish"),
+        "neutral": ("→", "ニュートラル", "neutral"),
+    }
+    HORIZON_LABELS = {
+        "ultra_short": "⚡ 超短期",
+        "short":       "📅 短期",
+        "medium":      "📆 中期",
+        "long":        "🗓 長期",
+    }
+    RELIABILITY_TITLE = {"A": "一次情報", "B": "主要メディア", "C": "分析・推測"}
+
+    def impact_badge(n):
+        group = impact_group(n)
+        return f'<span class="impact-badge ig-{group}">{n}</span>'
 
     def dir_tag(direction):
-        labels = {"bullish": "▲ ブリッシュ", "bearish": "▼ ベアリッシュ", "neutral": "→ ニュートラル"}
-        return f'<span class="direction-tag {direction}">{labels.get(direction, "→ ニュートラル")}</span>'
+        arr, label, cls = DIRECTION_LABELS.get(direction, ("→", "ニュートラル", "neutral"))
+        return f'<span class="direction-tag {cls}">{arr} {label}</span>'
+
+    def horizon_tag(h):
+        label = HORIZON_LABELS.get(h, h)
+        return f'<span class="meta-tag horizon-tag">{label}</span>'
+
+    def reliability_badge(r):
+        title = RELIABILITY_TITLE.get(r, "")
+        return f'<span class="reliability-badge rel-{r.lower()}" title="{title}">{r}</span>'
+
+    def fmt_pub(pub):
+        if not pub:
+            return ""
+        try:
+            from email.utils import parsedate_to_datetime
+            dt = parsedate_to_datetime(pub).astimezone(JST)
+            return dt.strftime("%m/%d %H:%M")
+        except Exception:
+            return pub[:16]
 
     cards = ""
     for a in articles:
-        impact    = a.get("impact", "low")
+        n         = a.get("impact", 1)
+        group     = impact_group(n)
         direction = a.get("direction", "neutral")
-        reason    = a.get("reason", "")
+        summary   = a.get("summary", "")
         title     = a.get("title", "")
         link      = a.get("link", "#")
         source    = a.get("source", "")
-        pub       = a.get("pub", "")[:16]
+        pub       = fmt_pub(a.get("pub", ""))
+        horizon   = a.get("time_horizon", "short")
+        factor    = a.get("main_factor", "")
+        rel       = a.get("reliability", "C")
+
         cards += f"""
-    <div class="news-card impact-{impact}" data-impact="{impact}">
+    <div class="news-card ig-{group}" data-group="{group}">
       <div class="card-top">
-        <div class="headline"><a href="{link}" target="_blank">{title}</a></div>
-        {badge(impact)}
+        <div class="headline"><a href="{link}" target="_blank" rel="noopener">{title}</a></div>
+        {impact_badge(n)}
       </div>
-      <div class="reason">{reason}</div>
+      <div class="summary">{summary}</div>
       <div class="card-foot">
-        <span class="source-tag">{source}</span>
+        <span class="meta-tag source-tag">{source}</span>
         {dir_tag(direction)}
-        <span class="time-tag">{pub}</span>
+        {horizon_tag(horizon)}
+        {"<span class='meta-tag factor-tag'>" + factor + "</span>" if factor else ""}
+        {reliability_badge(rel)}
+        {"<span class='time-tag'>" + pub + "</span>" if pub else ""}
       </div>
     </div>"""
 
@@ -163,6 +280,7 @@ def generate_html(articles):
   :root {{
     --bg:#0d0f14;--surface:#141720;--border:#1e2230;--text:#c8cdd8;--muted:#5a6070;
     --accent:#e8a020;--high:#e84040;--mid:#e8a020;--low:#4a9060;--tag-bg:#1a1d25;
+    --c5:#e84040;--c4:#d06828;--c3:#c89020;--c2:#4480b8;--c1:#4a9060;
   }}
   *{{box-sizing:border-box;margin:0;padding:0}}
   body{{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:14px}}
@@ -171,6 +289,9 @@ def generate_html(articles):
   .logo span{{color:var(--muted);font-weight:400}}
   .meta{{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted)}}
   main{{max-width:860px;margin:0 auto;padding:24px 16px}}
+  .status-bar{{max-width:860px;margin:12px auto 0;padding:0 16px}}
+  .status-bar-inner{{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(74,144,96,.1);border:1px solid rgba(74,144,96,.3);border-radius:6px;font-size:12px;color:var(--muted)}}
+  .status-dot{{width:7px;height:7px;border-radius:50%;background:#4a9060;flex-shrink:0}}
   .filter-bar{{display:flex;gap:8px;margin-bottom:20px;align-items:center;flex-wrap:wrap}}
   .filter-label{{font-size:11px;color:var(--muted);margin-right:4px}}
   .filter-btn{{font-size:11px;padding:4px 12px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}}
@@ -179,27 +300,33 @@ def generate_html(articles):
   .filter-btn.f-mid.active{{border-color:var(--mid);color:var(--mid)}}
   .filter-btn.f-low.active{{border-color:var(--low);color:var(--low)}}
   .news-list{{display:flex;flex-direction:column;gap:10px}}
-  .news-card{{background:var(--surface);border:1px solid var(--border);border-left:3px solid transparent;border-radius:4px;padding:14px 16px;transition:border-color .15s,background .15s}}
+  .news-card{{background:var(--surface);border:1px solid var(--border);border-left:3px solid transparent;border-radius:4px;padding:14px 16px;transition:background .15s}}
   .news-card:hover{{background:#181b24}}
-  .news-card.impact-high{{border-left-color:var(--high)}}
-  .news-card.impact-mid{{border-left-color:var(--mid)}}
-  .news-card.impact-low{{border-left-color:var(--low)}}
-  .card-top{{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}}
+  .news-card.ig-high{{border-left-color:var(--high)}}
+  .news-card.ig-mid{{border-left-color:var(--mid)}}
+  .news-card.ig-low{{border-left-color:var(--low)}}
+  .card-top{{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:7px}}
   .headline{{font-size:14px;font-weight:500;color:#e0e4f0;line-height:1.45;flex:1}}
   .headline a{{color:inherit;text-decoration:none}}
   .headline a:hover{{color:var(--accent)}}
-  .impact-badge{{flex-shrink:0;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.08em;padding:3px 8px;border-radius:2px}}
-  .impact-badge.high{{background:rgba(232,64,64,.15);color:var(--high);border:1px solid rgba(232,64,64,.3)}}
-  .impact-badge.mid{{background:rgba(232,160,32,.12);color:var(--mid);border:1px solid rgba(232,160,32,.3)}}
-  .impact-badge.low{{background:rgba(74,144,96,.12);color:var(--low);border:1px solid rgba(74,144,96,.3)}}
-  .reason{{font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:8px}}
-  .card-foot{{display:flex;gap:10px;align-items:center;flex-wrap:wrap}}
-  .source-tag{{font-size:10px;padding:2px 8px;border-radius:2px;background:var(--tag-bg);color:var(--muted);border:1px solid var(--border)}}
-  .time-tag{{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted)}}
-  .direction-tag{{font-size:10px;font-weight:600;padding:2px 8px;border-radius:2px}}
+  .impact-badge{{flex-shrink:0;font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:700;width:28px;height:28px;border-radius:4px;display:flex;align-items:center;justify-content:center}}
+  .impact-badge.ig-high{{background:rgba(232,64,64,.18);color:var(--high);border:1px solid rgba(232,64,64,.35)}}
+  .impact-badge.ig-mid{{background:rgba(232,160,32,.14);color:var(--mid);border:1px solid rgba(232,160,32,.35)}}
+  .impact-badge.ig-low{{background:rgba(74,144,96,.14);color:var(--low);border:1px solid rgba(74,144,96,.35)}}
+  .summary{{font-size:12px;color:var(--text);line-height:1.55;margin-bottom:9px;opacity:.85}}
+  .card-foot{{display:flex;gap:7px;align-items:center;flex-wrap:wrap}}
+  .meta-tag{{font-size:10px;padding:2px 8px;border-radius:2px;background:var(--tag-bg);color:var(--muted);border:1px solid var(--border);white-space:nowrap}}
+  .source-tag{{color:var(--accent);border-color:rgba(232,160,32,.25)}}
+  .factor-tag{{font-style:italic}}
+  .time-tag{{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);margin-left:auto}}
+  .direction-tag{{font-size:10px;font-weight:600;padding:2px 8px;border-radius:2px;white-space:nowrap}}
   .direction-tag.bearish{{background:rgba(232,64,64,.12);color:var(--high)}}
   .direction-tag.bullish{{background:rgba(74,144,96,.12);color:var(--low)}}
   .direction-tag.neutral{{background:rgba(90,96,112,.12);color:var(--muted)}}
+  .reliability-badge{{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:700;padding:2px 7px;border-radius:2px;border:1px solid;cursor:default}}
+  .reliability-badge.rel-a{{color:#7ec8e3;border-color:rgba(126,200,227,.35);background:rgba(126,200,227,.08)}}
+  .reliability-badge.rel-b{{color:var(--muted);border-color:var(--border);background:var(--tag-bg)}}
+  .reliability-badge.rel-c{{color:#887755;border-color:rgba(136,119,85,.3);background:rgba(136,119,85,.07)}}
   .no-articles{{text-align:center;padding:48px;color:var(--muted);font-size:13px}}
   .source-guide{{max-width:860px;margin:40px auto 0;padding:0 16px 32px}}
   .source-guide-title{{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border);padding-top:28px;margin-bottom:16px}}
@@ -207,18 +334,13 @@ def generate_html(articles):
   .source-card{{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:14px 16px}}
   .source-card-header{{display:flex;align-items:center;gap:10px;margin-bottom:10px}}
   .source-name{{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:var(--accent)}}
-  .source-type{{font-size:10px;padding:2px 7px;border-radius:2px;background:var(--tag-bg);color:var(--muted);border:1px solid var(--border)}}
   .source-metrics{{display:flex;gap:16px;margin-bottom:10px}}
   .source-metric{{display:flex;flex-direction:column;gap:3px}}
   .metric-label{{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}}
   .star-on{{color:var(--accent)}}
   .star-off{{color:var(--border)}}
   .source-desc{{font-size:12px;color:var(--muted);line-height:1.6}}
-  .source-timing{{margin-top:8px;font-size:11px;color:var(--text);padding:6px 10px;background:var(--tag-bg);border-radius:3px;border-left:2px solid var(--accent)}}
   footer{{text-align:center;padding:24px;font-size:11px;color:var(--muted);border-top:1px solid var(--border);margin-top:32px}}
-  .status-bar{{max-width:860px;margin:12px auto 0;padding:0 16px;}}
-  .status-bar-inner{{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(74,144,96,.1);border:1px solid rgba(74,144,96,.3);border-radius:6px;font-size:12px;color:var(--muted);}}
-  .status-dot{{width:7px;height:7px;border-radius:50%;background:#4a9060;flex-shrink:0;}}
 </style>
 </head>
 <body>
@@ -236,34 +358,38 @@ def generate_html(articles):
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
     <button class="filter-btn active" onclick="filterAll(this)">すべて</button>
-    <button class="filter-btn f-high" onclick="filterImpact('high',this)">🔴 高</button>
-    <button class="filter-btn f-mid"  onclick="filterImpact('mid',this)">🟡 中</button>
-    <button class="filter-btn f-low"  onclick="filterImpact('low',this)">🟢 低</button>
+    <button class="filter-btn f-high" onclick="filterGroup('high',this)">🔴 高（4-5）</button>
+    <button class="filter-btn f-mid"  onclick="filterGroup('mid',this)">🟡 中（2-3）</button>
+    <button class="filter-btn f-low"  onclick="filterGroup('low',this)">🟢 低（1）</button>
   </div>
   <div class="news-list" id="newsList">
     {"<div class='no-articles'>原油関連ニュースが見つかりませんでした。</div>" if not articles else cards}
   </div>
 </main>
 {source_guide}
-<footer>USOIL News Monitor ｜ 重要度はAI（Claude API）による自動評価です。投資判断の参考情報であり、売買を推奨するものではありません。</footer>
+<footer>USOIL News Monitor ｜ 重要度はAIによる自動評価です。投資判断の参考情報であり、売買を推奨するものではありません。</footer>
 <script>
   function filterAll(btn){{
     document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     document.querySelectorAll('.news-card').forEach(c=>c.style.display='');
   }}
-  function filterImpact(level,btn){{
+  function filterGroup(group,btn){{
     document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     document.querySelectorAll('.news-card').forEach(c=>{{
-      c.style.display=c.dataset.impact===level?'':'none';
+      c.style.display=c.dataset.group===group?'':'none';
     }});
   }}
 </script>
 </body>
 </html>"""
 
+# ── メイン ──────────────────────────────────────────────────────────
+
 def main():
+    conn = init_db()
+
     print("RSSフィードを取得中...")
     articles = []
     for name, url in RSS_FEEDS:
@@ -271,21 +397,21 @@ def main():
         print(f"  {name}: {len(found)}件")
         articles.extend(found)
 
-    # 重複タイトルを除去
     seen = set()
     unique = []
     for a in articles:
         if a["title"] not in seen:
             seen.add(a["title"])
             unique.append(a)
-    articles = unique[:20]  # 最大20件
+    articles = unique[:20]
 
-    print(f"合計: {len(articles)}件 → Claude APIで評価中...")
+    print(f"合計: {len(articles)}件 → 評価中（キャッシュ利用）...")
     if articles:
-        articles = evaluate_articles(articles)
+        articles = evaluate_articles(articles, conn)
+
+    conn.close()
 
     html = generate_html(articles)
-    os.makedirs("docs", exist_ok=True)
     with open("docs/index.html", "w", encoding="utf-8") as f:
         f.write(html)
     print("docs/index.html を生成しました")
