@@ -14,6 +14,7 @@ RSS_FEEDS = [
     ("EIA",               "https://www.eia.gov/rss/todayinenergy.xml"),
     ("Hellenic Shipping", "https://www.hellenicshippingnews.com/category/oil-energy/feed/"),
     ("Google News",       "https://news.google.com/rss/search?q=WTI+crude+oil+OPEC&hl=en&gl=US&ceid=US:en"),
+    ("Rigzone",           "https://www.rigzone.com/news/rss/rigzone_latest.aspx"),
 ]
 
 OIL_KEYWORDS = [
