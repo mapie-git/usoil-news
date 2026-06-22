@@ -230,8 +230,10 @@ def generate_html(articles):
         {dir_tag(direction)}
         {horizon_tag(horizon)}
         {"<span class='meta-tag factor-tag'>" + factor + "</span>" if factor else ""}
-        {reliability_badge(rel)}
-        {"<span class='time-tag'>" + pub + "</span>" if pub else ""}
+        <div class="card-foot-right">
+          {reliability_badge(rel)}
+          {"<span class='time-tag'>" + pub + "</span>" if pub else ""}
+        </div>
       </div>
     </div>"""
 
@@ -296,8 +298,8 @@ def generate_html(articles):
   header{{border-bottom:1px solid var(--border);padding:16px 28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}}
   .logo{{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:15px;color:var(--accent);letter-spacing:.08em}}
   .logo span{{color:var(--muted);font-weight:400}}
-  .meta{{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted)}}
-  main{{max-width:860px;margin:0 auto;padding:24px 16px}}
+  .meta{{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);display:flex;align-items:center}}
+  main{{max-width:860px;margin:0 auto;padding:12px 16px 24px}}
   .status-dot{{width:9px;height:9px;border-radius:50%;display:inline-block;cursor:pointer;vertical-align:middle;margin-left:8px;flex-shrink:0}}
   .status-dot.ok{{background:#4a9060;box-shadow:0 0 4px rgba(74,144,96,.6)}}
   .status-dot.warn{{background:#e84040;box-shadow:0 0 4px rgba(232,64,64,.6)}}
@@ -333,15 +335,13 @@ def generate_html(articles):
   .hz-short{{color:var(--low);border-color:rgba(74,144,96,.35)}}
   .hz-medium{{color:var(--mid);border-color:rgba(232,160,32,.35)}}
   .hz-long{{color:var(--high);border-color:rgba(232,64,64,.35)}}
-  .time-tag{{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted);margin-left:auto}}
+  .card-foot-right{{display:flex;align-items:center;gap:6px;margin-left:auto}}
+  .time-tag{{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--muted)}}
   .direction-tag{{font-size:10px;font-weight:600;padding:2px 8px;border-radius:2px;white-space:nowrap}}
   .direction-tag.bearish{{background:rgba(232,64,64,.12);color:var(--high)}}
   .direction-tag.bullish{{background:rgba(74,144,96,.12);color:var(--low)}}
   .direction-tag.neutral{{background:rgba(90,96,112,.12);color:var(--muted)}}
-  .reliability-badge{{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:700;padding:2px 7px;border-radius:2px;border:1px solid;cursor:default}}
-  .reliability-badge.rel-a{{color:#7ec8e3;border-color:rgba(126,200,227,.35);background:rgba(126,200,227,.08)}}
-  .reliability-badge.rel-b{{color:var(--muted);border-color:var(--border);background:var(--tag-bg)}}
-  .reliability-badge.rel-c{{color:#887755;border-color:rgba(136,119,85,.3);background:rgba(136,119,85,.07)}}
+  .reliability-badge{{font-size:11px;cursor:default;color:#c8a830}}
   .no-articles{{text-align:center;padding:48px;color:var(--muted);font-size:13px}}
   .source-guide{{max-width:860px;margin:40px auto 0;padding:0 16px 32px}}
   .source-guide-title{{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border);padding-top:28px;margin-bottom:16px}}
