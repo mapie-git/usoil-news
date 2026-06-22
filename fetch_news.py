@@ -341,7 +341,10 @@ def generate_html(articles):
   .direction-tag.bearish{{background:rgba(232,64,64,.12);color:var(--high)}}
   .direction-tag.bullish{{background:rgba(74,144,96,.12);color:var(--low)}}
   .direction-tag.neutral{{background:rgba(90,96,112,.12);color:var(--muted)}}
-  .reliability-badge{{font-size:11px;cursor:default;color:#c8a830}}
+  .reliability-badge{{font-size:11px;cursor:default}}
+  .rel-a{{color:#c8a830}}
+  .rel-b{{color:#ddd090}}
+  .rel-c{{color:#ede8c8}}
   .no-articles{{text-align:center;padding:48px;color:var(--muted);font-size:13px}}
   .source-guide{{max-width:860px;margin:40px auto 0;padding:0 16px 32px}}
   .source-guide-title{{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--border);padding-top:28px;margin-bottom:16px}}
