@@ -216,6 +216,9 @@ def generate_html(articles):
   .source-desc{{font-size:12px;color:var(--muted);line-height:1.6}}
   .source-timing{{margin-top:8px;font-size:11px;color:var(--text);padding:6px 10px;background:var(--tag-bg);border-radius:3px;border-left:2px solid var(--accent)}}
   footer{{text-align:center;padding:24px;font-size:11px;color:var(--muted);border-top:1px solid var(--border);margin-top:32px}}
+  .status-bar{{max-width:860px;margin:12px auto 0;padding:0 16px;}}
+  .status-bar-inner{{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(74,144,96,.1);border:1px solid rgba(74,144,96,.3);border-radius:6px;font-size:12px;color:var(--muted);}}
+  .status-dot{{width:7px;height:7px;border-radius:50%;background:#4a9060;flex-shrink:0;}}
 </style>
 </head>
 <body>
@@ -224,6 +227,12 @@ def generate_html(articles):
   <div class="meta">最終更新: {now} ｜ {len(articles)}件</div>
 </header>
 <main>
+  <div class="status-bar">
+    <div class="status-bar-inner">
+      <div class="status-dot"></div>
+      <span>最終確認: {now} — ニュースは最新の状態です</span>
+    </div>
+  </div>
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
     <button class="filter-btn active" onclick="filterAll(this)">すべて</button>
