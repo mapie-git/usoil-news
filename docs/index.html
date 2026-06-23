@@ -31,6 +31,12 @@
   .filter-btn.f-mid.active{border-color:var(--mid);color:var(--mid)}
   .filter-btn.f-low.active{border-color:var(--low);color:var(--low)}
   .filter-btn.f-new.active{border-color:#3a9bd5;color:#3a9bd5}
+  .sort-bar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+  .sort-label{font-size:11px;color:var(--muted);margin-right:4px}
+  .sort-btn{font-size:11px;padding:4px 10px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:3px}
+  .sort-btn:hover{background:var(--tag-bg);color:var(--text)}
+  .sort-btn.active{background:var(--tag-bg);color:var(--accent);border-color:var(--accent)}
+  .sort-arrow{font-size:10px;opacity:.7}
   .new-badge{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.06em;color:#fff;background:#3a9bd5;border-radius:3px;padding:1px 5px;margin-right:6px;vertical-align:2px}
   .news-list{display:flex;flex-direction:column;gap:10px}
   .news-card{background:var(--surface);border:1px solid var(--border);border-left:3px solid transparent;border-radius:4px;padding:14px 16px;transition:background .15s}
@@ -84,23 +90,65 @@
 <body>
 <header>
   <div class="logo">USOIL <span>/ News Monitor</span></div>
-  <div class="meta">最終更新: 2026-06-24 03:02 JST ｜ 20件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
+  <div class="meta">最終更新: 2026-06-24 05:34 JST ｜ 20件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
 </header>
 <div class="status-popup" id="statusPopup">
-  ✅ 最終確認: 2026-06-24 03:02 JST<br>ニュースは最新の状態です
+  ✅ 最終確認: 2026-06-24 05:34 JST<br>ニュースは最新の状態です
 </div>
 <main>
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
     <button class="filter-btn active" onclick="filterAll(this)">ALL</button>
-    <button class="filter-btn f-new"  onclick="filterNew(this)">🔵 NEW</button>
+    <button class="filter-btn f-new"  onclick="filterNew(this)" style="color:#3a9bd5">NEW</button>
     <button class="filter-btn f-high" onclick="filterGroup('high',this)">🔴 高</button>
     <button class="filter-btn f-mid"  onclick="filterGroup('mid',this)">🟡 中</button>
     <button class="filter-btn f-low"  onclick="filterGroup('low',this)">🟢 低</button>
   </div>
+  <div class="sort-bar">
+    <span class="sort-label">並び替え：</span>
+    <button class="sort-btn active" id="sb-impact" onclick="sortCards('impact',this)">重要度<span class="sort-arrow" id="sa-impact">↓</span></button>
+    <button class="sort-btn" id="sb-ts"     onclick="sortCards('ts',this)">更新日時<span class="sort-arrow" id="sa-ts">↓</span></button>
+    <button class="sort-btn" id="sb-rel"    onclick="sortCards('rel',this)">信頼度<span class="sort-arrow" id="sa-rel">↓</span></button>
+    <button class="sort-btn" id="sb-dir"    onclick="sortCards('dir',this)">方向<span class="sort-arrow" id="sa-dir">↓</span></button>
+    <button class="sort-btn" id="sb-hz"     onclick="sortCards('hz',this)">期間<span class="sort-arrow" id="sa-hz">↓</span></button>
+  </div>
   <div class="news-list" id="newsList">
     
-    <div class="news-card ig-high" data-group="high">
+    <div class="news-card ig-high" data-group="high" data-impact="5" data-ts="1781797525" data-rel="2" data-dir="-1" data-hz="2">
+      <div class="card-top">
+        <div class="headline"><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPdmhzeWhSSFFNSURPZ2h1WXJhSlhNZlNzaElxU3BQTi0tMTFTZ2c5N0t6bnR0MU9WVTk2VG1fczZRMWRTWFBHU2VkaENhdDItODlfb2ZMZWJXcHpYRDNaWGdFbGNxWV9sdmFYNHUwSjlaQ3ZVd0xtUWt5QWZ5MUtuWVdSaTk2T211Tjc2NkhNVGlyZHFpZWZCQUJ6RWFyTlVyMmZjcHU5NnBSNUw3bVR4ck1hejVfMjVULUFZY3A1S1poQmx6cWpF?oc=5" target="_blank" rel="noopener">Oversupply vs. Demand Yet to Peak? Fundamental Dispute Becomes Focus, WTI Crude Plunges 4% Nearing Pre-War Low - TradingKey</a></div>
+        <span class="impact-badge ig-high">VERY HIGH</span>
+      </div>
+      <div class="summary">WTI原油が4%急落し戦前水準に接近。供給過剰と需要減速の懸念が市場焦点に。</div>
+      <div class="card-foot">
+        <span class="meta-tag source-tag">Google News</span>
+        <span class="direction-tag bearish">↓ ベアリッシュ</span>
+        <span class="meta-tag hz-short">短期</span>
+        <span class='meta-tag factor-tag'>供給過剰</span>
+        <div class="card-foot-right">
+          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
+          <span class='time-tag'>06/19 00:45</span>
+        </div>
+      </div>
+    </div>
+    <div class="news-card ig-high" data-group="high" data-impact="5" data-ts="1780441551" data-rel="2" data-dir="1" data-hz="1">
+      <div class="card-top">
+        <div class="headline"><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQ00xb3BkUEZRQnBhVWhRNUZpNWZibGlaRHdiWGdTXzNQaTJaUXpRMVJVM095YktoYzVheXVpc2ZRZG1PUVFjSEl1ZTIxZG40YXNFM1RlcDA1ZkRfX2pSaTJHR0I1a2UycUwxTlU3TDZRTW9JLUF1dnB3UWlGeWl2VHk2VGhraXBRNE0zSWU1YzRyYl91WmtOVWpuYVI5aTAyOWdBeWZkclAyU3NTWHdWQzBkNkxBSUo0aFdybXFFSFRvcjB3a1psWHY5ZEFnNVdlS1VKREZDaEQ4SWd1Q2N6eDc3cw?oc=5" target="_blank" rel="noopener">Iran Suspends Ceasefire Talks With U.S., Sending Oil Prices Surging 5% As Middle East Tensions Escalate - foreignpolicyjournal.com</a></div>
+        <span class="impact-badge ig-high">VERY HIGH</span>
+      </div>
+      <div class="summary">イランが米国との停戦交渉を一時停止。原油価格が5%上昇し中東緊張が急速に悪化。</div>
+      <div class="card-foot">
+        <span class="meta-tag source-tag">Google News</span>
+        <span class="direction-tag bullish">↑ ブリッシュ</span>
+        <span class="meta-tag hz-ultra">超短期</span>
+        <span class='meta-tag factor-tag'>地政学リスク</span>
+        <div class="card-foot-right">
+          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
+          <span class='time-tag'>06/03 08:05</span>
+        </div>
+      </div>
+    </div>
+    <div class="news-card ig-high" data-group="high" data-impact="4" data-ts="1782227280" data-rel="2" data-dir="1" data-hz="2">
       <div class="card-top">
         <div class="headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/Novak-Russia-Considers-Complete-Ban-on-Diesel-Exports.html" target="_blank" rel="noopener">Novak: Russia Considers Complete Ban on Diesel Exports</a></div>
         <span class="impact-badge ig-high">HIGH</span>
@@ -117,75 +165,58 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-high" data-group="high">
+    <div class="news-card ig-high" data-group="high" data-impact="4" data-ts="1782225000" data-rel="2" data-dir="1" data-hz="2">
       <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/IOCs-Tanker-Tender-Comes-Up-Empty-as-Hormuz-Risk-Lingers.html" target="_blank" rel="noopener">IOC's Tanker Tender Comes Up Empty as Hormuz Risk Lingers</a></div>
+        <div class="headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/Tankers-Emerge-from-Dark-Mode-amid-Tentative-Hormuz-Reopening.html" target="_blank" rel="noopener">Tankers Emerge from Dark Mode amid Tentative Hormuz Reopening</a></div>
         <span class="impact-badge ig-high">HIGH</span>
       </div>
-      <div class="summary">インド最大石油企業IOC、ホルムズ海峡経由の原油運搬タンカー入札で応札なし。運送リスク懸念。</div>
+      <div class="summary">ホルムズ海峡を通過するタンカンが位置情報を発信開始。危機的状況の緩和と供給回復の兆し。</div>
       <div class="card-foot">
         <span class="meta-tag source-tag">OilPrice.com</span>
         <span class="direction-tag bullish">↑ ブリッシュ</span>
         <span class="meta-tag hz-short">短期</span>
-        <span class='meta-tag factor-tag'>流通リスク</span>
-        <div class="card-foot-right">
-          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
-          <span class='time-tag'>06/23 21:30</span>
-        </div>
-      </div>
-    </div>
-    <div class="news-card ig-high" data-group="high">
-      <div class="card-top">
-        <div class="headline"><a href="https://www.hellenicshippingnews.com/opec-hikes-2050-oil-demand-forecast-again-citing-worlds-pivot-to-energy-security/" target="_blank" rel="noopener">OPEC hikes 2050 oil demand forecast again, citing world’s pivot to energy security</a></div>
-        <span class="impact-badge ig-high">HIGH</span>
-      </div>
-      <div class="summary">OPECが2050年の石油需要を向上修正。エネルギー安全保障重視が需要底支え</div>
-      <div class="card-foot">
-        <span class="meta-tag source-tag">Hellenic Shipping</span>
-        <span class="direction-tag bullish">↑ ブリッシュ</span>
-        <span class="meta-tag hz-long">長期</span>
-        <span class='meta-tag factor-tag'>需要見通し上方修正</span>
-        <div class="card-foot-right">
-          <span class="reliability-badge rel-a" title="高信頼：客観的事実">★★★</span>
-          <span class='time-tag'>06/22 06:00</span>
-        </div>
-      </div>
-    </div>
-    <div class="news-card ig-high" data-group="high">
-      <div class="card-top">
-        <div class="headline"><a href="https://www.hellenicshippingnews.com/energy-markets-remain-complacent-despite-significant-supply-shock/" target="_blank" rel="noopener">Energy markets remain complacent despite significant supply shock</a></div>
-        <span class="impact-badge ig-high">HIGH</span>
-      </div>
-      <div class="summary">ホルムズ海峡供給障害が重大。市場は過度に楽観的でリスク過小評価中</div>
-      <div class="card-foot">
-        <span class="meta-tag source-tag">Hellenic Shipping</span>
-        <span class="direction-tag bullish">↑ ブリッシュ</span>
-        <span class="meta-tag hz-short">短期</span>
-        <span class='meta-tag factor-tag'>地政学リスク、供給逼迫</span>
-        <div class="card-foot-right">
-          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
-          <span class='time-tag'>06/22 06:00</span>
-        </div>
-      </div>
-    </div>
-    <div class="news-card ig-high" data-group="high">
-      <div class="card-top">
-        <div class="headline"><a href="https://www.hellenicshippingnews.com/morgan-stanley-cuts-european-energy-sector-as-hormuz-deal-caps-oil-price-upside/" target="_blank" rel="noopener">Morgan Stanley cuts European energy sector as Hormuz deal caps oil-price upside</a></div>
-        <span class="impact-badge ig-high">HIGH</span>
-      </div>
-      <div class="summary">モルガン・スタンレーがホルムズ海峡部分再開とMOUに基づき欧州エネルギー株をアンダーウェイト降格。原油相場上値抑制シグナル。</div>
-      <div class="card-foot">
-        <span class="meta-tag source-tag">Hellenic Shipping</span>
-        <span class="direction-tag bearish">↓ ベアリッシュ</span>
-        <span class="meta-tag hz-short">短期</span>
         <span class='meta-tag factor-tag'>地政学リスク軽減</span>
         <div class="card-foot-right">
-          <span class="reliability-badge rel-a" title="高信頼：客観的事実">★★★</span>
-          <span class='time-tag'>06/22 06:00</span>
+          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
+          <span class='time-tag'>06/23 23:30</span>
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
+    <div class="news-card ig-high" data-group="high" data-impact="4" data-ts="1781839440" data-rel="2" data-dir="1" data-hz="1">
+      <div class="card-top">
+        <div class="headline"><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxNY2VWS2x4Zy1kOEE0ZzJwem05YW5GdkxJTnp6a2w2UFRYOWs4STFtY1lOTGJmbVZfUTVDamVHc2RXX0x4QmtZMDBTU2JKQnR1U25BZFk1RmFwVzdhSFJxVXJ1WmZhNk9tSHVSeFpNMUVDMk9LSXBqcDJ2VUo1cWw1WTRESUZKd2l3TUQwSDY3a3hnSkZqZmdUSU52TEJMdWlJVGstWVhLNnBGb3ds0gGyAUFVX3lxTE5RemRYYTNUSkZacG5zdEF3TC1CQk1EeUIxWlpfc3BVa01vTmllUHVDN1FSeHJuYkZCb19aLW5ldWZ4Vzd1YWxsR2s2bFBGdGNwQ0xUQTQxanBhNmZiR1RJX3gtcE13dFpMS0xLY3ZPY3V4ZXVxaktXcGNyQ2ZlcTdvSDdibXV3SThIRU5WWXdYZ0R3amxyQVBwOGVTdlhoaTl6UDQ0TUhwRHpBdE9HdEhwd1E?oc=5" target="_blank" rel="noopener">Brent rises after U.S.-Iran peace talks in Geneva are abruptly postponed - CNBC</a></div>
+        <span class="impact-badge ig-high">HIGH</span>
+      </div>
+      <div class="summary">米イラン平和交渉がジュネーブで中断。ブレント原油が上昇に転じた。地政学リスク再燃。</div>
+      <div class="card-foot">
+        <span class="meta-tag source-tag">Google News</span>
+        <span class="direction-tag bullish">↑ ブリッシュ</span>
+        <span class="meta-tag hz-ultra">超短期</span>
+        <span class='meta-tag factor-tag'>地政学リスク</span>
+        <div class="card-foot-right">
+          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
+          <span class='time-tag'>06/19 12:24</span>
+        </div>
+      </div>
+    </div>
+    <div class="news-card ig-mid" data-group="mid" data-impact="3" data-ts="1782239400" data-rel="2" data-dir="1" data-hz="2">
+      <div class="card-top">
+        <div class="headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/Tanker-Owners-Are-Having-the-Best-Week-of-the-Hormuz-Crisis.html" target="_blank" rel="noopener">Tanker Owners Are Having the Best Week of the Hormuz Crisis</a></div>
+        <span class="impact-badge ig-mid">MEDIUM</span>
+      </div>
+      <div class="summary">ホルムズ海峡危機で滞留していた原油輸送が再開。タンカー運賃急騰で供給正常化を反映。</div>
+      <div class="card-foot">
+        <span class="meta-tag source-tag">OilPrice.com</span>
+        <span class="direction-tag bullish">↑ ブリッシュ</span>
+        <span class="meta-tag hz-short">短期</span>
+        <span class='meta-tag factor-tag'>供給逼迫</span>
+        <div class="card-foot-right">
+          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
+          <span class='time-tag'>06/24 03:30</span>
+        </div>
+      </div>
+    </div>
+    <div class="news-card ig-mid" data-group="mid" data-impact="3" data-ts="1782230400" data-rel="2" data-dir="1" data-hz="2">
       <div class="card-top">
         <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/Traders-Question-How-Much-Iranian-Oil-Can-Really-Return-to-Market.html" target="_blank" rel="noopener">Traders Question How Much Iranian Oil Can Really Return to Market</a></div>
         <span class="impact-badge ig-mid">MEDIUM</span>
@@ -202,41 +233,7 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
-      <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/Tankers-Emerge-from-Dark-Mode-amid-Tentative-Hormuz-ReopeningTankers-Emerge-from.html" target="_blank" rel="noopener">Tankers Emerge from Dark Mode amid Tentative Hormuz ReopeningTankers Emerge from</a></div>
-        <span class="impact-badge ig-mid">MEDIUM</span>
-      </div>
-      <div class="summary">ホルムズ海峡の通行再開兆候。タンカーの位置情報発信が増加し、流通正常化の可能性。</div>
-      <div class="card-foot">
-        <span class="meta-tag source-tag">OilPrice.com</span>
-        <span class="direction-tag bullish">↑ ブリッシュ</span>
-        <span class="meta-tag hz-short">短期</span>
-        <span class='meta-tag factor-tag'>地政学リスク緩和</span>
-        <div class="card-foot-right">
-          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
-          <span class='time-tag'>06/23 23:30</span>
-        </div>
-      </div>
-    </div>
-    <div class="news-card ig-mid" data-group="mid">
-      <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/US-and-Iran-Signal-Progress-Toward-Peace-Deal.html" target="_blank" rel="noopener">U.S. and Iran Signal Progress Toward Peace Deal</a></div>
-        <span class="impact-badge ig-mid">MEDIUM</span>
-      </div>
-      <div class="summary">米国とイラン、核合意交渉で進展を表明。両国の脆弱な合意状況が示唆される。</div>
-      <div class="card-foot">
-        <span class="meta-tag source-tag">OilPrice.com</span>
-        <span class="direction-tag bullish">↑ ブリッシュ</span>
-        <span class="meta-tag hz-medium">中期</span>
-        <span class='meta-tag factor-tag'>地政学リスク</span>
-        <div class="card-foot-right">
-          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
-          <span class='time-tag'>06/23 23:00</span>
-        </div>
-      </div>
-    </div>
-    <div class="news-card ig-mid" data-group="mid">
+    <div class="news-card ig-mid" data-group="mid" data-impact="3" data-ts="1782223200" data-rel="3" data-dir="-1" data-hz="4">
       <div class="card-top">
         <div class="headline"><a href="https://www.eia.gov/todayinenergy/detail.php?id=67804" target="_blank" rel="noopener">UAE's exit from OPEC+ reduced the group's share of crude oil production and capacity</a></div>
         <span class="impact-badge ig-mid">MEDIUM</span>
@@ -253,7 +250,7 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
+    <div class="news-card ig-mid" data-group="mid" data-impact="3" data-ts="1781791200" data-rel="3" data-dir="-1" data-hz="3">
       <div class="card-top">
         <div class="headline"><a href="https://www.eia.gov/todayinenergy/detail.php?id=67785" target="_blank" rel="noopener">Permian natural gas production increased faster than crude oil</a></div>
         <span class="impact-badge ig-mid">MEDIUM</span>
@@ -270,7 +267,7 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
+    <div class="news-card ig-mid" data-group="mid" data-impact="3" data-ts="1780668000" data-rel="3" data-dir="-1" data-hz="4">
       <div class="card-top">
         <div class="headline"><a href="https://www.eia.gov/todayinenergy/detail.php?id=67746" target="_blank" rel="noopener">China's nuclear power capacity nearly doubled since 2016</a></div>
         <span class="impact-badge ig-mid">MEDIUM</span>
@@ -287,9 +284,26 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-new="1" data-group="mid">
+    <div class="news-card ig-mid" data-group="mid" data-impact="3" data-ts="1777446000" data-rel="2" data-dir="1" data-hz="2">
       <div class="card-top">
-        <div class="headline"><span class="new-badge">NEW</span><a href="https://oilprice.com/Energy/Energy-General/El-Nio-War-and-Fertilizer-Costs-Create-a-Dangerous-Inflation-Cocktail.html" target="_blank" rel="noopener">El Niño, War, and Fertilizer Costs Create a Dangerous Inflation Cocktail</a></div>
+        <div class="headline"><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxOaGo5MlFGX0lNQllJb05LZERhTml1OWZhZjB2Q1R0bURKSlFaeGVscUlpcGZxcVBIbVNaanVId3loY0luRDRHajBWY2hFcDAwUm56OVVDdlo0dmN3eDd6eVJhNk9lbElfNWZreElFVmhic1RIY0dyc1NRYWdFSTFaUFZsZk1PM0RCbTZ5dEUwYnJJZlUyZ0J3YXhSbmw3ekZaSzVFYTR1b2hyWnRsN0VxUkZGb0xLSkg5bFhQR3FIbGlmaDU4WWc?oc=5" target="_blank" rel="noopener">Oil Futures Rise As Middle East Stalemate Drags On - WSJ</a></div>
+        <span class="impact-badge ig-mid">MEDIUM</span>
+      </div>
+      <div class="summary">中東の膠着状況により原油先物が上昇。地政学的緊張がWTI支援材料として機能。</div>
+      <div class="card-foot">
+        <span class="meta-tag source-tag">Google News</span>
+        <span class="direction-tag bullish">↑ ブリッシュ</span>
+        <span class="meta-tag hz-short">短期</span>
+        <span class='meta-tag factor-tag'>地政学リスク</span>
+        <div class="card-foot-right">
+          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
+          <span class='time-tag'>04/29 16:00</span>
+        </div>
+      </div>
+    </div>
+    <div class="news-card ig-mid" data-group="mid" data-impact="2" data-ts="1782237600" data-rel="2" data-dir="0" data-hz="3">
+      <div class="card-top">
+        <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/El-Nio-War-and-Fertilizer-Costs-Create-a-Dangerous-Inflation-Cocktail.html" target="_blank" rel="noopener">El Niño, War, and Fertilizer Costs Create a Dangerous Inflation Cocktail</a></div>
         <span class="impact-badge ig-mid">LOW</span>
       </div>
       <div class="summary">エルニーニョと地政学リスクが食糧インフレを加速させる可能性。原油への直接的な影響は限定的</div>
@@ -304,7 +318,7 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
+    <div class="news-card ig-mid" data-group="mid" data-impact="2" data-ts="1782234000" data-rel="2" data-dir="-1" data-hz="4">
       <div class="card-top">
         <div class="headline"><a href="https://oilprice.com/Energy/Crude-Oil/Saudi-Arabias-Decided-Who-Its-Future-Superpower-Partner-Is-And-Its-Not-Ameri.html" target="_blank" rel="noopener">Saudi Arabia’s Decided Who Its Future Superpower Partner Is, And It’s Not the US</a></div>
         <span class="impact-badge ig-mid">LOW</span>
@@ -321,7 +335,7 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
+    <div class="news-card ig-mid" data-group="mid" data-impact="2" data-ts="1780927200" data-rel="3" data-dir="0" data-hz="2">
       <div class="card-top">
         <div class="headline"><a href="https://www.eia.gov/todayinenergy/detail.php?id=67764" target="_blank" rel="noopener">U.S. jet fuel production rises after prices doubled in March</a></div>
         <span class="impact-badge ig-mid">LOW</span>
@@ -338,7 +352,7 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
+    <div class="news-card ig-mid" data-group="mid" data-impact="2" data-ts="1780408800" data-rel="3" data-dir="-1" data-hz="2">
       <div class="card-top">
         <div class="headline"><a href="https://www.eia.gov/todayinenergy/detail.php?id=67744" target="_blank" rel="noopener">California natural gas prices reach historic lows in early 2026</a></div>
         <span class="impact-badge ig-mid">LOW</span>
@@ -355,41 +369,24 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
+    <div class="news-card ig-low" data-group="low" data-impact="1" data-ts="1782241200" data-rel="1" data-dir="0" data-hz="4">
       <div class="card-top">
-        <div class="headline"><a href="https://www.hellenicshippingnews.com/gas-expansion-in-the-guise-of-security-is-europe-making-the-energy-crisis-permanent/" target="_blank" rel="noopener">Gas expansion in the guise of security: Is Europe making the energy crisis permanent?</a></div>
-        <span class="impact-badge ig-mid">LOW</span>
+        <div class="headline"><a href="https://oilprice.com/Energy/Energy-General/China-Eyes-2-Billion-Uzbek-Mining-Bet-as-Central-Asia-Courtship-Accelerates.html" target="_blank" rel="noopener">China Eyes $2 Billion Uzbek Mining Bet as Central Asia Courtship Accelerates</a></div>
+        <span class="impact-badge ig-low">VERY LOW</span>
       </div>
-      <div class="summary">欧州がエネルギー安保名目で化石燃料依存深化。構造的課題だが原油需要への直接影響は不明瞭。</div>
+      <div class="summary">中国がウズベキスタンの鉱業に20億ドル投資を検討。原油需要への間接的な影響は限定的。</div>
       <div class="card-foot">
-        <span class="meta-tag source-tag">Hellenic Shipping</span>
+        <span class="meta-tag source-tag">OilPrice.com</span>
         <span class="direction-tag neutral">→ ニュートラル</span>
         <span class="meta-tag hz-long">長期</span>
-        <span class='meta-tag factor-tag'>政策動向</span>
+        <span class='meta-tag factor-tag'>需要見通し</span>
         <div class="card-foot-right">
           <span class="reliability-badge rel-c" title="低信頼：思惑・観測">★☆☆</span>
-          <span class='time-tag'>06/22 06:00</span>
+          <span class='time-tag'>06/24 04:00</span>
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-group="mid">
-      <div class="card-top">
-        <div class="headline"><a href="https://www.hellenicshippingnews.com/expanding-troll-more-gas-to-europe/" target="_blank" rel="noopener">Expanding Troll: more gas to Europe</a></div>
-        <span class="impact-badge ig-mid">LOW</span>
-      </div>
-      <div class="summary">北海トロール油田で新規海底開発に投資、2028年の生産開始予定。ガス供給増加へ。</div>
-      <div class="card-foot">
-        <span class="meta-tag source-tag">Hellenic Shipping</span>
-        <span class="direction-tag neutral">→ ニュートラル</span>
-        <span class="meta-tag hz-long">長期</span>
-        <span class='meta-tag factor-tag'>供給増加</span>
-        <div class="card-foot-right">
-          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
-          <span class='time-tag'>06/22 06:00</span>
-        </div>
-      </div>
-    </div>
-    <div class="news-card ig-low" data-group="low">
+    <div class="news-card ig-low" data-group="low" data-impact="1" data-ts="1781100000" data-rel="3" data-dir="0" data-hz="3">
       <div class="card-top">
         <div class="headline"><a href="https://www.eia.gov/todayinenergy/detail.php?id=67765" target="_blank" rel="noopener">Higher blending targets drive RIN prices close to record highs</a></div>
         <span class="impact-badge ig-low">VERY LOW</span>
@@ -406,7 +403,7 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-low" data-group="low">
+    <div class="news-card ig-low" data-group="low" data-impact="1" data-ts="1780495200" data-rel="3" data-dir="0" data-hz="3">
       <div class="card-top">
         <div class="headline"><a href="https://www.eia.gov/todayinenergy/detail.php?id=67745" target="_blank" rel="noopener">U.S. natural gas storage capacity increased slightly in 2025</a></div>
         <span class="impact-badge ig-low">VERY LOW</span>
@@ -423,7 +420,7 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-low" data-group="low">
+    <div class="news-card ig-low" data-group="low" data-impact="1" data-ts="1779976800" data-rel="3" data-dir="0" data-hz="4">
       <div class="card-top">
         <div class="headline"><a href="https://www.eia.gov/todayinenergy/detail.php?id=67725" target="_blank" rel="noopener">Natural gas for power generation flat this summer, record high expected in 2027</a></div>
         <span class="impact-badge ig-low">VERY LOW</span>
@@ -437,6 +434,23 @@
         <div class="card-foot-right">
           <span class="reliability-badge rel-a" title="高信頼：客観的事実">★★★</span>
           <span class='time-tag'>05/28 23:00</span>
+        </div>
+      </div>
+    </div>
+    <div class="news-card ig-low" data-group="low" data-impact="1" data-ts="1780038000" data-rel="1" data-dir="0" data-hz="1">
+      <div class="card-top">
+        <div class="headline"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE42akxEUUpLZmx0Q2dvbjBmYlZQcDhlNkg1dWoxM0UtdHFiV1V1TlBFanl0TFhuVnlFN05WNFQzck5WY3M3OU1PT1BEQ1lxTUVpbXFQQ0VWR0hvM1BENmRYekpn?oc=5" target="_blank" rel="noopener">Current price of oil as of May 29, 2026 - Fortune</a></div>
+        <span class="impact-badge ig-low">VERY LOW</span>
+      </div>
+      <div class="summary">2026年5月29日時点の原油価格に関する一般的なニュース記事。内容が不明確で影響判定不可。</div>
+      <div class="card-foot">
+        <span class="meta-tag source-tag">Google News</span>
+        <span class="direction-tag neutral">→ ニュートラル</span>
+        <span class="meta-tag hz-ultra">超短期</span>
+        <span class='meta-tag factor-tag'>価格報道</span>
+        <div class="card-foot-right">
+          <span class="reliability-badge rel-c" title="低信頼：思惑・観測">★☆☆</span>
+          <span class='time-tag'>05/29 16:00</span>
         </div>
       </div>
     </div>
@@ -522,6 +536,25 @@
     document.querySelectorAll('.news-card').forEach(c=>{
       c.style.display=c.dataset.new==='1'?'':'none';
     });
+  }
+  var _sortKey='impact', _sortAsc=false;
+  function sortCards(key,btn){
+    if(_sortKey===key){ _sortAsc=!_sortAsc; }
+    else{ _sortKey=key; _sortAsc=false; }
+    document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    ['impact','ts','rel','dir','hz'].forEach(k=>{
+      var el=document.getElementById('sa-'+k);
+      if(el) el.textContent=_sortAsc?'↑':'↓';
+    });
+    var list=document.getElementById('newsList');
+    var cards=Array.from(list.querySelectorAll('.news-card'));
+    cards.sort(function(a,b){
+      var av=parseFloat(a.dataset[_sortKey])||0;
+      var bv=parseFloat(b.dataset[_sortKey])||0;
+      return _sortAsc?(av-bv):(bv-av);
+    });
+    cards.forEach(c=>list.appendChild(c));
   }
 </script>
 </body>
