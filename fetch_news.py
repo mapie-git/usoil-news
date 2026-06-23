@@ -205,6 +205,13 @@ def generate_html(articles):
         except Exception:
             return pub[:16]
 
+    def pub_ts(pub):
+        try:
+            from email.utils import parsedate_to_datetime
+            return int(parsedate_to_datetime(pub).timestamp())
+        except Exception:
+            return 0
+
     def is_new(pub):
         if not pub:
             return False
@@ -232,9 +239,13 @@ def generate_html(articles):
         new_flag  = is_new(pub_raw)
         new_attr  = ' data-new="1"' if new_flag else ""
         new_badge = '<span class="new-badge">NEW</span>' if new_flag else ""
+        rel_num   = {"A": 3, "B": 2, "C": 1}.get(rel, 1)
+        dir_num   = {"bullish": 1, "neutral": 0, "bearish": -1}.get(direction, 0)
+        hz_num    = {"ultra_short": 1, "short": 2, "medium": 3, "long": 4}.get(horizon, 2)
+        ts        = pub_ts(pub_raw)
 
         cards += f"""
-    <div class="news-card ig-{group}"{new_attr} data-group="{group}">
+    <div class="news-card ig-{group}"{new_attr} data-group="{group}" data-impact="{n}" data-ts="{ts}" data-rel="{rel_num}" data-dir="{dir_num}" data-hz="{hz_num}">
       <div class="card-top">
         <div class="headline">{new_badge}<a href="{link}" target="_blank" rel="noopener">{title}</a></div>
         {impact_badge(n)}
@@ -337,6 +348,12 @@ def generate_html(articles):
   .filter-btn.f-mid.active{{border-color:var(--mid);color:var(--mid)}}
   .filter-btn.f-low.active{{border-color:var(--low);color:var(--low)}}
   .filter-btn.f-new.active{{border-color:#3a9bd5;color:#3a9bd5}}
+  .sort-bar{{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:14px}}
+  .sort-label{{font-size:11px;color:var(--muted);margin-right:4px}}
+  .sort-btn{{font-size:11px;padding:4px 10px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:3px}}
+  .sort-btn:hover{{background:var(--tag-bg);color:var(--text)}}
+  .sort-btn.active{{background:var(--tag-bg);color:var(--accent);border-color:var(--accent)}}
+  .sort-arrow{{font-size:10px;opacity:.7}}
   .new-badge{{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.06em;color:#fff;background:#3a9bd5;border-radius:3px;padding:1px 5px;margin-right:6px;vertical-align:2px}}
   .news-list{{display:flex;flex-direction:column;gap:10px}}
   .news-card{{background:var(--surface);border:1px solid var(--border);border-left:3px solid transparent;border-radius:4px;padding:14px 16px;transition:background .15s}}
@@ -399,10 +416,18 @@ def generate_html(articles):
   <div class="filter-bar">
     <span class="filter-label">フィルター：</span>
     <button class="filter-btn active" onclick="filterAll(this)">ALL</button>
-    <button class="filter-btn f-new"  onclick="filterNew(this)">🔵 NEW</button>
+    <button class="filter-btn f-new"  onclick="filterNew(this)" style="color:#3a9bd5">NEW</button>
     <button class="filter-btn f-high" onclick="filterGroup('high',this)">🔴 高</button>
     <button class="filter-btn f-mid"  onclick="filterGroup('mid',this)">🟡 中</button>
     <button class="filter-btn f-low"  onclick="filterGroup('low',this)">🟢 低</button>
+  </div>
+  <div class="sort-bar">
+    <span class="sort-label">並び替え：</span>
+    <button class="sort-btn active" id="sb-impact" onclick="sortCards('impact',this)">重要度<span class="sort-arrow" id="sa-impact">↓</span></button>
+    <button class="sort-btn" id="sb-ts"     onclick="sortCards('ts',this)">更新日時<span class="sort-arrow" id="sa-ts">↓</span></button>
+    <button class="sort-btn" id="sb-rel"    onclick="sortCards('rel',this)">信頼度<span class="sort-arrow" id="sa-rel">↓</span></button>
+    <button class="sort-btn" id="sb-dir"    onclick="sortCards('dir',this)">方向<span class="sort-arrow" id="sa-dir">↓</span></button>
+    <button class="sort-btn" id="sb-hz"     onclick="sortCards('hz',this)">期間<span class="sort-arrow" id="sa-hz">↓</span></button>
   </div>
   <div class="news-list" id="newsList">
     {"<div class='no-articles'>原油関連ニュースが見つかりませんでした。</div>" if not articles else cards}
@@ -438,6 +463,25 @@ def generate_html(articles):
     document.querySelectorAll('.news-card').forEach(c=>{{
       c.style.display=c.dataset.new==='1'?'':'none';
     }});
+  }}
+  var _sortKey='impact', _sortAsc=false;
+  function sortCards(key,btn){{
+    if(_sortKey===key){{ _sortAsc=!_sortAsc; }}
+    else{{ _sortKey=key; _sortAsc=false; }}
+    document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    ['impact','ts','rel','dir','hz'].forEach(k=>{{
+      var el=document.getElementById('sa-'+k);
+      if(el) el.textContent=_sortAsc?'↑':'↓';
+    }});
+    var list=document.getElementById('newsList');
+    var cards=Array.from(list.querySelectorAll('.news-card'));
+    cards.sort(function(a,b){{
+      var av=parseFloat(a.dataset[_sortKey])||0;
+      var bv=parseFloat(b.dataset[_sortKey])||0;
+      return _sortAsc?(av-bv):(bv-av);
+    }});
+    cards.forEach(c=>list.appendChild(c));
   }}
 </script>
 </body>
