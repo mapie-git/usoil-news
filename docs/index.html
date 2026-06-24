@@ -23,8 +23,8 @@
   .status-dot.warn{background:#e84040;box-shadow:0 0 4px rgba(232,64,64,.6)}
   .status-popup{position:fixed;top:50px;right:16px;background:#1e2230;border:1px solid var(--border);border-radius:8px;padding:12px 16px;font-size:12px;color:var(--text);box-shadow:0 4px 20px rgba(0,0,0,.5);z-index:999;display:none;max-width:280px;line-height:1.6}
   .status-popup.show{display:block}
-  .filter-bar{display:flex;gap:8px;margin-top:16px;margin-bottom:20px;align-items:center;flex-wrap:nowrap}
-  .filter-label{font-size:11px;color:var(--muted);margin-right:4px}
+  .filter-bar{display:flex;gap:8px;margin-top:16px;margin-bottom:20px;align-items:center;flex-wrap:wrap}
+  .filter-label{font-size:11px;color:var(--muted);width:100%;margin-bottom:-2px}
   .filter-btn{font-size:11px;padding:4px 12px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}
   .filter-btn:hover,.filter-btn.active{background:var(--tag-bg);color:var(--text);border-color:var(--muted)}
   .filter-btn.f-high.active{border-color:var(--high);color:var(--high)}
@@ -32,7 +32,7 @@
   .filter-btn.f-low.active{border-color:var(--low);color:var(--low)}
   .filter-btn.f-new.active{border-color:#3a9bd5;color:#3a9bd5}
   .sort-bar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
-  .sort-label{font-size:11px;color:var(--muted);margin-right:4px}
+  .sort-label{font-size:11px;color:var(--muted);width:100%;margin-bottom:-2px}
   .sort-btn{font-size:11px;padding:4px 10px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:3px}
   .sort-btn:hover{background:var(--tag-bg);color:var(--text)}
   .sort-btn.active{background:var(--tag-bg);color:var(--accent);border-color:var(--accent)}
@@ -90,10 +90,10 @@
 <body>
 <header>
   <div class="logo">USOIL <span>/ News Monitor</span></div>
-  <div class="meta">最終更新: 2026-06-24 22:30 JST ｜ 20件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
+  <div class="meta">最終更新: 2026-06-24 23:00 JST ｜ 20件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
 </header>
 <div class="status-popup" id="statusPopup">
-  ✅ 最終確認: 2026-06-24 22:30 JST<br>ニュースは最新の状態です
+  ✅ 最終確認: 2026-06-24 23:00 JST<br>ニュースは最新の状態です
 </div>
 <main>
   <div class="filter-bar">
@@ -199,9 +199,26 @@
         </div>
       </div>
     </div>
-    <div class="news-card ig-mid" data-new="1" data-group="mid" data-impact="3" data-ts="1782307800" data-rel="2" data-dir="-1" data-hz="2">
+    <div class="news-card ig-mid" data-new="1" data-group="mid" data-impact="3" data-ts="1782309600" data-rel="2" data-dir="1" data-hz="2">
       <div class="card-top">
-        <div class="headline"><span class="new-badge">NEW</span><a href="https://oilprice.com/Latest-Energy-News/World-News/Euro-Sinks-To-One-Year-Low-As-Oil-Price-Drop-Fuels-ECB-Rate-Cut-Bets.html" target="_blank" rel="noopener">Euro Sinks To One-Year Low As Oil Price Drop Fuels ECB Rate Cut Bets</a></div>
+        <div class="headline"><span class="new-badge">NEW</span><a href="https://oilprice.com/Geopolitics/Middle-East/Rubio-Heads-to-Gulf-as-Iran-Deal-Sparks-Anxiety-Among-US-Allies.html" target="_blank" rel="noopener">Rubio Heads to Gulf as Iran Deal Sparks Anxiety Among U.S. Allies</a></div>
+        <span class="impact-badge ig-mid">MEDIUM</span>
+      </div>
+      <div class="summary">米国務長官がペルシャ湾岸訪問。イラン和平枠組みで地政学的不確実性が高まり、原油市場に上値圧力。</div>
+      <div class="card-foot">
+        <span class="meta-tag source-tag">OilPrice.com</span>
+        <span class="direction-tag bullish">↑ ブリッシュ</span>
+        <span class="meta-tag hz-short">短期</span>
+        <span class='meta-tag factor-tag'>地政学リスク</span>
+        <div class="card-foot-right">
+          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
+          <span class='time-tag'>06/24 23:00</span>
+        </div>
+      </div>
+    </div>
+    <div class="news-card ig-mid" data-group="mid" data-impact="3" data-ts="1782307800" data-rel="2" data-dir="-1" data-hz="2">
+      <div class="card-top">
+        <div class="headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/Euro-Sinks-To-One-Year-Low-As-Oil-Price-Drop-Fuels-ECB-Rate-Cut-Bets.html" target="_blank" rel="noopener">Euro Sinks To One-Year Low As Oil Price Drop Fuels ECB Rate Cut Bets</a></div>
         <span class="impact-badge ig-mid">MEDIUM</span>
       </div>
       <div class="summary">米国・イラン緊張緩和により原油価格が下落。ユーロは1年ぶりの安値。ECB利下げ観測も</div>
@@ -264,23 +281,6 @@
         <div class="card-foot-right">
           <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
           <span class='time-tag'>06/24 14:30</span>
-        </div>
-      </div>
-    </div>
-    <div class="news-card ig-mid" data-group="mid" data-impact="3" data-ts="1782255600" data-rel="2" data-dir="1" data-hz="4">
-      <div class="card-top">
-        <div class="headline"><a href="https://oilprice.com/Energy/Crude-Oil/Why-the-Next-Billion-Barrels-of-Oil-Demand-Could-Come-From-Storage.html" target="_blank" rel="noopener">Why the Next Billion Barrels of Oil Demand Could Come From Storage</a></div>
-        <span class="impact-badge ig-mid">MEDIUM</span>
-      </div>
-      <div class="summary">ホルムズ海峡閉鎖リスクへの対応として、アジア太平洋地域を中心に各国が石油備蓄能力を拡大。供給途絶時の緩衝効果が期待される。</div>
-      <div class="card-foot">
-        <span class="meta-tag source-tag">OilPrice.com</span>
-        <span class="direction-tag bullish">↑ ブリッシュ</span>
-        <span class="meta-tag hz-long">長期</span>
-        <span class='meta-tag factor-tag'>地政学リスク対応</span>
-        <div class="card-foot-right">
-          <span class="reliability-badge rel-b" title="中信頼：事実と予測混在">★★☆</span>
-          <span class='time-tag'>06/24 08:00</span>
         </div>
       </div>
     </div>
