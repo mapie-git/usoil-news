@@ -342,7 +342,7 @@ def generate_html(articles):
   .status-popup.show{{display:block}}
   .filter-bar{{display:flex;gap:8px;margin-top:16px;margin-bottom:20px;align-items:center;flex-wrap:wrap}}
   .filter-label{{font-size:11px;color:var(--muted);width:100%;margin-bottom:-2px}}
-  .filter-btn{{font-size:11px;padding:4px 12px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}}
+  .filter-btn{{font-size:11px;padding:4px 0;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;flex:1;text-align:center}}
   .filter-btn:hover,.filter-btn.active{{background:var(--tag-bg);color:var(--text);border-color:var(--muted)}}
   .filter-btn.f-high.active{{border-color:var(--high);color:var(--high)}}
   .filter-btn.f-mid.active{{border-color:var(--mid);color:var(--mid)}}
@@ -350,7 +350,7 @@ def generate_html(articles):
   .filter-btn.f-new.active{{border-color:#3a9bd5;color:#3a9bd5}}
   .sort-bar{{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:14px}}
   .sort-label{{font-size:11px;color:var(--muted);width:100%;margin-bottom:-2px}}
-  .sort-btn{{font-size:11px;padding:4px 10px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:3px}}
+  .sort-btn{{font-size:11px;padding:4px 0;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;flex:1;display:flex;align-items:center;justify-content:center;gap:3px}}
   .sort-btn:hover{{background:var(--tag-bg);color:var(--text)}}
   .sort-btn.active{{background:var(--tag-bg);color:var(--accent);border-color:var(--accent)}}
   .sort-arrow{{font-size:10px;opacity:.7}}
