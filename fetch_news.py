@@ -340,8 +340,8 @@ def generate_html(articles):
   .status-dot.warn{{background:#e84040;box-shadow:0 0 4px rgba(232,64,64,.6)}}
   .status-popup{{position:fixed;top:50px;right:16px;background:#1e2230;border:1px solid var(--border);border-radius:8px;padding:12px 16px;font-size:12px;color:var(--text);box-shadow:0 4px 20px rgba(0,0,0,.5);z-index:999;display:none;max-width:280px;line-height:1.6}}
   .status-popup.show{{display:block}}
-  .filter-bar{{display:flex;gap:8px;margin-top:16px;margin-bottom:20px;align-items:center;flex-wrap:nowrap}}
-  .filter-label{{font-size:11px;color:var(--muted);margin-right:4px}}
+  .filter-bar{{display:flex;gap:8px;margin-top:16px;margin-bottom:20px;align-items:center;flex-wrap:wrap}}
+  .filter-label{{font-size:11px;color:var(--muted);width:100%;margin-bottom:-2px}}
   .filter-btn{{font-size:11px;padding:4px 12px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s}}
   .filter-btn:hover,.filter-btn.active{{background:var(--tag-bg);color:var(--text);border-color:var(--muted)}}
   .filter-btn.f-high.active{{border-color:var(--high);color:var(--high)}}
@@ -349,7 +349,7 @@ def generate_html(articles):
   .filter-btn.f-low.active{{border-color:var(--low);color:var(--low)}}
   .filter-btn.f-new.active{{border-color:#3a9bd5;color:#3a9bd5}}
   .sort-bar{{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:14px}}
-  .sort-label{{font-size:11px;color:var(--muted);margin-right:4px}}
+  .sort-label{{font-size:11px;color:var(--muted);width:100%;margin-bottom:-2px}}
   .sort-btn{{font-size:11px;padding:4px 10px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:3px}}
   .sort-btn:hover{{background:var(--tag-bg);color:var(--text)}}
   .sort-btn.active{{background:var(--tag-bg);color:var(--accent);border-color:var(--accent)}}
