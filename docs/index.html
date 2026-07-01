@@ -67,6 +67,8 @@
   .direction-tag.bearish{background:rgba(232,64,64,.12);color:var(--high)}
   .direction-tag.bullish{background:rgba(74,144,96,.12);color:var(--low)}
   .direction-tag.neutral{background:rgba(90,96,112,.12);color:var(--muted)}
+  .verify-ok{color:var(--low);font-weight:700}
+  .verify-ng{color:var(--high);font-weight:700}
   .reliability-badge{font-size:11px;cursor:default}
   .rel-a{color:#c8a830}
   .rel-b{color:#ddd090}
@@ -90,10 +92,11 @@
 <body>
 <header>
   <div class="logo">USOIL <span>/ News Monitor</span></div>
-  <div class="meta">最終更新: 2026-07-02 08:00 JST ｜ 25件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
+  <div class="meta">最終更新: 2026-07-02 08:06 JST ｜ 25件<span class="status-dot ok" id="statusDot" onclick="toggleStatus()" title="ステータス確認"></span></div>
 </header>
 <div class="status-popup" id="statusPopup">
-  ✅ 最終確認: 2026-07-02 08:00 JST<br>ニュースは最新の状態です
+  ✅ 最終確認: 2026-07-02 08:06 JST<br>ニュースは最新の状態です
+  
 </div>
 <main>
   <div class="filter-bar">
