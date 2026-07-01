@@ -162,16 +162,12 @@ def fetch_rss(name, url):
 
 # ── Claude 評価 ─────────────────────────────────────────────────────
 
-def evaluate_unevaluated(conn):
-    rows = conn.execute("SELECT url, source, title, desc FROM articles WHERE evaluated = 0").fetchall()
-    if not rows:
-        return
-    uncached = [{"link": r[0], "source": r[1], "title": r[2], "desc": r[3]} for r in rows]
+EVAL_BATCH_SIZE = 15  # 1回のAPI呼び出しで評価する件数（出力トークン超過によるJSON破損を防ぐ）
 
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+def evaluate_batch(client, batch):
     items_text = "\n".join(
         f"{i+1}. [{a['source']}] {a['title']} / {a['desc']}"
-        for i, a in enumerate(uncached)
+        for i, a in enumerate(batch)
     )
     prompt = f"""以下はWTI原油（USOIL）に関するニュース記事のリストです。
 各記事についてJSON配列で以下を返してください。
@@ -197,25 +193,41 @@ def evaluate_unevaluated(conn):
 """
     message = client.messages.create(
         model="claude-haiku-4-5",
-        max_tokens=3000,
+        max_tokens=4096,
         messages=[{"role": "user", "content": prompt}]
     )
     raw = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    evaluations = json.loads(raw)
+    return json.loads(raw)
 
-    for i, a in enumerate(uncached):
-        ev = evaluations[i] if i < len(evaluations) else {}
-        conn.execute("""
-            UPDATE articles
-            SET impact=?, direction=?, summary=?, time_horizon=?, main_factor=?, reliability=?, evaluated=1
-            WHERE url=?
-        """, (
-            int(ev.get("impact", 1)), ev.get("direction", "neutral"), ev.get("summary", ""),
-            ev.get("time_horizon", "short"), ev.get("main_factor", ""), ev.get("reliability", "C"),
-            a["link"],
-        ))
-        print(f"  [API]   {a['title'][:40]}")
-    conn.commit()
+def evaluate_unevaluated(conn):
+    rows = conn.execute("SELECT url, source, title, desc FROM articles WHERE evaluated = 0").fetchall()
+    if not rows:
+        return
+    uncached = [{"link": r[0], "source": r[1], "title": r[2], "desc": r[3]} for r in rows]
+
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+    for start in range(0, len(uncached), EVAL_BATCH_SIZE):
+        batch = uncached[start:start + EVAL_BATCH_SIZE]
+        try:
+            evaluations = evaluate_batch(client, batch)
+        except Exception as e:
+            print(f"[WARN] 評価バッチ失敗（{start}件目〜）: {e}")
+            continue
+
+        for i, a in enumerate(batch):
+            ev = evaluations[i] if i < len(evaluations) else {}
+            conn.execute("""
+                UPDATE articles
+                SET impact=?, direction=?, summary=?, time_horizon=?, main_factor=?, reliability=?, evaluated=1
+                WHERE url=?
+            """, (
+                int(ev.get("impact", 1)), ev.get("direction", "neutral"), ev.get("summary", ""),
+                ev.get("time_horizon", "short"), ev.get("main_factor", ""), ev.get("reliability", "C"),
+                a["link"],
+            ))
+            print(f"  [API]   {a['title'][:40]}")
+        conn.commit()
 
 # ── HTML 生成 ────────────────────────────────────────────────────────
 
