@@ -1,6 +1,8 @@
 import os
+import re
 import json
 import sqlite3
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -9,12 +11,19 @@ import anthropic
 JST = timezone(timedelta(hours=9))
 DB_PATH = "docs/cache.db"
 
+DISPLAY_WINDOW_DAYS = 5   # この日数以内に公開された記事だけを候補にする
+POOL_LIMIT = 60           # 候補プールの上限（直近日数の中から新しい順に採用）
+DISPLAY_LIMIT = 25        # 実際にページへ表示する件数（重要度順に採用）
+RETENTION_DAYS = 30       # DBに保持しておく期間（これより古い記事は掃除する）
+
 RSS_FEEDS = [
-    ("OilPrice.com",      "https://oilprice.com/rss/main"),
-    ("EIA",               "https://www.eia.gov/rss/todayinenergy.xml"),
-    ("Hellenic Shipping", "https://www.hellenicshippingnews.com/category/oil-energy/feed/"),
-    ("Google News",       "https://news.google.com/rss/search?q=WTI+crude+oil+OPEC&hl=en&gl=US&ceid=US:en"),
-    ("Rigzone",           "https://www.rigzone.com/news/rss/rigzone_latest.aspx"),
+    ("OilPrice.com",         "https://oilprice.com/rss/main"),
+    ("EIA",                  "https://www.eia.gov/rss/todayinenergy.xml"),
+    ("Hellenic Shipping",    "https://www.hellenicshippingnews.com/category/oil-energy/feed/"),
+    ("Google News",          "https://news.google.com/rss/search?q=WTI+crude+oil+OPEC&hl=en&gl=US&ceid=US:en"),
+    ("Rigzone",              "https://www.rigzone.com/news/rss/rigzone_latest.aspx"),
+    ("Reddit r/oil",         "https://www.reddit.com/r/oil/.rss"),
+    ("Reddit r/Commodities", "https://www.reddit.com/r/Commodities/.rss"),
 ]
 
 OIL_KEYWORDS = [
@@ -24,61 +33,125 @@ OIL_KEYWORDS = [
     "libya", "iran", "saudi", "russia", "shale",
 ]
 
-# ── SQLite キャッシュ ──────────────────────────────────────────────
+# ── 日付ユーティリティ ─────────────────────────────────────────────
+# RSS(RFC2822)とAtom(ISO8601)の両方の日付フォーマットに対応する
+
+def parse_pub_dt(pub):
+    if not pub:
+        return None
+    from email.utils import parsedate_to_datetime
+    dt = None
+    try:
+        dt = parsedate_to_datetime(pub)
+    except Exception:
+        try:
+            dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+        except Exception:
+            return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(JST)
+
+def pub_ts(pub):
+    dt = parse_pub_dt(pub)
+    return int(dt.timestamp()) if dt else 0
+
+def fmt_pub(pub):
+    dt = parse_pub_dt(pub)
+    return dt.strftime("%m/%d %H:%M") if dt else ""
+
+def is_new(pub):
+    dt = parse_pub_dt(pub)
+    if not dt:
+        return False
+    return (datetime.now(JST) - dt).total_seconds() <= 1800
+
+def strip_html(text):
+    text = re.sub(r"<[^>]+>", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+# ── SQLite（記事プールの永続化）────────────────────────────────────
 
 def init_db():
     os.makedirs("docs", exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.execute("""
-        CREATE TABLE IF NOT EXISTS eval_cache (
-            url        TEXT PRIMARY KEY,
-            impact     INTEGER,
-            direction  TEXT,
-            summary    TEXT,
+        CREATE TABLE IF NOT EXISTS articles (
+            url          TEXT PRIMARY KEY,
+            source       TEXT,
+            title        TEXT,
+            desc         TEXT,
+            pub          TEXT,
+            pub_ts       INTEGER,
+            impact       INTEGER,
+            direction    TEXT,
+            summary      TEXT,
             time_horizon TEXT,
             main_factor  TEXT,
             reliability  TEXT,
-            cached_at  TEXT
+            evaluated    INTEGER DEFAULT 0,
+            fetched_at   TEXT
         )
     """)
     conn.commit()
     return conn
 
-def load_cache(conn, url):
-    row = conn.execute(
-        "SELECT impact,direction,summary,time_horizon,main_factor,reliability FROM eval_cache WHERE url=?",
-        (url,)
-    ).fetchone()
-    if row:
-        return {
-            "impact": row[0], "direction": row[1], "summary": row[2],
-            "time_horizon": row[3], "main_factor": row[4], "reliability": row[5],
-        }
-    return None
-
-def save_cache(conn, url, ev):
-    conn.execute(
-        "INSERT OR REPLACE INTO eval_cache VALUES (?,?,?,?,?,?,?,?)",
-        (url, ev["impact"], ev["direction"], ev["summary"],
-         ev["time_horizon"], ev["main_factor"], ev["reliability"],
-         datetime.now(JST).isoformat())
-    )
+def upsert_articles(conn, articles):
+    seen_titles = {row[0] for row in conn.execute("SELECT title FROM articles").fetchall()}
+    now_iso = datetime.now(JST).isoformat()
+    for a in articles:
+        if a["title"] in seen_titles:
+            continue
+        seen_titles.add(a["title"])
+        conn.execute("""
+            INSERT OR IGNORE INTO articles (url, source, title, desc, pub, pub_ts, evaluated, fetched_at)
+            VALUES (?,?,?,?,?,?,0,?)
+        """, (a["link"], a["source"], a["title"], a["desc"], a["pub"], pub_ts(a["pub"]), now_iso))
     conn.commit()
+
+def cleanup_old(conn):
+    cutoff = int((datetime.now(JST) - timedelta(days=RETENTION_DAYS)).timestamp())
+    conn.execute("DELETE FROM articles WHERE pub_ts > 0 AND pub_ts < ?", (cutoff,))
+    conn.commit()
+
+def get_recent_articles(conn, days=DISPLAY_WINDOW_DAYS, limit=POOL_LIMIT):
+    cutoff = int((datetime.now(JST) - timedelta(days=days)).timestamp())
+    rows = conn.execute("""
+        SELECT url, source, title, desc, pub, impact, direction, summary, time_horizon, main_factor, reliability
+        FROM articles
+        WHERE pub_ts >= ? AND evaluated = 1
+        ORDER BY pub_ts DESC
+        LIMIT ?
+    """, (cutoff, limit)).fetchall()
+    return [
+        {
+            "link": r[0], "source": r[1], "title": r[2], "desc": r[3], "pub": r[4],
+            "impact": r[5], "direction": r[6], "summary": r[7],
+            "time_horizon": r[8], "main_factor": r[9], "reliability": r[10],
+        }
+        for r in rows
+    ]
 
 # ── RSS 取得 ────────────────────────────────────────────────────────
 
 def fetch_rss(name, url):
     articles = []
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": "usoil-news-monitor/1.0 (RSS fetcher; +https://github.com/)"})
         with urllib.request.urlopen(req, timeout=10) as r:
             root = ET.fromstring(r.read())
         ns = {"atom": "http://www.w3.org/2005/Atom"}
         items = root.findall(".//item") or root.findall(".//atom:entry", ns)
-        for item in items[:10]:
+        for item in items[:20]:
             title = (item.findtext("title") or item.findtext("atom:title", namespaces=ns) or "").strip()
-            desc  = (item.findtext("description") or item.findtext("atom:summary", namespaces=ns) or "").strip()
-            link  = (item.findtext("link") or item.findtext("atom:link", namespaces=ns) or "").strip()
+            desc  = (item.findtext("description") or item.findtext("atom:summary", namespaces=ns)
+                     or item.findtext("atom:content", namespaces=ns) or "").strip()
+            desc  = strip_html(desc)
+            link  = (item.findtext("link") or "").strip()
+            if not link:
+                link_el = item.find("atom:link", ns)
+                if link_el is not None:
+                    link = (link_el.get("href") or "").strip()
             pub   = (item.findtext("pubDate") or item.findtext("atom:updated", namespaces=ns) or "").strip()
             text  = (title + " " + desc).lower()
             if any(k in text for k in OIL_KEYWORDS):
@@ -89,18 +162,11 @@ def fetch_rss(name, url):
 
 # ── Claude 評価 ─────────────────────────────────────────────────────
 
-def evaluate_articles(articles, conn):
-    uncached = []
-    for a in articles:
-        cached = load_cache(conn, a["link"])
-        if cached:
-            a.update(cached)
-            print(f"  [CACHE] {a['title'][:40]}")
-        else:
-            uncached.append(a)
-
-    if not uncached:
-        return articles
+def evaluate_unevaluated(conn):
+    rows = conn.execute("SELECT url, source, title, desc FROM articles WHERE evaluated = 0").fetchall()
+    if not rows:
+        return
+    uncached = [{"link": r[0], "source": r[1], "title": r[2], "desc": r[3]} for r in rows]
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     items_text = "\n".join(
@@ -111,16 +177,18 @@ def evaluate_articles(articles, conn):
 各記事についてJSON配列で以下を返してください。
 
 - impact: 1〜5の整数（WTI価格への影響度。5=極めて高い、1=ほぼなし）
+  ※ 既に市場に織り込まれた後追い報道（例：数時間〜前の値動きを後から伝えるだけの記事、既知の事実の言い換え）はimpactを2以下に抑えること
 - direction: "bullish" / "bearish" / "neutral"
 - summary: 日本語で60字以内の要約
 - time_horizon: "ultra_short"（数分〜数時間）/ "short"（1〜3日）/ "medium"（1〜4週間）/ "long"（1か月以上）
 - main_factor: 主因を日本語で10字以内（例：地政学リスク、供給過剰、需要減少、在庫増加）
 - reliability: 以下のスコアリングで算出し "A"/"B"/"C" で返す
-  【ソース品質】Reuters/Bloomberg=+40, EIA=+50, OPEC公式=+50, その他主要メディア=+30, 専門サイト=+20, SNS/匿名=+10
+  【ソース品質】Reuters/Bloomberg=+40, EIA=+50, OPEC公式=+50, その他主要メディア=+30, 専門サイト=+20, SNS/掲示板/匿名=+10
   【事実性】発生済み事実/正式発表=+40, 検討中/交渉中=+20, 観測/予測/匿名情報=+10
   【市場感応度推定】明確な需給変化が確定=+20, 示唆あり=+10, 曖昧=0
   合計80以上=A, 60〜79=B, 59以下=C
   ※"このニュースから予想した価格方向が当たる可能性"として判定する
+  ※ Reddit等の掲示板ソースは個人の思惑・観測が中心のため、reliabilityはC（まれにB）を基本とする
 
 必ずJSON配列のみを返し、説明文や```は不要です。
 
@@ -137,19 +205,17 @@ def evaluate_articles(articles, conn):
 
     for i, a in enumerate(uncached):
         ev = evaluations[i] if i < len(evaluations) else {}
-        result = {
-            "impact":      int(ev.get("impact", 1)),
-            "direction":   ev.get("direction", "neutral"),
-            "summary":     ev.get("summary", ""),
-            "time_horizon":ev.get("time_horizon", "short"),
-            "main_factor": ev.get("main_factor", ""),
-            "reliability": ev.get("reliability", "C"),
-        }
-        a.update(result)
-        save_cache(conn, a["link"], result)
+        conn.execute("""
+            UPDATE articles
+            SET impact=?, direction=?, summary=?, time_horizon=?, main_factor=?, reliability=?, evaluated=1
+            WHERE url=?
+        """, (
+            int(ev.get("impact", 1)), ev.get("direction", "neutral"), ev.get("summary", ""),
+            ev.get("time_horizon", "short"), ev.get("main_factor", ""), ev.get("reliability", "C"),
+            a["link"],
+        ))
         print(f"  [API]   {a['title'][:40]}")
-
-    return articles
+    conn.commit()
 
 # ── HTML 生成 ────────────────────────────────────────────────────────
 
@@ -158,9 +224,9 @@ def impact_group(n):
     if n >= 2: return "mid"
     return "low"
 
-def generate_html(articles):
+def generate_html(articles, limit=DISPLAY_LIMIT):
     now = datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
-    articles.sort(key=lambda x: -x.get("impact", 1))
+    articles = sorted(articles, key=lambda x: -x.get("impact", 1))[:limit]
 
     DIRECTION_LABELS = {
         "bullish": ("↑", "ブリッシュ", "bullish"),
@@ -194,33 +260,6 @@ def generate_html(articles):
         stars = RELIABILITY_STARS.get(r, "★☆☆")
         title = RELIABILITY_TITLE.get(r, "")
         return f'<span class="reliability-badge rel-{r.lower()}" title="{title}">{stars}</span>'
-
-    def fmt_pub(pub):
-        if not pub:
-            return ""
-        try:
-            from email.utils import parsedate_to_datetime
-            dt = parsedate_to_datetime(pub).astimezone(JST)
-            return dt.strftime("%m/%d %H:%M")
-        except Exception:
-            return pub[:16]
-
-    def pub_ts(pub):
-        try:
-            from email.utils import parsedate_to_datetime
-            return int(parsedate_to_datetime(pub).timestamp())
-        except Exception:
-            return 0
-
-    def is_new(pub):
-        if not pub:
-            return False
-        try:
-            from email.utils import parsedate_to_datetime
-            dt = parsedate_to_datetime(pub).astimezone(JST)
-            return (datetime.now(JST) - dt).total_seconds() <= 1800
-        except Exception:
-            return False
 
     cards = ""
     for a in articles:
@@ -311,6 +350,15 @@ def generate_html(articles):
         <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★★★</span></span></div>
       </div>
       <div class="source-desc">石油・ガス業界専門の米国メディア。掘削・生産・OPEC・中東情勢など上流部門の一次情報を豊富に配信。業界関係者にも広く読まれる信頼性の高い専門ソース。</div>
+    </div>
+    <div class="source-card">
+      <div class="source-card-header"><span class="source-name">Reddit（r/oil, r/Commodities）</span></div>
+      <div class="source-metrics">
+        <div class="source-metric"><span class="metric-label">即時性</span><span class="metric-stars"><span class="star-on">★★★★</span><span class="star-off">★</span></span></div>
+        <div class="source-metric"><span class="metric-label">信頼性</span><span class="metric-stars"><span class="star-on">★</span><span class="star-off">★★★★</span></span></div>
+        <div class="source-metric"><span class="metric-label">原油専門度</span><span class="metric-stars"><span class="star-on">★★★</span><span class="star-off">★★</span></span></div>
+      </div>
+      <div class="source-desc">個人投資家・トレーダーの思惑や観測が集まる掲示板。事実確認前の噂話も多く信頼性は低いが、市場心理や早耳情報を拾う目的で補助的に採用。</div>
     </div>
   </div>
 </section>"""
@@ -493,23 +541,21 @@ def main():
     conn = init_db()
 
     print("RSSフィードを取得中...")
-    articles = []
+    fetched = []
     for name, url in RSS_FEEDS:
         found = fetch_rss(name, url)
         print(f"  {name}: {len(found)}件")
-        articles.extend(found)
+        fetched.extend(found)
+        time.sleep(2)
 
-    seen = set()
-    unique = []
-    for a in articles:
-        if a["title"] not in seen:
-            seen.add(a["title"])
-            unique.append(a)
-    articles = unique[:20]
+    upsert_articles(conn, fetched)
+    cleanup_old(conn)
 
-    print(f"合計: {len(articles)}件 → 評価中（キャッシュ利用）...")
-    if articles:
-        articles = evaluate_articles(articles, conn)
+    print("未評価の記事を評価中...")
+    evaluate_unevaluated(conn)
+
+    articles = get_recent_articles(conn)
+    print(f"表示候補プール: {len(articles)}件（直近{DISPLAY_WINDOW_DAYS}日）")
 
     conn.close()
 
