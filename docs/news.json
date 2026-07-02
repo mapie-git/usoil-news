@@ -1,6 +1,10 @@
 {
-  "updated_at": "2026-07-03T08:10:34.484614+09:00",
-  "accuracy": null,
+  "updated_at": "2026-07-03T08:30:41.011729+09:00",
+  "accuracy": {
+    "total": 1,
+    "correct": 1,
+    "rate": 100
+  },
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Tehran-Is-Racing-the-Clock-to-Export-as-Much-Oil-as-Possible.html",
