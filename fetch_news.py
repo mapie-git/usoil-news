@@ -311,6 +311,39 @@ def verify_predictions(conn):
     conn.commit()
     print(f"  予測検証: {len(rows)}件")
 
+# ── JSON 生成（iOSアプリ用ネイティブAPI）───────────────────────────────
+
+def generate_json(articles, limit=DISPLAY_LIMIT, stats=None):
+    articles = sorted(articles, key=lambda x: -x.get("impact", 1))[:limit]
+    now = datetime.now(JST)
+    items = []
+    for a in articles:
+        pub_raw = a.get("pub", "")
+        items.append({
+            "id": a.get("link", ""),
+            "source": a.get("source", ""),
+            "title": a.get("title", ""),
+            "summary": a.get("summary", ""),
+            "link": a.get("link", "#"),
+            "pub": pub_raw,
+            "pub_ts": pub_ts(pub_raw),
+            "impact": a.get("impact", 1),
+            "impact_group": impact_group(a.get("impact", 1)),
+            "direction": a.get("direction", "neutral"),
+            "time_horizon": a.get("time_horizon", "short"),
+            "main_factor": a.get("main_factor", ""),
+            "reliability": a.get("reliability", "C"),
+            "is_new": is_new(pub_raw),
+            "verified": bool(a.get("verified")),
+            "correct": (bool(a.get("correct")) if a.get("verified") else None),
+        })
+    payload = {
+        "updated_at": now.isoformat(),
+        "accuracy": stats,
+        "articles": items,
+    }
+    return json.dumps(payload, ensure_ascii=False, indent=2)
+
 # ── HTML 生成 ────────────────────────────────────────────────────────
 
 def impact_group(n):
@@ -672,6 +705,11 @@ def main():
     with open("docs/index.html", "w", encoding="utf-8") as f:
         f.write(html)
     print("docs/index.html を生成しました")
+
+    news_json = generate_json(articles, stats=stats)
+    with open("docs/news.json", "w", encoding="utf-8") as f:
+        f.write(news_json)
+    print("docs/news.json を生成しました")
 
 if __name__ == "__main__":
     main()
