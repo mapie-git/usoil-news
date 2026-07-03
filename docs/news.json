@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-04T02:30:29.289841+09:00",
+  "updated_at": "2026-07-04T03:00:32.258897+09:00",
   "accuracy": {
-    "total": 34,
+    "total": 43,
     "correct": 10,
-    "rate": 29
+    "rate": 23
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -75,7 +75,7 @@
       "time_horizon": "short",
       "main_factor": "供給不足、地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -238,8 +238,8 @@
       "main_factor": "米国内供給増加見通し",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uln7ey/irans_floating_oil_stockpile_swells_as_major/",
