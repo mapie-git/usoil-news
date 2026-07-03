@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T21:00:38.675828+09:00",
+  "updated_at": "2026-07-03T21:30:32.562570+09:00",
   "accuracy": {
     "total": 19,
     "correct": 8,
@@ -93,7 +93,7 @@
       "time_horizon": "medium",
       "main_factor": "供給リスク低下、イラン核合意",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
