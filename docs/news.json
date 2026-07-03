@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-03T12:00:35.384172+09:00",
+  "updated_at": "2026-07-03T12:30:28.823673+09:00",
   "accuracy": {
     "total": 2,
     "correct": 1,
     "rate": 50
   },
-  "wti_price": 69.0,
+  "wti_price": 69.08999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Tehran-Is-Racing-the-Clock-to-Export-as-Much-Oil-as-Possible.html",
@@ -386,6 +386,24 @@
       "correct": null
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1um2wxa/canada_unveils_plans_for_new_oil_pipeline_to/",
+      "source": "Reddit r/oil",
+      "title": "Canada unveils plans for new oil pipeline to break dependence on US",
+      "summary": "カナダが米国依存の脱却を目指し新規パイプライン計画を発表",
+      "link": "https://www.reddit.com/r/oil/comments/1um2wxa/canada_unveils_plans_for_new_oil_pipeline_to/",
+      "pub": "2026-07-03T03:17:21+00:00",
+      "pub_ts": 1783048641,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "供給インフラ構想",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Crude-Oil/UAE-Rewrites-Offshore-Oil-Pricing-To-Capture-Asian-Markets.html",
       "source": "OilPrice.com",
       "title": "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "供給過剰懸念",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONlQ1M1Q5b3diZXJ6RmZWbFYydlQ1bXhScmsxVU5oYVZSR09CS1JjRjBvY19hcmI2SE9ZbUtJQzZSa3F4NGxDbnk4MEtpbFU1ODJ2Y3FmZFM5Z1ZxY3E3RHJvTG15bVpmQ3NERjBSWHhRRkFUX3FKU21aMGlHbU9SUmFGUENPZFFIY3k5bk1wRHdoS0VDVHc2OU95SHFxM1hqSHltYzROM1E?oc=5",
-      "source": "Google News",
-      "title": "Brent WTI Oil Falls to Lows Amid OPEC Negotiations - Inspenet",
-      "summary": "OPEC交渉の最中にブレント・WTI原油が下落。後追い報道で具体的新情報なし。",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONlQ1M1Q5b3diZXJ6RmZWbFYydlQ1bXhScmsxVU5oYVZSR09CS1JjRjBvY19hcmI2SE9ZbUtJQzZSa3F4NGxDbnk4MEtpbFU1ODJ2Y3FmZFM5Z1ZxY3E3RHJvTG15bVpmQ3NERjBSWHhRRkFUX3FKU21aMGlHbU9SUmFGUENPZFFIY3k5bk1wRHdoS0VDVHc2OU95SHFxM1hqSHltYzROM1E?oc=5",
-      "pub": "Thu, 02 Jul 2026 18:06:54 GMT",
-      "pub_ts": 1783015614,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "交渉動向",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
