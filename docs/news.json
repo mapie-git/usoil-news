@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-03T19:30:29.239882+09:00",
+  "updated_at": "2026-07-03T19:41:58.166858+09:00",
   "accuracy": {
-    "total": 9,
-    "correct": 3,
-    "rate": 33
+    "total": 13,
+    "correct": 5,
+    "rate": 38
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -328,8 +328,8 @@
       "main_factor": "在庫逼迫",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Rushes-Crude-Exports-Through-Reopened-Strait-of-Hormuz.html",
