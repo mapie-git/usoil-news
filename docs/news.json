@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T19:41:58.166858+09:00",
+  "updated_at": "2026-07-03T20:00:30.335496+09:00",
   "accuracy": {
     "total": 13,
     "correct": 5,
@@ -386,6 +386,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Denies-Directly-Exporting-Fuel-to-Russia-But-Admits-Traders-May-Be.html",
+      "source": "OilPrice.com",
+      "title": "India Denies Directly Exporting Fuel to Russia, But Admits Traders May Be",
+      "summary": "インド政府がロシアへの直接輸出を否定。市場への既知情報の公式確認レベル",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Denies-Directly-Exporting-Fuel-to-Russia-But-Admits-Traders-May-Be.html",
+      "pub": "Fri, 03 Jul 2026 06:00:00 -0500",
+      "pub_ts": 1783076400,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "ロシア制裁対応",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uma7t4/russians_queueing_for_fuel_after_unprecedented/",
       "source": "Reddit r/oil",
       "title": "Russian's queueing for fuel after unprecedented Ukranian attacks on their Oil infrastructure.",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "需要減少",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Coal-Power-Generation-Jumps-14-in-June.html",
-      "source": "OilPrice.com",
-      "title": "India Coal Power Generation Jumps 14% in June",
-      "summary": "インド6月石炭発電が前年比14%増。猛暑で電力需要増加したが、原油需要への直接影響は限定的。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Coal-Power-Generation-Jumps-14-in-June.html",
-      "pub": "Fri, 03 Jul 2026 01:00:59 -0500",
-      "pub_ts": 1783058459,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "エネルギーミックス変化",
       "reliability": "B",
       "is_new": false,
       "verified": false,
