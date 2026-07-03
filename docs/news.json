@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-04T06:18:14.693440+09:00",
+  "updated_at": "2026-07-04T07:35:18.183494+09:00",
   "accuracy": {
-    "total": 50,
+    "total": 52,
     "correct": 11,
-    "rate": 22
+    "rate": 21
   },
   "wti_price": 69.01000213623047,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1umqvdt/oil_contracts_rebound_as_lebanon_is_under_attack/",
+      "source": "Reddit r/oil",
+      "title": "Oil contracts rebound as Lebanon is under attack during Khamenei funeral",
+      "summary": "レバノン攻撃とハメネイ葬儀により中東緊張激化。オイルコントラクト反発。地政学的サプライズ",
+      "link": "https://www.reddit.com/r/oil/comments/1umqvdt/oil_contracts_rebound_as_lebanon_is_under_attack/",
+      "pub": "2026-07-03T21:36:34+00:00",
+      "pub_ts": 1783114594,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.rigzone.com/news/exxonmobil_qatarenergy_affirm_commerciality_of_cyprus_discoveries-03-jul-2026-184052-article/?rss=true",
       "source": "Rigzone",
@@ -40,8 +58,8 @@
       "main_factor": "供給増加",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Tightens-Grip-on-Strait-of-Hormuz-Tanker-Traffic.html",
@@ -128,6 +146,24 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク、需要見通し",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWkVidnY3MDVPcUlYY1Y0NV9SX1VxT1JLdE42M3pPejg4UHpJcmJMVXFlckZ3WW9QUzAxYmNVdEZPSEdXYXhXbW9sNE90UTJNTGQ2T2xNRlRXX0V4TDJjTDZwSHRLdnYtRXFCUFBDSm9id1BiNEtyMnREZWJTUHlHQ1dLSnpYdk02UkxPaVdRenM2eGYzdWVxR3FxdUd3S1BVUDdLaDN1cHFsbUdUVWxxRXBRR2dMRS1paVdkTVpWU18?oc=5",
+      "source": "Google News",
+      "title": "WTI Crude Oil advances on weak US jobs, Iran talks in focus - FXStreet",
+      "summary": "米雇用統計弱さとイラン核交渉がWTI上昇を支援。地政学リスクと経済指標が複合的に作用",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWkVidnY3MDVPcUlYY1Y0NV9SX1VxT1JLdE42M3pPejg4UHpJcmJMVXFlckZ3WW9QUzAxYmNVdEZPSEdXYXhXbW9sNE90UTJNTGQ2T2xNRlRXX0V4TDJjTDZwSHRLdnYtRXFCUFBDSm9id1BiNEtyMnREZWJTUHlHQ1dLSnpYdk02UkxPaVdRenM2eGYzdWVxR3FxdUd3S1BVUDdLaDN1cHFsbUdUVWxxRXBRR2dMRS1paVdkTVpWU18?oc=5",
+      "pub": "Fri, 03 Jul 2026 16:41:14 GMT",
+      "pub_ts": 1783096874,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク、経済指標",
       "reliability": "B",
       "is_new": false,
       "verified": false,
@@ -417,42 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/DOJ-Urges-States-to-Enforce-Fuel-Price-Gouging-Laws.html",
-      "source": "OilPrice.com",
-      "title": "DOJ Urges States to Enforce Fuel Price-Gouging Laws",
-      "summary": "トランプ政権がDOJに燃料価格の不当利益をめぐり州に強制措置を指示。政策的対応だが具体的な供給影響は限定的。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/DOJ-Urges-States-to-Enforce-Fuel-Price-Gouging-Laws.html",
-      "pub": "Fri, 03 Jul 2026 11:30:00 -0500",
-      "pub_ts": 1783096200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "政策対応",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Offers-Millions-of-Barrels-of-Iraqi-Crude-to-Asian-Buyers.html",
-      "source": "OilPrice.com",
-      "title": "TotalEnergies Offers Millions of Barrels of Iraqi Crude to Asian Buyers",
-      "summary": "トタルエナジーズがイラク産原油をアジア買い手に大量提供。供給動向を示す市場情報だが既知事実の範囲",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Offers-Millions-of-Barrels-of-Iraqi-Crude-to-Asian-Buyers.html",
-      "pub": "Fri, 03 Jul 2026 10:30:00 -0500",
-      "pub_ts": 1783092600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "供給動向",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
