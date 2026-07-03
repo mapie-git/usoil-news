@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-04T01:30:29.635148+09:00",
+  "updated_at": "2026-07-04T01:55:41.420683+09:00",
   "accuracy": {
-    "total": 30,
+    "total": 32,
     "correct": 10,
-    "rate": 33
+    "rate": 31
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -256,8 +256,8 @@
       "main_factor": "供給回復による過剰感",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Russias-Fuel-Crisis-Spreads-to-Central-Asia-as-Drone-Strikes-Escalate.html",
