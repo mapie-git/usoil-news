@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T04:00:33.987706+09:00",
+  "updated_at": "2026-07-04T04:30:29.296013+09:00",
   "accuracy": {
     "total": 45,
     "correct": 11,
@@ -62,6 +62,24 @@
       "correct": true
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Oil-Production-Jumps-But-Gulf-Supply-Is-Still-Far-From-Normal.html",
+      "source": "OilPrice.com",
+      "title": "OPEC Oil Production Jumps, But Gulf Supply Is Still Far From Normal",
+      "summary": "OPEC6月産油量が回復したが、湾岸地域の供給は依然戦前水準に遠く及ばず。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Oil-Production-Jumps-But-Gulf-Supply-Is-Still-Far-From-Normal.html",
+      "pub": "Fri, 03 Jul 2026 14:30:00 -0500",
+      "pub_ts": 1783107000,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "供給回復",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Metals/Commodities/Coppers-Next-Move-Depends-On-Washington-Not-The-Strait-Of-Hormuz.html",
       "source": "OilPrice.com",
       "title": "Copper's Next Move Depends On Washington, Not The Strait Of Hormuz",
@@ -75,7 +93,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -363,7 +381,7 @@
       "time_horizon": "short",
       "main_factor": "データ集計報告",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -381,7 +399,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "規制リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Top-Oil-Refiner-Eyes-a-Post-Hormuz-Future.html",
-      "source": "OilPrice.com",
-      "title": "Japan's Top Oil Refiner Eyes a Post-Hormuz Future",
-      "summary": "日本最大手製油所ENEOSがホルムズ海峡依存低減を検討。中東依存度軽減の戦略的転換",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Top-Oil-Refiner-Eyes-a-Post-Hormuz-Future.html",
-      "pub": "Fri, 03 Jul 2026 09:30:00 -0500",
-      "pub_ts": 1783089000,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "需給構造の長期変化",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
