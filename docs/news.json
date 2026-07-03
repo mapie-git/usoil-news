@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-03T19:00:31.858311+09:00",
+  "updated_at": "2026-07-03T19:30:29.239882+09:00",
   "accuracy": {
-    "total": 8,
+    "total": 9,
     "correct": 3,
-    "rate": 38
+    "rate": 33
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -93,7 +93,7 @@
       "time_horizon": "short",
       "main_factor": "供給増加、地政学リスク緩和",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -346,8 +346,8 @@
       "main_factor": "供給増加",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Teapots-Snap-Up-Middle-East-Crude-As-Prices-Slide.html",
@@ -399,7 +399,7 @@
       "time_horizon": "short",
       "main_factor": "ロシア供給減少",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
