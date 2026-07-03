@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-03T20:00:30.335496+09:00",
+  "updated_at": "2026-07-03T20:30:32.089487+09:00",
   "accuracy": {
-    "total": 13,
-    "correct": 5,
+    "total": 16,
+    "correct": 6,
     "rate": 38
   },
   "wti_price": 69.01000213623047,
@@ -310,8 +310,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uldzjb/depleted_cushing_storage_is_flashing_red_in_crude/",
@@ -399,7 +399,7 @@
       "time_horizon": "short",
       "main_factor": "ロシア制裁対応",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
