@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-03T22:00:35.870679+09:00",
+  "updated_at": "2026-07-03T22:30:29.034279+09:00",
   "accuracy": {
-    "total": 20,
+    "total": 22,
     "correct": 8,
-    "rate": 40
+    "rate": 36
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -417,7 +417,7 @@
       "time_horizon": "medium",
       "main_factor": "在庫増加",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
