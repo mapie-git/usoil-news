@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-04T02:00:29.794407+09:00",
+  "updated_at": "2026-07-04T02:30:29.289841+09:00",
   "accuracy": {
-    "total": 32,
+    "total": 34,
     "correct": 10,
-    "rate": 31
+    "rate": 29
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -58,6 +58,24 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Scrambles-for-Asian-Jet-Fuel-as-Crisis-Deepens.html",
+      "source": "OilPrice.com",
+      "title": "Russia Scrambles for Asian Jet Fuel as Crisis Deepens",
+      "summary": "ロシアが日本発のジェット燃料を輸入予定。複雑な流通経路を通じて最低20万バレル受け取り見込み。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Scrambles-for-Asian-Jet-Fuel-as-Crisis-Deepens.html",
+      "pub": "Fri, 03 Jul 2026 12:30:00 -0500",
+      "pub_ts": 1783099800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "供給不足、地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -238,8 +256,8 @@
       "main_factor": "供給過剰",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Glut-Calls-May-Be-Getting-Ahead-of-Reality.html",
@@ -326,24 +344,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uldzjb/depleted_cushing_storage_is_flashing_red_in_crude/",
-      "source": "Reddit r/oil",
-      "title": "Depleted Cushing Storage is Flashing Red in Crude Markets | East Daley",
-      "summary": "クッシング貯蔵施設の枯渇が警告信号。在庫逼迫が原油価格上昇要因として指摘。",
-      "link": "https://www.reddit.com/r/oil/comments/1uldzjb/depleted_cushing_storage_is_flashing_red_in_crude/",
-      "pub": "2026-07-02T10:02:37+00:00",
-      "pub_ts": 1782986557,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "在庫逼迫",
       "reliability": "C",
       "is_new": false,
       "verified": true,
