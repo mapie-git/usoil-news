@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-03T12:30:28.823673+09:00",
+  "updated_at": "2026-07-03T13:00:30.026108+09:00",
   "accuracy": {
     "total": 2,
     "correct": 1,
     "rate": 50
   },
-  "wti_price": 69.08999633789062,
+  "wti_price": 69.01000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Tehran-Is-Racing-the-Clock-to-Export-as-Much-Oil-as-Possible.html",
@@ -399,7 +399,7 @@
       "time_horizon": "long",
       "main_factor": "供給インフラ構想",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
