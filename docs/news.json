@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T15:30:34.150973+09:00",
+  "updated_at": "2026-07-03T16:00:45.746374+09:00",
   "accuracy": {
     "total": 4,
     "correct": 1,
@@ -76,6 +76,24 @@
       "main_factor": "供給過剰懸念",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Alberta-and-Ottawa-Greenlight-New-Pacific-Pipeline.html",
+      "source": "OilPrice.com",
+      "title": "Alberta and Ottawa Greenlight New Pacific Pipeline",
+      "summary": "カナダがアルバータ州からカナダ太平洋沿岸への新規パイプライン建設を正式承認。アジア市場へのアクセス拡大。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Alberta-and-Ottawa-Greenlight-New-Pacific-Pipeline.html",
+      "pub": "Fri, 03 Jul 2026 02:00:00 -0500",
+      "pub_ts": 1783062000,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "供給ルート拡大",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -368,24 +386,6 @@
       "correct": null
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1ukujqd/bloomberg_us_oil_grades_plummet_in_value_as/",
-      "source": "Reddit r/oil",
-      "title": "Bloomberg: US oil grades plummet in value as demand for American exports fades",
-      "summary": "米国産原油の需要減退でディスカウント拡大。ホルムズ経由の流入増加が影響",
-      "link": "https://www.reddit.com/r/oil/comments/1ukujqd/bloomberg_us_oil_grades_plummet_in_value_as/",
-      "pub": "2026-07-01T18:55:42+00:00",
-      "pub_ts": 1782932142,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "需要減少",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Coal-Power-Generation-Jumps-14-in-June.html",
       "source": "OilPrice.com",
       "title": "India Coal Power Generation Jumps 14% in June",
@@ -399,7 +399,7 @@
       "time_horizon": "medium",
       "main_factor": "エネルギーミックス変化",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
