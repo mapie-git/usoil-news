@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-03T16:00:45.746374+09:00",
+  "updated_at": "2026-07-03T16:30:27.889577+09:00",
   "accuracy": {
-    "total": 4,
-    "correct": 1,
-    "rate": 25
+    "total": 5,
+    "correct": 2,
+    "rate": 40
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -93,7 +93,7 @@
       "time_horizon": "long",
       "main_factor": "供給ルート拡大",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
