@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-04T04:30:29.296013+09:00",
+  "updated_at": "2026-07-04T04:58:42.431468+09:00",
   "accuracy": {
-    "total": 45,
+    "total": 47,
     "correct": 11,
-    "rate": 24
+    "rate": 23
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -256,8 +256,8 @@
       "main_factor": "カナダ産供給制約",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Advances-New-California-Oil-Lease-Plans.html",
