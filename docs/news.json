@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-04T00:20:02.357937+09:00",
+  "updated_at": "2026-07-04T00:30:44.927240+09:00",
   "accuracy": {
-    "total": 29,
+    "total": 30,
     "correct": 10,
-    "rate": 34
+    "rate": 33
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -350,22 +350,22 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Teapots-Snap-Up-Middle-East-Crude-As-Prices-Slide.html",
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Offers-Millions-of-Barrels-of-Iraqi-Crude-to-Asian-Buyers.html",
       "source": "OilPrice.com",
-      "title": "Chinese Teapots Snap Up Middle East Crude As Prices Slide",
-      "summary": "中国の独立系製油所が中東原油を買い増し。価格下落が購買意欲を喚起",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Teapots-Snap-Up-Middle-East-Crude-As-Prices-Slide.html",
-      "pub": "Thu, 02 Jul 2026 03:19:14 -0500",
-      "pub_ts": 1782980354,
-      "impact": 3,
+      "title": "TotalEnergies Offers Millions of Barrels of Iraqi Crude to Asian Buyers",
+      "summary": "トタルエナジーズがイラク産原油をアジア買い手に大量提供。供給動向を示す市場情報だが既知事実の範囲",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Offers-Millions-of-Barrels-of-Iraqi-Crude-to-Asian-Buyers.html",
+      "pub": "Fri, 03 Jul 2026 10:30:00 -0500",
+      "pub_ts": 1783092600,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "bearish",
+      "direction": "neutral",
       "time_horizon": "short",
-      "main_factor": "需要増加",
+      "main_factor": "供給動向",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1umh82e/us_says_it_is_monitoring_oil_markets_for/",
