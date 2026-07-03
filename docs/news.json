@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-03T11:00:37.857530+09:00",
+  "updated_at": "2026-07-03T11:30:32.758169+09:00",
   "accuracy": {
     "total": 2,
     "correct": 1,
     "rate": 50
   },
-  "wti_price": 68.80000305175781,
+  "wti_price": 68.9000015258789,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Tehran-Is-Racing-the-Clock-to-Export-as-Much-Oil-as-Possible.html",
@@ -386,24 +386,6 @@
       "correct": null
     },
     {
-      "id": "https://oilprice.com/Energy/Energy-General/Putin-Admits-Certain-Shortage-of-Fuel-After-Weeks-of-Refinery-Strikes.html",
-      "source": "OilPrice.com",
-      "title": "Putin Admits Shortage of Fuel After Weeks of Refinery Strikes",
-      "summary": "ロシアがドローン攻撃で燃料不足。国際取引を必要とする供給逼迫状況",
-      "link": "https://oilprice.com/Energy/Energy-General/Putin-Admits-Certain-Shortage-of-Fuel-After-Weeks-of-Refinery-Strikes.html",
-      "pub": "Wed, 01 Jul 2026 12:00:00 -0500",
-      "pub_ts": 1782925200,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給減少",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://oilprice.com/Energy/Crude-Oil/UAE-Rewrites-Offshore-Oil-Pricing-To-Capture-Asian-Markets.html",
       "source": "OilPrice.com",
       "title": "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets",
@@ -453,6 +435,24 @@
       "time_horizon": "short",
       "main_factor": "供給過剰懸念",
       "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONlQ1M1Q5b3diZXJ6RmZWbFYydlQ1bXhScmsxVU5oYVZSR09CS1JjRjBvY19hcmI2SE9ZbUtJQzZSa3F4NGxDbnk4MEtpbFU1ODJ2Y3FmZFM5Z1ZxY3E3RHJvTG15bVpmQ3NERjBSWHhRRkFUX3FKU21aMGlHbU9SUmFGUENPZFFIY3k5bk1wRHdoS0VDVHc2OU95SHFxM1hqSHltYzROM1E?oc=5",
+      "source": "Google News",
+      "title": "Brent WTI Oil Falls to Lows Amid OPEC Negotiations - Inspenet",
+      "summary": "OPEC交渉の最中にブレント・WTI原油が下落。後追い報道で具体的新情報なし。",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONlQ1M1Q5b3diZXJ6RmZWbFYydlQ1bXhScmsxVU5oYVZSR09CS1JjRjBvY19hcmI2SE9ZbUtJQzZSa3F4NGxDbnk4MEtpbFU1ODJ2Y3FmZFM5Z1ZxY3E3RHJvTG15bVpmQ3NERjBSWHhRRkFUX3FKU21aMGlHbU9SUmFGUENPZFFIY3k5bk1wRHdoS0VDVHc2OU95SHFxM1hqSHltYzROM1E?oc=5",
+      "pub": "Thu, 02 Jul 2026 18:06:54 GMT",
+      "pub_ts": 1783015614,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "交渉動向",
+      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
