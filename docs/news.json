@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T04:58:42.431468+09:00",
+  "updated_at": "2026-07-04T05:00:32.113361+09:00",
   "accuracy": {
     "total": 47,
     "correct": 11,
@@ -75,7 +75,7 @@
       "time_horizon": "short",
       "main_factor": "供給回復",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
