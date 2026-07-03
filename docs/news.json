@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-03T21:59:08.931030+09:00",
+  "updated_at": "2026-07-03T22:00:35.870679+09:00",
   "accuracy": {
-    "total": 19,
+    "total": 20,
     "correct": 8,
-    "rate": 42
+    "rate": 40
   },
   "wti_price": 69.01000213623047,
   "articles": [
@@ -404,6 +404,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Imports-Push-Indias-Crude-Stocks-to-Near-1-Year-High.html",
+      "source": "OilPrice.com",
+      "title": "Soaring Imports Push India’s Crude Stocks to Near 1-Year High",
+      "summary": "インド6月原油輸入が過去最高となり、備蓄が1年ぶり高水準に達した。需要減少の可能性を示唆。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Soaring-Imports-Push-Indias-Crude-Stocks-to-Near-1-Year-High.html",
+      "pub": "Fri, 03 Jul 2026 08:00:00 -0500",
+      "pub_ts": 1783083600,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "在庫増加",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Denies-Directly-Exporting-Fuel-to-Russia-But-Admits-Traders-May-Be.html",
       "source": "OilPrice.com",
       "title": "India Denies Directly Exporting Fuel to Russia, But Admits Traders May Be",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "ロシア供給減少",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1um8719/how_will_khameneis_funeral_affect_oil_prices_this/",
-      "source": "Reddit r/oil",
-      "title": "How will Khamenei's funeral affect oil prices this week?",
-      "summary": "イランの最高指導者葬儀がWTI価格に与える影響について、Redditユーザーが不完全な情報で議論している。",
-      "link": "https://www.reddit.com/r/oil/comments/1um8719/how_will_khameneis_funeral_affect_oil_prices_this/",
-      "pub": "2026-07-03T08:00:18+00:00",
-      "pub_ts": 1783065618,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
       "verified": false,
