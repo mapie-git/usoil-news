@@ -313,7 +313,7 @@ def verify_predictions(conn):
 
 # ── JSON 生成（iOSアプリ用ネイティブAPI）───────────────────────────────
 
-def generate_json(articles, limit=DISPLAY_LIMIT, stats=None):
+def generate_json(articles, limit=DISPLAY_LIMIT, stats=None, wti_price=None):
     articles = sorted(articles, key=lambda x: -x.get("impact", 1))[:limit]
     now = datetime.now(JST)
     items = []
@@ -340,6 +340,7 @@ def generate_json(articles, limit=DISPLAY_LIMIT, stats=None):
     payload = {
         "updated_at": now.isoformat(),
         "accuracy": stats,
+        "wti_price": wti_price,
         "articles": items,
     }
     return json.dumps(payload, ensure_ascii=False, indent=2)
@@ -699,6 +700,9 @@ def main():
     stats = get_accuracy_stats(conn)
     print(f"表示候補プール: {len(articles)}件（直近{DISPLAY_WINDOW_DAYS}日）")
 
+    wti_price = fetch_wti_price()
+    print(f"WTI価格: {wti_price}")
+
     conn.close()
 
     html = generate_html(articles, stats=stats)
@@ -706,7 +710,7 @@ def main():
         f.write(html)
     print("docs/index.html を生成しました")
 
-    news_json = generate_json(articles, stats=stats)
+    news_json = generate_json(articles, stats=stats, wti_price=wti_price)
     with open("docs/news.json", "w", encoding="utf-8") as f:
         f.write(news_json)
     print("docs/news.json を生成しました")
