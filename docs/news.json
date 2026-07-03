@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T09:11:07.915890+09:00",
+  "updated_at": "2026-07-03T09:30:28.611254+09:00",
   "accuracy": {
     "total": 1,
     "correct": 1,
@@ -416,7 +416,7 @@
       "time_horizon": "medium",
       "main_factor": "市場構造変化",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
