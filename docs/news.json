@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-03T10:00:30.751857+09:00",
+  "updated_at": "2026-07-03T10:30:30.885878+09:00",
   "accuracy": {
-    "total": 1,
+    "total": 2,
     "correct": 1,
-    "rate": 100
+    "rate": 50
   },
-  "wti_price": 68.41000366210938,
+  "wti_price": 68.36000061035156,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Tehran-Is-Racing-the-Clock-to-Export-as-Much-Oil-as-Possible.html",
