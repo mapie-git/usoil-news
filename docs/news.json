@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-04T20:36:39.644480+09:00",
+  "updated_at": "2026-07-04T22:43:28.227132+09:00",
   "accuracy": {
-    "total": 67,
-    "correct": 16,
-    "rate": 24
+    "total": 69,
+    "correct": 18,
+    "rate": 26
   },
   "wti_price": 68.77999877929688,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
+      "source": "Reddit r/oil",
+      "title": "The footage of drones attack on St Petersburg oil terminal and Vysotsk port",
+      "summary": "サンクトペテルブルク油送施設とヴィソツク港がドローン攻撃を受けたとの映像報告。",
+      "link": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
+      "pub": "2026-07-04T12:06:49+00:00",
+      "pub_ts": 1783166809,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1umqvdt/oil_contracts_rebound_as_lebanon_is_under_attack/",
       "source": "Reddit r/oil",
@@ -78,6 +96,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/russia_hikes_june_subsidies_to_refiners-04-jul-2026-184058-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Russia Hikes June Subsidies to Refiners",
+      "summary": "ロシアが6月の製油所への補助金を前年比6倍以上に引き上げ、国内供給維持を強化。",
+      "link": "https://www.rigzone.com/news/wire/russia_hikes_june_subsidies_to_refiners-04-jul-2026-184058-article/?rss=true",
+      "pub": "Sat, 04 Jul 2026 12:00:00 GMT",
+      "pub_ts": 1783166400,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給維持政策",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1un4zs6/multiple_vessels_are_now_diverting_from_the/",
@@ -220,8 +256,8 @@
       "main_factor": "供給リスク低下、イラン核合意",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Set-for-Fourth-Straight-Weekly-Loss-as-Hormuz-Flows-Return.html",
@@ -368,42 +404,6 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Glut-Calls-May-Be-Getting-Ahead-of-Reality.html",
-      "source": "OilPrice.com",
-      "title": "Oil Glut Calls May Be Getting Ahead of Reality",
-      "summary": "ホルムズ海峡の流動回復報道により原油価格が下落。供給過剰懸念が浮上するも、イラン情勢リスクは残存",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Glut-Calls-May-Be-Getting-Ahead-of-Reality.html",
-      "pub": "Thu, 02 Jul 2026 11:00:00 -0500",
-      "pub_ts": 1783008000,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給回復による過剰感",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Russias-Fuel-Crisis-Spreads-to-Central-Asia-as-Drone-Strikes-Escalate.html",
-      "source": "OilPrice.com",
-      "title": "Russia's Fuel Crisis Spreads to Central Asia as Drone Strikes Escalate",
-      "summary": "ウクライナのドローン攻撃によるロシアの燃料危機がユーラシア地域に波及。地政学リスクは継続的だがロシア供給削減は既知",
-      "link": "https://oilprice.com/Energy/Energy-General/Russias-Fuel-Crisis-Spreads-to-Central-Asia-as-Drone-Strikes-Escalate.html",
-      "pub": "Thu, 02 Jul 2026 10:00:00 -0500",
-      "pub_ts": 1783004400,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://www.reddit.com/r/oil/comments/1un6mb3/can_someone_explain_to_me_how_russians_waiting_in/",
       "source": "Reddit r/oil",
       "title": "Can someone explain to me how Russians waiting in 2 day long lines in Moscow isn’t bullish for oil?",
@@ -417,7 +417,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "供給・需要観測",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
