@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-05T00:09:49.543365+09:00",
+  "updated_at": "2026-07-05T01:33:23.699978+09:00",
   "accuracy": {
-    "total": 73,
-    "correct": 18,
-    "rate": 25
+    "total": 79,
+    "correct": 19,
+    "rate": 24
   },
   "wti_price": 68.77999877929688,
   "articles": [
@@ -96,6 +96,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uncxaq/irans_irgc_has_completely_shut_down_the_usbacked/",
+      "source": "Reddit r/oil",
+      "title": "Iran's IRGC has completely shut down the US-backed Omani corridor in the Strait of Hormuz with its speedboat fleet, with not a single vessel using the corridor for more than half a day, per marine traffic data.",
+      "summary": "イラン革命防衛隊がホルムズ海峡の米国支援回廊を速艇で遮断。半日以上船舶通行なし",
+      "link": "https://www.reddit.com/r/oil/comments/1uncxaq/irans_irgc_has_completely_shut_down_the_usbacked/",
+      "pub": "2026-07-04T16:09:39+00:00",
+      "pub_ts": 1783181379,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク・海峡遮断",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1un9xd4/better_images_of_the_drone_strike_on_st/",
@@ -256,8 +274,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Citi-Oil-Could-Sink-to-60-as-Hormuz-Traffic-Normalizes.html",
@@ -386,24 +404,6 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Advances-New-California-Oil-Lease-Plans.html",
-      "source": "OilPrice.com",
-      "title": "Trump Administration Advances New California Oil Lease Plans",
-      "summary": "トランプ政権がカリフォルニア州の油ガス開発リース計画を進展。36,000エーカーで30日間意見募集期間開始",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Administration-Advances-New-California-Oil-Lease-Plans.html",
-      "pub": "Thu, 02 Jul 2026 12:30:00 -0500",
-      "pub_ts": 1783013400,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "米国内供給増加見通し",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://oilprice.com/Alternative-Energy/Wind-Power/Courts-and-Congress-Are-Undoing-Trumps-War-on-Wind-Power.html",
       "source": "OilPrice.com",
       "title": "Courts and Congress Are Undoing Trump's War on Wind Power",
@@ -417,7 +417,7 @@
       "time_horizon": "long",
       "main_factor": "再生可能エネルギー政策転換",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
