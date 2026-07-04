@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-04T13:21:11.127423+09:00",
+  "updated_at": "2026-07-04T16:23:59.927649+09:00",
   "accuracy": {
-    "total": 55,
-    "correct": 12,
-    "rate": 22
+    "total": 57,
+    "correct": 13,
+    "rate": 23
   },
   "wti_price": 68.77999877929688,
   "articles": [
@@ -274,8 +274,8 @@
       "main_factor": "供給ルート拡大",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.rigzone.com/news/wire/saudi_oil_exports_approach_prewar_levels-02-jul-2026-184045-article/?rss=true",
@@ -399,7 +399,7 @@
       "time_horizon": "long",
       "main_factor": "戦略備蓄減少",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
