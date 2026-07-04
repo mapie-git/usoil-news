@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-04T16:23:59.927649+09:00",
+  "updated_at": "2026-07-04T18:37:48.983040+09:00",
   "accuracy": {
-    "total": 57,
-    "correct": 13,
-    "rate": 23
+    "total": 63,
+    "correct": 15,
+    "rate": 24
   },
   "wti_price": 68.77999877929688,
   "articles": [
@@ -40,8 +40,8 @@
       "main_factor": "供給確保（新規発見）",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Tehran-Is-Racing-the-Clock-to-Export-as-Much-Oil-as-Possible.html",
@@ -238,8 +238,8 @@
       "main_factor": "需要増加（冷房需要）",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.rigzone.com/news/wire/totalenergies_offers_millions_of_iraqi_barrels_to_asia-03-jul-2026-184050-article/?rss=true",
@@ -256,8 +256,8 @@
       "main_factor": "供給過剰",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Alberta-and-Ottawa-Greenlight-New-Pacific-Pipeline.html",
