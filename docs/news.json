@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-05T03:05:39.860538+09:00",
+  "updated_at": "2026-07-05T04:46:19.079433+09:00",
   "accuracy": {
-    "total": 80,
-    "correct": 20,
+    "total": 84,
+    "correct": 21,
     "rate": 25
   },
   "wti_price": 68.77999877929688,
@@ -98,6 +98,42 @@
       "correct": true
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1unghfc/intermediate_term_impacts_of_iran_war_on_prices/",
+      "source": "Reddit r/oil",
+      "title": "Intermediate term impacts of Iran war on prices of hydrocarbon products",
+      "summary": "イラン攻撃でペルシャ湾の製油所が被害。休戦が継続すれば段階的に影響軽減される見込み。",
+      "link": "https://www.reddit.com/r/oil/comments/1unghfc/intermediate_term_impacts_of_iran_war_on_prices/",
+      "pub": "2026-07-04T18:34:17+00:00",
+      "pub_ts": 1783190057,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給制約",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1ung9p5/iran_rejects_trumps_demand_of_a_tollfree_strait/",
+      "source": "Reddit r/oil",
+      "title": "Iran rejects Trump's demand of a toll-free Strait of Hormuz, announcing China will be granted \"special considerations\" on Iran's planned Strait of Hormuz fees at the World Peace Forum in Beijing",
+      "summary": "イランがホルムズ海峡の通行料徴収を計画し、中国に優遇措置を提供。地政学リスク要因。",
+      "link": "https://www.reddit.com/r/oil/comments/1ung9p5/iran_rejects_trumps_demand_of_a_tollfree_strait/",
+      "pub": "2026-07-04T18:25:28+00:00",
+      "pub_ts": 1783189528,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uncxaq/irans_irgc_has_completely_shut_down_the_usbacked/",
       "source": "Reddit r/oil",
       "title": "Iran's IRGC has completely shut down the US-backed Omani corridor in the Strait of Hormuz with its speedboat fleet, with not a single vessel using the corridor for more than half a day, per marine traffic data.",
@@ -184,8 +220,8 @@
       "main_factor": "供給回復",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Metals/Commodities/Coppers-Next-Move-Depends-On-Washington-Not-The-Strait-Of-Hormuz.html",
@@ -202,8 +238,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Scrambles-for-Asian-Jet-Fuel-as-Crisis-Deepens.html",
@@ -417,42 +453,6 @@
       "time_horizon": "long",
       "main_factor": "長期的なエネルギー転換",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Alternative-Energy/Wind-Power/Courts-and-Congress-Are-Undoing-Trumps-War-on-Wind-Power.html",
-      "source": "OilPrice.com",
-      "title": "Courts and Congress Are Undoing Trump's War on Wind Power",
-      "summary": "米国の洋上風力政策の不確実性。トランプ政権がバイデン政権の支援方針を撤回予定。",
-      "link": "https://oilprice.com/Alternative-Energy/Wind-Power/Courts-and-Congress-Are-Undoing-Trumps-War-on-Wind-Power.html",
-      "pub": "Sat, 04 Jul 2026 10:00:00 -0500",
-      "pub_ts": 1783177200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "再生可能エネルギー政策転換",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1un6mb3/can_someone_explain_to_me_how_russians_waiting_in/",
-      "source": "Reddit r/oil",
-      "title": "Can someone explain to me how Russians waiting in 2 day long lines in Moscow isn’t bullish for oil?",
-      "summary": "ロシア市民が長蛇の列。米国石油輸出増。投稿者の価格下落への違和感表明。",
-      "link": "https://www.reddit.com/r/oil/comments/1un6mb3/can_someone_explain_to_me_how_russians_waiting_in/",
-      "pub": "2026-07-04T11:25:34+00:00",
-      "pub_ts": 1783164334,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "供給・需要観測",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
