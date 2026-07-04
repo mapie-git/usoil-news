@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-05T01:33:23.699978+09:00",
+  "updated_at": "2026-07-05T03:05:39.860538+09:00",
   "accuracy": {
-    "total": 79,
-    "correct": 19,
-    "rate": 24
+    "total": 80,
+    "correct": 20,
+    "rate": 25
   },
   "wti_price": 68.77999877929688,
   "articles": [
@@ -111,7 +111,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク・海峡遮断",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -220,8 +220,8 @@
       "main_factor": "供給不足、地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMVhmYVUwankydWhwMHI5MlBpZ0x4LTVSVU5CUkpIR005WHUwYUJzWVE5cXJNcW03b0U0NTVpRkd0Y0Y5aERxTmlsaWkyeVd0RFRITXFsR3JqSXpTLUxuOFA5RFdvM0p0cnQzdmdHXzRIZFp4RktET1JWU2RXZDhVRjJLN1VScmx6dXRLU0EtZzd2SXVBajdIb25BLTBLbldTcHFLcUo1d0tYd1dzdmpkZlZFRTBUWXF1OXBVaENrNHhhT2Uxc3ZoSVFnR1ZQUmZhVjExcV9jaUwzZWctZDhv?oc=5",
@@ -404,6 +404,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Alternative-Energy/Biofuels/Asia-Bets-on-Biofuels-to-Dodge-Middle-East-Oil-Shortages.html",
+      "source": "OilPrice.com",
+      "title": "Asia Bets on Biofuels to Dodge Middle East Oil Shortages",
+      "summary": "アジアのバイオ燃料開発への関心。長期的なエネルギー転換トレンドの報道で、短期的な需給変化なし",
+      "link": "https://oilprice.com/Alternative-Energy/Biofuels/Asia-Bets-on-Biofuels-to-Dodge-Middle-East-Oil-Shortages.html",
+      "pub": "Sat, 04 Jul 2026 12:00:00 -0500",
+      "pub_ts": 1783184400,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "長期的なエネルギー転換",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Alternative-Energy/Wind-Power/Courts-and-Congress-Are-Undoing-Trumps-War-on-Wind-Power.html",
       "source": "OilPrice.com",
       "title": "Courts and Congress Are Undoing Trump's War on Wind Power",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "ultra_short",
       "main_factor": "供給・需要観測",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1umz2e7/my_theory_on_where_this_ends_up_going_by_q4_2026/",
-      "source": "Reddit r/oil",
-      "title": "My theory on where this ends up going by Q4 2026.",
-      "summary": "SPR45年来低水準に到達との分析。個人の仮説段階で根拠限定的。",
-      "link": "https://www.reddit.com/r/oil/comments/1umz2e7/my_theory_on_where_this_ends_up_going_by_q4_2026/",
-      "pub": "2026-07-04T04:09:34+00:00",
-      "pub_ts": 1783138174,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "戦略備蓄減少",
       "reliability": "C",
       "is_new": false,
       "verified": false,
