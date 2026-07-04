@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-04T18:37:48.983040+09:00",
+  "updated_at": "2026-07-04T20:36:39.644480+09:00",
   "accuracy": {
-    "total": 63,
-    "correct": 15,
+    "total": 67,
+    "correct": 16,
     "rate": 24
   },
   "wti_price": 68.77999877929688,
@@ -78,6 +78,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1un4zs6/multiple_vessels_are_now_diverting_from_the/",
+      "source": "Reddit r/oil",
+      "title": "Multiple vessels are now diverting from the US-backed Omani corridor in the Strait of Hormuz to Iran's approved route after Iran's IRGC issued VHF radio warnings to all ships and deployed numerous patrol boats.",
+      "summary": "イラン革命防衛隊がホルムズ海峡でVHF警告。複数船舶がイラン承認ルートへ迂回。",
+      "link": "https://www.reddit.com/r/oil/comments/1un4zs6/multiple_vessels_are_now_diverting_from_the/",
+      "pub": "2026-07-04T09:50:27+00:00",
+      "pub_ts": 1783158627,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Oil-Production-Jumps-But-Gulf-Supply-Is-Still-Far-From-Normal.html",
@@ -220,8 +238,8 @@
       "main_factor": "供給増加、地政学リスク緩和",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/PJM-on-Maximum-Alert-to-Prevent-Outages-Amid-Extreme-Heat-Wave.html",
@@ -386,6 +404,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1un6mb3/can_someone_explain_to_me_how_russians_waiting_in/",
+      "source": "Reddit r/oil",
+      "title": "Can someone explain to me how Russians waiting in 2 day long lines in Moscow isn’t bullish for oil?",
+      "summary": "ロシア市民が長蛇の列。米国石油輸出増。投稿者の価格下落への違和感表明。",
+      "link": "https://www.reddit.com/r/oil/comments/1un6mb3/can_someone_explain_to_me_how_russians_waiting_in/",
+      "pub": "2026-07-04T11:25:34+00:00",
+      "pub_ts": 1783164334,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "供給・需要観測",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1umz2e7/my_theory_on_where_this_ends_up_going_by_q4_2026/",
       "source": "Reddit r/oil",
       "title": "My theory on where this ends up going by Q4 2026.",
@@ -417,42 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "戦略備蓄減少",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Colombias-Oil-and-Gas-Reserves-Keep-Shrinking.html",
-      "source": "OilPrice.com",
-      "title": "Colombia's Oil and Gas Reserves Keep Shrinking",
-      "summary": "コロンビアの石油埋蔵量が減少。低油価、地政学リスク、左派大統領の反石油政策により投資が減退",
-      "link": "https://oilprice.com/Energy/Energy-General/Colombias-Oil-and-Gas-Reserves-Keep-Shrinking.html",
-      "pub": "Fri, 03 Jul 2026 18:00:00 -0500",
-      "pub_ts": 1783119600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "long",
-      "main_factor": "供給減少（長期）",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/refiner_profits_are_soaring-03-jul-2026-184059-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Refiner Profits Are Soaring",
-      "summary": "米石油精製業者の利益率が数年ぶりの高水準。精製マージン拡大により需要強化の可能性",
-      "link": "https://www.rigzone.com/news/wire/refiner_profits_are_soaring-03-jul-2026-184059-article/?rss=true",
-      "pub": "Fri, 03 Jul 2026 20:00:00 GMT",
-      "pub_ts": 1783108800,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "精製需要強化",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
