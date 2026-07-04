@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-04T22:43:28.227132+09:00",
+  "updated_at": "2026-07-05T00:09:49.543365+09:00",
   "accuracy": {
-    "total": 69,
+    "total": 73,
     "correct": 18,
-    "rate": 26
+    "rate": 25
   },
   "wti_price": 68.77999877929688,
   "articles": [
@@ -96,6 +96,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1un9xd4/better_images_of_the_drone_strike_on_st/",
+      "source": "Reddit r/oil",
+      "title": "Better images of the drone strike on St. Petersburg oil terminal",
+      "summary": "セントペテルブルク油田施設への無人機攻撃。ロシア石油供給への脅威が示唆される。",
+      "link": "https://www.reddit.com/r/oil/comments/1un9xd4/better_images_of_the_drone_strike_on_st/",
+      "pub": "2026-07-04T14:04:42+00:00",
+      "pub_ts": 1783173882,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク・供給懸念",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.rigzone.com/news/wire/russia_hikes_june_subsidies_to_refiners-04-jul-2026-184058-article/?rss=true",
@@ -386,22 +404,22 @@
       "correct": false
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uln7ey/irans_floating_oil_stockpile_swells_as_major/",
-      "source": "Reddit r/oil",
-      "title": "Iran’s Floating Oil Stockpile Swells as Major Buyers Stay Away",
-      "summary": "イラン沿岸の浮遊在庫が20百万バレル超に増加。米制裁再開前に売却困難な状況。",
-      "link": "https://www.reddit.com/r/oil/comments/1uln7ey/irans_floating_oil_stockpile_swells_as_major/",
-      "pub": "2026-07-02T16:33:53+00:00",
-      "pub_ts": 1783010033,
-      "impact": 3,
+      "id": "https://oilprice.com/Alternative-Energy/Wind-Power/Courts-and-Congress-Are-Undoing-Trumps-War-on-Wind-Power.html",
+      "source": "OilPrice.com",
+      "title": "Courts and Congress Are Undoing Trump's War on Wind Power",
+      "summary": "米国の洋上風力政策の不確実性。トランプ政権がバイデン政権の支援方針を撤回予定。",
+      "link": "https://oilprice.com/Alternative-Energy/Wind-Power/Courts-and-Congress-Are-Undoing-Trumps-War-on-Wind-Power.html",
+      "pub": "Sat, 04 Jul 2026 10:00:00 -0500",
+      "pub_ts": 1783177200,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給過剰",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "再生可能エネルギー政策転換",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1un6mb3/can_someone_explain_to_me_how_russians_waiting_in/",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "long",
-      "main_factor": "戦略備蓄減少",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1umvhz4/were_hurdling_towards_the_wall_unless_thing/",
-      "source": "Reddit r/oil",
-      "title": "We're hurdling towards the wall unless thing radically improve soon': Nuttall on oil",
-      "summary": "SPR枯渇とグローバル需給逼迫により原油は過小評価との指摘。ただしReddit発信の個人観測。",
-      "link": "https://www.reddit.com/r/oil/comments/1umvhz4/were_hurdling_towards_the_wall_unless_thing/",
-      "pub": "2026-07-04T01:09:45+00:00",
-      "pub_ts": 1783127385,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
       "main_factor": "戦略備蓄減少",
       "reliability": "C",
       "is_new": false,
