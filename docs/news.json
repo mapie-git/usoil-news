@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-05T07:29:34.053349+09:00",
+  "updated_at": "2026-07-05T08:37:05.449978+09:00",
   "accuracy": {
-    "total": 86,
-    "correct": 21,
+    "total": 90,
+    "correct": 22,
     "rate": 24
   },
   "wti_price": 68.77999877929688,
@@ -40,8 +40,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.rigzone.com/news/exxonmobil_qatarenergy_affirm_commerciality_of_cyprus_discoveries-03-jul-2026-184052-article/?rss=true",
@@ -292,8 +292,8 @@
       "main_factor": "地政学リスク、経済指標",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Geopolitics/International/Russia-Escalates-Kyiv-Strikes-Days-Before-NATO-Summit-Showdown.html",
@@ -422,6 +422,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Energy/Energy-General/Dip-in-US-LNG-Imports-to-EU-Spells-Trouble-for-Trade-Deal.html",
+      "source": "OilPrice.com",
+      "title": "Dip in U.S. LNG Imports to EU Spells Trouble for Trade Deal",
+      "summary": "米国のEU向けLNG輸出減少。ロシア制裁とトランプ政権の方針でEUが米LNG購入を削減。",
+      "link": "https://oilprice.com/Energy/Energy-General/Dip-in-US-LNG-Imports-to-EU-Spells-Trouble-for-Trade-Deal.html",
+      "pub": "Sat, 04 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1783206000,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "LNG輸出減少",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1unlhrk/lapid_israel_should_have_bombed_irans_oil_energy/",
       "source": "Reddit r/oil",
       "title": "Lapid: Israel should have bombed Iran’s oil, energy infrastructure during war",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Alternative-Energy/Biofuels/Asia-Bets-on-Biofuels-to-Dodge-Middle-East-Oil-Shortages.html",
-      "source": "OilPrice.com",
-      "title": "Asia Bets on Biofuels to Dodge Middle East Oil Shortages",
-      "summary": "アジアのバイオ燃料開発への関心。長期的なエネルギー転換トレンドの報道で、短期的な需給変化なし",
-      "link": "https://oilprice.com/Alternative-Energy/Biofuels/Asia-Bets-on-Biofuels-to-Dodge-Middle-East-Oil-Shortages.html",
-      "pub": "Sat, 04 Jul 2026 12:00:00 -0500",
-      "pub_ts": 1783184400,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "長期的なエネルギー転換",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
