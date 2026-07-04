@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T04:46:19.079433+09:00",
+  "updated_at": "2026-07-05T06:03:16.057698+09:00",
   "accuracy": {
-    "total": 84,
+    "total": 85,
     "correct": 21,
     "rate": 25
   },
@@ -80,22 +80,22 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Tightens-Grip-on-Strait-of-Hormuz-Tanker-Traffic.html",
-      "source": "OilPrice.com",
-      "title": "Iran Tightens Grip on Strait of Hormuz Tanker Traffic",
-      "summary": "イランがホルムズ海峡の石油タンカー航行をテヘランが承認するルート限定に警告。供給リスク上昇。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Tightens-Grip-on-Strait-of-Hormuz-Tanker-Traffic.html",
-      "pub": "Thu, 02 Jul 2026 13:30:00 -0500",
-      "pub_ts": 1783017000,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://www.reddit.com/r/oil/comments/1uniy3y/us_officials_believed_israel_was_plotting_to_kill/",
+      "source": "Reddit r/oil",
+      "title": "U.S. Officials Believed Israel Was Plotting to Kill Iranian Negotiators",
+      "summary": "イスラエルがイラン交渉官暗殺計画との報道。地政学リスク上昇で原油相場に上方圧力",
+      "link": "https://www.reddit.com/r/oil/comments/1uniy3y/us_officials_believed_israel_was_plotting_to_kill/",
+      "pub": "2026-07-04T20:17:23+00:00",
+      "pub_ts": 1783196243,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
-      "reliability": "B",
+      "reliability": "C",
       "is_new": false,
-      "verified": true,
-      "correct": true
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1unghfc/intermediate_term_impacts_of_iran_war_on_prices/",
