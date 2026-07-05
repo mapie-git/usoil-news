@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T01:36:01.354706+09:00",
+  "updated_at": "2026-07-06T02:00:33.911880+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -350,22 +350,22 @@
       "correct": true
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/PJM-on-Maximum-Alert-to-Prevent-Outages-Amid-Extreme-Heat-Wave.html",
+      "id": "https://oilprice.com/Energy/Energy-General/Starmer-Out-Burnham-In-What-Changes-for-UK-Energy-Policy.html",
       "source": "OilPrice.com",
-      "title": "PJM on Maximum Alert to Prevent Outages Amid Extreme Heat Wave",
-      "summary": "米国で極度の熱波に対応し電力最大供給警報。石油需要増加の可能性",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/PJM-on-Maximum-Alert-to-Prevent-Outages-Amid-Extreme-Heat-Wave.html",
-      "pub": "Fri, 03 Jul 2026 04:00:00 -0500",
-      "pub_ts": 1783069200,
-      "impact": 3,
+      "title": "Starmer Out, Burnham In: What Changes for UK Energy Policy?",
+      "summary": "英国首相交代の可能性について。Andy Burnhamが労働党指導者・首相になる可能性が高まっている。",
+      "link": "https://oilprice.com/Energy/Energy-General/Starmer-Out-Burnham-In-What-Changes-for-UK-Energy-Policy.html",
+      "pub": "Sun, 05 Jul 2026 12:00:00 -0500",
+      "pub_ts": 1783270800,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "需要増加（冷房需要）",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "政治変動",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uo345d/oil_prices_are_falling_but_opec_plus_pledges_to/",
