@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T22:54:25.089883+09:00",
+  "updated_at": "2026-07-06T00:00:30.780683+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -368,22 +368,22 @@
       "correct": false
     },
     {
-      "id": "https://www.rigzone.com/news/wire/totalenergies_offers_millions_of_iraqi_barrels_to_asia-03-jul-2026-184050-article/?rss=true",
-      "source": "Rigzone",
-      "title": "TotalEnergies Offers Millions of Iraqi Barrels to Asia",
-      "summary": "TotalEnergiesがイラク産原油をアジア向けに大量提供。供給過剰圧力が強まる。",
-      "link": "https://www.rigzone.com/news/wire/totalenergies_offers_millions_of_iraqi_barrels_to_asia-03-jul-2026-184050-article/?rss=true",
-      "pub": "Fri, 03 Jul 2026 07:52:55 GMT",
-      "pub_ts": 1783065175,
-      "impact": 3,
+      "id": "https://www.reddit.com/r/oil/comments/1uo345d/oil_prices_are_falling_but_opec_plus_pledges_to/",
+      "source": "Reddit r/oil",
+      "title": "Oil Prices Are Falling, but OPEC Plus Pledges to Pump More",
+      "summary": "OPEC+が増産を誓約。市場心理的には弱気だが、既知情報の繰り返し可能性あり。",
+      "link": "https://www.reddit.com/r/oil/comments/1uo345d/oil_prices_are_falling_but_opec_plus_pledges_to/",
+      "pub": "2026-07-05T14:07:51+00:00",
+      "pub_ts": 1783260471,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bearish",
       "time_horizon": "short",
-      "main_factor": "供給過剰",
-      "reliability": "B",
+      "main_factor": "供給増加",
+      "reliability": "C",
       "is_new": false,
-      "verified": true,
-      "correct": true
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1unu1d3/why_crude_oil_prices_are_falling/",
