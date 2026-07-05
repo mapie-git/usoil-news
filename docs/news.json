@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T03:30:29.853246+09:00",
+  "updated_at": "2026-07-06T04:00:30.104833+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -332,22 +332,22 @@
       "correct": true
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Set-for-Fourth-Straight-Weekly-Loss-as-Hormuz-Flows-Return.html",
+      "id": "https://oilprice.com/Energy/Natural-Gas/The-Era-of-Cheap-US-Natural-Gas-May-Be-Coming-to-an-End.html",
       "source": "OilPrice.com",
-      "title": "Oil Set for Fourth Straight Weekly Loss as Hormuz Flows Return",
-      "summary": "ホルムズ海峡の暫定的な再開と石油流入増加により、WTIは4週連続の週間下落を記録見込み",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Set-for-Fourth-Straight-Weekly-Loss-as-Hormuz-Flows-Return.html",
-      "pub": "Fri, 03 Jul 2026 05:00:00 -0500",
-      "pub_ts": 1783072800,
-      "impact": 3,
+      "title": "The Era of Cheap U.S. Natural Gas May Be Coming to an End",
+      "summary": "米国天然ガス価格が2035年まで上昇見通し。AI関連需要とLNG輸出拡大が支援要因",
+      "link": "https://oilprice.com/Energy/Natural-Gas/The-Era-of-Cheap-US-Natural-Gas-May-Be-Coming-to-an-End.html",
+      "pub": "Sun, 05 Jul 2026 14:00:00 -0500",
+      "pub_ts": 1783278000,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給増加、地政学リスク緩和",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "需要増加、LNG輸出",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uo8p36/yahoo_finance_regardless_of_timing_one_thing_is/",
