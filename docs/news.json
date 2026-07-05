@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T04:00:30.104833+09:00",
+  "updated_at": "2026-07-06T04:30:27.507053+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -345,7 +345,7 @@
       "time_horizon": "long",
       "main_factor": "需要増加、LNG輸出",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
