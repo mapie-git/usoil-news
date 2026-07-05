@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T08:00:36.142693+09:00",
+  "updated_at": "2026-07-06T08:30:45.075412+09:00",
   "accuracy": {
     "total": 110,
     "correct": 25,
     "rate": 23
   },
-  "wti_price": 68.33999633789062,
+  "wti_price": 68.30000305175781,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -332,6 +332,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uog9pw/weekly_megathread_july_05_2026_us_blockade_of_the/",
+      "source": "Reddit r/oil",
+      "title": "Weekly MEGATHREAD July 05, 2026 : US Blockade of the Strait of Hormuz is LIVE – All tanker drama, oil panic, missile hits, Iran retaliation posts belong HERE",
+      "summary": "Redditの週間スレッド。ホルムズ海峡封鎖について情報集約するが、具体的ニュースではなく掲示板での議論スペース",
+      "link": "https://www.reddit.com/r/oil/comments/1uog9pw/weekly_megathread_july_05_2026_us_blockade_of_the/",
+      "pub": "2026-07-05T23:01:02+00:00",
+      "pub_ts": 1783292462,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/Big-Techs-3-Trillion-Struggle-to-Secure-Enough-Electricity.html",
       "source": "OilPrice.com",
       "title": "Big Tech’s $3 Trillion Struggle to Secure Enough Electricity",
@@ -345,7 +363,7 @@
       "time_horizon": "long",
       "main_factor": "エネルギー転換",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "供給増加",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1unu1d3/why_crude_oil_prices_are_falling/",
-      "source": "Reddit r/oil",
-      "title": "Why crude oil prices are falling?",
-      "summary": "Reddit投稿。SPR放出と中国輸入減が一時的で、海峡通行に不確実性がある点を指摘。",
-      "link": "https://www.reddit.com/r/oil/comments/1unu1d3/why_crude_oil_prices_are_falling/",
-      "pub": "2026-07-05T05:44:08+00:00",
-      "pub_ts": 1783230248,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給・需要観測",
       "reliability": "C",
       "is_new": false,
       "verified": false,
