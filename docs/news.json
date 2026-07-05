@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T03:07:31.768294+09:00",
+  "updated_at": "2026-07-06T03:30:29.853246+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -363,7 +363,7 @@
       "time_horizon": "medium",
       "main_factor": "供給過剰懸念",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
