@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-05T08:37:05.449978+09:00",
+  "updated_at": "2026-07-05T12:53:08.813705+09:00",
   "accuracy": {
-    "total": 90,
-    "correct": 22,
-    "rate": 24
+    "total": 91,
+    "correct": 23,
+    "rate": 25
   },
   "wti_price": 68.77999877929688,
   "articles": [
@@ -57,24 +57,6 @@
       "time_horizon": "medium",
       "main_factor": "供給確保（新規発見）",
       "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Tehran-Is-Racing-the-Clock-to-Export-as-Much-Oil-as-Possible.html",
-      "source": "OilPrice.com",
-      "title": "Tehran Is Racing the Clock to Export as Much Oil as Possible",
-      "summary": "イランが米国との60日間交渉期間中に原油輸出を急速に増加させている。制裁解除により供給増加が確定的。",
-      "link": "https://oilprice.com/Energy/Energy-General/Tehran-Is-Racing-the-Clock-to-Export-as-Much-Oil-as-Possible.html",
-      "pub": "Thu, 02 Jul 2026 17:00:00 -0500",
-      "pub_ts": 1783029600,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給増加",
-      "reliability": "B",
       "is_new": false,
       "verified": true,
       "correct": false
@@ -404,22 +386,40 @@
       "correct": false
     },
     {
-      "id": "https://www.rigzone.com/news/wire/saudi_oil_exports_approach_prewar_levels-02-jul-2026-184045-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Saudi Oil Exports Approach Pre-War Levels",
-      "summary": "サウジアラビアの原油輸出がイラン戦争前の水準に回復。供給増加がWTI価格下押し圧力となる可能性。",
-      "link": "https://www.rigzone.com/news/wire/saudi_oil_exports_approach_prewar_levels-02-jul-2026-184045-article/?rss=true",
-      "pub": "Thu, 02 Jul 2026 20:00:00 GMT",
-      "pub_ts": 1783022400,
-      "impact": 3,
+      "id": "https://www.reddit.com/r/oil/comments/1unp7dk/us_gasoline_stocks_are_way_low_and_trump_wants/",
+      "source": "Reddit r/oil",
+      "title": "US Gasoline Stocks are way low and Trump wants $2.50 gas?",
+      "summary": "米国ガソリン在庫が低水準でトランプ大統領が2.50ドルのガス価格を目指す動き",
+      "link": "https://www.reddit.com/r/oil/comments/1unp7dk/us_gasoline_stocks_are_way_low_and_trump_wants/",
+      "pub": "2026-07-05T01:13:04+00:00",
+      "pub_ts": 1783213984,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bearish",
       "time_horizon": "short",
-      "main_factor": "供給回復",
-      "reliability": "B",
+      "main_factor": "政策期待、需給逼迫",
+      "reliability": "C",
       "is_new": false,
-      "verified": true,
-      "correct": false
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1unolj6/us_oil_companies_see_big_profit_jump_gird_for/",
+      "source": "Reddit r/oil",
+      "title": "US oil companies see big profit jump, gird for clash over pump prices with Trump",
+      "summary": "米石油企業が利益増加、トランプとのガソリン価格問題で対立の可能性",
+      "link": "https://www.reddit.com/r/oil/comments/1unolj6/us_oil_companies_see_big_profit_jump_gird_for/",
+      "pub": "2026-07-05T00:40:55+00:00",
+      "pub_ts": 1783212055,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "政策期待、価格圧力",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Dip-in-US-LNG-Imports-to-EU-Spells-Trouble-for-Trade-Deal.html",
