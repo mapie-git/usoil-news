@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T20:56:09.664631+09:00",
+  "updated_at": "2026-07-05T22:54:25.089883+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -386,24 +386,6 @@
       "correct": true
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Alberta-and-Ottawa-Greenlight-New-Pacific-Pipeline.html",
-      "source": "OilPrice.com",
-      "title": "Alberta and Ottawa Greenlight New Pacific Pipeline",
-      "summary": "カナダがアルバータ州からカナダ太平洋沿岸への新規パイプライン建設を正式承認。アジア市場へのアクセス拡大。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Alberta-and-Ottawa-Greenlight-New-Pacific-Pipeline.html",
-      "pub": "Fri, 03 Jul 2026 02:00:00 -0500",
-      "pub_ts": 1783062000,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "供給ルート拡大",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://www.reddit.com/r/oil/comments/1unu1d3/why_crude_oil_prices_are_falling/",
       "source": "Reddit r/oil",
       "title": "Why crude oil prices are falling?",
@@ -453,6 +435,24 @@
       "time_horizon": "medium",
       "main_factor": "政策期待、価格圧力",
       "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Dip-in-US-LNG-Imports-to-EU-Spells-Trouble-for-Trade-Deal.html",
+      "source": "OilPrice.com",
+      "title": "Dip in U.S. LNG Imports to EU Spells Trouble for Trade Deal",
+      "summary": "米国のEU向けLNG輸出減少。ロシア制裁とトランプ政権の方針でEUが米LNG購入を削減。",
+      "link": "https://oilprice.com/Energy/Energy-General/Dip-in-US-LNG-Imports-to-EU-Spells-Trouble-for-Trade-Deal.html",
+      "pub": "Sat, 04 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1783206000,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "LNG輸出減少",
+      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
