@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T06:00:33.947086+09:00",
+  "updated_at": "2026-07-06T06:07:12.281872+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -42,6 +42,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa2trZVhQdG9LaWdrYlNObXA5R0pNcy1uc3otUFFlMXB4SW9aLXFVRW9wanE2b3VydTZDTnNsWXFwZ2pCUk1hV3ZMYllScE42WEZFWjRqN1Etdkg2RGZqbFozNDRGWVA0RVRHbXhOcjh5dG1UbzA3V3V0RFdyR0VFa3dmRzhqMUJaeGd4OWp2TVdoWVN2ekhhSUJWSFoxbXo4eElfdHZRUl83Y1hEYjBqRDc2RWlralVTWFA3Z29YYU1rWkFrWnY2WTRxQQ?oc=5",
+      "source": "Google News",
+      "title": "Oil Prices to Extend Decline as Higher OPEC Supply and Weak Global Demand Pressure Crude - FXLeaders",
+      "summary": "OPEC供給増加と世界的需要減少により、油価下押し圧力が続く見通し",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa2trZVhQdG9LaWdrYlNObXA5R0pNcy1uc3otUFFlMXB4SW9aLXFVRW9wanE2b3VydTZDTnNsWXFwZ2pCUk1hV3ZMYllScE42WEZFWjRqN1Etdkg2RGZqbFozNDRGWVA0RVRHbXhOcjh5dG1UbzA3V3V0RFdyR0VFa3dmRzhqMUJaeGd4OWp2TVdoWVN2ekhhSUJWSFoxbXo4eElfdHZRUl83Y1hEYjBqRDc2RWlralVTWFA3Z29YYU1rWkFrWnY2WTRxQQ?oc=5",
+      "pub": "Sun, 05 Jul 2026 20:46:07 GMT",
+      "pub_ts": 1783284367,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加、需要減少",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uo81gs/wsj_a_sudden_glut_of_oil_threatens_to_weaken/",
@@ -312,24 +330,6 @@
       "is_new": false,
       "verified": true,
       "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Citi-Oil-Could-Sink-to-60-as-Hormuz-Traffic-Normalizes.html",
-      "source": "OilPrice.com",
-      "title": "Citi: Oil Could Sink to $60 as Hormuz Traffic Normalizes",
-      "summary": "シティグループがホルムズ海峡の通常化とイラン核合意達成を予想し、ブレント原油が年末に60ドルまで下落する可能性を指摘",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Citi-Oil-Could-Sink-to-60-as-Hormuz-Traffic-Normalizes.html",
-      "pub": "Fri, 03 Jul 2026 07:00:00 -0500",
-      "pub_ts": 1783080000,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給リスク低下、イラン核合意",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Five-Energy-Stocks-Riding-Texass-Data-Center-Power-Boom.html",
