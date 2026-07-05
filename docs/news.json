@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T06:07:12.281872+09:00",
+  "updated_at": "2026-07-06T06:30:27.080274+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -57,7 +57,7 @@
       "time_horizon": "medium",
       "main_factor": "供給増加、需要減少",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -345,7 +345,7 @@
       "time_horizon": "medium",
       "main_factor": "電力需要増加",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
