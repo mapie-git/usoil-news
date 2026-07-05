@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T07:00:31.139925+09:00",
+  "updated_at": "2026-07-06T07:30:27.322313+09:00",
   "accuracy": {
-    "total": 91,
-    "correct": 23,
-    "rate": 25
+    "total": 110,
+    "correct": 25,
+    "rate": 23
   },
-  "wti_price": null,
+  "wti_price": 68.38999938964844,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -22,8 +22,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1umqvdt/oil_contracts_rebound_as_lebanon_is_under_attack/",
@@ -112,8 +112,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1unghfc/intermediate_term_impacts_of_iran_war_on_prices/",
@@ -130,8 +130,8 @@
       "main_factor": "供給制約",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ung9p5/iran_rejects_trumps_demand_of_a_tollfree_strait/",
@@ -148,8 +148,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uncxaq/irans_irgc_has_completely_shut_down_the_usbacked/",
@@ -166,8 +166,8 @@
       "main_factor": "地政学リスク・海峡遮断",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1un9xd4/better_images_of_the_drone_strike_on_st/",
@@ -184,8 +184,8 @@
       "main_factor": "地政学リスク・供給懸念",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.rigzone.com/news/wire/russia_hikes_june_subsidies_to_refiners-04-jul-2026-184058-article/?rss=true",
@@ -202,8 +202,8 @@
       "main_factor": "供給維持政策",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1un4zs6/multiple_vessels_are_now_diverting_from_the/",
@@ -220,8 +220,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Oil-Production-Jumps-But-Gulf-Supply-Is-Still-Far-From-Normal.html",
