@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T05:30:32.695697+09:00",
+  "updated_at": "2026-07-06T06:00:33.947086+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -332,6 +332,24 @@
       "correct": true
     },
     {
+      "id": "https://oilprice.com/Energy/Energy-General/Five-Energy-Stocks-Riding-Texass-Data-Center-Power-Boom.html",
+      "source": "OilPrice.com",
+      "title": "Five Energy Stocks Riding Texas's Data Center Power Boom",
+      "summary": "テキサス州のデータセンター需要増加が電力インフラ拡張を促進。石油需要への直接影響は限定的",
+      "link": "https://oilprice.com/Energy/Energy-General/Five-Energy-Stocks-Riding-Texass-Data-Center-Power-Boom.html",
+      "pub": "Sun, 05 Jul 2026 16:00:00 -0500",
+      "pub_ts": 1783285200,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "電力需要増加",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Natural-Gas/The-Era-of-Cheap-US-Natural-Gas-May-Be-Coming-to-an-End.html",
       "source": "OilPrice.com",
       "title": "The Era of Cheap U.S. Natural Gas May Be Coming to an End",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "政策期待、需給逼迫",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1unolj6/us_oil_companies_see_big_profit_jump_gird_for/",
-      "source": "Reddit r/oil",
-      "title": "US oil companies see big profit jump, gird for clash over pump prices with Trump",
-      "summary": "米石油企業が利益増加、トランプとのガソリン価格問題で対立の可能性",
-      "link": "https://www.reddit.com/r/oil/comments/1unolj6/us_oil_companies_see_big_profit_jump_gird_for/",
-      "pub": "2026-07-05T00:40:55+00:00",
-      "pub_ts": 1783212055,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "政策期待、価格圧力",
       "reliability": "C",
       "is_new": false,
       "verified": false,
