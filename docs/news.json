@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T07:32:16.135592+09:00",
+  "updated_at": "2026-07-06T08:00:36.142693+09:00",
   "accuracy": {
     "total": 110,
     "correct": 25,
     "rate": 23
   },
-  "wti_price": 68.77999877929688,
+  "wti_price": 68.33999633789062,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -332,6 +332,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Energy/Energy-General/Big-Techs-3-Trillion-Struggle-to-Secure-Enough-Electricity.html",
+      "source": "OilPrice.com",
+      "title": "Big Tech’s $3 Trillion Struggle to Secure Enough Electricity",
+      "summary": "ビッグテックの電力需要増加とエネルギー転換の長期トレンドについての総論的記事。原油の相対的地位低下を述べているが、具体的な需給変化は示唆していない。",
+      "link": "https://oilprice.com/Energy/Energy-General/Big-Techs-3-Trillion-Struggle-to-Secure-Enough-Electricity.html",
+      "pub": "Sun, 05 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1783292400,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "エネルギー転換",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/Five-Energy-Stocks-Riding-Texass-Data-Center-Power-Boom.html",
       "source": "OilPrice.com",
       "title": "Five Energy Stocks Riding Texas's Data Center Power Boom",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "供給・需要観測",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1unp7dk/us_gasoline_stocks_are_way_low_and_trump_wants/",
-      "source": "Reddit r/oil",
-      "title": "US Gasoline Stocks are way low and Trump wants $2.50 gas?",
-      "summary": "米国ガソリン在庫が低水準でトランプ大統領が2.50ドルのガス価格を目指す動き",
-      "link": "https://www.reddit.com/r/oil/comments/1unp7dk/us_gasoline_stocks_are_way_low_and_trump_wants/",
-      "pub": "2026-07-05T01:13:04+00:00",
-      "pub_ts": 1783213984,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "政策期待、需給逼迫",
       "reliability": "C",
       "is_new": false,
       "verified": false,
