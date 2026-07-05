@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T02:00:33.911880+09:00",
+  "updated_at": "2026-07-06T02:30:29.238915+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -44,22 +44,22 @@
       "correct": false
     },
     {
-      "id": "https://www.rigzone.com/news/exxonmobil_qatarenergy_affirm_commerciality_of_cyprus_discoveries-03-jul-2026-184052-article/?rss=true",
-      "source": "Rigzone",
-      "title": "ExxonMobil, QatarEnergy Affirm Commerciality of Cyprus Discoveries",
-      "summary": "ExxonMobil とQatarEnergyがキプロス東地中海ガス田の商業化宣言",
-      "link": "https://www.rigzone.com/news/exxonmobil_qatarenergy_affirm_commerciality_of_cyprus_discoveries-03-jul-2026-184052-article/?rss=true",
-      "pub": "Fri, 03 Jul 2026 09:23:25 GMT",
-      "pub_ts": 1783070605,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
+      "id": "https://www.reddit.com/r/oil/comments/1uo81gs/wsj_a_sudden_glut_of_oil_threatens_to_weaken/",
+      "source": "Reddit r/oil",
+      "title": "WSJ: A sudden glut of oil threatens to weaken Iran’s hand in talks",
+      "summary": "原油供給過剰がイラン核交渉での交渉力を弱体化させる可能性。供給増加が価格低下圧力となる見込み",
+      "link": "https://www.reddit.com/r/oil/comments/1uo81gs/wsj_a_sudden_glut_of_oil_threatens_to_weaken/",
+      "pub": "2026-07-05T17:28:06+00:00",
+      "pub_ts": 1783272486,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
       "time_horizon": "medium",
-      "main_factor": "供給確保（新規発見）",
-      "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "main_factor": "供給過剰",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1unzqc3/seven_opec_countries_just_raised_oil_output_again/",
@@ -363,7 +363,7 @@
       "time_horizon": "long",
       "main_factor": "政治変動",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
