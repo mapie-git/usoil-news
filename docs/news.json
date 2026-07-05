@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T19:20:44.306564+09:00",
+  "updated_at": "2026-07-05T20:56:09.664631+09:00",
   "accuracy": {
     "total": 91,
     "correct": 23,
@@ -60,6 +60,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1unzqc3/seven_opec_countries_just_raised_oil_output_again/",
+      "source": "Reddit r/oil",
+      "title": "Seven OPEC+ Countries Just Raised Oil Output Again, but the Barrels Cannot Get Out",
+      "summary": "OPEC+増産分が物理的に流出困難。ホルムズ海峡地政学リスクが供給制約を強化",
+      "link": "https://www.reddit.com/r/oil/comments/1unzqc3/seven_opec_countries_just_raised_oil_output_again/",
+      "pub": "2026-07-05T11:24:03+00:00",
+      "pub_ts": 1783250643,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク・供給制約",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uniy3y/us_officials_believed_israel_was_plotting_to_kill/",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "政策期待、価格圧力",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Dip-in-US-LNG-Imports-to-EU-Spells-Trouble-for-Trade-Deal.html",
-      "source": "OilPrice.com",
-      "title": "Dip in U.S. LNG Imports to EU Spells Trouble for Trade Deal",
-      "summary": "米国のEU向けLNG輸出減少。ロシア制裁とトランプ政権の方針でEUが米LNG購入を削減。",
-      "link": "https://oilprice.com/Energy/Energy-General/Dip-in-US-LNG-Imports-to-EU-Spells-Trouble-for-Trade-Deal.html",
-      "pub": "Sat, 04 Jul 2026 18:00:00 -0500",
-      "pub_ts": 1783206000,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "LNG輸出減少",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
