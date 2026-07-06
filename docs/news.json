@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T19:00:28.619158+09:00",
+  "updated_at": "2026-07-06T19:30:33.208733+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.41000366210938,
+  "wti_price": 68.23999786376953,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/the-price-of-peace-why-oil-is-quietly-stepping-back/",
@@ -350,6 +350,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uota24/doom_scenario_iran_attacks_via_navydrones_your/",
+      "source": "Reddit r/oil",
+      "title": "Doom scenario: Iran attacks via navy/drones - your plan B?",
+      "summary": "イランの報復脅威について個人の推測・懸念を共有。検証不十分で信頼性低い",
+      "link": "https://www.reddit.com/r/oil/comments/1uota24/doom_scenario_iran_attacks_via_navydrones_your/",
+      "pub": "2026-07-06T10:18:37+00:00",
+      "pub_ts": 1783333117,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/More-European-Investors-Oppose-Norways-Push-for-Arctic-Oil-Drilling.html",
       "source": "OilPrice.com",
       "title": "More European Investors Oppose Norway’s Push for Arctic Oil Drilling",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "供給減少予測",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uog9pw/weekly_megathread_july_05_2026_us_blockade_of_the/",
-      "source": "Reddit r/oil",
-      "title": "Weekly MEGATHREAD July 05, 2026 : US Blockade of the Strait of Hormuz is LIVE – All tanker drama, oil panic, missile hits, Iran retaliation posts belong HERE",
-      "summary": "Redditの週間スレッド。ホルムズ海峡封鎖について情報集約するが、具体的ニュースではなく掲示板での議論スペース",
-      "link": "https://www.reddit.com/r/oil/comments/1uog9pw/weekly_megathread_july_05_2026_us_blockade_of_the/",
-      "pub": "2026-07-05T23:01:02+00:00",
-      "pub_ts": 1783292462,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
       "verified": false,
