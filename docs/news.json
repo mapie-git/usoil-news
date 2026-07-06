@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T05:57:26.549497+09:00",
+  "updated_at": "2026-07-07T06:00:31.038173+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.6500015258789,
+  "wti_price": 68.66999816894531,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/saudi_price_cut_sends_oil_lower-06-jul-2026-184071-article/?rss=true",
@@ -368,6 +368,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Energy/Energy-General/Shell-And-ExxonMobil-Are-Betting-Billions-On-Nigerias-Deepwater-Comeback.html",
+      "source": "OilPrice.com",
+      "title": "Shell And ExxonMobil Are Betting Billions On Nigeria's Deepwater Comeback",
+      "summary": "ナイジェリアの深海油田とダンゴテ精製所への大型投資について。長期的な供給増加の可能性だが確実性は不明確。",
+      "link": "https://oilprice.com/Energy/Energy-General/Shell-And-ExxonMobil-Are-Betting-Billions-On-Nigerias-Deepwater-Comeback.html",
+      "pub": "Mon, 06 Jul 2026 16:00:00 -0500",
+      "pub_ts": 1783371600,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "供給増加の展望",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/North-America-Drove-Nearly-Half-Of-Global-Emissions-Growth-In-2025.html",
       "source": "OilPrice.com",
       "title": "North America Drove Nearly Half Of Global Emissions Growth In 2025",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "供給過剰",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1up35a9/is_this_widely_forecasted_oil_glut_based_on/",
-      "source": "Reddit r/oil",
-      "title": "Is this widely forecasted oil glut based on damage to refineries?",
-      "summary": "精製能力制約が供給過剰を招く可能性についての個人的考察。推測段階で根拠不足。",
-      "link": "https://www.reddit.com/r/oil/comments/1up35a9/is_this_widely_forecasted_oil_glut_based_on/",
-      "pub": "2026-07-06T16:56:28+00:00",
-      "pub_ts": 1783356988,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "medium",
-      "main_factor": "精製能力制約",
       "reliability": "C",
       "is_new": false,
       "verified": false,
