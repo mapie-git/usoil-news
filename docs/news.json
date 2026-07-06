@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T02:00:50.603454+09:00",
+  "updated_at": "2026-07-07T02:30:30.665728+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.26000213623047,
+  "wti_price": 68.33999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Washingtons-Plan-to-Neutralize-Irans-Hormuz-Leverage.html",
@@ -94,6 +94,24 @@
       "main_factor": "地政学リスク低下",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Windfall-Vanishes-as-Urals-Crashes-to-42-a-Barrel.html",
+      "source": "OilPrice.com",
+      "title": "Russia’s Oil Windfall Vanishes as Urals Crashes to $42 a Barrel",
+      "summary": "ロシア産ウラル原油が$41.66/bblまで下落。中東紛争前の水準に戻り、収益圧力が高まる。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Windfall-Vanishes-as-Urals-Crashes-to-42-a-Barrel.html",
+      "pub": "Mon, 06 Jul 2026 12:30:00 -0500",
+      "pub_ts": 1783359000,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給過剰圧力",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -296,24 +314,6 @@
       "correct": null
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1unzqc3/seven_opec_countries_just_raised_oil_output_again/",
-      "source": "Reddit r/oil",
-      "title": "Seven OPEC+ Countries Just Raised Oil Output Again, but the Barrels Cannot Get Out",
-      "summary": "OPEC+増産分が物理的に流出困難。ホルムズ海峡地政学リスクが供給制約を強化",
-      "link": "https://www.reddit.com/r/oil/comments/1unzqc3/seven_opec_countries_just_raised_oil_output_again/",
-      "pub": "2026-07-05T11:24:03+00:00",
-      "pub_ts": 1783250643,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク・供給制約",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://www.reddit.com/r/oil/comments/1up35ux/oil_prices_tumble_sparking_global_glut_fears/",
       "source": "Reddit r/oil",
       "title": "Oil prices tumble, sparking global glut fears",
@@ -327,7 +327,7 @@
       "time_horizon": "short",
       "main_factor": "供給過剰",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -345,7 +345,7 @@
       "time_horizon": "medium",
       "main_factor": "精製能力制約",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
