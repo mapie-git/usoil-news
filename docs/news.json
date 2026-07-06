@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T18:30:31.189121+09:00",
+  "updated_at": "2026-07-06T19:00:28.619158+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.4800033569336,
+  "wti_price": 68.41000366210938,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/the-price-of-peace-why-oil-is-quietly-stepping-back/",
@@ -75,7 +75,7 @@
       "time_horizon": "medium",
       "main_factor": "供給増加、地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
