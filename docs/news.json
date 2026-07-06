@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T11:30:29.709020+09:00",
+  "updated_at": "2026-07-06T12:00:31.526380+09:00",
   "accuracy": {
     "total": 111,
     "correct": 26,
     "rate": 23
   },
-  "wti_price": 69.05999755859375,
+  "wti_price": 68.80000305175781,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -42,6 +42,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNDJSWk5ON2pyX0hZcjFNaVVUUzY2TGdMd2I4eFp3YXpMc01mVElXVkRBeHlDWEVzTk45bnZVNE1iMmxXbkdvNWVza0FBMDBCUGtxdXh4Tzh1WjdQcjJwLUNaQWJrLUFnOVVCZC1HWE9nVWZvR0NycHl3aWZ2QWJvMEtEYWluYkYzazY5YVZacmxhNnVVRUlya1RmVThkOVpCdFRNN1c0SEpVMlc0WG5UX0NaaHJ6U1Jjb1c4M09XaGx5V0pFMzJMd1kxZXpycVhENGR6UG0xQnpHR00yVHpvU2NDOXRSSkNpV1FGQllnYnlrdw?oc=5",
+      "source": "Google News",
+      "title": "Oil Prices to Extend Decline as Discount ME Stockpile Selloff and Higher OPEC Supply Pressure Brent and WTI Crude - FXLeaders",
+      "summary": "中東在庫売却と高いOPEC供給圧力がWTI下落を継続させると予想",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNDJSWk5ON2pyX0hZcjFNaVVUUzY2TGdMd2I4eFp3YXpMc01mVElXVkRBeHlDWEVzTk45bnZVNE1iMmxXbkdvNWVza0FBMDBCUGtxdXh4Tzh1WjdQcjJwLUNaQWJrLUFnOVVCZC1HWE9nVWZvR0NycHl3aWZ2QWJvMEtEYWluYkYzazY5YVZacmxhNnVVRUlya1RmVThkOVpCdFRNN1c0SEpVMlc0WG5UX0NaaHJ6U1Jjb1c4M09XaGx5V0pFMzJMd1kxZXpycVhENGR6UG0xQnpHR00yVHpvU2NDOXRSSkNpV1FGQllnYnlrdw?oc=5",
+      "pub": "Mon, 06 Jul 2026 02:37:05 GMT",
+      "pub_ts": 1783305425,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "供給圧力、在庫売却",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa2trZVhQdG9LaWdrYlNObXA5R0pNcy1uc3otUFFlMXB4SW9aLXFVRW9wanE2b3VydTZDTnNsWXFwZ2pCUk1hV3ZMYllScE42WEZFWjRqN1Etdkg2RGZqbFozNDRGWVA0RVRHbXhOcjh5dG1UbzA3V3V0RFdyR0VFa3dmRzhqMUJaeGd4OWp2TVdoWVN2ekhhSUJWSFoxbXo4eElfdHZRUl83Y1hEYjBqRDc2RWlralVTWFA3Z29YYU1rWkFrWnY2WTRxQQ?oc=5",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給過剰懸念",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Starmer-Out-Burnham-In-What-Changes-for-UK-Energy-Policy.html",
-      "source": "OilPrice.com",
-      "title": "Starmer Out, Burnham In: What Changes for UK Energy Policy?",
-      "summary": "英国首相交代の可能性について。Andy Burnhamが労働党指導者・首相になる可能性が高まっている。",
-      "link": "https://oilprice.com/Energy/Energy-General/Starmer-Out-Burnham-In-What-Changes-for-UK-Energy-Policy.html",
-      "pub": "Sun, 05 Jul 2026 12:00:00 -0500",
-      "pub_ts": 1783270800,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "政治変動",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
