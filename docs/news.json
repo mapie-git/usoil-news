@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T01:39:20.170462+09:00",
+  "updated_at": "2026-07-07T02:00:50.603454+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.44000244140625,
+  "wti_price": 68.26000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Washingtons-Plan-to-Neutralize-Irans-Hormuz-Leverage.html",
@@ -314,6 +314,42 @@
       "correct": null
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1up35ux/oil_prices_tumble_sparking_global_glut_fears/",
+      "source": "Reddit r/oil",
+      "title": "Oil prices tumble, sparking global glut fears",
+      "summary": "原油価格下落と供給過剰懸念の後追い報道。既に市場に織り込まれた可能性が高い。",
+      "link": "https://www.reddit.com/r/oil/comments/1up35ux/oil_prices_tumble_sparking_global_glut_fears/",
+      "pub": "2026-07-06T16:57:03+00:00",
+      "pub_ts": 1783357023,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "供給過剰",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1up35a9/is_this_widely_forecasted_oil_glut_based_on/",
+      "source": "Reddit r/oil",
+      "title": "Is this widely forecasted oil glut based on damage to refineries?",
+      "summary": "精製能力制約が供給過剰を招く可能性についての個人的考察。推測段階で根拠不足。",
+      "link": "https://www.reddit.com/r/oil/comments/1up35a9/is_this_widely_forecasted_oil_glut_based_on/",
+      "pub": "2026-07-06T16:56:28+00:00",
+      "pub_ts": 1783356988,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "精製能力制約",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/UKs-667-Billion-Net-Zero-Bill-Could-Make-Britain-Uncompetitive.html",
       "source": "OilPrice.com",
       "title": "UK's $667 Billion Net-Zero Bill Could Make Britain Uncompetitive",
@@ -327,7 +363,7 @@
       "time_horizon": "long",
       "main_factor": "需要減少（長期的）",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -417,42 +453,6 @@
       "time_horizon": "short",
       "main_factor": "供給方針転換",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Geopolitics/Europe/Trump-to-Meet-Zelenskyy-at-NATO-Summit-as-Ukraine-War-Diplomacy-Resumes.html",
-      "source": "OilPrice.com",
-      "title": "Trump to Meet Zelenskyy at NATO Summit as Ukraine War Diplomacy Resumes",
-      "summary": "トランプ大統領とゼレンスキー大統領がNATO首脳会議で会談予定。ウクライナ戦争の外交交渉再開の動き",
-      "link": "https://oilprice.com/Geopolitics/Europe/Trump-to-Meet-Zelenskyy-at-NATO-Summit-as-Ukraine-War-Diplomacy-Resumes.html",
-      "pub": "Mon, 06 Jul 2026 09:00:00 -0500",
-      "pub_ts": 1783346400,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slowly-Recovers-Despite-Persistent-Risks.html",
-      "source": "OilPrice.com",
-      "title": "Hormuz Tanker Traffic Slowly Recovers Despite Persistent Risks",
-      "summary": "ホルムズ海峡のタンカー通航が回復基調だが、リスク要因は依然存在。供給途絶の懸念は後退。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slowly-Recovers-Despite-Persistent-Risks.html",
-      "pub": "Mon, 06 Jul 2026 08:30:00 -0500",
-      "pub_ts": 1783344600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
