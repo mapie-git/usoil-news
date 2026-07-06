@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T21:30:36.281712+09:00",
+  "updated_at": "2026-07-06T22:00:32.031923+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.33000183105469,
+  "wti_price": 68.3499984741211,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uotmmk/the_largest_single_flotilla_of_oil_tankers_and/",
@@ -78,6 +78,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uowbfz/russias_largest_oil_refinery_has_been_struck/",
+      "source": "Reddit r/oil",
+      "title": "Russia's Largest Oil Refinery Has Been Struck",
+      "summary": "ロシア最大の石油精製所が攻撃を受けた。供給面での懸念が生じるが、詳細不明で確度は低い。",
+      "link": "https://www.reddit.com/r/oil/comments/1uowbfz/russias_largest_oil_refinery_has_been_struck/",
+      "pub": "2026-07-06T12:45:20+00:00",
+      "pub_ts": 1783341920,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給途絶リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNWHRvdVdGWjduRTk1LTZSVHJiQlNWeFJYWkF4eTQwRXpHUklLSEpYTzZtNTFEbWE0X3pYczRXXzRUbkJnVzM2OV94RDJvQndXZkJLQkVYbDlXaHkxRGRzeEZiU2N6Q0RqQzBJeVJ4ay15TWFxUkMtbER1c2ZZRlh4ejVoc3p6d0VHU2tFRW43TXZWOGRvSE1nYTFTeWo1MDJXcEhwbjN6NkJ1SEUxR1Mzck84WXAxdl9SSEo0UmdKWDF3blgzazdUaGUtUVFORVl1TFBicjJ2Nk9Nc28?oc=5",
@@ -332,22 +350,22 @@
       "correct": false
     },
     {
-      "id": "https://www.rigzone.com/news/wire/russia_hikes_june_subsidies_to_refiners-04-jul-2026-184058-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Russia Hikes June Subsidies to Refiners",
-      "summary": "ロシアが6月の製油所への補助金を前年比6倍以上に引き上げ、国内供給維持を強化。",
-      "link": "https://www.rigzone.com/news/wire/russia_hikes_june_subsidies_to_refiners-04-jul-2026-184058-article/?rss=true",
-      "pub": "Sat, 04 Jul 2026 12:00:00 GMT",
-      "pub_ts": 1783166400,
-      "impact": 3,
+      "id": "https://www.reddit.com/r/oil/comments/1uowgdu/brent_is_below_morgan_stanleys_own_q3_target_on/",
+      "source": "Reddit r/oil",
+      "title": "Brent is below Morgan Stanley's own Q3 target on transit counts that don't distinguish backlog flush from fresh loadings, here's the vessel-level data",
+      "summary": "ブレント油の下落要因分析。主に在庫放出と解釈され、需給緩和を示唆。イラン産油は割高に。",
+      "link": "https://www.reddit.com/r/oil/comments/1uowgdu/brent_is_below_morgan_stanleys_own_q3_target_on/",
+      "pub": "2026-07-06T12:51:08+00:00",
+      "pub_ts": 1783342268,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給維持政策",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "time_horizon": "short",
+      "main_factor": "在庫放出・需給緩和",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Super-El-Nio-Could-Trigger-a-Major-Coal-Boom-in-India.html",
@@ -363,7 +381,7 @@
       "time_horizon": "long",
       "main_factor": "インド電力需要増加",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "long",
       "main_factor": "政策リスク・供給制約",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/tankers_cross_hormuz_near_oman-06-jul-2026-184061-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Tankers Cross Hormuz Near Oman",
-      "summary": "ホルムズ海峡のタンカー通航が回復傾向。一部船舶の迂回後の正常化を報道",
-      "link": "https://www.rigzone.com/news/wire/tankers_cross_hormuz_near_oman-06-jul-2026-184061-article/?rss=true",
-      "pub": "Mon, 06 Jul 2026 07:13:29 GMT",
-      "pub_ts": 1783322009,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク軽減",
       "reliability": "B",
       "is_new": false,
       "verified": false,
