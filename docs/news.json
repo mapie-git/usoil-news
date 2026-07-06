@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T08:30:29.185750+09:00",
+  "updated_at": "2026-07-07T08:39:36.902827+09:00",
   "accuracy": {
-    "total": 115,
+    "total": 116,
     "correct": 28,
     "rate": 24
   },
-  "wti_price": 68.83999633789062,
+  "wti_price": 68.77999877929688,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/saudi_price_cut_sends_oil_lower-06-jul-2026-184071-article/?rss=true",
