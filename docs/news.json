@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T14:00:31.304061+09:00",
+  "updated_at": "2026-07-06T14:30:30.292008+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.58999633789062,
+  "wti_price": 68.72000122070312,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -42,6 +42,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKLU9sd1kzV0pOaksxdVY2aERBWkhwVzRSX1VpRkhMVjhseno0bjdQUlctVDlBN3Uwd0JOaDYxZ1hvczktNHp3S0w4R2x0aHpXbGZHSm9HVDJ1UGdWZ0lUNWNRZXM1YWF0eGllMGk3d0psQQ?oc=5",
+      "source": "Google News",
+      "title": "WTI Edges Higher To Near $69.00 As OPEC+ Supply Concerns Offset Hormuz Stability - Bitcoin World",
+      "summary": "WTI原油が69ドル近辺に上昇。OPEC+の供給懸念がホルムズ海峡の安定性を相殺。",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKLU9sd1kzV0pOaksxdVY2aERBWkhwVzRSX1VpRkhMVjhseno0bjdQUlctVDlBN3Uwd0JOaDYxZ1hvczktNHp3S0w4R2x0aHpXbGZHSm9HVDJ1UGdWZ0lUNWNRZXM1YWF0eGllMGk3d0psQQ?oc=5",
+      "pub": "Mon, 06 Jul 2026 04:30:11 GMT",
+      "pub_ts": 1783312211,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給懸念、地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcWlRUGcyQzJISGkwLTh3LUJHZjNJYWlIM28yV25FWVdBaS14Zk1PVldxMjBubVYydXBKZ3lFbWh0UE53ZW5JVDRPeGFoZVd0THZFczREeTlZMDEzYmhULWwySTBxZnJjcUpORmFaLWNhZURQZ2haOVZZWjlwMmlxcXdLcVdDY1B6aVNDQjJXbUpqbDhkQkVlNDlBS3ZFdw?oc=5",
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "medium",
       "main_factor": "電力需要増加",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Natural-Gas/The-Era-of-Cheap-US-Natural-Gas-May-Be-Coming-to-an-End.html",
-      "source": "OilPrice.com",
-      "title": "The Era of Cheap U.S. Natural Gas May Be Coming to an End",
-      "summary": "米国天然ガス価格が2035年まで上昇見通し。AI関連需要とLNG輸出拡大が支援要因",
-      "link": "https://oilprice.com/Energy/Natural-Gas/The-Era-of-Cheap-US-Natural-Gas-May-Be-Coming-to-an-End.html",
-      "pub": "Sun, 05 Jul 2026 14:00:00 -0500",
-      "pub_ts": 1783278000,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "需要増加、LNG輸出",
       "reliability": "B",
       "is_new": false,
       "verified": false,
