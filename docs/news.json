@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T08:00:34.595570+09:00",
+  "updated_at": "2026-07-07T08:30:29.185750+09:00",
   "accuracy": {
     "total": 115,
     "correct": 28,
     "rate": 24
   },
-  "wti_price": 68.69999694824219,
+  "wti_price": 68.83999633789062,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/saudi_price_cut_sends_oil_lower-06-jul-2026-184071-article/?rss=true",
@@ -350,19 +350,19 @@
       "correct": null
     },
     {
-      "id": "https://www.hellenicshippingnews.com/from-backwardation-to-contango-european-crude-diffs-reflect-ample-supply/",
-      "source": "Hellenic Shipping",
-      "title": "From backwardation to contango: European crude diffs reflect ample supply",
-      "summary": "欧州の豊富な原油供給により、北海・地中海のスプレッド低下。供給余剰懸念。",
-      "link": "https://www.hellenicshippingnews.com/from-backwardation-to-contango-european-crude-diffs-reflect-ample-supply/",
-      "pub": "Sun, 05 Jul 2026 21:00:22 +0000",
-      "pub_ts": 1783285222,
+      "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkI2QThocHlWRUVKSHgtb2N1WmlUX2hDQ3MxZloycVItY3d4N2Nub2FTbWYzd1hPTlZXa2VPdEhfTGgxU2g3UlBrS0VvemRZTnI2SU9HZklMOEt4d2h1U1U2ZkpZT3dscE5SRzMtTHNqVXRGcy0yaWdXU3JxemdJRWNITEhVSkFSQnV0dnhKWlJWcF8xVWhNb0k4M1FaMDNtaHc?oc=5",
+      "source": "Google News",
+      "title": "Oil prices settle at pre-Iran war levels as crude output grows - Reuters",
+      "summary": "イラン紛争前の水準に落ち着き、原油生産が増加している。供給増加が価格を抑制。",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkI2QThocHlWRUVKSHgtb2N1WmlUX2hDQ3MxZloycVItY3d4N2Nub2FTbWYzd1hPTlZXa2VPdEhfTGgxU2g3UlBrS0VvemRZTnI2SU9HZklMOEt4d2h1U1U2ZkpZT3dscE5SRzMtTHNqVXRGcy0yaWdXU3JxemdJRWNITEhVSkFSQnV0dnhKWlJWcF8xVWhNb0k4M1FaMDNtaHc?oc=5",
+      "pub": "Mon, 06 Jul 2026 00:36:00 GMT",
+      "pub_ts": 1783298160,
       "impact": 3,
       "impact_group": "mid",
       "direction": "bearish",
       "time_horizon": "short",
-      "main_factor": "供給過剰",
-      "reliability": "B",
+      "main_factor": "供給増加",
+      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -381,7 +381,7 @@
       "time_horizon": "long",
       "main_factor": "産業政策",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
