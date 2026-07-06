@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T09:30:28.917779+09:00",
+  "updated_at": "2026-07-06T10:00:33.253829+09:00",
   "accuracy": {
     "total": 111,
     "correct": 26,
     "rate": 23
   },
-  "wti_price": 68.51000213623047,
+  "wti_price": 68.33999633789062,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -345,7 +345,7 @@
       "time_horizon": "medium",
       "main_factor": "供給減少予測",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
