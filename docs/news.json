@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T16:00:50.541630+09:00",
+  "updated_at": "2026-07-06T16:30:34.209946+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.81999969482422,
+  "wti_price": 68.43000030517578,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/the-price-of-peace-why-oil-is-quietly-stepping-back/",
@@ -363,7 +363,7 @@
       "time_horizon": "short",
       "main_factor": "LNG供給",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
