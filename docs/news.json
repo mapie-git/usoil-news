@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T06:00:31.038173+09:00",
+  "updated_at": "2026-07-07T06:30:29.069915+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.66999816894531,
+  "wti_price": 68.77999877929688,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/saudi_price_cut_sends_oil_lower-06-jul-2026-184071-article/?rss=true",
@@ -350,24 +350,6 @@
       "correct": null
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa2trZVhQdG9LaWdrYlNObXA5R0pNcy1uc3otUFFlMXB4SW9aLXFVRW9wanE2b3VydTZDTnNsWXFwZ2pCUk1hV3ZMYllScE42WEZFWjRqN1Etdkg2RGZqbFozNDRGWVA0RVRHbXhOcjh5dG1UbzA3V3V0RFdyR0VFa3dmRzhqMUJaeGd4OWp2TVdoWVN2ekhhSUJWSFoxbXo4eElfdHZRUl83Y1hEYjBqRDc2RWlralVTWFA3Z29YYU1rWkFrWnY2WTRxQQ?oc=5",
-      "source": "Google News",
-      "title": "Oil Prices to Extend Decline as Higher OPEC Supply and Weak Global Demand Pressure Crude - FXLeaders",
-      "summary": "OPEC供給増加と世界的需要減少により、油価下押し圧力が続く見通し",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa2trZVhQdG9LaWdrYlNObXA5R0pNcy1uc3otUFFlMXB4SW9aLXFVRW9wanE2b3VydTZDTnNsWXFwZ2pCUk1hV3ZMYllScE42WEZFWjRqN1Etdkg2RGZqbFozNDRGWVA0RVRHbXhOcjh5dG1UbzA3V3V0RFdyR0VFa3dmRzhqMUJaeGd4OWp2TVdoWVN2ekhhSUJWSFoxbXo4eElfdHZRUl83Y1hEYjBqRDc2RWlralVTWFA3Z29YYU1rWkFrWnY2WTRxQQ?oc=5",
-      "pub": "Sun, 05 Jul 2026 20:46:07 GMT",
-      "pub_ts": 1783284367,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給増加、需要減少",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://oilprice.com/Energy/Energy-General/Shell-And-ExxonMobil-Are-Betting-Billions-On-Nigerias-Deepwater-Comeback.html",
       "source": "OilPrice.com",
       "title": "Shell And ExxonMobil Are Betting Billions On Nigeria's Deepwater Comeback",
@@ -381,7 +363,7 @@
       "time_horizon": "long",
       "main_factor": "供給増加の展望",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -452,6 +434,24 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "供給過剰",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1up35a9/is_this_widely_forecasted_oil_glut_based_on/",
+      "source": "Reddit r/oil",
+      "title": "Is this widely forecasted oil glut based on damage to refineries?",
+      "summary": "精製能力制約が供給過剰を招く可能性についての個人的考察。推測段階で根拠不足。",
+      "link": "https://www.reddit.com/r/oil/comments/1up35a9/is_this_widely_forecasted_oil_glut_based_on/",
+      "pub": "2026-07-06T16:56:28+00:00",
+      "pub_ts": 1783356988,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "精製能力制約",
       "reliability": "C",
       "is_new": false,
       "verified": false,
