@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T23:00:36.817366+09:00",
+  "updated_at": "2026-07-06T23:30:40.600332+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.58000183105469,
+  "wti_price": 68.5199966430664,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uotmmk/the_largest_single_flotilla_of_oil_tankers_and/",
@@ -58,6 +58,24 @@
       "main_factor": "地政学リスク低下",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/fear-of-an-Oil-Glut-May-Be-Overblown-Top-Consultancy-Says.html",
+      "source": "OilPrice.com",
+      "title": "Fear of an Oil Glut May Be Overblown, Top Consultancy Says",
+      "summary": "ホルムズ海峡の原油流量が年末までに75%まで回復見込みも、米国-イラン緊張継続により価格下落は保証されず。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/fear-of-an-Oil-Glut-May-Be-Overblown-Top-Consultancy-Says.html",
+      "pub": "Mon, 06 Jul 2026 09:30:00 -0500",
+      "pub_ts": 1783348200,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "long",
+      "main_factor": "供給回復、地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -314,24 +332,6 @@
       "correct": false
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1un9xd4/better_images_of_the_drone_strike_on_st/",
-      "source": "Reddit r/oil",
-      "title": "Better images of the drone strike on St. Petersburg oil terminal",
-      "summary": "セントペテルブルク油田施設への無人機攻撃。ロシア石油供給への脅威が示唆される。",
-      "link": "https://www.reddit.com/r/oil/comments/1un9xd4/better_images_of_the_drone_strike_on_st/",
-      "pub": "2026-07-04T14:04:42+00:00",
-      "pub_ts": 1783173882,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク・供給懸念",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://oilprice.com/Geopolitics/Europe/Trump-to-Meet-Zelenskyy-at-NATO-Summit-as-Ukraine-War-Diplomacy-Resumes.html",
       "source": "OilPrice.com",
       "title": "Trump to Meet Zelenskyy at NATO Summit as Ukraine War Diplomacy Resumes",
@@ -345,7 +345,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
