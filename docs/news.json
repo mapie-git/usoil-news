@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T01:30:35.091905+09:00",
+  "updated_at": "2026-07-07T01:39:20.170462+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.43000030517578,
+  "wti_price": 68.44000244140625,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Washingtons-Plan-to-Neutralize-Irans-Hormuz-Leverage.html",
@@ -345,7 +345,7 @@
       "time_horizon": "medium",
       "main_factor": "供給増加",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -363,7 +363,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
