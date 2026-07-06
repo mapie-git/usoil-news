@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T20:00:37.373146+09:00",
+  "updated_at": "2026-07-06T20:30:33.036171+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.36000061035156,
+  "wti_price": 68.66999816894531,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uotmmk/the_largest_single_flotilla_of_oil_tankers_and/",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "供給制約の解除",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -363,7 +363,7 @@
       "time_horizon": "medium",
       "main_factor": "エネルギー需給構造の長期変化",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -381,7 +381,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "市場センチメント",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
