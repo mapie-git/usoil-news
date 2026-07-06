@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T06:30:29.069915+09:00",
+  "updated_at": "2026-07-07T07:00:32.758788+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
@@ -350,6 +350,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html",
+      "source": "OilPrice.com",
+      "title": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
+      "summary": "トランプ政権がガス価格引き上げ、大手石油メジャーが記録的利益を見込む。ホルムズ海峡閉鎖で原油価格が4年高水準。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html",
+      "pub": "Mon, 06 Jul 2026 17:00:00 -0500",
+      "pub_ts": 1783375200,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/Shell-And-ExxonMobil-Are-Betting-Billions-On-Nigerias-Deepwater-Comeback.html",
       "source": "OilPrice.com",
       "title": "Shell And ExxonMobil Are Betting Billions On Nigeria's Deepwater Comeback",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "供給過剰",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1up35a9/is_this_widely_forecasted_oil_glut_based_on/",
-      "source": "Reddit r/oil",
-      "title": "Is this widely forecasted oil glut based on damage to refineries?",
-      "summary": "精製能力制約が供給過剰を招く可能性についての個人的考察。推測段階で根拠不足。",
-      "link": "https://www.reddit.com/r/oil/comments/1up35a9/is_this_widely_forecasted_oil_glut_based_on/",
-      "pub": "2026-07-06T16:56:28+00:00",
-      "pub_ts": 1783356988,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "medium",
-      "main_factor": "精製能力制約",
       "reliability": "C",
       "is_new": false,
       "verified": false,
