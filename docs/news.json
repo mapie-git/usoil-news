@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T07:00:32.758788+09:00",
+  "updated_at": "2026-07-07T07:20:35.139491+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.77999877929688,
+  "wti_price": 68.66000366210938,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/saudi_price_cut_sends_oil_lower-06-jul-2026-184071-article/?rss=true",
@@ -128,6 +128,24 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク低下",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Ships-34-Million-Barrels-Through-Hormuz-Despite-Thin-Tanker-Traffic.html",
+      "source": "OilPrice.com",
+      "title": "Saudi Arabia Ships 34 Million Barrels Through Hormuz Despite Thin Tanker Traffic",
+      "summary": "サウジアラビアがホルムズ海峡を通じて3400万バレル輸出。船舶通航数は少ないが供給維持を示唆。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Ships-34-Million-Barrels-Through-Hormuz-Despite-Thin-Tanker-Traffic.html",
+      "pub": "Mon, 06 Jul 2026 15:30:00 -0500",
+      "pub_ts": 1783369800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "供給安定性確認",
       "reliability": "B",
       "is_new": false,
       "verified": false,
@@ -435,24 +453,6 @@
       "time_horizon": "long",
       "main_factor": "供給インフラ整備",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1up35ux/oil_prices_tumble_sparking_global_glut_fears/",
-      "source": "Reddit r/oil",
-      "title": "Oil prices tumble, sparking global glut fears",
-      "summary": "原油価格下落と供給過剰懸念の後追い報道。既に市場に織り込まれた可能性が高い。",
-      "link": "https://www.reddit.com/r/oil/comments/1up35ux/oil_prices_tumble_sparking_global_glut_fears/",
-      "pub": "2026-07-06T16:57:03+00:00",
-      "pub_ts": 1783357023,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給過剰",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
