@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T14:30:30.292008+09:00",
+  "updated_at": "2026-07-06T15:00:32.206237+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.72000122070312,
+  "wti_price": 68.80000305175781,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -386,6 +386,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Charges-Refiners-With-Gas-Price-Gouging.html",
+      "source": "OilPrice.com",
+      "title": "South Korea Charges Refiners With Gas Price Gouging",
+      "summary": "韓国検察が国内4社の精製業者をガソリン価格カルテルで起訴。170億ドルの被害。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Charges-Refiners-With-Gas-Price-Gouging.html",
+      "pub": "Mon, 06 Jul 2026 00:33:50 -0500",
+      "pub_ts": 1783316030,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "規制・法執行",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uoianp/low_price_production_destruction/",
       "source": "Reddit r/oil",
       "title": "Low price = production destruction",
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "long",
       "main_factor": "エネルギー転換",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Five-Energy-Stocks-Riding-Texass-Data-Center-Power-Boom.html",
-      "source": "OilPrice.com",
-      "title": "Five Energy Stocks Riding Texas's Data Center Power Boom",
-      "summary": "テキサス州のデータセンター需要増加が電力インフラ拡張を促進。石油需要への直接影響は限定的",
-      "link": "https://oilprice.com/Energy/Energy-General/Five-Energy-Stocks-Riding-Texass-Data-Center-Power-Boom.html",
-      "pub": "Sun, 05 Jul 2026 16:00:00 -0500",
-      "pub_ts": 1783285200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "medium",
-      "main_factor": "電力需要増加",
       "reliability": "B",
       "is_new": false,
       "verified": false,
