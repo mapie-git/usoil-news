@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T09:11:18.034278+09:00",
+  "updated_at": "2026-07-06T09:30:28.917779+09:00",
   "accuracy": {
     "total": 111,
     "correct": 26,
     "rate": 23
   },
-  "wti_price": 68.22000122070312,
+  "wti_price": 68.51000213623047,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -332,6 +332,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uoianp/low_price_production_destruction/",
+      "source": "Reddit r/oil",
+      "title": "Low price = production destruction",
+      "summary": "低油価が投資削減を招き、生産減少とSPR放出と相まって供給逼迫をもたらすという個人予測",
+      "link": "https://www.reddit.com/r/oil/comments/1uoianp/low_price_production_destruction/",
+      "pub": "2026-07-06T00:29:56+00:00",
+      "pub_ts": 1783297796,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "供給減少予測",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uog9pw/weekly_megathread_july_05_2026_us_blockade_of_the/",
       "source": "Reddit r/oil",
       "title": "Weekly MEGATHREAD July 05, 2026 : US Blockade of the Strait of Hormuz is LIVE – All tanker drama, oil panic, missile hits, Iran retaliation posts belong HERE",
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "long",
       "main_factor": "政治変動",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uo345d/oil_prices_are_falling_but_opec_plus_pledges_to/",
-      "source": "Reddit r/oil",
-      "title": "Oil Prices Are Falling, but OPEC Plus Pledges to Pump More",
-      "summary": "OPEC+が増産を誓約。市場心理的には弱気だが、既知情報の繰り返し可能性あり。",
-      "link": "https://www.reddit.com/r/oil/comments/1uo345d/oil_prices_are_falling_but_opec_plus_pledges_to/",
-      "pub": "2026-07-05T14:07:51+00:00",
-      "pub_ts": 1783260471,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給増加",
       "reliability": "C",
       "is_new": false,
       "verified": false,
