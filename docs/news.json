@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T22:30:33.603104+09:00",
+  "updated_at": "2026-07-06T23:00:36.817366+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.62999725341797,
+  "wti_price": 68.58000183105469,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uotmmk/the_largest_single_flotilla_of_oil_tankers_and/",
@@ -332,6 +332,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Geopolitics/Europe/Trump-to-Meet-Zelenskyy-at-NATO-Summit-as-Ukraine-War-Diplomacy-Resumes.html",
+      "source": "OilPrice.com",
+      "title": "Trump to Meet Zelenskyy at NATO Summit as Ukraine War Diplomacy Resumes",
+      "summary": "トランプ大統領とゼレンスキー大統領がNATO首脳会議で会談予定。ウクライナ戦争の外交交渉再開の動き",
+      "link": "https://oilprice.com/Geopolitics/Europe/Trump-to-Meet-Zelenskyy-at-NATO-Summit-as-Ukraine-War-Diplomacy-Resumes.html",
+      "pub": "Mon, 06 Jul 2026 09:00:00 -0500",
+      "pub_ts": 1783346400,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slowly-Recovers-Despite-Persistent-Risks.html",
       "source": "OilPrice.com",
       "title": "Hormuz Tanker Traffic Slowly Recovers Despite Persistent Risks",
@@ -345,7 +363,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/More-European-Investors-Oppose-Norways-Push-for-Arctic-Oil-Drilling.html",
-      "source": "OilPrice.com",
-      "title": "More European Investors Oppose Norway’s Push for Arctic Oil Drilling",
-      "summary": "欧州の金融機関6社がノルウェーの北極圏油田開発に反対。エネルギー転換を優先すべき立場。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/More-European-Investors-Oppose-Norways-Push-for-Arctic-Oil-Drilling.html",
-      "pub": "Mon, 06 Jul 2026 03:30:00 -0500",
-      "pub_ts": 1783326600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "long",
-      "main_factor": "政策リスク・供給制約",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
