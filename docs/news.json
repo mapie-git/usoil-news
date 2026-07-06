@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T02:30:30.665728+09:00",
+  "updated_at": "2026-07-07T03:00:29.728676+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.33999633789062,
+  "wti_price": 68.44000244140625,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Washingtons-Plan-to-Neutralize-Irans-Hormuz-Leverage.html",
@@ -111,7 +111,7 @@
       "time_horizon": "medium",
       "main_factor": "供給過剰圧力",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -314,6 +314,24 @@
       "correct": null
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1up4uzj/ontario_alberta_push_to_advance_3300_km_eastwest/",
+      "source": "Reddit r/oil",
+      "title": "Ontario, Alberta push to advance 3,300 km east-west oil pipeline — Global News",
+      "summary": "カナダのオンタリオ州とアルバータ州が東西間パイプライン3,300km建設を推進。長期的な供給増加の可能性。",
+      "link": "https://www.reddit.com/r/oil/comments/1up4uzj/ontario_alberta_push_to_advance_3300_km_eastwest/",
+      "pub": "2026-07-06T17:55:31+00:00",
+      "pub_ts": 1783360531,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "供給インフラ整備",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1up35ux/oil_prices_tumble_sparking_global_glut_fears/",
       "source": "Reddit r/oil",
       "title": "Oil prices tumble, sparking global glut fears",
@@ -435,24 +453,6 @@
       "time_horizon": "long",
       "main_factor": "需要増加",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uoz8tu/saudis_make_biggest_oil_price_cut_in_decades_as/",
-      "source": "Reddit r/oil",
-      "title": "Saudis Make Biggest Oil Price Cut in Decades as Market Weakens",
-      "summary": "サウジアラビアが数十年ぶりの大幅値下げ。市場弱化を反映した後追い報道の可能性高い",
-      "link": "https://www.reddit.com/r/oil/comments/1uoz8tu/saudis_make_biggest_oil_price_cut_in_decades_as/",
-      "pub": "2026-07-06T14:39:17+00:00",
-      "pub_ts": 1783348757,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給方針転換",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
