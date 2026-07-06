@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T22:05:08.364131+09:00",
+  "updated_at": "2026-07-06T22:30:33.603104+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.33000183105469,
+  "wti_price": 68.62999725341797,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uotmmk/the_largest_single_flotilla_of_oil_tankers_and/",
@@ -62,24 +62,6 @@
       "correct": null
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
-      "source": "Reddit r/oil",
-      "title": "The footage of drones attack on St Petersburg oil terminal and Vysotsk port",
-      "summary": "サンクトペテルブルク油送施設とヴィソツク港がドローン攻撃を受けたとの映像報告。",
-      "link": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
-      "pub": "2026-07-04T12:06:49+00:00",
-      "pub_ts": 1783166809,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://www.reddit.com/r/oil/comments/1uowbfz/russias_largest_oil_refinery_has_been_struck/",
       "source": "Reddit r/oil",
       "title": "Russia's Largest Oil Refinery Has Been Struck",
@@ -93,7 +75,7 @@
       "time_horizon": "short",
       "main_factor": "供給途絶リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -350,6 +332,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slowly-Recovers-Despite-Persistent-Risks.html",
+      "source": "OilPrice.com",
+      "title": "Hormuz Tanker Traffic Slowly Recovers Despite Persistent Risks",
+      "summary": "ホルムズ海峡のタンカー通航が回復基調だが、リスク要因は依然存在。供給途絶の懸念は後退。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Slowly-Recovers-Despite-Persistent-Risks.html",
+      "pub": "Mon, 06 Jul 2026 08:30:00 -0500",
+      "pub_ts": 1783344600,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uowgdu/brent_is_below_morgan_stanleys_own_q3_target_on/",
       "source": "Reddit r/oil",
       "title": "Brent is below Morgan Stanley's own Q3 target on transit counts that don't distinguish backlog flush from fresh loadings, here's the vessel-level data",
@@ -363,7 +363,7 @@
       "time_horizon": "short",
       "main_factor": "在庫放出・需給緩和",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
