@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T21:00:32.444371+09:00",
+  "updated_at": "2026-07-06T21:30:36.281712+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.44000244140625,
+  "wti_price": 68.33000183105469,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uotmmk/the_largest_single_flotilla_of_oil_tankers_and/",
@@ -350,6 +350,24 @@
       "correct": true
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Super-El-Nio-Could-Trigger-a-Major-Coal-Boom-in-India.html",
+      "source": "OilPrice.com",
+      "title": "Super El Niño Could Trigger a Major Coal Boom in India",
+      "summary": "スーパーエルニーニョがインドの石炭需要を増加させる可能性。石油需要への直接的な影響は限定的。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Super-El-Nio-Could-Trigger-a-Major-Coal-Boom-in-India.html",
+      "pub": "Mon, 06 Jul 2026 07:15:00 -0500",
+      "pub_ts": 1783340100,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "インド電力需要増加",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Germany-Weathers-Energy-Crisis-With-Growing-Dependence-on-American-LNG.html",
       "source": "OilPrice.com",
       "title": "Germany Weathers Energy Crisis With Growing Dependence on American LNG",
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク軽減",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Buys-Second-Spot-LNG-Cargo-as-Supply-Crunch-Persists.html",
-      "source": "OilPrice.com",
-      "title": "Pakistan Buys Second Spot LNG Cargo as Supply Crunch Persists",
-      "summary": "パキスタンがスポット市場でLNG貨物を購入。ペルシャ湾からの流出が緩慢。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Buys-Second-Spot-LNG-Cargo-as-Supply-Crunch-Persists.html",
-      "pub": "Mon, 06 Jul 2026 02:00:00 -0500",
-      "pub_ts": 1783321200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "LNG供給",
       "reliability": "B",
       "is_new": false,
       "verified": false,
