@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-06T12:00:31.526380+09:00",
+  "updated_at": "2026-07-06T12:30:31.829060+09:00",
   "accuracy": {
     "total": 111,
     "correct": 26,
     "rate": 23
   },
-  "wti_price": 68.80000305175781,
+  "wti_price": 68.44999694824219,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1un7ege/the_footage_of_drones_attack_on_st_petersburg_oil/",
@@ -44,6 +44,24 @@
       "correct": false
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcWlRUGcyQzJISGkwLTh3LUJHZjNJYWlIM28yV25FWVdBaS14Zk1PVldxMjBubVYydXBKZ3lFbWh0UE53ZW5JVDRPeGFoZVd0THZFczREeTlZMDEzYmhULWwySTBxZnJjcUpORmFaLWNhZURQZ2haOVZZWjlwMmlxcXdLcVdDY1B6aVNDQjJXbUpqbDhkQkVlNDlBS3ZFdw?oc=5",
+      "source": "Google News",
+      "title": "Why is the WTI rising despite rising supply glut fears? - FXStreet",
+      "summary": "WTI上昇の要因分析。供給過剰懸念がある中での価格上昇メカニズムを解説する後追い分析記事。",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcWlRUGcyQzJISGkwLTh3LUJHZjNJYWlIM28yV25FWVdBaS14Zk1PVldxMjBubVYydXBKZ3lFbWh0UE53ZW5JVDRPeGFoZVd0THZFczREeTlZMDEzYmhULWwySTBxZnJjcUpORmFaLWNhZURQZ2haOVZZWjlwMmlxcXdLcVdDY1B6aVNDQjJXbUpqbDhkQkVlNDlBS3ZFdw?oc=5",
+      "pub": "Mon, 06 Jul 2026 03:04:35 GMT",
+      "pub_ts": 1783307075,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "市場心理、供給過剰",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNDJSWk5ON2pyX0hZcjFNaVVUUzY2TGdMd2I4eFp3YXpMc01mVElXVkRBeHlDWEVzTk45bnZVNE1iMmxXbkdvNWVza0FBMDBCUGtxdXh4Tzh1WjdQcjJwLUNaQWJrLUFnOVVCZC1HWE9nVWZvR0NycHl3aWZ2QWJvMEtEYWluYkYzazY5YVZacmxhNnVVRUlya1RmVThkOVpCdFRNN1c0SEpVMlc0WG5UX0NaaHJ6U1Jjb1c4M09XaGx5V0pFMzJMd1kxZXpycVhENGR6UG0xQnpHR00yVHpvU2NDOXRSSkNpV1FGQllnYnlrdw?oc=5",
       "source": "Google News",
       "title": "Oil Prices to Extend Decline as Discount ME Stockpile Selloff and Higher OPEC Supply Pressure Brent and WTI Crude - FXLeaders",
@@ -57,7 +75,7 @@
       "time_horizon": "short",
       "main_factor": "供給圧力、在庫売却",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "long",
       "main_factor": "需要増加、LNG輸出",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uo8p36/yahoo_finance_regardless_of_timing_one_thing_is/",
-      "source": "Reddit r/oil",
-      "title": "Yahoo Finance: \"Regardless of timing, one thing is certain: a wave of oil is about to enter the market,\" the strategists wrote. \"And here lies the paradox. The surge in oil supply is about to collide with a market that, at least for now, simply does not need it.\"",
-      "summary": "供給増加が需要不足な市場と衝突する可能性を指摘。供給過剰懸念が示唆されている。",
-      "link": "https://www.reddit.com/r/oil/comments/1uo8p36/yahoo_finance_regardless_of_timing_one_thing_is/",
-      "pub": "2026-07-05T17:54:09+00:00",
-      "pub_ts": 1783274049,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給過剰懸念",
       "reliability": "B",
       "is_new": false,
       "verified": false,
