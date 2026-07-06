@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T04:00:31.618227+09:00",
+  "updated_at": "2026-07-07T04:30:31.565087+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.56999969482422,
+  "wti_price": 68.70999908447266,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Oil-Production-Nears-Record-High-After-OPEC-Exit.html",
@@ -112,6 +112,24 @@
       "main_factor": "地政学リスク低下",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1up6xwi/video_shows_a_ukrainian_drone_slamming_into_the/",
+      "source": "Reddit r/oil",
+      "title": "Video shows a Ukrainian drone slamming into the Omsk Refinery, which is Russia's largest refinery in Ukraine's longest distance drone strike. Several hits on various infrastructure within the facility have been recorded.",
+      "summary": "ウクライナ無人機がロシア最大製油所オムスク製油所を攻撃。複数の施設が被弾。",
+      "link": "https://www.reddit.com/r/oil/comments/1up6xwi/video_shows_a_ukrainian_drone_slamming_into_the/",
+      "pub": "2026-07-06T19:06:08+00:00",
+      "pub_ts": 1783364768,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給途絶リスク",
+      "reliability": "C",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -345,7 +363,7 @@
       "time_horizon": "long",
       "main_factor": "エネルギー転換",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "供給増加",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1up1jsd/the_supertanker_tycoon_making_millions_on_hormuz/",
-      "source": "Reddit r/oil",
-      "title": "The supertanker tycoon making millions on Hormuz shuttle runs",
-      "summary": "スーパータンカー企業がホルムズ海峡での密輸出を拡大。供給継続を示唆するが確実性に欠く",
-      "link": "https://www.reddit.com/r/oil/comments/1up1jsd/the_supertanker_tycoon_making_millions_on_hormuz/",
-      "pub": "2026-07-06T16:00:57+00:00",
-      "pub_ts": 1783353657,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
       "verified": false,
