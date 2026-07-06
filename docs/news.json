@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T00:00:45.214983+09:00",
+  "updated_at": "2026-07-07T00:30:34.734501+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.88999938964844,
+  "wti_price": 68.75,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Washingtons-Plan-to-Neutralize-Irans-Hormuz-Leverage.html",
@@ -21,7 +21,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -93,7 +93,7 @@
       "time_horizon": "short",
       "main_factor": "供給リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -314,22 +314,22 @@
       "correct": false
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1unghfc/intermediate_term_impacts_of_iran_war_on_prices/",
-      "source": "Reddit r/oil",
-      "title": "Intermediate term impacts of Iran war on prices of hydrocarbon products",
-      "summary": "イラン攻撃でペルシャ湾の製油所が被害。休戦が継続すれば段階的に影響軽減される見込み。",
-      "link": "https://www.reddit.com/r/oil/comments/1unghfc/intermediate_term_impacts_of_iran_war_on_prices/",
-      "pub": "2026-07-04T18:34:17+00:00",
-      "pub_ts": 1783190057,
-      "impact": 3,
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Power-Demand-Set-to-Grow-6-a-Year-Through-2030.html",
+      "source": "OilPrice.com",
+      "title": "India's Power Demand Set to Grow 6% a Year Through 2030",
+      "summary": "インドの電力需要が2030年まで年6%成長見込み。再生可能エネルギー導入が支援要因。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Power-Demand-Set-to-Grow-6-a-Year-Through-2030.html",
+      "pub": "Mon, 06 Jul 2026 10:30:00 -0500",
+      "pub_ts": 1783351800,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給制約",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "time_horizon": "long",
+      "main_factor": "需要増加",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uoz8tu/saudis_make_biggest_oil_price_cut_in_decades_as/",
@@ -345,7 +345,7 @@
       "time_horizon": "short",
       "main_factor": "供給方針転換",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
