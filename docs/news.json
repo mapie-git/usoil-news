@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T05:00:30.530158+09:00",
+  "updated_at": "2026-07-07T05:30:32.002260+09:00",
   "accuracy": {
     "total": 114,
     "correct": 28,
     "rate": 25
   },
-  "wti_price": 68.70999908447266,
+  "wti_price": 68.69000244140625,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Oil-Production-Nears-Record-High-After-OPEC-Exit.html",
@@ -345,7 +345,7 @@
       "time_horizon": "long",
       "main_factor": "環境規制の長期トレンド",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
