@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T16:00:33.538808+09:00",
+  "updated_at": "2026-07-07T16:30:31.334662+09:00",
   "accuracy": {
     "total": 142,
     "correct": 32,
     "rate": 23
   },
-  "wti_price": 69.41999816894531,
+  "wti_price": 69.3499984741211,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
@@ -21,7 +21,25 @@
       "time_horizon": "short",
       "main_factor": "供給過剰、需要減少",
       "reliability": "A",
-      "is_new": true,
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/qatari_lng_carrier_struck_in_hormuz-07-jul-2026-184072-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Qatari LNG Carrier Struck in Hormuz",
+      "summary": "カタール籍LNGキャリアがホルムズ海峡で発射体攻撃を受け、海峡での輸送リスク再燃。米イラン合意の効力に疑問。",
+      "link": "https://www.rigzone.com/news/wire/qatari_lng_carrier_struck_in_hormuz-07-jul-2026-184072-article/?rss=true",
+      "pub": "Tue, 07 Jul 2026 06:43:21 GMT",
+      "pub_ts": 1783406601,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "A",
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "long",
       "main_factor": "供給増加の展望",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/North-America-Drove-Nearly-Half-Of-Global-Emissions-Growth-In-2025.html",
-      "source": "OilPrice.com",
-      "title": "North America Drove Nearly Half Of Global Emissions Growth In 2025",
-      "summary": "2025年の北米がグローバル排出量増加の約半分を占めたとエネルギー統計レビューが報告。長期的な規制トレンドを示唆するが即座の需給変化は不明確。",
-      "link": "https://oilprice.com/Energy/Energy-General/North-America-Drove-Nearly-Half-Of-Global-Emissions-Growth-In-2025.html",
-      "pub": "Mon, 06 Jul 2026 15:00:00 -0500",
-      "pub_ts": 1783368000,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "環境規制の長期トレンド",
       "reliability": "B",
       "is_new": false,
       "verified": false,
