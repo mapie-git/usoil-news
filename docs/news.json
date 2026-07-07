@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T20:30:32.202484+09:00",
+  "updated_at": "2026-07-07T21:00:33.800130+09:00",
   "accuracy": {
-    "total": 152,
+    "total": 155,
     "correct": 35,
     "rate": 23
   },
-  "wti_price": 69.16999816894531,
+  "wti_price": 69.12999725341797,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
@@ -166,8 +166,8 @@
       "main_factor": "供給増加",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1upphpm/lng_tanker_hit_in_the_strait_of_hormuz/",
