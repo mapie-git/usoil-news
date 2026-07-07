@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-07T15:30:31.134912+09:00",
+  "updated_at": "2026-07-07T16:00:33.538808+09:00",
   "accuracy": {
-    "total": 121,
-    "correct": 30,
-    "rate": 25
+    "total": 142,
+    "correct": 32,
+    "rate": 23
   },
-  "wti_price": 69.30000305175781,
+  "wti_price": 69.41999816894531,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
+      "source": "OilPrice.com",
+      "title": "Gulf Oil Exporters Slash Prices as Buyers Gain the Upper Hand",
+      "summary": "サウジアラビアがアジア向け原油価格を過去数十年で最大の値下げ。買い手優位の市場環境を反映",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
+      "pub": "Tue, 07 Jul 2026 01:45:00 -0500",
+      "pub_ts": 1783406700,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "供給過剰、需要減少",
+      "reliability": "A",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1upgqil/irans_irgc_fired_at_least_two_missiles_at/",
       "source": "Reddit r/oil",
@@ -366,24 +384,6 @@
       "is_new": false,
       "verified": true,
       "correct": true
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcWlRUGcyQzJISGkwLTh3LUJHZjNJYWlIM28yV25FWVdBaS14Zk1PVldxMjBubVYydXBKZ3lFbWh0UE53ZW5JVDRPeGFoZVd0THZFczREeTlZMDEzYmhULWwySTBxZnJjcUpORmFaLWNhZURQZ2haOVZZWjlwMmlxcXdLcVdDY1B6aVNDQjJXbUpqbDhkQkVlNDlBS3ZFdw?oc=5",
-      "source": "Google News",
-      "title": "Why is the WTI rising despite rising supply glut fears? - FXStreet",
-      "summary": "WTI上昇の要因分析。供給過剰懸念がある中での価格上昇メカニズムを解説する後追い分析記事。",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcWlRUGcyQzJISGkwLTh3LUJHZjNJYWlIM28yV25FWVdBaS14Zk1PVldxMjBubVYydXBKZ3lFbWh0UE53ZW5JVDRPeGFoZVd0THZFczREeTlZMDEzYmhULWwySTBxZnJjcUpORmFaLWNhZURQZ2haOVZZWjlwMmlxcXdLcVdDY1B6aVNDQjJXbUpqbDhkQkVlNDlBS3ZFdw?oc=5",
-      "pub": "Mon, 06 Jul 2026 03:04:35 GMT",
-      "pub_ts": 1783307075,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "市場心理、供給過剰",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
     },
     {
       "id": "https://oilprice.com/Geopolitics/Middle-East/Why-Abu-Dhabi-Is-Building-the-Worlds-First-Integrated-Energy-AI-Economy.html",
