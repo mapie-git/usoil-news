@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T07:38:51.301258+09:00",
+  "updated_at": "2026-07-08T08:00:34.207145+09:00",
   "accuracy": {
-    "total": 191,
+    "total": 192,
     "correct": 46,
     "rate": 24
   },
-  "wti_price": 72.37999725341797,
+  "wti_price": 72.47000122070312,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -21,6 +21,24 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUNUWEt6eUhjLUtFMm5NcVE1WjNEa3JwUEwtMExZN1FQWFFWcXgxaXZFSlBYVDFGZS00TkFXODZDOWk0dWpDMkg4WEZ6VU0zZjhZRFFnU0V6NWhKcEhfSE5zdURLWFMweDdickNTeUJSYjN2SEc0cko3WDFVNUtXdG54NXhwclNE?oc=5",
+      "source": "Google News",
+      "title": "OPEC Output Hikes Raise Oversupply Fears as Cartel Shows Cracks - Hart Energy",
+      "summary": "OPEC減産同盟の亀裂が深まり、増産による供給過剰の懸念が高まる",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUNUWEt6eUhjLUtFMm5NcVE1WjNEa3JwUEwtMExZN1FQWFFWcXgxaXZFSlBYVDFGZS00TkFXODZDOWk0dWpDMkg4WEZ6VU0zZjhZRFFnU0V6NWhKcEhfSE5zdURLWFMweDdickNTeUJSYjN2SEc0cko3WDFVNUtXdG54NXhwclNE?oc=5",
+      "pub": "Tue, 07 Jul 2026 22:10:00 GMT",
+      "pub_ts": 1783462200,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "供給過剰、OPEC結束崩壊",
+      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "需要増加",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1upvft2/a_tanker_has_just_been_attacked_and_hit_by_iran/",
-      "source": "Reddit r/oil",
-      "title": "A tanker has just been attacked and hit by Iran in the Strait of Hormuz US-backed southern corridor, causing structural damage, per UKMTO. Third attack today.",
-      "summary": "ホルムズ海峡でタンカーがイラン攻撃受け損傷。地政学リスク高まる。詳細未確認だが供給途絶懸念も。",
-      "link": "https://www.reddit.com/r/oil/comments/1upvft2/a_tanker_has_just_been_attacked_and_hit_by_iran/",
-      "pub": "2026-07-07T13:40:29+00:00",
-      "pub_ts": 1783431629,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
