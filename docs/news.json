@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T05:30:28.311390+09:00",
+  "updated_at": "2026-07-08T06:00:33.401273+09:00",
   "accuracy": {
-    "total": 185,
+    "total": 188,
     "correct": 45,
     "rate": 24
   },
-  "wti_price": 72.0,
+  "wti_price": 72.2699966430664,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -22,6 +22,24 @@
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/oil_jumps_on_hormuz_shipping_attacks-07-jul-2026-184082-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Oil Jumps on Hormuz Shipping Attacks",
+      "summary": "ホルムズ海峡での海運攻撃を受けイラン石油売却免除を取り消し。地政学リスク大幅上昇で供給懸念。",
+      "link": "https://www.rigzone.com/news/wire/oil_jumps_on_hormuz_shipping_attacks-07-jul-2026-184082-article/?rss=true",
+      "pub": "Tue, 07 Jul 2026 20:35:18 GMT",
+      "pub_ts": 1783456518,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "A",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -238,8 +256,8 @@
       "main_factor": "供給過剰、価格競争",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Oil-Production-Nears-Record-High-After-OPEC-Exit.html",
@@ -258,6 +276,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Product-Inventories-Fall-Even-As-Hormuz-Traffic-Begins-to-Flow.html",
+      "source": "OilPrice.com",
+      "title": "US Crude Oil, Product Inventories Fall Even As Hormuz Traffic Begins to Flow",
+      "summary": "米国原油在庫が39.9万バレル減少。供給逼迫を示唆するデータだが、数日前のAPI統計で既知の可能性。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Product-Inventories-Fall-Even-As-Hormuz-Traffic-Begins-to-Flow.html",
+      "pub": "Tue, 07 Jul 2026 15:48:00 -0500",
+      "pub_ts": 1783457280,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "在庫減少",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq4q8c/us_revoking_license_that_authorized_iranian_oil/",
@@ -417,42 +453,6 @@
       "time_horizon": "long",
       "main_factor": "需要減少（EV普及）",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Ships-34-Million-Barrels-Through-Hormuz-Despite-Thin-Tanker-Traffic.html",
-      "source": "OilPrice.com",
-      "title": "Saudi Arabia Ships 34 Million Barrels Through Hormuz Despite Thin Tanker Traffic",
-      "summary": "サウジアラビアがホルムズ海峡を通じて3400万バレル輸出。船舶通航数は少ないが供給維持を示唆。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Ships-34-Million-Barrels-Through-Hormuz-Despite-Thin-Tanker-Traffic.html",
-      "pub": "Mon, 06 Jul 2026 15:30:00 -0500",
-      "pub_ts": 1783369800,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "供給安定性確認",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/russia_oil_price_falls_to_preiran_war_level-06-jul-2026-184069-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Russia Oil Price Falls to Pre-Iran War Level",
-      "summary": "ロシア主力原油の価格がイラン関連紛争前の水準に低下。地政学リスク後退を示唆。",
-      "link": "https://www.rigzone.com/news/wire/russia_oil_price_falls_to_preiran_war_level-06-jul-2026-184069-article/?rss=true",
-      "pub": "Mon, 06 Jul 2026 20:00:00 GMT",
-      "pub_ts": 1783368000,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "需要減少、プレミアム縮小",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
