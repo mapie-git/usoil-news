@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T12:00:27.772431+09:00",
+  "updated_at": "2026-07-07T12:30:29.759804+09:00",
   "accuracy": {
-    "total": 117,
+    "total": 118,
     "correct": 29,
     "rate": 25
   },
-  "wti_price": 69.05999755859375,
+  "wti_price": 69.08000183105469,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1upgqil/irans_irgc_fired_at_least_two_missiles_at/",
@@ -364,8 +364,8 @@
       "main_factor": "供給圧力、在庫売却",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkI2QThocHlWRUVKSHgtb2N1WmlUX2hDQ3MxZloycVItY3d4N2Nub2FTbWYzd1hPTlZXa2VPdEhfTGgxU2g3UlBrS0VvemRZTnI2SU9HZklMOEt4d2h1U1U2ZkpZT3dscE5SRzMtTHNqVXRGcy0yaWdXU3JxemdJRWNITEhVSkFSQnV0dnhKWlJWcF8xVWhNb0k4M1FaMDNtaHc?oc=5",
