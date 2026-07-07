@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T12:30:29.759804+09:00",
+  "updated_at": "2026-07-07T12:50:59.210695+09:00",
   "accuracy": {
-    "total": 118,
+    "total": 119,
     "correct": 29,
-    "rate": 25
+    "rate": 24
   },
-  "wti_price": 69.08000183105469,
+  "wti_price": 68.93000030517578,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1upgqil/irans_irgc_fired_at_least_two_missiles_at/",
@@ -130,6 +130,24 @@
       "main_factor": "供給増加",
       "reliability": "A",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1upjkpg/charging_ahead_evs_outpace_growth_predictions/",
+      "source": "Reddit r/oil",
+      "title": "Charging ahead: EVs outpace growth predictions",
+      "summary": "EV急速普及により世界的な石油供給過剰が発生。電動化が予測を上回るペースで進行中。",
+      "link": "https://www.reddit.com/r/oil/comments/1upjkpg/charging_ahead_evs_outpace_growth_predictions/",
+      "pub": "2026-07-07T03:38:53+00:00",
+      "pub_ts": 1783395533,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "long",
+      "main_factor": "需要減少（EV普及）",
+      "reliability": "C",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -346,8 +364,8 @@
       "main_factor": "市場心理、供給過剰",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNDJSWk5ON2pyX0hZcjFNaVVUUzY2TGdMd2I4eFp3YXpMc01mVElXVkRBeHlDWEVzTk45bnZVNE1iMmxXbkdvNWVza0FBMDBCUGtxdXh4Tzh1WjdQcjJwLUNaQWJrLUFnOVVCZC1HWE9nVWZvR0NycHl3aWZ2QWJvMEtEYWluYkYzazY5YVZacmxhNnVVRUlya1RmVThkOVpCdFRNN1c0SEpVMlc0WG5UX0NaaHJ6U1Jjb1c4M09XaGx5V0pFMzJMd1kxZXpycVhENGR6UG0xQnpHR00yVHpvU2NDOXRSSkNpV1FGQllnYnlrdw?oc=5",
@@ -366,24 +384,6 @@
       "is_new": false,
       "verified": true,
       "correct": false
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkI2QThocHlWRUVKSHgtb2N1WmlUX2hDQ3MxZloycVItY3d4N2Nub2FTbWYzd1hPTlZXa2VPdEhfTGgxU2g3UlBrS0VvemRZTnI2SU9HZklMOEt4d2h1U1U2ZkpZT3dscE5SRzMtTHNqVXRGcy0yaWdXU3JxemdJRWNITEhVSkFSQnV0dnhKWlJWcF8xVWhNb0k4M1FaMDNtaHc?oc=5",
-      "source": "Google News",
-      "title": "Oil prices settle at pre-Iran war levels as crude output grows - Reuters",
-      "summary": "イラン紛争前の水準に落ち着き、原油生産が増加している。供給増加が価格を抑制。",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZkI2QThocHlWRUVKSHgtb2N1WmlUX2hDQ3MxZloycVItY3d4N2Nub2FTbWYzd1hPTlZXa2VPdEhfTGgxU2g3UlBrS0VvemRZTnI2SU9HZklMOEt4d2h1U1U2ZkpZT3dscE5SRzMtTHNqVXRGcy0yaWdXU3JxemdJRWNITEhVSkFSQnV0dnhKWlJWcF8xVWhNb0k4M1FaMDNtaHc?oc=5",
-      "pub": "Mon, 06 Jul 2026 00:36:00 GMT",
-      "pub_ts": 1783298160,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給増加",
-      "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
     },
     {
       "id": "https://oilprice.com/Geopolitics/Middle-East/Why-Abu-Dhabi-Is-Building-the-Worlds-First-Integrated-Energy-AI-Economy.html",
