@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T04:05:38.002376+09:00",
+  "updated_at": "2026-07-08T04:30:33.108343+09:00",
   "accuracy": {
-    "total": 183,
-    "correct": 44,
+    "total": 184,
+    "correct": 45,
     "rate": 24
   },
-  "wti_price": 71.26000213623047,
+  "wti_price": 72.18000030517578,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Shuts-Russias-Largest-Refinery-as-Fuel-Shortages-Worsen.html",
@@ -224,6 +224,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uq4q8c/us_revoking_license_that_authorized_iranian_oil/",
+      "source": "Reddit r/oil",
+      "title": "US revoking license that authorized Iranian oil sales, official says",
+      "summary": "米国がイラン石油販売を認可するライセンスを取り消すと発表。供給制限要因だが真正性未確認。",
+      "link": "https://www.reddit.com/r/oil/comments/1uq4q8c/us_revoking_license_that_authorized_iranian_oil/",
+      "pub": "2026-07-07T19:07:56+00:00",
+      "pub_ts": 1783451276,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Swings-From-Glut-Fears-to-Hormuz-Toll-Concerns.html",
       "source": "OilPrice.com",
       "title": "Oil Market Swings From Glut Fears to Hormuz Toll Concerns",
@@ -237,7 +255,7 @@
       "time_horizon": "short",
       "main_factor": "供給過剰懸念",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -418,8 +436,8 @@
       "main_factor": "供給途絶リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Windfall-Vanishes-as-Urals-Crashes-to-42-a-Barrel.html",
@@ -438,24 +456,6 @@
       "is_new": false,
       "verified": true,
       "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Bets-on-Iran-Port-Despite-Regional-Tensions.html",
-      "source": "OilPrice.com",
-      "title": "Kazakhstan Bets on Iran Port Despite Regional Tensions",
-      "summary": "カザフスタンがイラン・バンダルアッバス港にターミナル建設を計画。長期的なインフラ整備で即時的な価格影響は限定的。",
-      "link": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Bets-on-Iran-Port-Despite-Regional-Tensions.html",
-      "pub": "Tue, 07 Jul 2026 13:00:00 -0500",
-      "pub_ts": 1783447200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "インフラ投資",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
     }
   ]
 }
