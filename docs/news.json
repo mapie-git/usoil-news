@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T13:00:35.546447+09:00",
+  "updated_at": "2026-07-07T13:30:29.819118+09:00",
   "accuracy": {
     "total": 119,
     "correct": 29,
     "rate": 24
   },
-  "wti_price": null,
+  "wti_price": 68.97000122070312,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1upgqil/irans_irgc_fired_at_least_two_missiles_at/",
@@ -147,7 +147,7 @@
       "time_horizon": "long",
       "main_factor": "需要減少（EV普及）",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
