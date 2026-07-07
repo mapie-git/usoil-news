@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T22:00:28.430404+09:00",
+  "updated_at": "2026-07-07T22:30:41.478931+09:00",
   "accuracy": {
-    "total": 158,
+    "total": 159,
     "correct": 37,
     "rate": 23
   },
-  "wti_price": 69.29000091552734,
+  "wti_price": 69.26000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
@@ -350,6 +350,24 @@
       "correct": null
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1upv2du/another_missile_attack_by_iran_in_soh_two_days_in/",
+      "source": "Reddit r/oil",
+      "title": "Another Missile Attack by Iran in SoH! Two Days in a Row!",
+      "summary": "イランが連日ミサイル攻撃を実施との匿名投稿。信憑性が低く既知情報の可能性も高い。",
+      "link": "https://www.reddit.com/r/oil/comments/1upv2du/another_missile_attack_by_iran_in_soh_two_days_in/",
+      "pub": "2026-07-07T13:26:04+00:00",
+      "pub_ts": 1783430764,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Signs-15-Year-LNG-Supply-Deal-With-Japans-Inpex.html",
       "source": "OilPrice.com",
       "title": "ADNOC Signs 15-Year LNG Supply Deal With Japan’s Inpex",
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "short",
       "main_factor": "供給回復の兆候",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Geopolitics/Middle-East/Why-Abu-Dhabi-Is-Building-the-Worlds-First-Integrated-Energy-AI-Economy.html",
-      "source": "OilPrice.com",
-      "title": "Why Abu Dhabi Is Building the World's First Integrated Energy-AI Economy",
-      "summary": "アブダビがエネルギーとAIを統合した経済構造を構築。長期的な産業戦略だが短期油価への直接的影響は限定的。",
-      "link": "https://oilprice.com/Geopolitics/Middle-East/Why-Abu-Dhabi-Is-Building-the-Worlds-First-Integrated-Energy-AI-Economy.html",
-      "pub": "Mon, 06 Jul 2026 18:00:00 -0500",
-      "pub_ts": 1783378800,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "産業政策",
       "reliability": "B",
       "is_new": false,
       "verified": false,
