@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T08:39:36.902827+09:00",
+  "updated_at": "2026-07-07T09:00:29.714785+09:00",
   "accuracy": {
     "total": 116,
     "correct": 28,
@@ -111,24 +111,6 @@
       "time_horizon": "short",
       "main_factor": "供給増加",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.hellenicshippingnews.com/the-price-of-peace-why-oil-is-quietly-stepping-back/",
-      "source": "Hellenic Shipping",
-      "title": "The Price Of Peace: Why Oil Is Quietly Stepping Back",
-      "summary": "米国とイランの平和交渉が石油市場のセンチメント悪化を招き、売却圧力が続く。",
-      "link": "https://www.hellenicshippingnews.com/the-price-of-peace-why-oil-is-quietly-stepping-back/",
-      "pub": "Sun, 05 Jul 2026 21:00:24 +0000",
-      "pub_ts": 1783285224,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク低下",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -453,6 +435,24 @@
       "time_horizon": "long",
       "main_factor": "エネルギー転換",
       "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1up4uzj/ontario_alberta_push_to_advance_3300_km_eastwest/",
+      "source": "Reddit r/oil",
+      "title": "Ontario, Alberta push to advance 3,300 km east-west oil pipeline — Global News",
+      "summary": "カナダのオンタリオ州とアルバータ州が東西間パイプライン3,300km建設を推進。長期的な供給増加の可能性。",
+      "link": "https://www.reddit.com/r/oil/comments/1up4uzj/ontario_alberta_push_to_advance_3300_km_eastwest/",
+      "pub": "2026-07-06T17:55:31+00:00",
+      "pub_ts": 1783360531,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "供給インフラ整備",
+      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
