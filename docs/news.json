@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T21:30:35.016505+09:00",
+  "updated_at": "2026-07-07T22:00:28.430404+09:00",
   "accuracy": {
-    "total": 156,
-    "correct": 36,
+    "total": 158,
+    "correct": 37,
     "rate": 23
   },
-  "wti_price": 69.04000091552734,
+  "wti_price": 69.29000091552734,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
@@ -328,8 +328,8 @@
       "main_factor": "供給途絶リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKc2c4d1VzTUtvUFpwVVpuMnFzbWU4ZFN3dUlkTjVpTGdsLWZfcUNQMjdnUDk2b3kzUjUyOEZja3BZRFpNdURJYnppS282RjFUUU1MN0hPVDd2X3FTTDdOX3NNMzV1MnlzWU5vSlA3aUNVUHhPREloRENkaw?oc=5",
@@ -363,7 +363,7 @@
       "time_horizon": "long",
       "main_factor": "LNG供給",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -381,7 +381,7 @@
       "time_horizon": "medium",
       "main_factor": "需要構造転換",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
