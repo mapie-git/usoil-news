@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T17:00:28.706346+09:00",
+  "updated_at": "2026-07-07T17:30:33.615815+09:00",
   "accuracy": {
     "total": 142,
     "correct": 32,
     "rate": 23
   },
-  "wti_price": 69.58999633789062,
+  "wti_price": 69.25,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
@@ -386,22 +386,22 @@
       "correct": null
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKLU9sd1kzV0pOaksxdVY2aERBWkhwVzRSX1VpRkhMVjhseno0bjdQUlctVDlBN3Uwd0JOaDYxZ1hvczktNHp3S0w4R2x0aHpXbGZHSm9HVDJ1UGdWZ0lUNWNRZXM1YWF0eGllMGk3d0psQQ?oc=5",
-      "source": "Google News",
-      "title": "WTI Edges Higher To Near $69.00 As OPEC+ Supply Concerns Offset Hormuz Stability - Bitcoin World",
-      "summary": "WTI原油が69ドル近辺に上昇。OPEC+の供給懸念がホルムズ海峡の安定性を相殺。",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKLU9sd1kzV0pOaksxdVY2aERBWkhwVzRSX1VpRkhMVjhseno0bjdQUlctVDlBN3Uwd0JOaDYxZ1hvczktNHp3S0w4R2x0aHpXbGZHSm9HVDJ1UGdWZ0lUNWNRZXM1YWF0eGllMGk3d0psQQ?oc=5",
-      "pub": "Mon, 06 Jul 2026 04:30:11 GMT",
-      "pub_ts": 1783312211,
-      "impact": 3,
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/4-Million-Barrels-of-Saudi-Crude-Set-to-Transit-Strait-of-Hormuz.html",
+      "source": "OilPrice.com",
+      "title": "4 Million Barrels of Saudi Crude Set to Transit Strait of Hormuz",
+      "summary": "サウジアラビア産原油4百万バレルがホルムズ海峡を通航予定。交通量回復の兆候",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/4-Million-Barrels-of-Saudi-Crude-Set-to-Transit-Strait-of-Hormuz.html",
+      "pub": "Tue, 07 Jul 2026 03:30:00 -0500",
+      "pub_ts": 1783413000,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "bullish",
+      "direction": "neutral",
       "time_horizon": "short",
-      "main_factor": "供給懸念、地政学リスク",
+      "main_factor": "供給回復の兆候",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Geopolitics/Middle-East/Why-Abu-Dhabi-Is-Building-the-Worlds-First-Integrated-Energy-AI-Economy.html",
