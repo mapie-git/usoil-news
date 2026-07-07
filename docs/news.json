@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T01:34:50.868809+09:00",
+  "updated_at": "2026-07-08T02:00:34.488180+09:00",
   "accuracy": {
     "total": 174,
     "correct": 42,
@@ -21,7 +21,7 @@
       "time_horizon": "long",
       "main_factor": "供給ルート多様化",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -201,24 +201,6 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/ukraine_hits_russias_biggest_refinery-06-jul-2026-184068-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Ukraine Hits Russia's Biggest Refinery",
-      "summary": "ウクライナがロシア最大規模を含む3つの製油所を攻撃。ロシアの精製能力低下で供給逼迫懸念",
-      "link": "https://www.rigzone.com/news/wire/ukraine_hits_russias_biggest_refinery-06-jul-2026-184068-article/?rss=true",
-      "pub": "Mon, 06 Jul 2026 14:48:56 GMT",
-      "pub_ts": 1783349336,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
       "is_new": false,
       "verified": true,
       "correct": true
@@ -438,6 +420,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Super-El-Nio-Could-Push-Colombia-Into-an-Energy-Crisis.html",
+      "source": "OilPrice.com",
+      "title": "Super El Niño Could Push Colombia Into an Energy Crisis",
+      "summary": "2026年のスーパーエルニーニョがコロンビアの水力発電危機を引き起こし、エネルギー供給が制約される見通し",
+      "link": "https://oilprice.com/Energy/Energy-General/Super-El-Nio-Could-Push-Colombia-Into-an-Energy-Crisis.html",
+      "pub": "Tue, 07 Jul 2026 12:00:00 -0500",
+      "pub_ts": 1783443600,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "気象リスク・供給制約",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Ugandan-Farmers-Sue-to-Block-5-Billion-East-Africa-Oil-Pipeline.html",
