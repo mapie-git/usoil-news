@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T03:30:30.204642+09:00",
+  "updated_at": "2026-07-08T04:00:30.750134+09:00",
   "accuracy": {
-    "total": 180,
+    "total": 183,
     "correct": 44,
     "rate": 24
   },
-  "wti_price": 70.55999755859375,
+  "wti_price": 70.83000183105469,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Shuts-Russias-Largest-Refinery-as-Fuel-Shortages-Worsen.html",
@@ -220,6 +220,24 @@
       "main_factor": "供給増加",
       "reliability": "B",
       "is_new": false,
+      "verified": true,
+      "correct": false
+    },
+    {
+      "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Swings-From-Glut-Fears-to-Hormuz-Toll-Concerns.html",
+      "source": "OilPrice.com",
+      "title": "Oil Market Swings From Glut Fears to Hormuz Toll Concerns",
+      "summary": "ペルシャ湾からのタンカー流出増加により供給過剰懸念が浮上。イラン米国交渉進捗なし。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Swings-From-Glut-Fears-to-Hormuz-Toll-Concerns.html",
+      "pub": "Tue, 07 Jul 2026 14:00:00 -0500",
+      "pub_ts": 1783450800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "供給過剰懸念",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "long",
       "main_factor": "インフラ投資",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Super-El-Nio-Could-Push-Colombia-Into-an-Energy-Crisis.html",
-      "source": "OilPrice.com",
-      "title": "Super El Niño Could Push Colombia Into an Energy Crisis",
-      "summary": "2026年のスーパーエルニーニョがコロンビアの水力発電危機を引き起こし、エネルギー供給が制約される見通し",
-      "link": "https://oilprice.com/Energy/Energy-General/Super-El-Nio-Could-Push-Colombia-Into-an-Energy-Crisis.html",
-      "pub": "Tue, 07 Jul 2026 12:00:00 -0500",
-      "pub_ts": 1783443600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "気象リスク・供給制約",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
