@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T18:00:30.321701+09:00",
+  "updated_at": "2026-07-07T18:30:36.738216+09:00",
   "accuracy": {
-    "total": 143,
-    "correct": 32,
-    "rate": 22
+    "total": 146,
+    "correct": 33,
+    "rate": 23
   },
-  "wti_price": 69.4800033569336,
+  "wti_price": 69.51000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
@@ -165,6 +165,24 @@
       "time_horizon": "short",
       "main_factor": "供給増加",
       "reliability": "A",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1upphpm/lng_tanker_hit_in_the_strait_of_hormuz/",
+      "source": "Reddit r/oil",
+      "title": "LNG tanker hit in the strait of Hormuz",
+      "summary": "ホルムズ海峡でLNGタンカー被撃。供給途絶リスクと天然ガス価格上昇で原油に波及。",
+      "link": "https://www.reddit.com/r/oil/comments/1upphpm/lng_tanker_hit_in_the_strait_of_hormuz/",
+      "pub": "2026-07-07T09:00:23+00:00",
+      "pub_ts": 1783414823,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -364,8 +382,8 @@
       "main_factor": "供給増加、地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uorr4e/opec_approves_august_oil_output_increase_while/",
@@ -382,6 +400,24 @@
       "main_factor": "供給増加決定",
       "reliability": "C",
       "is_new": false,
+      "verified": true,
+      "correct": true
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Signals-Oil-and-Gas-Trading-Windfall-in-Q2-Amid-Iran-War.html",
+      "source": "OilPrice.com",
+      "title": "Shell Signals Oil and Gas Trading Windfall in Q2 Amid Iran War",
+      "summary": "シェルがQ2で石油・ガス取引益の大幅増加を見込む。イラン情勢による変動性が背景。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Signals-Oil-and-Gas-Trading-Windfall-in-Q2-Amid-Iran-War.html",
+      "pub": "Tue, 07 Jul 2026 04:30:00 -0500",
+      "pub_ts": 1783416600,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -416,42 +452,6 @@
       "direction": "neutral",
       "time_horizon": "long",
       "main_factor": "産業政策",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html",
-      "source": "OilPrice.com",
-      "title": "Big Oil Heads for Record Profits as Trump Turns Up the Heat on Gas Prices",
-      "summary": "トランプ政権がガス価格引き上げ、大手石油メジャーが記録的利益を見込む。ホルムズ海峡閉鎖で原油価格が4年高水準。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Big-Oil-Heads-for-Record-Profits-as-Trump-Turns-Up-the-Heat-on-Gas-Prices.html",
-      "pub": "Mon, 06 Jul 2026 17:00:00 -0500",
-      "pub_ts": 1783375200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Shell-And-ExxonMobil-Are-Betting-Billions-On-Nigerias-Deepwater-Comeback.html",
-      "source": "OilPrice.com",
-      "title": "Shell And ExxonMobil Are Betting Billions On Nigeria's Deepwater Comeback",
-      "summary": "ナイジェリアの深海油田とダンゴテ精製所への大型投資について。長期的な供給増加の可能性だが確実性は不明確。",
-      "link": "https://oilprice.com/Energy/Energy-General/Shell-And-ExxonMobil-Are-Betting-Billions-On-Nigerias-Deepwater-Comeback.html",
-      "pub": "Mon, 06 Jul 2026 16:00:00 -0500",
-      "pub_ts": 1783371600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "供給増加の展望",
       "reliability": "B",
       "is_new": false,
       "verified": false,
