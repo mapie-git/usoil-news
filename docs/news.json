@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T11:30:31.267094+09:00",
+  "updated_at": "2026-07-07T12:00:27.772431+09:00",
   "accuracy": {
     "total": 117,
     "correct": 29,
     "rate": 25
   },
-  "wti_price": 69.22000122070312,
+  "wti_price": 69.05999755859375,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1upgqil/irans_irgc_fired_at_least_two_missiles_at/",
