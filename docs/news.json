@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-07-08T04:30:33.108343+09:00",
+  "updated_at": "2026-07-08T05:00:30.795881+09:00",
   "accuracy": {
-    "total": 184,
+    "total": 185,
     "correct": 45,
     "rate": 24
   },
-  "wti_price": 72.18000030517578,
+  "wti_price": 71.94000244140625,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
+      "source": "Reddit r/oil",
+      "title": "The US is revoking Iran's newly issued general license to export oil and is reimposing full sanctions on production and sales after Iran struck four commercial vessels in the Strait of Hormuz today",
+      "summary": "米国がイランの石油輸出一般許可を取り消し全面再制裁。ホルムズ海峡での船舶攻撃受け。",
+      "link": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
+      "pub": "2026-07-07T19:36:26+00:00",
+      "pub_ts": 1783452986,
+      "impact": 5,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク・供給制限",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-Windfall-Earnings-Threaten-to-Reignite-Trumps-Price-Gouging-Push.html",
+      "source": "OilPrice.com",
+      "title": "Big Oil's Windfall Earnings Threaten to Reignite Trump's Price-Gouging Push",
+      "summary": "イラン攻撃によるタイト供給でシェブロン・エクソン利益急増。トランプ政権の価格操作批判の再燃リスク。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-Windfall-Earnings-Threaten-to-Reignite-Trumps-Price-Gouging-Push.html",
+      "pub": "Tue, 07 Jul 2026 15:00:00 -0500",
+      "pub_ts": 1783454400,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク・供給タイト",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Shuts-Russias-Largest-Refinery-as-Fuel-Shortages-Worsen.html",
       "source": "OilPrice.com",
@@ -237,7 +273,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -420,42 +456,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1up6xwi/video_shows_a_ukrainian_drone_slamming_into_the/",
-      "source": "Reddit r/oil",
-      "title": "Video shows a Ukrainian drone slamming into the Omsk Refinery, which is Russia's largest refinery in Ukraine's longest distance drone strike. Several hits on various infrastructure within the facility have been recorded.",
-      "summary": "ウクライナ無人機がロシア最大製油所オムスク製油所を攻撃。複数の施設が被弾。",
-      "link": "https://www.reddit.com/r/oil/comments/1up6xwi/video_shows_a_ukrainian_drone_slamming_into_the/",
-      "pub": "2026-07-06T19:06:08+00:00",
-      "pub_ts": 1783364768,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給途絶リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Windfall-Vanishes-as-Urals-Crashes-to-42-a-Barrel.html",
-      "source": "OilPrice.com",
-      "title": "Russia’s Oil Windfall Vanishes as Urals Crashes to $42 a Barrel",
-      "summary": "ロシア産ウラル原油が$41.66/bblまで下落。中東紛争前の水準に戻り、収益圧力が高まる。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Windfall-Vanishes-as-Urals-Crashes-to-42-a-Barrel.html",
-      "pub": "Mon, 06 Jul 2026 12:30:00 -0500",
-      "pub_ts": 1783359000,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給過剰圧力",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
     }
   ]
 }
