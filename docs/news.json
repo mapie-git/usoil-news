@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T07:00:29.706158+09:00",
+  "updated_at": "2026-07-08T07:30:33.552512+09:00",
   "accuracy": {
-    "total": 189,
-    "correct": 45,
+    "total": 191,
+    "correct": 46,
     "rate": 24
   },
-  "wti_price": 72.19999694824219,
+  "wti_price": 72.31999969482422,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -296,6 +296,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uq9kqu/us_reimposed_iranian_oil_sanctions/",
+      "source": "Reddit r/oil",
+      "title": "US Re-imposed Iranian Oil Sanctions",
+      "summary": "米国がイラン油制裁を再発動。供給懸念で上昇圧力だが、詳細不明で影響度は中程度",
+      "link": "https://www.reddit.com/r/oil/comments/1uq9kqu/us_reimposed_iranian_oil_sanctions/",
+      "pub": "2026-07-07T22:02:25+00:00",
+      "pub_ts": 1783461745,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uq88k4/us_is_now_retaliating_after_iran_fired_missiles/",
       "source": "Reddit r/oil",
       "title": "US is now retaliating after Iran fired missiles at several ships",
@@ -435,24 +453,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/oil_market_is_attempting_a_system_reboot-07-jul-2026-184075-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Oil Market is Attempting a System Reboot",
-      "summary": "JP Morgan のシニア分析官が石油市場は『システム再起動段階』と指摘。市場転換点示唆",
-      "link": "https://www.rigzone.com/news/oil_market_is_attempting_a_system_reboot-07-jul-2026-184075-article/?rss=true",
-      "pub": "Tue, 07 Jul 2026 11:06:54 GMT",
-      "pub_ts": 1783422414,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "市場環境転換",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
