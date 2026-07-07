@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-07T17:30:33.615815+09:00",
+  "updated_at": "2026-07-07T18:00:30.321701+09:00",
   "accuracy": {
-    "total": 142,
+    "total": 143,
     "correct": 32,
-    "rate": 23
+    "rate": 22
   },
-  "wti_price": 69.25,
+  "wti_price": 69.4800033569336,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
@@ -399,7 +399,7 @@
       "time_horizon": "short",
       "main_factor": "供給回復の兆候",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
