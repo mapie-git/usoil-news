@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-08T02:00:34.488180+09:00",
+  "updated_at": "2026-07-08T02:30:33.059847+09:00",
   "accuracy": {
-    "total": 174,
-    "correct": 42,
+    "total": 179,
+    "correct": 43,
     "rate": 24
   },
-  "wti_price": 70.47000122070312,
+  "wti_price": 70.55000305175781,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uq1a3b/russias_omsk_oil_refinery_the_countrys_largest/",
+      "source": "Reddit r/oil",
+      "title": "Russia's Omsk Oil Refinery, the country's largest, most valuable and top producer of petrol, has suspended all operations following yesterday's large Ukrainian drone strike, per Reuters.",
+      "summary": "ロシア最大製油所オムスク製油所がウクライナ無人機攻撃により全操業停止",
+      "link": "https://www.reddit.com/r/oil/comments/1uq1a3b/russias_omsk_oil_refinery_the_countrys_largest/",
+      "pub": "2026-07-07T17:08:43+00:00",
+      "pub_ts": 1783444123,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給途絶、地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Eyes-Major-Red-Sea-Pipeline-Expansion-to-Bypass-Hormuz.html",
       "source": "OilPrice.com",
@@ -400,24 +418,6 @@
       "main_factor": "供給過剰圧力",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uozl8p/ukrainian_drones_have_struck_russias_omsk_oil/",
-      "source": "Reddit r/oil",
-      "title": "Ukrainian drones have struck Russia's Omsk Oil Refinery, the country's largest and most valuable refinery, in the first successful strike on the facility in over 4 years of war, occurring ~2,500km from the frontline and damaging numerous oil processing towers which are now left burning.",
-      "summary": "ウクライナ、ロシア最大級オムスク製油所を初めて成功裏に攻撃。供給懸念で上昇圧力も市場未確認の部分あり",
-      "link": "https://www.reddit.com/r/oil/comments/1uozl8p/ukrainian_drones_have_struck_russias_omsk_oil/",
-      "pub": "2026-07-06T14:52:01+00:00",
-      "pub_ts": 1783349521,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給リスク",
-      "reliability": "C",
-      "is_new": false,
       "verified": true,
       "correct": false
     },
@@ -435,7 +435,7 @@
       "time_horizon": "long",
       "main_factor": "気象リスク・供給制約",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
