@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T03:00:35.877629+09:00",
+  "updated_at": "2026-07-08T03:30:30.204642+09:00",
   "accuracy": {
     "total": 180,
     "correct": 44,
     "rate": 24
   },
-  "wti_price": 70.43000030517578,
+  "wti_price": 70.55999755859375,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Shuts-Russias-Largest-Refinery-as-Fuel-Shortages-Worsen.html",
@@ -435,7 +435,7 @@
       "time_horizon": "long",
       "main_factor": "インフラ投資",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
