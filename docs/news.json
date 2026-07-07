@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-08T02:30:33.059847+09:00",
+  "updated_at": "2026-07-08T03:00:35.877629+09:00",
   "accuracy": {
-    "total": 179,
-    "correct": 43,
+    "total": 180,
+    "correct": 44,
     "rate": 24
   },
-  "wti_price": 70.55000305175781,
+  "wti_price": 70.43000030517578,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Shuts-Russias-Largest-Refinery-as-Fuel-Shortages-Worsen.html",
+      "source": "OilPrice.com",
+      "title": "Drone Strike Shuts Russia's Largest Refinery as Fuel Shortages Worsen",
+      "summary": "ウクライナがロシア最大級の製油所を無人機で攻撃。燃料逼迫が深刻化し、ロシアの石油供給能力が制約される可能性。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Shuts-Russias-Largest-Refinery-as-Fuel-Shortages-Worsen.html",
+      "pub": "Tue, 07 Jul 2026 12:30:00 -0500",
+      "pub_ts": 1783445400,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "A",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq1a3b/russias_omsk_oil_refinery_the_countrys_largest/",
       "source": "Reddit r/oil",
@@ -21,7 +39,7 @@
       "time_horizon": "short",
       "main_factor": "供給途絶、地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -204,24 +222,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Washingtons-Plan-to-Neutralize-Irans-Hormuz-Leverage.html",
-      "source": "OilPrice.com",
-      "title": "Washington's Plan to Neutralize Iran’s Hormuz Leverage",
-      "summary": "イラン、ホルムズ海峡の地政学的脅威。供給の3分の1が経由する重要な海上輸送路の不安定化リスク",
-      "link": "https://oilprice.com/Energy/Energy-General/Washingtons-Plan-to-Neutralize-Irans-Hormuz-Leverage.html",
-      "pub": "Mon, 06 Jul 2026 10:00:00 -0500",
-      "pub_ts": 1783350000,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Could-Return-To-Iranian-Crude-If-US-Extends-Sanctions-Waiver.html",
@@ -422,6 +422,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Bets-on-Iran-Port-Despite-Regional-Tensions.html",
+      "source": "OilPrice.com",
+      "title": "Kazakhstan Bets on Iran Port Despite Regional Tensions",
+      "summary": "カザフスタンがイラン・バンダルアッバス港にターミナル建設を計画。長期的なインフラ整備で即時的な価格影響は限定的。",
+      "link": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Bets-on-Iran-Port-Despite-Regional-Tensions.html",
+      "pub": "Tue, 07 Jul 2026 13:00:00 -0500",
+      "pub_ts": 1783447200,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "インフラ投資",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/Super-El-Nio-Could-Push-Colombia-Into-an-Energy-Crisis.html",
       "source": "OilPrice.com",
       "title": "Super El Niño Could Push Colombia Into an Energy Crisis",
@@ -435,24 +453,6 @@
       "time_horizon": "long",
       "main_factor": "気象リスク・供給制約",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Ugandan-Farmers-Sue-to-Block-5-Billion-East-Africa-Oil-Pipeline.html",
-      "source": "OilPrice.com",
-      "title": "Ugandan Farmers Sue to Block $5 Billion East Africa Oil Pipeline",
-      "summary": "ウガンダの農民がEACOP石油パイプライン建設に対し英国高等法院に訴訟を提起。環境問題を理由に事業停止を求める。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Ugandan-Farmers-Sue-to-Block-5-Billion-East-Africa-Oil-Pipeline.html",
-      "pub": "Tue, 07 Jul 2026 10:30:00 -0500",
-      "pub_ts": 1783438200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "供給インフラ遅延リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
