@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T06:00:35.648426+09:00",
+  "updated_at": "2026-07-09T06:12:44.617865+09:00",
   "accuracy": {
-    "total": 242,
-    "correct": 66,
-    "rate": 27
+    "total": 244,
+    "correct": 68,
+    "rate": 28
   },
-  "wti_price": 74.72000122070312,
+  "wti_price": 74.76000213623047,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -328,8 +328,8 @@
       "main_factor": "地政学リスク、供給懸念",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.rigzone.com/news/wire/oil_jumps_on_hormuz_shipping_attacks-07-jul-2026-184082-article/?rss=true",
