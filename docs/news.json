@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T00:00:32.414382+09:00",
+  "updated_at": "2026-07-09T00:30:34.049735+09:00",
   "accuracy": {
-    "total": 223,
-    "correct": 55,
+    "total": 228,
+    "correct": 56,
     "rate": 25
   },
-  "wti_price": 75.30000305175781,
+  "wti_price": 75.44999694824219,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -382,8 +382,8 @@
       "main_factor": "供給増加",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/EIA-Crude-Oil-Inventories-in-US-See-Rare-Build.html",
@@ -399,7 +399,7 @@
       "time_horizon": "short",
       "main_factor": "在庫増加",
       "reliability": "A",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
