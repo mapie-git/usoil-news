@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T03:00:31.135080+09:00",
+  "updated_at": "2026-07-09T03:30:30.784970+09:00",
   "accuracy": {
-    "total": 233,
-    "correct": 60,
+    "total": 235,
+    "correct": 61,
     "rate": 26
   },
-  "wti_price": 73.75,
+  "wti_price": 73.52999877929688,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -310,8 +310,8 @@
       "main_factor": "地政学リスク",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq1a3b/russias_omsk_oil_refinery_the_countrys_largest/",
@@ -381,7 +381,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
