@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T17:00:31.277813+09:00",
+  "updated_at": "2026-07-08T17:30:40.683562+09:00",
   "accuracy": {
-    "total": 204,
+    "total": 205,
     "correct": 48,
-    "rate": 24
+    "rate": 23
   },
-  "wti_price": 71.97000122070312,
+  "wti_price": 73.63999938964844,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -22,6 +22,24 @@
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-and-LNG-Tankers-Make-U-Turns-After-Fresh-Hormuz-Escalation.html",
+      "source": "OilPrice.com",
+      "title": "Oil and LNG Tankers Make U-Turns After Fresh Hormuz Escalation",
+      "summary": "ホルムズ海峡での軍事衝突再燃により、複数のタンカーが航路変更。供給中断リスク高まる。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-and-LNG-Tankers-Make-U-Turns-After-Fresh-Hormuz-Escalation.html",
+      "pub": "Wed, 08 Jul 2026 03:30:00 -0500",
+      "pub_ts": 1783499400,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "在庫減少",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uq4q8c/us_revoking_license_that_authorized_iranian_oil/",
-      "source": "Reddit r/oil",
-      "title": "US revoking license that authorized Iranian oil sales, official says",
-      "summary": "米国がイラン石油販売を認可するライセンスを取り消すと発表。供給制限要因だが真正性未確認。",
-      "link": "https://www.reddit.com/r/oil/comments/1uq4q8c/us_revoking_license_that_authorized_iranian_oil/",
-      "pub": "2026-07-07T19:07:56+00:00",
-      "pub_ts": 1783451276,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
