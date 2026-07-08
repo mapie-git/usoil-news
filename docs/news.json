@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T08:00:29.080454+09:00",
+  "updated_at": "2026-07-09T08:30:33.397852+09:00",
   "accuracy": {
-    "total": 249,
+    "total": 251,
     "correct": 71,
-    "rate": 29
+    "rate": 28
   },
-  "wti_price": 74.58999633789062,
+  "wti_price": 74.55999755859375,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Gulf-Oil-Producers-Relaunch-Fight-for-Market-Share-in-Asia.html",
@@ -292,8 +292,8 @@
       "main_factor": "供給過剰、OPEC結束崩壊",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq8hia/us_central_command_forces_have_begun_launching_a/",
@@ -345,7 +345,7 @@
       "time_horizon": "medium",
       "main_factor": "供給増加",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
