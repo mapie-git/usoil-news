@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T05:00:33.680977+09:00",
+  "updated_at": "2026-07-09T05:30:35.241785+09:00",
   "accuracy": {
     "total": 239,
     "correct": 64,
     "rate": 27
   },
-  "wti_price": 74.16000366210938,
+  "wti_price": 74.61000061035156,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -24,6 +24,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1ur4g2k/us_central_command_forces_have_started_conducting/",
+      "source": "Reddit r/oil",
+      "title": "U.S. Central Command forces have started conducting additional strikes against Iran",
+      "summary": "米国がイラン攻撃を開始。ホルムズ海峡の航行の自由を脅かす能力を低下させるため。地政学リスク上昇",
+      "link": "https://www.reddit.com/r/oil/comments/1ur4g2k/us_central_command_forces_have_started_conducting/",
+      "pub": "2026-07-08T20:22:10+00:00",
+      "pub_ts": 1783542130,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IMF-Downgrades-Global-Economic-Growth-Forecast-To-3-Amid-Iran-War.html",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "在庫増加",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uqu2fu/iran_announces_the_islamabad_agreement_and_mou_is/",
-      "source": "Reddit r/oil",
-      "title": "Iran announces the Islamabad Agreement and MOU is now officially \"dead,\" following Trump's earlier declaration ending the MOU, per Tasnim.",
-      "summary": "イラン核合意の事実上の終焉。地政学的緊張の高まりが中東産油国の供給リスク要因に。",
-      "link": "https://www.reddit.com/r/oil/comments/1uqu2fu/iran_announces_the_islamabad_agreement_and_mou_is/",
-      "pub": "2026-07-08T14:20:15+00:00",
-      "pub_ts": 1783520415,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
