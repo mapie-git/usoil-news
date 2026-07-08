@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T15:00:33.482242+09:00",
+  "updated_at": "2026-07-08T15:30:28.732392+09:00",
   "accuracy": {
     "total": 201,
     "correct": 47,
     "rate": 23
   },
-  "wti_price": 72.73999786376953,
+  "wti_price": 72.66999816894531,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -39,7 +39,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -332,6 +332,24 @@
       "correct": true
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uqiu6g/saudi_arabia_weighs_oil_pipeline_expansion_to/",
+      "source": "Reddit r/oil",
+      "title": "Saudi Arabia weighs oil pipeline expansion to bypass strait, holds talks with Gulf neighbours",
+      "summary": "サウジアラビアがホルムズ海峡迂回パイプライン拡張を検討中。地政学リスク低減を意図。",
+      "link": "https://www.reddit.com/r/oil/comments/1uqiu6g/saudi_arabia_weighs_oil_pipeline_expansion_to/",
+      "pub": "2026-07-08T04:54:31+00:00",
+      "pub_ts": 1783486471,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク軽減",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uq9kqu/us_reimposed_iranian_oil_sanctions/",
       "source": "Reddit r/oil",
       "title": "US Re-imposed Iranian Oil Sanctions",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "供給過剰懸念",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Could-Return-To-Iranian-Crude-If-US-Extends-Sanctions-Waiver.html",
-      "source": "OilPrice.com",
-      "title": "India Could Return To Iranian Crude If U.S. Extends Sanctions Waiver",
-      "summary": "インドがイラン原油購入を検討。米国が制裁免除延長または緩和した場合、イラン産原油の需要復活の可能性。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Could-Return-To-Iranian-Crude-If-US-Extends-Sanctions-Waiver.html",
-      "pub": "Tue, 07 Jul 2026 09:30:00 -0500",
-      "pub_ts": 1783434600,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "制裁政策変化",
       "reliability": "B",
       "is_new": false,
       "verified": false,
