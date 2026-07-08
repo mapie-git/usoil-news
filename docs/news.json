@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T19:00:29.442370+09:00",
+  "updated_at": "2026-07-08T19:30:32.696173+09:00",
   "accuracy": {
-    "total": 208,
+    "total": 209,
     "correct": 49,
-    "rate": 24
+    "rate": 23
   },
-  "wti_price": 74.69000244140625,
+  "wti_price": 74.30000305175781,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -22,6 +22,24 @@
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-6-Even-as-Tankers-Push-Through-Hormuz.html",
+      "source": "OilPrice.com",
+      "title": "Oil Prices Surge 6% Even as Tankers Push Through Hormuz",
+      "summary": "ホルムズ海峡の地政学的緊張でWTI原油が6%急騰。米イラン対立の激化で供給リスク懸念",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-6-Even-as-Tankers-Push-Through-Hormuz.html",
+      "pub": "Wed, 08 Jul 2026 05:30:00 -0500",
+      "pub_ts": 1783506600,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -363,24 +381,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1upgqil/irans_irgc_fired_at_least_two_missiles_at/",
-      "source": "Reddit r/oil",
-      "title": "Iran's IRGC fired at least two missiles at multiple commercial ships transiting through the Strait of Hormuz, with two commercial ships hit and suffering significant damages, per a US official.",
-      "summary": "イラン革命防衛隊がホルムズ海峡の商船を攻撃し2隻が被害。地政学リスク急騰",
-      "link": "https://www.reddit.com/r/oil/comments/1upgqil/irans_irgc_fired_at_least_two_missiles_at/",
-      "pub": "2026-07-07T01:28:51+00:00",
-      "pub_ts": 1783387731,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": true,
       "correct": true
