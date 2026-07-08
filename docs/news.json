@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T18:30:31.259112+09:00",
+  "updated_at": "2026-07-08T19:00:29.442370+09:00",
   "accuracy": {
-    "total": 205,
-    "correct": 48,
-    "rate": 23
+    "total": 208,
+    "correct": 49,
+    "rate": 24
   },
-  "wti_price": 74.93000030517578,
+  "wti_price": 74.69000244140625,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -39,7 +39,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
