@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T00:30:34.049735+09:00",
+  "updated_at": "2026-07-09T00:43:46.434920+09:00",
   "accuracy": {
     "total": 228,
     "correct": 56,
     "rate": 25
   },
-  "wti_price": 75.44999694824219,
+  "wti_price": 75.62999725341797,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -22,6 +22,24 @@
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-over-7-as-Iran-Ceasefire-Declared-Over.html",
+      "source": "OilPrice.com",
+      "title": "Oil Prices Jump over 7% as Iran Ceasefire Declared ‘Over’",
+      "summary": "トランプ大統領がイラン休戦合意を終了宣言。原油は7%超上昇し2週間ぶり高値。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-over-7-as-Iran-Ceasefire-Declared-Over.html",
+      "pub": "Wed, 08 Jul 2026 10:31:00 -0500",
+      "pub_ts": 1783524660,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "A",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク・供給逼迫",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uqs92f/oil_prices_jump_and_markets_tumble_as_trump_says/",
-      "source": "Reddit r/oil",
-      "title": "Oil prices jump and markets tumble as Trump says interim deal with Iran ‘over’",
-      "summary": "トランプ氏がイラン暫定合意終了を表明。地政学リスク上昇で油価上昇、株価下落。",
-      "link": "https://www.reddit.com/r/oil/comments/1uqs92f/oil_prices_jump_and_markets_tumble_as_trump_says/",
-      "pub": "2026-07-08T13:10:37+00:00",
-      "pub_ts": 1783516237,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
