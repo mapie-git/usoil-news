@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T22:00:36.795255+09:00",
+  "updated_at": "2026-07-08T22:08:36.052422+09:00",
   "accuracy": {
     "total": 217,
     "correct": 51,
     "rate": 24
   },
-  "wti_price": 73.31999969482422,
+  "wti_price": 73.5999984741211,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -368,6 +368,24 @@
       "correct": null
     },
     {
+      "id": "https://www.eia.gov/todayinenergy/detail.php?id=67825",
+      "source": "EIA",
+      "title": "U.S. exports of crude oil and petroleum products reached record in April",
+      "summary": "米石油輸出が4月に過去最高の日量1360万バレルに達した。ホルムズ海峡混乱で需要増加。",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67825",
+      "pub": "Wed, 8 Jul 2026 09:00:00 EST",
+      "pub_ts": 1783519200,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク・供給逼迫",
+      "reliability": "A",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.rigzone.com/news/oil_rockets_higher_as_trump_declares_iran_ceasefire_over-08-jul-2026-184086-article/?rss=true",
       "source": "Rigzone",
       "title": "Oil Rockets Higher as Trump Declares Iran Ceasefire Over",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uq88k4/us_is_now_retaliating_after_iran_fired_missiles/",
-      "source": "Reddit r/oil",
-      "title": "US is now retaliating after Iran fired missiles at several ships",
-      "summary": "米がイラン報復開始との匿名報告。地政学リスク上昇で油価上振れ圧力",
-      "link": "https://www.reddit.com/r/oil/comments/1uq88k4/us_is_now_retaliating_after_iran_fired_missiles/",
-      "pub": "2026-07-07T21:12:05+00:00",
-      "pub_ts": 1783458725,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
