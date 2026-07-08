@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T20:30:47.770392+09:00",
+  "updated_at": "2026-07-08T21:00:35.482904+09:00",
   "accuracy": {
     "total": 214,
     "correct": 51,
     "rate": 24
   },
-  "wti_price": 74.26000213623047,
+  "wti_price": 74.05999755859375,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -22,6 +22,24 @@
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/63-Million-Barrels-Of-Crude-Stuck-At-Sea-As-US-Pulls-Iran-Sanction-Waiver.html",
+      "source": "OilPrice.com",
+      "title": "63 Million Barrels Of Crude Stuck At Sea As U.S. Pulls Iran Sanction Waiver",
+      "summary": "イラン制裁除外の取消により、6,300万バレルが海上で滞留。供給逼迫とホルムズ海峡リスク。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/63-Million-Barrels-Of-Crude-Stuck-At-Sea-As-US-Pulls-Iran-Sanction-Waiver.html",
+      "pub": "Wed, 08 Jul 2026 06:48:40 -0500",
+      "pub_ts": 1783511320,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク、供給制限",
+      "reliability": "A",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -350,40 +368,22 @@
       "correct": null
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
-      "source": "OilPrice.com",
-      "title": "Gulf Oil Exporters Slash Prices as Buyers Gain the Upper Hand",
-      "summary": "サウジアラビアがアジア向け原油価格を過去数十年で最大の値下げ。買い手優位の市場環境を反映",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exporters-Slash-Prices-as-Buyers-Gain-the-Upper-Hand.html",
-      "pub": "Tue, 07 Jul 2026 01:45:00 -0500",
-      "pub_ts": 1783406700,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給過剰、需要減少",
-      "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/qatari_lng_carrier_struck_in_hormuz-07-jul-2026-184072-article/?rss=true",
+      "id": "https://www.rigzone.com/news/oil_rockets_higher_as_trump_declares_iran_ceasefire_over-08-jul-2026-184086-article/?rss=true",
       "source": "Rigzone",
-      "title": "Qatari LNG Carrier Struck in Hormuz",
-      "summary": "カタール籍LNGキャリアがホルムズ海峡で発射体攻撃を受け、海峡での輸送リスク再燃。米イラン合意の効力に疑問。",
-      "link": "https://www.rigzone.com/news/wire/qatari_lng_carrier_struck_in_hormuz-07-jul-2026-184072-article/?rss=true",
-      "pub": "Tue, 07 Jul 2026 06:43:21 GMT",
-      "pub_ts": 1783406601,
-      "impact": 4,
-      "impact_group": "high",
+      "title": "Oil Rockets Higher as Trump Declares Iran Ceasefire Over",
+      "summary": "トランプ大統領がイラン停戦終了宣言。市場が即座に反応し油価上昇。",
+      "link": "https://www.rigzone.com/news/oil_rockets_higher_as_trump_declares_iran_ceasefire_over-08-jul-2026-184086-article/?rss=true",
+      "pub": "Wed, 08 Jul 2026 10:21:52 GMT",
+      "pub_ts": 1783506112,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "short",
+      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
-      "reliability": "A",
+      "reliability": "B",
       "is_new": false,
-      "verified": true,
-      "correct": true
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uqmqxs/trump_on_the_mou_i_think_its_over/",
