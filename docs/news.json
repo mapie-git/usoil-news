@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-08T16:00:30.513191+09:00",
+  "updated_at": "2026-07-08T16:30:34.486929+09:00",
   "accuracy": {
-    "total": 201,
-    "correct": 47,
-    "rate": 23
+    "total": 204,
+    "correct": 48,
+    "rate": 24
   },
-  "wti_price": 72.58000183105469,
+  "wti_price": 72.37000274658203,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -21,6 +21,24 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/us_cancels_oil_waiver_and_strikes_iran_anew-08-jul-2026-184083-article/?rss=true",
+      "source": "Rigzone",
+      "title": "US Cancels Oil Waiver and Strikes Iran Anew",
+      "summary": "米国がイランへの追加制裁を発動し、石油販売免除を取り消し。ホルムズ海峡の供給リスク上昇。",
+      "link": "https://www.rigzone.com/news/wire/us_cancels_oil_waiver_and_strikes_iran_anew-08-jul-2026-184083-article/?rss=true",
+      "pub": "Wed, 08 Jul 2026 06:59:00 GMT",
+      "pub_ts": 1783493940,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -292,8 +310,8 @@
       "main_factor": "供給過剰、需要減少",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.rigzone.com/news/wire/qatari_lng_carrier_struck_in_hormuz-07-jul-2026-184072-article/?rss=true",
@@ -310,8 +328,8 @@
       "main_factor": "地政学リスク",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1upgqil/irans_irgc_fired_at_least_two_missiles_at/",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Swings-From-Glut-Fears-to-Hormuz-Toll-Concerns.html",
-      "source": "OilPrice.com",
-      "title": "Oil Market Swings From Glut Fears to Hormuz Toll Concerns",
-      "summary": "ペルシャ湾からのタンカー流出増加により供給過剰懸念が浮上。イラン米国交渉進捗なし。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Swings-From-Glut-Fears-to-Hormuz-Toll-Concerns.html",
-      "pub": "Tue, 07 Jul 2026 14:00:00 -0500",
-      "pub_ts": 1783450800,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "供給過剰懸念",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
