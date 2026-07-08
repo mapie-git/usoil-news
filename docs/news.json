@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T04:00:35.438126+09:00",
+  "updated_at": "2026-07-09T04:30:33.429129+09:00",
   "accuracy": {
-    "total": 236,
-    "correct": 61,
+    "total": 237,
+    "correct": 62,
     "rate": 26
   },
-  "wti_price": 73.62999725341797,
+  "wti_price": 73.56999969482422,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -21,6 +21,24 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/IMF-Downgrades-Global-Economic-Growth-Forecast-To-3-Amid-Iran-War.html",
+      "source": "OilPrice.com",
+      "title": "IMF Downgrades Global Economic Growth Forecast To 3% Amid Iran War",
+      "summary": "IMFが2026年世界経済成長を3%に下方修正。イラン戦争の影響で油価は32%上昇見込み。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/IMF-Downgrades-Global-Economic-Growth-Forecast-To-3-Amid-Iran-War.html",
+      "pub": "Wed, 08 Jul 2026 14:00:00 -0500",
+      "pub_ts": 1783537200,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク、経済減速",
+      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -350,24 +368,6 @@
       "correct": true
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Eyes-Major-Red-Sea-Pipeline-Expansion-to-Bypass-Hormuz.html",
-      "source": "OilPrice.com",
-      "title": "Saudi Arabia Eyes Major Red Sea Pipeline Expansion to Bypass Hormuz",
-      "summary": "サウジアラビアが東西パイプライン拡張を検討。日量200万バレル増加で、ホルムズ海峡迂回が可能に。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Eyes-Major-Red-Sea-Pipeline-Expansion-to-Bypass-Hormuz.html",
-      "pub": "Tue, 07 Jul 2026 11:30:00 -0500",
-      "pub_ts": 1783441800,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "供給ルート多様化",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
       "id": "https://oilprice.com/Energy/Energy-General/Canada-Eyes-Two-New-Oil-Pipelines.html",
       "source": "OilPrice.com",
       "title": "Canada Eyes Two New Oil Pipelines",
@@ -381,7 +381,7 @@
       "time_horizon": "long",
       "main_factor": "供給増加期待",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
