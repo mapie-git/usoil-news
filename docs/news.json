@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T02:00:36.549642+09:00",
+  "updated_at": "2026-07-09T02:30:40.114427+09:00",
   "accuracy": {
-    "total": 232,
-    "correct": 59,
-    "rate": 25
+    "total": 233,
+    "correct": 60,
+    "rate": 26
   },
-  "wti_price": 74.58000183105469,
+  "wti_price": 74.12000274658203,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uq5jz9/the_us_is_revoking_irans_newly_issued_general/",
@@ -22,6 +22,24 @@
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Bans-Diesel-Exports-Amid-Heavy-Ukraine-Attacks-On-Refineries.html",
+      "source": "OilPrice.com",
+      "title": "Russia Bans Diesel Exports Amid Heavy Ukraine Attacks On Refineries",
+      "summary": "ロシアがウクライナによる製油所攻撃を受けディーゼル輸出を全面禁止。供給逼迫リスク高まる。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Bans-Diesel-Exports-Amid-Heavy-Ukraine-Attacks-On-Refineries.html",
+      "pub": "Wed, 08 Jul 2026 12:30:00 -0500",
+      "pub_ts": 1783531800,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給制約・地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -310,8 +328,8 @@
       "main_factor": "供給途絶、地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Eyes-Major-Red-Sea-Pipeline-Expansion-to-Bypass-Hormuz.html",
@@ -343,24 +361,6 @@
       "impact_group": "high",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1upwpgs/a_fourth_tanker_has_just_been_attacked_and_hit_by/",
-      "source": "Reddit r/oil",
-      "title": "A fourth tanker has just been attacked and hit by Iran in the Strait of Hormuz US-backed southern corridor, struck by a drone and sustaining structural damage, per UKMTO. First time four vessels attack in a day since war begin.",
-      "summary": "イランがホルムズ海峡で1日4隻のタンカーを攻撃。海上輸送リスク急増で供給懸念が高まる。",
-      "link": "https://www.reddit.com/r/oil/comments/1upwpgs/a_fourth_tanker_has_just_been_attacked_and_hit_by/",
-      "pub": "2026-07-07T14:27:02+00:00",
-      "pub_ts": 1783434422,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
