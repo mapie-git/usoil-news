@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T04:30:31.874655+09:00",
+  "updated_at": "2026-07-10T05:00:41.174155+09:00",
   "accuracy": {
-    "total": 289,
-    "correct": 83,
+    "total": 290,
+    "correct": 84,
     "rate": 29
   },
-  "wti_price": 71.63999938964844,
+  "wti_price": 71.87000274658203,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
@@ -278,22 +278,22 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-over-7-as-Iran-Ceasefire-Declared-Over.html",
-      "source": "OilPrice.com",
-      "title": "Oil Prices Jump over 7% as Iran Ceasefire Declared ‘Over’",
-      "summary": "トランプ大統領がイラン休戦合意を終了宣言。原油は7%超上昇し2週間ぶり高値。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-over-7-as-Iran-Ceasefire-Declared-Over.html",
-      "pub": "Wed, 08 Jul 2026 10:31:00 -0500",
-      "pub_ts": 1783524660,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://www.reddit.com/r/oil/comments/1us0ql1/russian_refinery_throughput_has_now_collapsed_to/",
+      "source": "Reddit r/oil",
+      "title": "\"Russian refinery throughput has now collapsed to 2.8mbpd from 5.1mbpd in 2022. \" Alexander Stahel",
+      "summary": "ロシア製油所処理能力が2022年の5.1mbpdから2.8mbpdに激減。供給制約を示唆。",
+      "link": "https://www.reddit.com/r/oil/comments/1us0ql1/russian_refinery_throughput_has_now_collapsed_to/",
+      "pub": "2026-07-09T19:40:23+00:00",
+      "pub_ts": 1783626023,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "time_horizon": "medium",
+      "main_factor": "供給減少",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uryeas/iran_can_mine_the_strait_even_if_it_lost_all_of/",
