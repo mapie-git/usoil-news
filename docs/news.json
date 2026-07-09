@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T17:31:45.179685+09:00",
+  "updated_at": "2026-07-09T18:00:32.224153+09:00",
   "accuracy": {
-    "total": 258,
+    "total": 260,
     "correct": 77,
     "rate": 30
   },
-  "wti_price": 72.5,
+  "wti_price": 72.87000274658203,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sounds-Alarm-Over-Fresh-Threat-to-Global-Oil-Supplies.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
