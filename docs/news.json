@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T08:30:33.180932+09:00",
+  "updated_at": "2026-07-10T08:46:49.581478+09:00",
   "accuracy": {
     "total": 300,
     "correct": 87,
     "rate": 29
   },
-  "wti_price": 71.81999969482422,
+  "wti_price": 71.87000274658203,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/The-Strait-Of-Malacca-Faces-Growing-Fears-Of-Copycat-Shipping-Fees.html",
@@ -217,24 +217,6 @@
       "impact_group": "high",
       "direction": "bullish",
       "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/oil_surges_on_renewed_iran_strikes-08-jul-2026-184093-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Oil Surges on Renewed Iran Strikes",
-      "summary": "米国がイランへの攻撃を再開し、ホルムズ海峡での海運妨害の脅威により、原油価格が2週間ぶりの高値に上昇した。",
-      "link": "https://www.rigzone.com/news/wire/oil_surges_on_renewed_iran_strikes-08-jul-2026-184093-article/?rss=true",
-      "pub": "Wed, 08 Jul 2026 20:00:59 GMT",
-      "pub_ts": 1783540859,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
@@ -456,6 +438,24 @@
       "is_new": false,
       "verified": false,
       "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Dangotes-Next-Move-Could-Create-the-Worlds-Largest-Refinery.html",
+      "source": "OilPrice.com",
+      "title": "Dangote’s Next Move Could Create the World’s Largest Refinery",
+      "summary": "ダンゴテ製油所がフル稼働で欧州への製品輸出が記録的水準。湾岸・米国供給者を追い越す",
+      "link": "https://oilprice.com/Energy/Energy-General/Dangotes-Next-Move-Could-Create-the-Worlds-Largest-Refinery.html",
+      "pub": "Wed, 08 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1783551600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加",
+      "reliability": "B",
+      "is_new": false,
+      "verified": true,
+      "correct": true
     }
   ]
 }
