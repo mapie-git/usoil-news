@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T04:00:39.120950+09:00",
+  "updated_at": "2026-07-10T04:30:31.874655+09:00",
   "accuracy": {
-    "total": 288,
+    "total": 289,
     "correct": 83,
     "rate": 29
   },
-  "wti_price": 71.76000213623047,
+  "wti_price": 71.63999938964844,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
@@ -238,8 +238,8 @@
       "main_factor": "地政学リスク、経済減速",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ur12yk/russia_bans_diesel_exports_as_a_result_of/",
