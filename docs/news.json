@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T06:00:32.845837+09:00",
+  "updated_at": "2026-07-10T06:30:29.612598+09:00",
   "accuracy": {
     "total": 293,
     "correct": 85,
     "rate": 29
   },
-  "wti_price": 71.76000213623047,
+  "wti_price": 71.80999755859375,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
@@ -219,24 +219,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/IMF-Downgrades-Global-Economic-Growth-Forecast-To-3-Amid-Iran-War.html",
-      "source": "OilPrice.com",
-      "title": "IMF Downgrades Global Economic Growth Forecast To 3% Amid Iran War",
-      "summary": "IMFが2026年世界経済成長を3%に下方修正。イラン戦争の影響で油価は32%上昇見込み。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/IMF-Downgrades-Global-Economic-Growth-Forecast-To-3-Amid-Iran-War.html",
-      "pub": "Wed, 08 Jul 2026 14:00:00 -0500",
-      "pub_ts": 1783537200,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク、経済減速",
-      "reliability": "A",
       "is_new": false,
       "verified": true,
       "correct": false
@@ -456,6 +438,24 @@
       "is_new": false,
       "verified": false,
       "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/qatar_role_as_usairan_mediator_jeopardized-08-jul-2026-184090-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Qatar Role as USA-Iran Mediator Jeopardized",
+      "summary": "カタール船舶がホルムズ海峡近辺で攻撃され、カタールの米国-イラン仲介役が危機に瀕している。",
+      "link": "https://www.rigzone.com/news/wire/qatar_role_as_usairan_mediator_jeopardized-08-jul-2026-184090-article/?rss=true",
+      "pub": "Wed, 08 Jul 2026 20:00:00 GMT",
+      "pub_ts": 1783540800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": true,
+      "correct": true
     }
   ]
 }
