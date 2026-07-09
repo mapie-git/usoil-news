@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T02:30:28.565924+09:00",
+  "updated_at": "2026-07-10T03:00:26.680153+09:00",
   "accuracy": {
-    "total": 282,
+    "total": 284,
     "correct": 83,
     "rate": 29
   },
-  "wti_price": 71.9000015258789,
+  "wti_price": 71.4800033569336,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1ursitt/irans_irgc_announces_it_has_destroyed_the_us/",
@@ -256,8 +256,8 @@
       "main_factor": "供給制約・地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Jump-over-7-as-Iran-Ceasefire-Declared-Over.html",
@@ -273,24 +273,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Trump-Declares-Iran-Deal-Over-After-Fresh-Military-Escalation.html",
-      "source": "OilPrice.com",
-      "title": "Trump Declares Iran Deal “Over” After Fresh Military Escalation",
-      "summary": "トランプ大統領がイラン核合意は「終わり」と宣言。最近の軍事衝突を受け、イラン指導部を強く非難。",
-      "link": "https://oilprice.com/Energy/Energy-General/Trump-Declares-Iran-Deal-Over-After-Fresh-Military-Escalation.html",
-      "pub": "Wed, 08 Jul 2026 09:00:00 -0500",
-      "pub_ts": 1783519200,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": true,
       "correct": false
@@ -452,6 +434,24 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Canada-Eyes-Two-New-Oil-Pipelines.html",
+      "source": "OilPrice.com",
+      "title": "Canada Eyes Two New Oil Pipelines",
+      "summary": "カナダが西海岸のパイプライン建設でアジア市場への輸出強化を目指す。長期的な供給増加が期待できる。",
+      "link": "https://oilprice.com/Energy/Energy-General/Canada-Eyes-Two-New-Oil-Pipelines.html",
+      "pub": "Wed, 08 Jul 2026 14:00:00 -0500",
+      "pub_ts": 1783537200,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "供給増加期待",
       "reliability": "B",
       "is_new": false,
       "verified": false,
