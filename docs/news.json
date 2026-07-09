@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T01:30:41.953424+09:00",
+  "updated_at": "2026-07-10T02:00:37.708080+09:00",
   "accuracy": {
-    "total": 279,
-    "correct": 82,
+    "total": 282,
+    "correct": 83,
     "rate": 29
   },
-  "wti_price": 71.97000122070312,
+  "wti_price": 72.0199966430664,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1ursitt/irans_irgc_announces_it_has_destroyed_the_us/",
@@ -296,6 +296,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1urv0ow/strategic_oil_reserve_buying_set_to_support_crude/",
+      "source": "Reddit r/oil",
+      "title": "Strategic oil reserve buying set to support crude demand through 2028",
+      "summary": "戦略備蓄の買い増しが2028年まで原油需要を支援する見込み",
+      "link": "https://www.reddit.com/r/oil/comments/1urv0ow/strategic_oil_reserve_buying_set_to_support_crude/",
+      "pub": "2026-07-09T16:19:52+00:00",
+      "pub_ts": 1783613992,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "備蓄買い増し",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uruuo4/iran_has_rushed_out_at_least_10_million_barrels/",
       "source": "Reddit r/oil",
       "title": "Iran has rushed out at least 10 million barrels of crude oil and fuel oil overnight in anticipation of imminent resumption of the US naval blockade, per TankerTrackers.",
@@ -309,7 +327,7 @@
       "time_horizon": "short",
       "main_factor": "供給増加、地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Canada-Eyes-Two-New-Oil-Pipelines.html",
-      "source": "OilPrice.com",
-      "title": "Canada Eyes Two New Oil Pipelines",
-      "summary": "カナダが西海岸のパイプライン建設でアジア市場への輸出強化を目指す。長期的な供給増加が期待できる。",
-      "link": "https://oilprice.com/Energy/Energy-General/Canada-Eyes-Two-New-Oil-Pipelines.html",
-      "pub": "Wed, 08 Jul 2026 14:00:00 -0500",
-      "pub_ts": 1783537200,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "供給増加期待",
       "reliability": "B",
       "is_new": false,
       "verified": false,
