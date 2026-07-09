@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-09T08:30:33.397852+09:00",
+  "updated_at": "2026-07-09T09:00:43.732542+09:00",
   "accuracy": {
-    "total": 251,
-    "correct": 71,
-    "rate": 28
+    "total": 252,
+    "correct": 72,
+    "rate": 29
   },
-  "wti_price": 74.55999755859375,
+  "wti_price": 74.47000122070312,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1ur9vng/the_us_has_begun_striking_bridges_hitting_the_aq/",
+      "source": "Reddit r/oil",
+      "title": "The US has begun striking bridges, hitting the Aq Tekeh Khan Bridge, in the Golestan Province of Northern Iran, and the Gorgan railway line. Deepest US strike into Iran since March and the first US strike on Iranian transportation infrastructure since the April ceasefire.",
+      "summary": "米国がイラン北部の橋梁と鉄道を攻撃。3月以降で最深部への攻撃で地政学緊張が急速に高まった。",
+      "link": "https://www.reddit.com/r/oil/comments/1ur9vng/the_us_has_begun_striking_bridges_hitting_the_aq/",
+      "pub": "2026-07-08T23:52:08+00:00",
+      "pub_ts": 1783554728,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Gulf-Oil-Producers-Relaunch-Fight-for-Market-Share-in-Asia.html",
       "source": "OilPrice.com",
@@ -314,22 +332,22 @@
       "correct": true
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uq7w7q/ukraine_just_hit_russias_largest_refinery_2500km/",
+      "id": "https://www.reddit.com/r/oil/comments/1ur9tzh/according_to_axios_iran_wants_to_make_a_deal/",
       "source": "Reddit r/oil",
-      "title": "Ukraine just hit Russia’s largest refinery 2,500km away. Here is why the oil market needs to wake up.",
-      "summary": "ウクライナがロシア最大製油所オムスクへドローン攻撃。供給懸念で上値圧力",
-      "link": "https://www.reddit.com/r/oil/comments/1uq7w7q/ukraine_just_hit_russias_largest_refinery_2500km/",
-      "pub": "2026-07-07T20:59:40+00:00",
-      "pub_ts": 1783457980,
-      "impact": 4,
-      "impact_group": "high",
+      "title": "According to Axios, Iran wants to make a deal",
+      "summary": "イランが取引を望んでいるとAxiosが報道。交渉の可能性が示唆されるが詳細は不明確。",
+      "link": "https://www.reddit.com/r/oil/comments/1ur9tzh/according_to_axios_iran_wants_to_make_a_deal/",
+      "pub": "2026-07-08T23:50:09+00:00",
+      "pub_ts": 1783554609,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "medium",
-      "main_factor": "地政学リスク、供給懸念",
+      "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Dangotes-Next-Move-Could-Create-the-Worlds-Largest-Refinery.html",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "在庫増加",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uqu2fu/iran_announces_the_islamabad_agreement_and_mou_is/",
-      "source": "Reddit r/oil",
-      "title": "Iran announces the Islamabad Agreement and MOU is now officially \"dead,\" following Trump's earlier declaration ending the MOU, per Tasnim.",
-      "summary": "イラン核合意の事実上の終焉。地政学的緊張の高まりが中東産油国の供給リスク要因に。",
-      "link": "https://www.reddit.com/r/oil/comments/1uqu2fu/iran_announces_the_islamabad_agreement_and_mou_is/",
-      "pub": "2026-07-08T14:20:15+00:00",
-      "pub_ts": 1783520415,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
