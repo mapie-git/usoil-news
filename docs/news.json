@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T10:00:33.357807+09:00",
+  "updated_at": "2026-07-09T10:30:27.918464+09:00",
   "accuracy": {
     "total": 252,
     "correct": 72,
     "rate": 29
   },
-  "wti_price": 74.25,
+  "wti_price": 74.43000030517578,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1ur9vng/the_us_has_begun_striking_bridges_hitting_the_aq/",
