@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-09T15:30:37.258137+09:00",
+  "updated_at": "2026-07-09T16:00:35.630608+09:00",
   "accuracy": {
     "total": 255,
     "correct": 75,
     "rate": 29
   },
-  "wti_price": 73.30000305175781,
+  "wti_price": 73.29000091552734,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Grinds-to-a-Halt-After-US-Iran-Escalation.html",
+      "source": "OilPrice.com",
+      "title": "Hormuz Tanker Traffic Grinds to a Halt After U.S.-Iran Escalation",
+      "summary": "米国とイランが軍事衝突を再開。ホルムズ海峡のタンカー通航が停止し、供給途絶リスクが急速に高まる",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Grinds-to-a-Halt-After-US-Iran-Escalation.html",
+      "pub": "Thu, 09 Jul 2026 02:00:00 -0500",
+      "pub_ts": 1783580400,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ur9vng/the_us_has_begun_striking_bridges_hitting_the_aq/",
       "source": "Reddit r/oil",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/EIA-Crude-Oil-Inventories-in-US-See-Rare-Build.html",
-      "source": "OilPrice.com",
-      "title": "EIA: Crude Oil Inventories in US See Rare Build",
-      "summary": "米国原油在庫が予想外に300万バレル増加し、411.4百万バレルに達した。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/EIA-Crude-Oil-Inventories-in-US-See-Rare-Build.html",
-      "pub": "Wed, 08 Jul 2026 09:37:00 -0500",
-      "pub_ts": 1783521420,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "在庫増加",
-      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
