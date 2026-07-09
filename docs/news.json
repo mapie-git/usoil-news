@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T05:00:41.174155+09:00",
+  "updated_at": "2026-07-10T05:30:34.916358+09:00",
   "accuracy": {
-    "total": 290,
+    "total": 291,
     "correct": 84,
     "rate": 29
   },
-  "wti_price": 71.87000274658203,
+  "wti_price": 71.79000091552734,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
@@ -202,8 +202,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.rigzone.com/news/wire/oil_surges_on_renewed_iran_strikes-08-jul-2026-184093-article/?rss=true",
@@ -260,24 +260,6 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Bans-Diesel-Exports-Amid-Heavy-Ukraine-Attacks-On-Refineries.html",
-      "source": "OilPrice.com",
-      "title": "Russia Bans Diesel Exports Amid Heavy Ukraine Attacks On Refineries",
-      "summary": "ロシアがウクライナによる製油所攻撃を受けディーゼル輸出を全面禁止。供給逼迫リスク高まる。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Bans-Diesel-Exports-Amid-Heavy-Ukraine-Attacks-On-Refineries.html",
-      "pub": "Wed, 08 Jul 2026 12:30:00 -0500",
-      "pub_ts": 1783531800,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給制約・地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://www.reddit.com/r/oil/comments/1us0ql1/russian_refinery_throughput_has_now_collapsed_to/",
       "source": "Reddit r/oil",
       "title": "\"Russian refinery throughput has now collapsed to 2.8mbpd from 5.1mbpd in 2022. \" Alexander Stahel",
@@ -291,7 +273,7 @@
       "time_horizon": "medium",
       "main_factor": "供給減少",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -452,6 +434,24 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Dangotes-Next-Move-Could-Create-the-Worlds-Largest-Refinery.html",
+      "source": "OilPrice.com",
+      "title": "Dangote’s Next Move Could Create the World’s Largest Refinery",
+      "summary": "ダンゴテ製油所がフル稼働で欧州への製品輸出が記録的水準。湾岸・米国供給者を追い越す",
+      "link": "https://oilprice.com/Energy/Energy-General/Dangotes-Next-Move-Could-Create-the-Worlds-Largest-Refinery.html",
+      "pub": "Wed, 08 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1783551600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加",
       "reliability": "B",
       "is_new": false,
       "verified": false,
