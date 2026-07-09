@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T02:00:37.708080+09:00",
+  "updated_at": "2026-07-10T02:30:28.565924+09:00",
   "accuracy": {
     "total": 282,
     "correct": 83,
     "rate": 29
   },
-  "wti_price": 72.0199966430664,
+  "wti_price": 71.9000015258789,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1ursitt/irans_irgc_announces_it_has_destroyed_the_us/",
