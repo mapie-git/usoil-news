@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T18:00:32.224153+09:00",
+  "updated_at": "2026-07-09T18:35:42.603310+09:00",
   "accuracy": {
-    "total": 260,
+    "total": 261,
     "correct": 77,
     "rate": 30
   },
-  "wti_price": 72.87000274658203,
+  "wti_price": 73.20999908447266,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sounds-Alarm-Over-Fresh-Threat-to-Global-Oil-Supplies.html",
@@ -274,8 +274,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-and-LNG-Tankers-Make-U-Turns-After-Fresh-Hormuz-Escalation.html",
@@ -348,6 +348,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Price-Surge-Shows-Markets-Were-Too-Relaxed-About-Iran-Deal.html",
+      "source": "OilPrice.com",
+      "title": "Oil Price Surge Shows Markets Were Too Relaxed About Iran Deal",
+      "summary": "イラン情勢への市場の楽観が過度だったことが判明。ホルムズ海峡を通じた石油流出増加の見通しが修正される可能性。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Price-Surge-Shows-Markets-Were-Too-Relaxed-About-Iran-Deal.html",
+      "pub": "Thu, 09 Jul 2026 04:20:00 -0500",
+      "pub_ts": 1783588800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ur9tzh/according_to_axios_iran_wants_to_make_a_deal/",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uqxqu9/russia_banning_diesel_exports_and_importing_oil/",
-      "source": "Reddit r/oil",
-      "title": "Russia banning diesel exports and importing oil from other countries",
-      "summary": "ロシアのディーゼル輸出禁止と他国からの原油輸入開始。供給構造の変化を示唆。",
-      "link": "https://www.reddit.com/r/oil/comments/1uqxqu9/russia_banning_diesel_exports_and_importing_oil/",
-      "pub": "2026-07-08T16:29:43+00:00",
-      "pub_ts": 1783528183,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
