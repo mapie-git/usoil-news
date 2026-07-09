@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T00:42:28.688970+09:00",
+  "updated_at": "2026-07-10T01:00:32.383598+09:00",
   "accuracy": {
-    "total": 276,
-    "correct": 81,
+    "total": 279,
+    "correct": 82,
     "rate": 29
   },
-  "wti_price": 72.30999755859375,
+  "wti_price": 71.97000122070312,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1ursitt/irans_irgc_announces_it_has_destroyed_the_us/",
@@ -274,8 +274,8 @@
       "main_factor": "地政学リスク",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Trump-Declares-Iran-Deal-Over-After-Fresh-Military-Escalation.html",
@@ -296,22 +296,22 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/63-Million-Barrels-Of-Crude-Stuck-At-Sea-As-US-Pulls-Iran-Sanction-Waiver.html",
+      "id": "https://oilprice.com/Energy/Energy-General/NATO-Projects-Unity-as-Leaders-Rally-Behind-Ukraine.html",
       "source": "OilPrice.com",
-      "title": "63 Million Barrels Of Crude Stuck At Sea As U.S. Pulls Iran Sanction Waiver",
-      "summary": "イラン制裁除外の取消により、6,300万バレルが海上で滞留。供給逼迫とホルムズ海峡リスク。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/63-Million-Barrels-Of-Crude-Stuck-At-Sea-As-US-Pulls-Iran-Sanction-Waiver.html",
-      "pub": "Wed, 08 Jul 2026 06:48:40 -0500",
-      "pub_ts": 1783511320,
-      "impact": 4,
-      "impact_group": "high",
+      "title": "NATO Projects Unity as Leaders Rally Behind Ukraine",
+      "summary": "米国がイランへの攻撃を再開。NATO首脳会議でウクライナ支援で一致。地政学リスク上昇",
+      "link": "https://oilprice.com/Energy/Energy-General/NATO-Projects-Unity-as-Leaders-Rally-Behind-Ukraine.html",
+      "pub": "Thu, 09 Jul 2026 11:00:00 -0500",
+      "pub_ts": 1783612800,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク、供給制限",
-      "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.rigzone.com/news/usa_eia_reveals_latest_oil_price_forecast-09-jul-2026-184102-article/?rss=true",
