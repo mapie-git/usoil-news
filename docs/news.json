@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T05:30:34.916358+09:00",
+  "updated_at": "2026-07-10T06:00:32.845837+09:00",
   "accuracy": {
-    "total": 291,
-    "correct": 84,
+    "total": 293,
+    "correct": 85,
     "rate": 29
   },
-  "wti_price": 71.79000091552734,
+  "wti_price": 71.76000213623047,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
@@ -220,8 +220,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IMF-Downgrades-Global-Economic-Growth-Forecast-To-3-Amid-Iran-War.html",
@@ -242,22 +242,22 @@
       "correct": false
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1ur12yk/russia_bans_diesel_exports_as_a_result_of/",
-      "source": "Reddit r/oil",
-      "title": "Russia bans diesel exports as a result of domestic shortages.",
-      "summary": "ロシア国内燃料不足によりディーゼル輸出禁止。グローバル供給逼迫で油価上昇圧力。",
-      "link": "https://www.reddit.com/r/oil/comments/1ur12yk/russia_bans_diesel_exports_as_a_result_of/",
-      "pub": "2026-07-08T18:23:57+00:00",
-      "pub_ts": 1783535037,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-and-Iraq-Move-to-Keep-Critical-Oil-Export-Route-Alive.html",
+      "source": "OilPrice.com",
+      "title": "Turkey and Iraq Move to Keep Critical Oil Export Route Alive",
+      "summary": "トルコ・イラク、石油パイプライン協定を12ヶ月延長予定。イラク重要輸出ルート維持により供給安定性向上",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-and-Iraq-Move-to-Keep-Critical-Oil-Export-Route-Alive.html",
+      "pub": "Thu, 09 Jul 2026 15:30:00 -0500",
+      "pub_ts": 1783629000,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給制約",
-      "reliability": "C",
+      "time_horizon": "medium",
+      "main_factor": "供給ルート確保",
+      "reliability": "B",
       "is_new": false,
-      "verified": true,
-      "correct": false
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1us0ql1/russian_refinery_throughput_has_now_collapsed_to/",
