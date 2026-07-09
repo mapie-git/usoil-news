@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-10T06:30:29.612598+09:00",
+  "updated_at": "2026-07-10T07:00:35.907604+09:00",
   "accuracy": {
-    "total": 293,
-    "correct": 85,
+    "total": 295,
+    "correct": 86,
     "rate": 29
   },
   "wti_price": 71.80999755859375,
   "articles": [
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/The-Strait-Of-Malacca-Faces-Growing-Fears-Of-Copycat-Shipping-Fees.html",
+      "source": "OilPrice.com",
+      "title": "The Strait Of Malacca Faces Growing Fears Of Copycat Shipping Fees",
+      "summary": "トランプ大統領がイラン和平合意終了を宣言し、イランへの報復攻撃を予告。地政学リスク急上昇。",
+      "link": "https://oilprice.com/Energy/Energy-General/The-Strait-Of-Malacca-Faces-Growing-Fears-Of-Copycat-Shipping-Fees.html",
+      "pub": "Thu, 09 Jul 2026 17:00:00 -0500",
+      "pub_ts": 1783634400,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "A",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
       "source": "Reddit r/oil",
@@ -184,8 +202,8 @@
       "main_factor": "供給過剰、価格競争激化",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ur4g2k/us_central_command_forces_have_started_conducting/",
@@ -438,24 +456,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/qatar_role_as_usairan_mediator_jeopardized-08-jul-2026-184090-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Qatar Role as USA-Iran Mediator Jeopardized",
-      "summary": "カタール船舶がホルムズ海峡近辺で攻撃され、カタールの米国-イラン仲介役が危機に瀕している。",
-      "link": "https://www.rigzone.com/news/wire/qatar_role_as_usairan_mediator_jeopardized-08-jul-2026-184090-article/?rss=true",
-      "pub": "Wed, 08 Jul 2026 20:00:00 GMT",
-      "pub_ts": 1783540800,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     }
   ]
 }
