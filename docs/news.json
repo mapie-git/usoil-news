@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T07:30:28.964605+09:00",
+  "updated_at": "2026-07-10T08:00:30.995613+09:00",
   "accuracy": {
-    "total": 295,
-    "correct": 86,
+    "total": 300,
+    "correct": 87,
     "rate": 29
   },
-  "wti_price": 71.8499984741211,
+  "wti_price": 71.83999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/The-Strait-Of-Malacca-Faces-Growing-Fears-Of-Copycat-Shipping-Fees.html",
@@ -242,6 +242,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Fed-Sees-Oil-Prices-Cooling-Despite-Renewed-Iran-War.html",
+      "source": "OilPrice.com",
+      "title": "Fed Sees Oil Prices Cooling Despite Renewed Iran War",
+      "summary": "FRBは6～12ヶ月での油価低下予想を維持。イラン情勢緊迫化も価格押し下げ要因とならず。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Fed-Sees-Oil-Prices-Cooling-Despite-Renewed-Iran-War.html",
+      "pub": "Thu, 09 Jul 2026 16:30:00 -0500",
+      "pub_ts": 1783632600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "金融政策見通し",
+      "reliability": "A",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-and-Iraq-Move-to-Keep-Critical-Oil-Export-Route-Alive.html",
       "source": "OilPrice.com",
       "title": "Turkey and Iraq Move to Keep Critical Oil Export Route Alive",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Dangotes-Next-Move-Could-Create-the-Worlds-Largest-Refinery.html",
-      "source": "OilPrice.com",
-      "title": "Dangote’s Next Move Could Create the World’s Largest Refinery",
-      "summary": "ダンゴテ製油所がフル稼働で欧州への製品輸出が記録的水準。湾岸・米国供給者を追い越す",
-      "link": "https://oilprice.com/Energy/Energy-General/Dangotes-Next-Move-Could-Create-the-Worlds-Largest-Refinery.html",
-      "pub": "Wed, 08 Jul 2026 18:00:00 -0500",
-      "pub_ts": 1783551600,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給増加",
       "reliability": "B",
       "is_new": false,
       "verified": false,
