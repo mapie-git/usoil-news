@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-09T20:30:35.464256+09:00",
+  "updated_at": "2026-07-09T21:10:32.070922+09:00",
   "accuracy": {
-    "total": 263,
-    "correct": 78,
+    "total": 267,
+    "correct": 79,
     "rate": 30
   },
   "wti_price": 73.9800033569336,
@@ -256,8 +256,8 @@
       "main_factor": "地政学リスク、供給制限",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-6-Even-as-Tankers-Push-Through-Hormuz.html",
