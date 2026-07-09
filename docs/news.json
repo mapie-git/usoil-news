@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T00:00:41.765502+09:00",
+  "updated_at": "2026-07-10T00:30:32.478149+09:00",
   "accuracy": {
-    "total": 275,
-    "correct": 80,
+    "total": 276,
+    "correct": 81,
     "rate": 29
   },
-  "wti_price": 72.9800033569336,
+  "wti_price": 72.33000183105469,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1ursitt/irans_irgc_announces_it_has_destroyed_the_us/",
@@ -21,7 +21,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -327,7 +327,7 @@
       "time_horizon": "long",
       "main_factor": "需給予測",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
