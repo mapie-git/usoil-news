@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T20:00:35.204485+09:00",
+  "updated_at": "2026-07-09T20:30:35.464256+09:00",
   "accuracy": {
-    "total": 262,
-    "correct": 77,
-    "rate": 29
+    "total": 263,
+    "correct": 78,
+    "rate": 30
   },
-  "wti_price": 74.05000305175781,
+  "wti_price": 73.9800033569336,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Escalation-Continues-as-US-and-Iran-Face-Off-Over-Hormuz.html",
