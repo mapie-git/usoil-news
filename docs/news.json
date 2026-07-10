@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-10T23:00:33.217246+09:00",
+  "updated_at": "2026-07-10T23:30:34.970017+09:00",
   "accuracy": {
-    "total": 323,
-    "correct": 89,
+    "total": 324,
+    "correct": 90,
     "rate": 28
   },
-  "wti_price": 71.80000305175781,
+  "wti_price": 71.7300033569336,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Oil-Output-Hits-All-Time-High-Doubling-Pre-Crisis-Levels.html",
+      "source": "OilPrice.com",
+      "title": "UAE Oil Output Hits All-Time High, Doubling Pre-Crisis Levels",
+      "summary": "UAEが月産410万バレルの過去最高を更新。OPECを離脱後、5月の330万バレルから急増。供給増加圧力。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Oil-Output-Hits-All-Time-High-Doubling-Pre-Crisis-Levels.html",
+      "pub": "Fri, 10 Jul 2026 09:30:00 -0500",
+      "pub_ts": 1783693800,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Cuts-Russias-Oil-Production-Forecast-Due-to-Ukrainian-Attacks.html",
       "source": "OilPrice.com",
@@ -132,24 +150,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1urpeio/eia_forecast_a_reopened_hormuz_tuesday_by/",
-      "source": "Reddit r/oil",
-      "title": "EIA forecast a reopened Hormuz Tuesday. By Thursday, Tehran was hit, Kharg Island's oil hub is under an active seizure threat, and the SPR is at a 1983 low.",
-      "summary": "イランのカルグ島押収の脅威によるホルムズ海峡危機。イラン原油供給の90%が脅かされる重大リスク。",
-      "link": "https://www.reddit.com/r/oil/comments/1urpeio/eia_forecast_a_reopened_hormuz_tuesday_by/",
-      "pub": "2026-07-09T12:51:47+00:00",
-      "pub_ts": 1783601507,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rally-on-Renewed-Hormuz-Supply-Risks.html",
@@ -381,7 +381,7 @@
       "time_horizon": "long",
       "main_factor": "長期エネルギー需給構造",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
