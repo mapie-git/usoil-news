@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T15:30:29.047192+09:00",
+  "updated_at": "2026-07-10T16:00:31.387260+09:00",
   "accuracy": {
-    "total": 305,
+    "total": 306,
     "correct": 87,
-    "rate": 29
+    "rate": 28
   },
-  "wti_price": 71.9000015258789,
+  "wti_price": 72.13999938964844,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Set-for-Weekly-Gain-as-Hormuz-Tensions-Escalate.html",
