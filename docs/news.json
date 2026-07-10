@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T16:40:40.929545+09:00",
+  "updated_at": "2026-07-10T17:00:32.994492+09:00",
   "accuracy": {
-    "total": 308,
+    "total": 311,
     "correct": 87,
     "rate": 28
   },
-  "wti_price": 71.58999633789062,
+  "wti_price": 71.41999816894531,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Set-for-Weekly-Gain-as-Hormuz-Tensions-Escalate.html",
@@ -184,8 +184,8 @@
       "main_factor": "地政学リスク",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Fed-Sees-Oil-Prices-Cooling-Despite-Renewed-Iran-War.html",
@@ -399,7 +399,7 @@
       "time_horizon": "long",
       "main_factor": "需要地の備蓄拡張",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
