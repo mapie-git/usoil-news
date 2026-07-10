@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T22:30:34.660591+09:00",
+  "updated_at": "2026-07-10T23:00:33.217246+09:00",
   "accuracy": {
-    "total": 322,
+    "total": 323,
     "correct": 89,
     "rate": 28
   },
-  "wti_price": 72.18000030517578,
+  "wti_price": 71.80000305175781,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Cuts-Russias-Oil-Production-Forecast-Due-to-Ukrainian-Attacks.html",
@@ -21,7 +21,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "A",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -147,24 +147,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Hits-Two-Russian-Fuel-Tankers-as-Moscows-Fuel-Crisis-Deepens.html",
-      "source": "OilPrice.com",
-      "title": "Ukraine Hits Two Russian Fuel Tankers as Moscow's Fuel Crisis Deepens",
-      "summary": "ウクライナがロシア南部の燃料タンカーを攻撃。ロシアの燃料危機深刻化で供給制約リスク上昇。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Hits-Two-Russian-Fuel-Tankers-as-Moscows-Fuel-Crisis-Deepens.html",
-      "pub": "Thu, 09 Jul 2026 07:30:00 -0500",
-      "pub_ts": 1783600200,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": true,
       "correct": false
@@ -384,6 +366,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Bureaucracy-Is-Strangling-Americas-Clean-Energy-Buildout.html",
+      "source": "OilPrice.com",
+      "title": "Bureaucracy Is Strangling America's Clean Energy Buildout",
+      "summary": "米国クリーンエネルギー建設の官僚主義的課題とAI需要による電力供給逼迫リスクについての分析記事。",
+      "link": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Bureaucracy-Is-Strangling-Americas-Clean-Energy-Buildout.html",
+      "pub": "Fri, 10 Jul 2026 09:00:00 -0500",
+      "pub_ts": 1783692000,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "長期エネルギー需給構造",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/US-Strikes-Fail-to-Break-Irans-Grip-on-the-Strait-of-Hormuz.html",
