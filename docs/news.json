@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-11T04:39:05.426631+09:00",
+  "updated_at": "2026-07-11T06:09:49.546647+09:00",
   "accuracy": {
-    "total": 343,
-    "correct": 95,
+    "total": 352,
+    "correct": 98,
     "rate": 28
   },
-  "wti_price": 71.63999938964844,
+  "wti_price": 71.5,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1usweio/a_massive_fire_has_broken_out_at_the_poldokhtar/",
@@ -224,6 +224,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html",
+      "source": "OilPrice.com",
+      "title": "Kazakhstan Extends Petroleum Export Ban Six Months as Hormuz Tensions Flare",
+      "summary": "カザフスタンが石油輸出禁止を6ヶ月延長。ホルムズ海峡緊張とロシアのガソリン不足が背景。",
+      "link": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html",
+      "pub": "Fri, 10 Jul 2026 16:00:00 -0500",
+      "pub_ts": 1783717200,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給制限、地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Gas-Drillers-Hang-Back-in-Volatile-Market.html",
       "source": "OilPrice.com",
       "title": "US Oil, Gas Drillers Hang Back in Volatile Market",
@@ -328,8 +346,8 @@
       "main_factor": "供給ルート確保",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1us0ql1/russian_refinery_throughput_has_now_collapsed_to/",
@@ -346,8 +364,8 @@
       "main_factor": "供給減少",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uryeas/iran_can_mine_the_strait_even_if_it_lost_all_of/",
@@ -362,24 +380,6 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1urydg6/ukraine_hits_12_more_russian_tankers_so_far_this/",
-      "source": "Reddit r/oil",
-      "title": "Ukraine hits 12 more Russian tankers. So far this week, Ukraine has hit 25 tankers in total, with two of them struck twice.",
-      "summary": "ウクライナが週間で計25隻のロシアタンカーを攻撃。ロシア石油輸送に支障",
-      "link": "https://www.reddit.com/r/oil/comments/1urydg6/ukraine_hits_12_more_russian_tankers_so_far_this/",
-      "pub": "2026-07-09T18:16:50+00:00",
-      "pub_ts": 1783621010,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給減少",
       "reliability": "C",
       "is_new": false,
       "verified": true,
