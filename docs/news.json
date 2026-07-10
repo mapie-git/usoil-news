@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-11T06:09:49.546647+09:00",
+  "updated_at": "2026-07-11T07:32:51.289725+09:00",
   "accuracy": {
-    "total": 352,
+    "total": 354,
     "correct": 98,
     "rate": 28
   },
-  "wti_price": 71.5,
+  "wti_price": 71.51000213623047,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1usweio/a_massive_fire_has_broken_out_at_the_poldokhtar/",
@@ -202,8 +202,8 @@
       "main_factor": "地政学リスク",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
@@ -237,7 +237,25 @@
       "time_horizon": "short",
       "main_factor": "供給制限、地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/iea_says_uae_oil_output_surged_to_record_high_in_june-10-jul-2026-184115-article/?rss=true",
+      "source": "Rigzone",
+      "title": "IEA Says UAE Oil Output Surged to Record High in June",
+      "summary": "IEAがUAEの6月原油生産量が過去最高の日量410万バレルに達したと報告。供給増加要因。",
+      "link": "https://www.rigzone.com/news/wire/iea_says_uae_oil_output_surged_to_record_high_in_june-10-jul-2026-184115-article/?rss=true",
+      "pub": "Fri, 10 Jul 2026 20:00:00 GMT",
+      "pub_ts": 1783713600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加",
+      "reliability": "A",
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -363,24 +381,6 @@
       "time_horizon": "medium",
       "main_factor": "供給減少",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uryeas/iran_can_mine_the_strait_even_if_it_lost_all_of/",
-      "source": "Reddit r/oil",
-      "title": "Iran can mine the strait even if it lost all of its attack boats",
-      "summary": "イランがホルムズ海峡への機雷敷設能力保有。海上交通途絶リスク存在",
-      "link": "https://www.reddit.com/r/oil/comments/1uryeas/iran_can_mine_the_strait_even_if_it_lost_all_of/",
-      "pub": "2026-07-09T18:17:38+00:00",
-      "pub_ts": 1783621058,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": true,
       "correct": false
