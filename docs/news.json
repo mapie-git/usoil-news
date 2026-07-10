@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T12:45:10.283629+09:00",
+  "updated_at": "2026-07-10T13:00:28.429483+09:00",
   "accuracy": {
     "total": 304,
     "correct": 87,
     "rate": 29
   },
-  "wti_price": 72.26000213623047,
+  "wti_price": null,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/The-Strait-Of-Malacca-Faces-Growing-Fears-Of-Copycat-Shipping-Fees.html",
