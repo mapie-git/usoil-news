@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T20:00:30.804896+09:00",
+  "updated_at": "2026-07-10T20:09:21.726873+09:00",
   "accuracy": {
     "total": 315,
     "correct": 87,
     "rate": 28
   },
-  "wti_price": 72.12999725341797,
+  "wti_price": 72.26000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Warns-Renewed-US-Iran-Conflict-Could-Upend-Oil-Surplus-Forecast.html",
@@ -201,24 +201,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/us_strikes_iran_for_2nd_straight_day-09-jul-2026-184097-article/?rss=true",
-      "source": "Rigzone",
-      "title": "US Strikes Iran for 2nd Straight Day",
-      "summary": "米国がイランへの攻撃を2日連続実施。ホルムズ海峡の商船攻撃能力を弱体化させる狙い。地政学リスク上昇。",
-      "link": "https://www.rigzone.com/news/wire/us_strikes_iran_for_2nd_straight_day-09-jul-2026-184097-article/?rss=true",
-      "pub": "Thu, 09 Jul 2026 06:47:41 GMT",
-      "pub_ts": 1783579661,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
       "is_new": false,
       "verified": true,
       "correct": false
@@ -452,6 +434,24 @@
       "direction": "neutral",
       "time_horizon": "short",
       "main_factor": "地政学リスク軽減",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/adnoc_mitsui_ink_broad_energy_partnership-10-jul-2026-184107-article/?rss=true",
+      "source": "Rigzone",
+      "title": "ADNOC, Mitsui Ink Broad Energy Partnership",
+      "summary": "ADNOCとみずほが広範なエネルギーパートナーシップ契約。長期供給などを探索",
+      "link": "https://www.rigzone.com/news/adnoc_mitsui_ink_broad_energy_partnership-10-jul-2026-184107-article/?rss=true",
+      "pub": "Fri, 10 Jul 2026 09:05:41 GMT",
+      "pub_ts": 1783674341,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "供給確保、戦略連携",
       "reliability": "B",
       "is_new": false,
       "verified": false,
