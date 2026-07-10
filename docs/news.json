@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T10:30:30.203494+09:00",
+  "updated_at": "2026-07-10T11:00:29.048634+09:00",
   "accuracy": {
     "total": 303,
     "correct": 87,
     "rate": 29
   },
-  "wti_price": 72.08000183105469,
+  "wti_price": 72.11000061035156,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/The-Strait-Of-Malacca-Faces-Growing-Fears-Of-Copycat-Shipping-Fees.html",
@@ -440,20 +440,20 @@
       "correct": true
     },
     {
-      "id": "https://oilprice.com/Energy/Energy-General/The-Coming-Power-War-That-Will-Define-the-AI-Era.html",
-      "source": "OilPrice.com",
-      "title": "The Coming Power War That Will Define the AI Era",
-      "summary": "AI時代のエネルギー覇権について長期的な歴史分析。現在の石油市場への直接的な影響は限定的。",
-      "link": "https://oilprice.com/Energy/Energy-General/The-Coming-Power-War-That-Will-Define-the-AI-Era.html",
-      "pub": "Thu, 09 Jul 2026 19:00:00 -0500",
-      "pub_ts": 1783641600,
+      "id": "https://www.reddit.com/r/oil/comments/1us9w99/normalization_in_gcc_exports_to_pre_war_levels/",
+      "source": "Reddit r/oil",
+      "title": "Normalization in GCC exports to pre war levels may be achieved with 6.6mb/d increase above current levels",
+      "summary": "ゴールドマン・サックスがGCC輸出の正常化に向け6.6mb/d増加が必要と分析。市場均衡への供給増要求",
+      "link": "https://www.reddit.com/r/oil/comments/1us9w99/normalization_in_gcc_exports_to_pre_war_levels/",
+      "pub": "2026-07-10T01:45:27+00:00",
+      "pub_ts": 1783647927,
       "impact": 2,
       "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "エネルギー需要構造転換",
-      "reliability": "B",
-      "is_new": false,
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加必要性",
+      "reliability": "C",
+      "is_new": true,
       "verified": false,
       "correct": null
     }
