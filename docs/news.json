@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T17:00:32.994492+09:00",
+  "updated_at": "2026-07-10T17:30:32.062536+09:00",
   "accuracy": {
     "total": 311,
     "correct": 87,
     "rate": 28
   },
-  "wti_price": 71.41999816894531,
+  "wti_price": 71.52999877929688,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Set-for-Weekly-Gain-as-Hormuz-Tensions-Escalate.html",
@@ -186,6 +186,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/More-LNG-Carriers-Brave-the-Strait-of-Hormuz-Despite-Renewed-Hostilities.html",
+      "source": "OilPrice.com",
+      "title": "More LNG Carriers Brave the Strait of Hormuz Despite Renewed Hostilities",
+      "summary": "イランとの緊張再燃にもかかわらず、複数のLNGキャリアがホルムズ海峡を通航。地政学リスク継続を示唆。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/More-LNG-Carriers-Brave-the-Strait-of-Hormuz-Despite-Renewed-Hostilities.html",
+      "pub": "Fri, 10 Jul 2026 03:30:00 -0500",
+      "pub_ts": 1783672200,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Fed-Sees-Oil-Prices-Cooling-Despite-Renewed-Iran-War.html",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給増加必要性",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/The-Coming-Power-War-That-Will-Define-the-AI-Era.html",
-      "source": "OilPrice.com",
-      "title": "The Coming Power War That Will Define the AI Era",
-      "summary": "AI時代のエネルギー覇権について長期的な歴史分析。現在の石油市場への直接的な影響は限定的。",
-      "link": "https://oilprice.com/Energy/Energy-General/The-Coming-Power-War-That-Will-Define-the-AI-Era.html",
-      "pub": "Thu, 09 Jul 2026 19:00:00 -0500",
-      "pub_ts": 1783641600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "エネルギー需要構造転換",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
