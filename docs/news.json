@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-10T20:30:33.340862+09:00",
+  "updated_at": "2026-07-10T21:00:34.040331+09:00",
   "accuracy": {
     "total": 316,
     "correct": 87,
     "rate": 28
   },
-  "wti_price": 72.33999633789062,
+  "wti_price": 72.58999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Warns-Renewed-US-Iran-Conflict-Could-Upend-Oil-Surplus-Forecast.html",
@@ -183,7 +183,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -399,7 +399,25 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/eia_cuts_2026_2027_usa_gasoline_price_projection-10-jul-2026-184110-article/?rss=true",
+      "source": "Rigzone",
+      "title": "EIA Cuts 2026, 2027 USA Gasoline Price Projection",
+      "summary": "EIAが2026～2027年のガソリン価格見通しを下方修正。WTI原油の直接的影響は限定的。",
+      "link": "https://www.rigzone.com/news/eia_cuts_2026_2027_usa_gasoline_price_projection-10-jul-2026-184110-article/?rss=true",
+      "pub": "Fri, 10 Jul 2026 11:19:07 GMT",
+      "pub_ts": 1783682347,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "long",
+      "main_factor": "需要見通し下方修正",
+      "reliability": "B",
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "long",
       "main_factor": "供給確保、戦略連携",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Expands-Strategic-Oil-Reserves-With-New-ONGC-Storage-Plan.html",
-      "source": "OilPrice.com",
-      "title": "India Expands Strategic Oil Reserves With New ONGC Storage Plan",
-      "summary": "インドが戦略的石油備蓄を1750万トンに拡張計画。商業利用も要請。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Expands-Strategic-Oil-Reserves-With-New-ONGC-Storage-Plan.html",
-      "pub": "Fri, 10 Jul 2026 02:30:19 -0500",
-      "pub_ts": 1783668619,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "需要地の備蓄拡張",
       "reliability": "B",
       "is_new": false,
       "verified": false,
