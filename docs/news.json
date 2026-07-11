@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-12T00:32:15.288720+09:00",
+  "updated_at": "2026-07-12T02:02:37.744323+09:00",
   "accuracy": {
-    "total": 381,
-    "correct": 106,
+    "total": 386,
+    "correct": 109,
     "rate": 28
   },
   "wti_price": 71.41000366210938,
@@ -112,8 +112,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Oil-Output-Hits-All-Time-High-Doubling-Pre-Crisis-Levels.html",
@@ -201,24 +201,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/The-Strait-Of-Malacca-Faces-Growing-Fears-Of-Copycat-Shipping-Fees.html",
-      "source": "OilPrice.com",
-      "title": "The Strait Of Malacca Faces Growing Fears Of Copycat Shipping Fees",
-      "summary": "トランプ大統領がイラン和平合意終了を宣言し、イランへの報復攻撃を予告。地政学リスク急上昇。",
-      "link": "https://oilprice.com/Energy/Energy-General/The-Strait-Of-Malacca-Faces-Growing-Fears-Of-Copycat-Shipping-Fees.html",
-      "pub": "Thu, 09 Jul 2026 17:00:00 -0500",
-      "pub_ts": 1783634400,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
       "is_new": false,
       "verified": true,
       "correct": false
@@ -328,8 +310,8 @@
       "main_factor": "供給増加懸念",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rally-on-Renewed-Hormuz-Supply-Risks.html",
@@ -366,6 +348,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Can-Colombias-New-Government-Reverse-the-Nations-Oil-and-Gas-Decline.html",
+      "source": "OilPrice.com",
+      "title": "Can Colombia’s New Government Reverse the Nation’s Oil and Gas Decline?",
+      "summary": "コロンビア大統領選で右派候補が勝利。石油政策への影響は不確実で、市場織り込み段階か",
+      "link": "https://oilprice.com/Energy/Energy-General/Can-Colombias-New-Government-Reverse-the-Nations-Oil-and-Gas-Decline.html",
+      "pub": "Sat, 11 Jul 2026 12:00:00 -0500",
+      "pub_ts": 1783789200,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "政治変化の政策不確実性",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Can-Europe-Beat-the-Heat-Without-More-Air-Conditioners.html",
