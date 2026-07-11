@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-11T07:32:51.289725+09:00",
+  "updated_at": "2026-07-11T09:02:37.104490+09:00",
   "accuracy": {
-    "total": 354,
+    "total": 359,
     "correct": 98,
-    "rate": 28
+    "rate": 27
   },
   "wti_price": 71.51000213623047,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1ut2tut/the_us_gives_iran_a_24_hour_deadline_to_publicly/",
+      "source": "Reddit r/oil",
+      "title": "The US gives Iran a 24 hour deadline to \"publicly say that they will stop shooting at ships and explicitly acknowledge that they screwed up,\" adding that they must say \"every channel in the strait will be open and that it will be toll-free.\"",
+      "summary": "米国がイラン側に24時間の最後通告。ホルムズ海峡の通航懸念が急速に高まる",
+      "link": "https://www.reddit.com/r/oil/comments/1ut2tut/the_us_gives_iran_a_24_hour_deadline_to_publicly/",
+      "pub": "2026-07-10T22:49:36+00:00",
+      "pub_ts": 1783723776,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1usweio/a_massive_fire_has_broken_out_at_the_poldokhtar/",
       "source": "Reddit r/oil",
@@ -206,24 +224,6 @@
       "correct": false
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
-      "source": "Reddit r/oil",
-      "title": "US continues its attacks on Iran for the third day in a row, hits oil-producing region Ahvaz",
-      "summary": "米国がイランの石油生産地域アフワーズ攻撃を3日連続実施。供給リスク高まる",
-      "link": "https://www.reddit.com/r/oil/comments/1urykaj/us_continues_its_attacks_on_iran_for_the_third/",
-      "pub": "2026-07-09T18:23:20+00:00",
-      "pub_ts": 1783621400,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html",
       "source": "OilPrice.com",
       "title": "Kazakhstan Extends Petroleum Export Ban Six Months as Hormuz Tensions Flare",
@@ -346,8 +346,8 @@
       "main_factor": "金融政策見通し",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-and-Iraq-Move-to-Keep-Critical-Oil-Export-Route-Alive.html",
@@ -384,6 +384,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Europes-Nuclear-Plants-Cant-Beat-the-Heat.html",
+      "source": "OilPrice.com",
+      "title": "Europe’s Nuclear Plants Can’t Beat the Heat",
+      "summary": "欧州の熱波により原発停止、電力不足リスク。エネルギー需要への影響は限定的",
+      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Europes-Nuclear-Plants-Cant-Beat-the-Heat.html",
+      "pub": "Fri, 10 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1783724400,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "電力供給逼迫",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Summer-Heatwaves-Are-Rewriting-the-Rules-for-Britains-Power-Grid.html",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1ussxh9/iran_directly_rejects_trumps_claim_of_iran/",
-      "source": "Reddit r/oil",
-      "title": "Iran directly rejects Trump's claim of Iran reaching out for new talks, calling it \"fake news\" and saying \"Ignore Trump and Axios. There will be no talks until the Trump regime follows through on its commitments,\" per senior negotiating member Marandi.",
-      "summary": "イラン高官がトランプの和平交渉再開クレーム否定。既知の対立構図の確認に過ぎず",
-      "link": "https://www.reddit.com/r/oil/comments/1ussxh9/iran_directly_rejects_trumps_claim_of_iran/",
-      "pub": "2026-07-10T16:41:20+00:00",
-      "pub_ts": 1783701680,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "米イラン関係",
       "reliability": "C",
       "is_new": false,
       "verified": false,
