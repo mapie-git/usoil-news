@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-11T19:00:18.974561+09:00",
+  "updated_at": "2026-07-11T20:15:40.145928+09:00",
   "accuracy": {
-    "total": 368,
+    "total": 371,
     "correct": 104,
     "rate": 28
   },
@@ -166,8 +166,8 @@
       "main_factor": "地政学リスク",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Fuel-Refining-Margins-Hit-Record-Highs-as-Markets-Tighten.html",
