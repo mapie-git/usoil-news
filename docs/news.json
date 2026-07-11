@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-12T06:55:18.798910+09:00",
+  "updated_at": "2026-07-12T07:55:47.078416+09:00",
   "accuracy": {
-    "total": 399,
-    "correct": 116,
+    "total": 400,
+    "correct": 117,
     "rate": 29
   },
   "wti_price": 71.41000366210938,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1utxw6n/irans_irgc_announces_the_full_absolute_closure_of/",
+      "source": "Reddit r/oil",
+      "title": "Iran’s IRGC announces the full absolute closure of the Strait of Hormuz “until further notice and until the end of US interventions,” with no vessels allowed to transit on any lane,",
+      "summary": "イランIRGCがホルムズ海峡の完全閉鎖を発表。米国干渉終了まで一切の通航禁止。",
+      "link": "https://www.reddit.com/r/oil/comments/1utxw6n/irans_irgc_announces_the_full_absolute_closure_of/",
+      "pub": "2026-07-11T22:39:55+00:00",
+      "pub_ts": 1783809595,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uts5r3/iran_directly_rejects_the_us_ultimatum_declaring/",
       "source": "Reddit r/oil",
@@ -206,22 +224,22 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Set-for-Weekly-Gain-as-Hormuz-Tensions-Escalate.html",
-      "source": "OilPrice.com",
-      "title": "Oil Prices Set for Weekly Gain as Hormuz Tensions Escalate",
-      "summary": "米国・イラン関係の緊迫化によりホルムズ海峡緊張が高まり、週間での原油価格上昇を牽引している",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Set-for-Weekly-Gain-as-Hormuz-Tensions-Escalate.html",
-      "pub": "Fri, 10 Jul 2026 00:56:11 -0500",
-      "pub_ts": 1783662971,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://www.reddit.com/r/oil/comments/1utxohr/strait_of_hormuz_officially_closed_until_further/",
+      "source": "Reddit r/oil",
+      "title": "Strait of Hormuz officially closed until further notice. Reports that Iran shot at a merchant vessel.",
+      "summary": "ホルムズ海峡閉鎖とイランによる商船への砲撃報告。通航不可状態が続く可能性。",
+      "link": "https://www.reddit.com/r/oil/comments/1utxohr/strait_of_hormuz_officially_closed_until_further/",
+      "pub": "2026-07-11T22:30:25+00:00",
+      "pub_ts": 1783809025,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uts68v/iran_rejects_qatars_new_proposal_in_muscat_for_a/",
@@ -310,8 +328,8 @@
       "main_factor": "供給増加",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Gas-Drillers-Hang-Back-in-Volatile-Market.html",
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "medium",
       "main_factor": "政治変化の政策不確実性",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Can-Europe-Beat-the-Heat-Without-More-Air-Conditioners.html",
-      "source": "OilPrice.com",
-      "title": "Can Europe Beat the Heat Without More Air Conditioners?",
-      "summary": "欧州のエアコン需要増加が電力消費を拡大し、化石燃料への依存継続を示唆する長期トレンド",
-      "link": "https://oilprice.com/Energy/Energy-General/Can-Europe-Beat-the-Heat-Without-More-Air-Conditioners.html",
-      "pub": "Sat, 11 Jul 2026 10:00:00 -0500",
-      "pub_ts": 1783782000,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "需要増加（中長期）",
       "reliability": "B",
       "is_new": false,
       "verified": false,
