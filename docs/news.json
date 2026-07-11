@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-11T20:15:40.145928+09:00",
+  "updated_at": "2026-07-11T21:30:40.342355+09:00",
   "accuracy": {
-    "total": 371,
-    "correct": 104,
+    "total": 377,
+    "correct": 105,
     "rate": 28
   },
   "wti_price": 71.51000213623047,
@@ -346,8 +346,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/More-LNG-Carriers-Brave-the-Strait-of-Hormuz-Despite-Renewed-Hostilities.html",
@@ -404,6 +404,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uthlzh/iran_oil_stuck_at_sea_surges_as_chinas_teapots/",
+      "source": "Reddit r/oil",
+      "title": "Iran oil stuck at sea surges as China's teapots turn to rival Middle East supplies, traders say",
+      "summary": "イラン原油が中国の独立系製油所の需要減少により海上に滞留。競合する中東産地へのシフトが発生",
+      "link": "https://www.reddit.com/r/oil/comments/1uthlzh/iran_oil_stuck_at_sea_surges_as_chinas_teapots/",
+      "pub": "2026-07-11T11:30:12+00:00",
+      "pub_ts": 1783769412,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "需要減少、供給過剰",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1ute7y9/a_tiny_island_near_singapore_has_become_asias_hub/",
       "source": "Reddit r/oil",
       "title": "A Tiny Island Near Singapore Has Become Asia’s Hub for Russian Oil",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Europes-Nuclear-Plants-Cant-Beat-the-Heat.html",
-      "source": "OilPrice.com",
-      "title": "Europe’s Nuclear Plants Can’t Beat the Heat",
-      "summary": "欧州の熱波により原発停止、電力不足リスク。エネルギー需要への影響は限定的",
-      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Europes-Nuclear-Plants-Cant-Beat-the-Heat.html",
-      "pub": "Fri, 10 Jul 2026 18:00:00 -0500",
-      "pub_ts": 1783724400,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "電力供給逼迫",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
