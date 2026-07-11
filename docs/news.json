@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-12T03:28:07.887064+09:00",
+  "updated_at": "2026-07-12T04:45:36.781769+09:00",
   "accuracy": {
-    "total": 393,
+    "total": 397,
     "correct": 115,
     "rate": 29
   },
   "wti_price": 71.41000366210938,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uts5r3/iran_directly_rejects_the_us_ultimatum_declaring/",
+      "source": "Reddit r/oil",
+      "title": "Iran directly rejects the US ultimatum, declaring that the Strait of Hormuz will remain closed to all lanes except the northern Iranian route, and any decisions regarding the Strait are made \"solely by Iran and Oman,\" per informed source to Tasnim.",
+      "summary": "イランがホルムズ海峡を実質支配下に置く宣言。北ルート以外の閉鎖で供給リスク顕在化。",
+      "link": "https://www.reddit.com/r/oil/comments/1uts5r3/iran_directly_rejects_the_us_ultimatum_declaring/",
+      "pub": "2026-07-11T18:44:20+00:00",
+      "pub_ts": 1783795460,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク・供給制限",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ut2tut/the_us_gives_iran_a_24_hour_deadline_to_publicly/",
       "source": "Reddit r/oil",
@@ -40,8 +58,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ussxqf/world_oil_demand_set_for_first_annual_decline/",
@@ -206,6 +224,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uts68v/iran_rejects_qatars_new_proposal_in_muscat_for_a/",
+      "source": "Reddit r/oil",
+      "title": "Iran rejects Qatar's new proposal in Muscat for a third shipping lane in the Strait of Hormuz. This would be the middle lane that Iran has fully mined, separate from Omani's southern lane and Iran's northern lane, and was to be declared free and open, per informed source to Tasnim.",
+      "summary": "イランがカタール提案の第3航路を拒否。ホルムズ海峡の航路制限継続で供給リスク高まる。",
+      "link": "https://www.reddit.com/r/oil/comments/1uts68v/iran_rejects_qatars_new_proposal_in_muscat_for_a/",
+      "pub": "2026-07-11T18:44:52+00:00",
+      "pub_ts": 1783795492,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1utc8hu/us_pain_at_the_pump_worsens_after_more_usiran/",
       "source": "Reddit r/oil",
       "title": "US pain at the pump worsens after more US-Iran fighting lifts oil prices",
@@ -292,8 +328,8 @@
       "main_factor": "供給増加傾向",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.rigzone.com/news/wire/venezuela_breaks_up_oil_monopoly_under_new_rules-10-jul-2026-184114-article/?rss=true",
@@ -350,6 +386,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Energy/Energy-General/The-Escalating-Energy-War-Between-California-and-the-White-House.html",
+      "source": "OilPrice.com",
+      "title": "The Escalating Energy War Between California and the White House",
+      "summary": "カリフォルニア州がホワイトハウスとのエネルギー政策対立。州が再生可能エネルギー推進で化石燃料から転換。",
+      "link": "https://oilprice.com/Energy/Energy-General/The-Escalating-Energy-War-Between-California-and-the-White-House.html",
+      "pub": "Sat, 11 Jul 2026 14:00:00 -0500",
+      "pub_ts": 1783796400,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "エネルギー政策転換",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/Can-Colombias-New-Government-Reverse-the-Nations-Oil-and-Gas-Decline.html",
       "source": "OilPrice.com",
       "title": "Can Colombia’s New Government Reverse the Nation’s Oil and Gas Decline?",
@@ -399,60 +453,6 @@
       "time_horizon": "long",
       "main_factor": "インフラ計画（長期）",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/birol_urges_eu_to_reconsider_arctic_drilling_moratorium-11-jul-2026-184113-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Birol Urges EU to Reconsider Arctic Drilling Moratorium",
-      "summary": "IEA長官、EUのアーク海掘削モラトリアム再考を促す。長期的な供給議論だが短期影響は限定的",
-      "link": "https://www.rigzone.com/news/wire/birol_urges_eu_to_reconsider_arctic_drilling_moratorium-11-jul-2026-184113-article/?rss=true",
-      "pub": "Sat, 11 Jul 2026 12:00:00 GMT",
-      "pub_ts": 1783771200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "供給政策（長期）",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uthlzh/iran_oil_stuck_at_sea_surges_as_chinas_teapots/",
-      "source": "Reddit r/oil",
-      "title": "Iran oil stuck at sea surges as China's teapots turn to rival Middle East supplies, traders say",
-      "summary": "イラン原油が中国の独立系製油所の需要減少により海上に滞留。競合する中東産地へのシフトが発生",
-      "link": "https://www.reddit.com/r/oil/comments/1uthlzh/iran_oil_stuck_at_sea_surges_as_chinas_teapots/",
-      "pub": "2026-07-11T11:30:12+00:00",
-      "pub_ts": 1783769412,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "需要減少、供給過剰",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1ute7y9/a_tiny_island_near_singapore_has_become_asias_hub/",
-      "source": "Reddit r/oil",
-      "title": "A Tiny Island Near Singapore Has Become Asia’s Hub for Russian Oil",
-      "summary": "シンガポール近くのカリムン島がロシア石油の流通ハブに。スポット情報。",
-      "link": "https://www.reddit.com/r/oil/comments/1ute7y9/a_tiny_island_near_singapore_has_become_asias_hub/",
-      "pub": "2026-07-11T08:16:10+00:00",
-      "pub_ts": 1783757770,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "medium",
-      "main_factor": "制裁回避",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
