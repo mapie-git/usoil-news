@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-11T23:23:48.043842+09:00",
+  "updated_at": "2026-07-12T00:32:15.288720+09:00",
   "accuracy": {
-    "total": 379,
-    "correct": 105,
+    "total": 381,
+    "correct": 106,
     "rate": 28
   },
   "wti_price": 71.41000366210938,
@@ -130,8 +130,8 @@
       "main_factor": "供給増加",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Cuts-Russias-Oil-Production-Forecast-Due-to-Ukrainian-Attacks.html",
@@ -368,22 +368,22 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Fed-Sees-Oil-Prices-Cooling-Despite-Renewed-Iran-War.html",
+      "id": "https://oilprice.com/Energy/Energy-General/Can-Europe-Beat-the-Heat-Without-More-Air-Conditioners.html",
       "source": "OilPrice.com",
-      "title": "Fed Sees Oil Prices Cooling Despite Renewed Iran War",
-      "summary": "FRBは6～12ヶ月での油価低下予想を維持。イラン情勢緊迫化も価格押し下げ要因とならず。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Fed-Sees-Oil-Prices-Cooling-Despite-Renewed-Iran-War.html",
-      "pub": "Thu, 09 Jul 2026 16:30:00 -0500",
-      "pub_ts": 1783632600,
-      "impact": 3,
+      "title": "Can Europe Beat the Heat Without More Air Conditioners?",
+      "summary": "欧州のエアコン需要増加が電力消費を拡大し、化石燃料への依存継続を示唆する長期トレンド",
+      "link": "https://oilprice.com/Energy/Energy-General/Can-Europe-Beat-the-Heat-Without-More-Air-Conditioners.html",
+      "pub": "Sat, 11 Jul 2026 10:00:00 -0500",
+      "pub_ts": 1783782000,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "medium",
-      "main_factor": "金融政策見通し",
-      "reliability": "A",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "需要増加（中長期）",
+      "reliability": "B",
       "is_new": false,
-      "verified": true,
-      "correct": false
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1utjqrc/canadas_carney_taps_stateowned_firm_to_build_oil/",
