@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-12T05:55:44.032151+09:00",
+  "updated_at": "2026-07-12T06:55:18.798910+09:00",
   "accuracy": {
-    "total": 397,
-    "correct": 115,
+    "total": 399,
+    "correct": 116,
     "rate": 29
   },
   "wti_price": 71.41000366210938,
@@ -292,8 +292,8 @@
       "main_factor": "供給制限、地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.rigzone.com/news/wire/iea_says_uae_oil_output_surged_to_record_high_in_june-10-jul-2026-184115-article/?rss=true",
@@ -386,6 +386,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Kansas-Becomes-Testing-Ground-for-a-Radical-Nuclear-Reactor-Design.html",
+      "source": "OilPrice.com",
+      "title": "Kansas Becomes Testing Ground for a Radical Nuclear Reactor Design",
+      "summary": "カンザスで小型モジュール原子炉の実験施設が稼働へ。石油需要への長期的な影響は限定的で現在のWTI価格への影響は微小。",
+      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Kansas-Becomes-Testing-Ground-for-a-Radical-Nuclear-Reactor-Design.html",
+      "pub": "Sat, 11 Jul 2026 16:00:00 -0500",
+      "pub_ts": 1783803600,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "代替エネルギー開発",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/The-Escalating-Energy-War-Between-California-and-the-White-House.html",
       "source": "OilPrice.com",
       "title": "The Escalating Energy War Between California and the White House",
@@ -435,24 +453,6 @@
       "time_horizon": "long",
       "main_factor": "需要増加（中長期）",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1utjqrc/canadas_carney_taps_stateowned_firm_to_build_oil/",
-      "source": "Reddit r/oil",
-      "title": "Canada’s Carney Taps State-Owned Firm to Build Oil Pipeline to Serve Asia",
-      "summary": "カナダがアジア向けパイプライン建設を検討。実現まで数年要し、現在の価格への直接影響は軽微",
-      "link": "https://www.reddit.com/r/oil/comments/1utjqrc/canadas_carney_taps_stateowned_firm_to_build_oil/",
-      "pub": "2026-07-11T13:10:37+00:00",
-      "pub_ts": 1783775437,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "インフラ計画（長期）",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
