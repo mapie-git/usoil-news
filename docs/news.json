@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-11T21:30:40.342355+09:00",
+  "updated_at": "2026-07-11T23:23:48.043842+09:00",
   "accuracy": {
-    "total": 377,
+    "total": 379,
     "correct": 105,
     "rate": 28
   },
-  "wti_price": 71.51000213623047,
+  "wti_price": 71.41000366210938,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1ut2tut/the_us_gives_iran_a_24_hour_deadline_to_publicly/",
@@ -148,8 +148,8 @@
       "main_factor": "地政学リスク",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Warns-Renewed-US-Iran-Conflict-Could-Upend-Oil-Surplus-Forecast.html",
@@ -386,22 +386,40 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-and-Iraq-Move-to-Keep-Critical-Oil-Export-Route-Alive.html",
-      "source": "OilPrice.com",
-      "title": "Turkey and Iraq Move to Keep Critical Oil Export Route Alive",
-      "summary": "トルコ・イラク、石油パイプライン協定を12ヶ月延長予定。イラク重要輸出ルート維持により供給安定性向上",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Turkey-and-Iraq-Move-to-Keep-Critical-Oil-Export-Route-Alive.html",
-      "pub": "Thu, 09 Jul 2026 15:30:00 -0500",
-      "pub_ts": 1783629000,
-      "impact": 3,
+      "id": "https://www.reddit.com/r/oil/comments/1utjqrc/canadas_carney_taps_stateowned_firm_to_build_oil/",
+      "source": "Reddit r/oil",
+      "title": "Canada’s Carney Taps State-Owned Firm to Build Oil Pipeline to Serve Asia",
+      "summary": "カナダがアジア向けパイプライン建設を検討。実現まで数年要し、現在の価格への直接影響は軽微",
+      "link": "https://www.reddit.com/r/oil/comments/1utjqrc/canadas_carney_taps_stateowned_firm_to_build_oil/",
+      "pub": "2026-07-11T13:10:37+00:00",
+      "pub_ts": 1783775437,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "インフラ計画（長期）",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/birol_urges_eu_to_reconsider_arctic_drilling_moratorium-11-jul-2026-184113-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Birol Urges EU to Reconsider Arctic Drilling Moratorium",
+      "summary": "IEA長官、EUのアーク海掘削モラトリアム再考を促す。長期的な供給議論だが短期影響は限定的",
+      "link": "https://www.rigzone.com/news/wire/birol_urges_eu_to_reconsider_arctic_drilling_moratorium-11-jul-2026-184113-article/?rss=true",
+      "pub": "Sat, 11 Jul 2026 12:00:00 GMT",
+      "pub_ts": 1783771200,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "供給ルート確保",
+      "time_horizon": "long",
+      "main_factor": "供給政策（長期）",
       "reliability": "B",
       "is_new": false,
-      "verified": true,
-      "correct": false
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uthlzh/iran_oil_stuck_at_sea_surges_as_chinas_teapots/",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "制裁回避",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1utctj5/china_blocks_exports_of_helium_key_for_chipmaking/",
-      "source": "Reddit r/oil",
-      "title": "China blocks exports of helium, key for chipmaking, as Iran war squeezes supply",
-      "summary": "中国がヘリウム輸出を制限。イラン戦争による供給逼迫が背景。",
-      "link": "https://www.reddit.com/r/oil/comments/1utctj5/china_blocks_exports_of_helium_key_for_chipmaking/",
-      "pub": "2026-07-11T06:56:35+00:00",
-      "pub_ts": 1783752995,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
