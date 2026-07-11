@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-11T09:02:37.104490+09:00",
+  "updated_at": "2026-07-11T12:52:57.340425+09:00",
   "accuracy": {
-    "total": 359,
-    "correct": 98,
-    "rate": 27
+    "total": 360,
+    "correct": 99,
+    "rate": 28
   },
   "wti_price": 71.51000213623047,
   "articles": [
@@ -224,6 +224,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1ut9dqa/trump_on_truth_social_threatens_iran_with_a/",
+      "source": "Reddit r/oil",
+      "title": "Trump on Truth Social threatens Iran with a larger-scale, long-term war should he be subject to an assassination attempt",
+      "summary": "トランプ氏がイラン暗殺未遂時の大規模報復を脅迫。地政学リスク高まり供給懸念が価格上昇要因に。",
+      "link": "https://www.reddit.com/r/oil/comments/1ut9dqa/trump_on_truth_social_threatens_iran_with_a/",
+      "pub": "2026-07-11T03:52:09+00:00",
+      "pub_ts": 1783741929,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html",
       "source": "OilPrice.com",
       "title": "Kazakhstan Extends Petroleum Export Ban Six Months as Hormuz Tensions Flare",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1usuc83/trump_orders_military_to_bomb_iran_at_levels/",
-      "source": "Reddit r/oil",
-      "title": "Trump orders MILITARY to BOMB IRAN ‘at levels they’ve NEVER SEEN BEFORE’ if he’s ASSASSINATED",
-      "summary": "トランプがイラン攻撃脅迫。不確実で信憑性低く、市場反応は限定的と見られる",
-      "link": "https://www.reddit.com/r/oil/comments/1usuc83/trump_orders_military_to_bomb_iran_at_levels/",
-      "pub": "2026-07-10T17:31:31+00:00",
-      "pub_ts": 1783704691,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
