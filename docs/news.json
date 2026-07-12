@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T06:00:33.513251+09:00",
+  "updated_at": "2026-07-13T06:30:34.338937+09:00",
   "accuracy": {
     "total": 402,
     "correct": 117,
@@ -204,24 +204,6 @@
       "is_new": false,
       "verified": true,
       "correct": true
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Cuts-Russias-Oil-Production-Forecast-Due-to-Ukrainian-Attacks.html",
-      "source": "OilPrice.com",
-      "title": "IEA Cuts Russia's Oil Production Forecast Due to Ukrainian Attacks",
-      "summary": "IEA、ウクライナ攻撃によるロシア油田インフラ被害を理由に、ロシアの2026～2027年の石油生産見通しを下方修正",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Cuts-Russias-Oil-Production-Forecast-Due-to-Ukrainian-Attacks.html",
-      "pub": "Fri, 10 Jul 2026 08:30:00 -0500",
-      "pub_ts": 1783690200,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uulfrp/iran_has_struck_gulf_energy_infrastructure/",
@@ -438,6 +420,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uus1sk/iran_has_started_using_the_good_shit/",
+      "source": "Reddit r/oil",
+      "title": "Iran has started using the good shit",
+      "summary": "Redditユーザーがホルムズ海峡での米国・イラン対立を示唆する画像を共有",
+      "link": "https://www.reddit.com/r/oil/comments/1uus1sk/iran_has_started_using_the_good_shit/",
+      "pub": "2026-07-12T21:26:24+00:00",
+      "pub_ts": 1783891584,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク推測",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uulgd7/no_iranian_attacks_on_saudi_arabia_or_uae_wouldnt/",
