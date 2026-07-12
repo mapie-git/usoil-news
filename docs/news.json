@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T02:03:53.729863+09:00",
+  "updated_at": "2026-07-13T02:30:35.111213+09:00",
   "accuracy": {
     "total": 402,
     "correct": 117,
@@ -224,6 +224,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uulfrp/iran_has_struck_gulf_energy_infrastructure/",
+      "source": "Reddit r/oil",
+      "title": "Iran has struck Gulf energy infrastructure. Kuwaiti oil platform hit.",
+      "summary": "イランがクウェート油田施設を攻撃。供給リスク顕在化だが詳細不足",
+      "link": "https://www.reddit.com/r/oil/comments/1uulfrp/iran_has_struck_gulf_energy_infrastructure/",
+      "pub": "2026-07-12T17:16:54+00:00",
+      "pub_ts": 1783876614,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uukms1/us_striking_iran_again_in_the_last_hour/",
       "source": "Reddit r/oil",
       "title": "US striking Iran again in the last hour",
@@ -237,7 +255,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -422,38 +440,20 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rally-on-Renewed-Hormuz-Supply-Risks.html",
-      "source": "OilPrice.com",
-      "title": "Oil Prices Rally on Renewed Hormuz Supply Risks",
-      "summary": "ホルムズ海峡のリスク懸念でWTI上昇。週間で$3.38上げ、$71.84。",
-      "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rally-on-Renewed-Hormuz-Supply-Risks.html",
-      "pub": "Fri, 10 Jul 2026 06:30:00 -0500",
-      "pub_ts": 1783683000,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uud39z/10_x_wti_oil_futures_financially_settled_for/",
+      "id": "https://www.reddit.com/r/oil/comments/1uulgd7/no_iranian_attacks_on_saudi_arabia_or_uae_wouldnt/",
       "source": "Reddit r/oil",
-      "title": "10 X WTI Oil Futures Financially Settled for August (1,000 Barrels)",
-      "summary": "紛争激化・SPR40年低水準を理由に強気予想。8月WTI先物取引の個人的見通し。",
-      "link": "https://www.reddit.com/r/oil/comments/1uud39z/10_x_wti_oil_futures_financially_settled_for/",
-      "pub": "2026-07-12T11:38:04+00:00",
-      "pub_ts": 1783856284,
+      "title": "No Iranian attacks on Saudi Arabia or UAE? Wouldn't those attacks push oil higher?",
+      "summary": "イランが湾岸主要産油国への攻撃未実施の理由を議論。予測記事",
+      "link": "https://www.reddit.com/r/oil/comments/1uulgd7/no_iranian_attacks_on_saudi_arabia_or_uae_wouldnt/",
+      "pub": "2026-07-12T17:17:31+00:00",
+      "pub_ts": 1783876651,
       "impact": 2,
       "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク・供給不安",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
+      "is_new": true,
       "verified": false,
       "correct": null
     }
