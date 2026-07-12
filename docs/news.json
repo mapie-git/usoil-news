@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-12T09:02:42.534882+09:00",
+  "updated_at": "2026-07-12T13:07:25.564945+09:00",
   "accuracy": {
     "total": 402,
     "correct": 117,
     "rate": 29
   },
-  "wti_price": 71.41000366210938,
+  "wti_price": null,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/The-Next-Bull-Market-Could-Be-Built-on-Inventory-Replenishment.html",
