@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T06:30:34.338937+09:00",
+  "updated_at": "2026-07-13T06:57:25.272120+09:00",
   "accuracy": {
     "total": 402,
     "correct": 117,
@@ -206,6 +206,24 @@
       "correct": true
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uus7pb/oman_proposes_twocorridor_navigation_scheme_for/",
+      "source": "Reddit r/oil",
+      "title": "Oman Proposes Two-Corridor Navigation Scheme for Strait of Hormuz",
+      "summary": "オマーンがホルムズ海峡の二回廊航行案を提案。米国とイランの軍事的緊張下での航行管理スキーム。",
+      "link": "https://www.reddit.com/r/oil/comments/1uus7pb/oman_proposes_twocorridor_navigation_scheme_for/",
+      "pub": "2026-07-12T21:33:02+00:00",
+      "pub_ts": 1783891982,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uulfrp/iran_has_struck_gulf_energy_infrastructure/",
       "source": "Reddit r/oil",
       "title": "Iran has struck Gulf energy infrastructure. Kuwaiti oil platform hit.",
@@ -404,24 +422,6 @@
       "correct": false
     },
     {
-      "id": "https://www.rigzone.com/news/wire/venezuela_breaks_up_oil_monopoly_under_new_rules-10-jul-2026-184114-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Venezuela Breaks Up Oil Monopoly Under New Rules",
-      "summary": "ベネズエラが石油独占体制を解体する新規則を公開。供給増加の可能性を示唆",
-      "link": "https://www.rigzone.com/news/wire/venezuela_breaks_up_oil_monopoly_under_new_rules-10-jul-2026-184114-article/?rss=true",
-      "pub": "Fri, 10 Jul 2026 14:26:05 GMT",
-      "pub_ts": 1783693565,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給増加懸念",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://www.reddit.com/r/oil/comments/1uus1sk/iran_has_started_using_the_good_shit/",
       "source": "Reddit r/oil",
       "title": "Iran has started using the good shit",
@@ -435,7 +435,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク推測",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
