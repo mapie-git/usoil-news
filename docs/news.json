@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T07:30:33.734075+09:00",
+  "updated_at": "2026-07-13T07:58:27.747366+09:00",
   "accuracy": {
-    "total": 421,
-    "correct": 124,
-    "rate": 29
+    "total": 424,
+    "correct": 126,
+    "rate": 30
   },
-  "wti_price": 73.87999725341797,
+  "wti_price": 73.62999725341797,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uufoxe/iran_closes_strait_of_hormuz_warns_us_against_new/",
@@ -58,8 +58,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uts5r3/iran_directly_rejects_the_us_ultimatum_declaring/",
@@ -310,8 +310,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uts68v/iran_rejects_qatars_new_proposal_in_muscat_for_a/",
