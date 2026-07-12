@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T21:04:09.895796+09:00",
+  "updated_at": "2026-07-12T23:06:06.520661+09:00",
   "accuracy": {
     "total": 402,
     "correct": 117,
@@ -7,6 +7,24 @@
   },
   "wti_price": null,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uufoxe/iran_closes_strait_of_hormuz_warns_us_against_new/",
+      "source": "Reddit r/oil",
+      "title": "Iran closes Strait of Hormuz, warns US against new attack",
+      "summary": "イラン革命防衛隊がホルムズ海峡を閉鎖し米国への警告を発表。地政学リスク急上昇。",
+      "link": "https://www.reddit.com/r/oil/comments/1uufoxe/iran_closes_strait_of_hormuz_warns_us_against_new/",
+      "pub": "2026-07-12T13:36:02+00:00",
+      "pub_ts": 1783863362,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/The-Next-Bull-Market-Could-Be-Built-on-Inventory-Replenishment.html",
       "source": "OilPrice.com",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク・供給不安",
       "reliability": "C",
-      "is_new": true,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Kansas-Becomes-Testing-Ground-for-a-Radical-Nuclear-Reactor-Design.html",
-      "source": "OilPrice.com",
-      "title": "Kansas Becomes Testing Ground for a Radical Nuclear Reactor Design",
-      "summary": "カンザスで小型モジュール原子炉の実験施設が稼働へ。石油需要への長期的な影響は限定的で現在のWTI価格への影響は微小。",
-      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Kansas-Becomes-Testing-Ground-for-a-Radical-Nuclear-Reactor-Design.html",
-      "pub": "Sat, 11 Jul 2026 16:00:00 -0500",
-      "pub_ts": 1783803600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "代替エネルギー開発",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
