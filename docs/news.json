@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T01:30:30.836546+09:00",
+  "updated_at": "2026-07-13T02:00:30.214622+09:00",
   "accuracy": {
     "total": 402,
     "correct": 117,
@@ -224,6 +224,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uukms1/us_striking_iran_again_in_the_last_hour/",
+      "source": "Reddit r/oil",
+      "title": "US striking Iran again in the last hour",
+      "summary": "米国がイラン攻撃との匿名投稿。地政学リスク上昇の可能性だが未確認情報。",
+      "link": "https://www.reddit.com/r/oil/comments/1uukms1/us_striking_iran_again_in_the_last_hour/",
+      "pub": "2026-07-12T16:47:34+00:00",
+      "pub_ts": 1783874854,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1utytlt/iran_strikes_cargo_ships_in_strait_of_hormuz/",
       "source": "Reddit r/oil",
       "title": "Iran Strikes Cargo Ships in Strait of Hormuz",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク・供給不安",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Kansas-Becomes-Testing-Ground-for-a-Radical-Nuclear-Reactor-Design.html",
-      "source": "OilPrice.com",
-      "title": "Kansas Becomes Testing Ground for a Radical Nuclear Reactor Design",
-      "summary": "カンザスで小型モジュール原子炉の実験施設が稼働へ。石油需要への長期的な影響は限定的で現在のWTI価格への影響は微小。",
-      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Kansas-Becomes-Testing-Ground-for-a-Radical-Nuclear-Reactor-Design.html",
-      "pub": "Sat, 11 Jul 2026 16:00:00 -0500",
-      "pub_ts": 1783803600,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "代替エネルギー開発",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
