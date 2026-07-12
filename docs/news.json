@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T07:58:27.747366+09:00",
+  "updated_at": "2026-07-13T08:00:32.778022+09:00",
   "accuracy": {
     "total": 424,
     "correct": 126,
     "rate": 30
   },
-  "wti_price": 73.62999725341797,
+  "wti_price": 73.6500015258789,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uufoxe/iran_closes_strait_of_hormuz_warns_us_against_new/",
@@ -183,24 +183,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Oil-Output-Hits-All-Time-High-Doubling-Pre-Crisis-Levels.html",
-      "source": "OilPrice.com",
-      "title": "UAE Oil Output Hits All-Time High, Doubling Pre-Crisis Levels",
-      "summary": "UAEが月産410万バレルの過去最高を更新。OPECを離脱後、5月の330万バレルから急増。供給増加圧力。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/UAE-Oil-Output-Hits-All-Time-High-Doubling-Pre-Crisis-Levels.html",
-      "pub": "Fri, 10 Jul 2026 09:30:00 -0500",
-      "pub_ts": 1783693800,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給増加",
-      "reliability": "B",
       "is_new": false,
       "verified": true,
       "correct": true
@@ -420,6 +402,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-War-Related-Profits-Anger-Governments.html",
+      "source": "OilPrice.com",
+      "title": "Big Oil’s War-Related Profits Anger Governments",
+      "summary": "大手石油企業の戦争関連利益増加により各国政府が反発。政治的圧力の可能性を示唆。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-War-Related-Profits-Anger-Governments.html",
+      "pub": "Sun, 12 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1783897200,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "政治的リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uus1sk/iran_has_started_using_the_good_shit/",
