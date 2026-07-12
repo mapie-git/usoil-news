@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T07:00:31.166903+09:00",
+  "updated_at": "2026-07-13T07:30:33.734075+09:00",
   "accuracy": {
-    "total": 402,
-    "correct": 117,
+    "total": 421,
+    "correct": 124,
     "rate": 29
   },
-  "wti_price": null,
+  "wti_price": 73.87999725341797,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uufoxe/iran_closes_strait_of_hormuz_warns_us_against_new/",
@@ -76,8 +76,8 @@
       "main_factor": "地政学リスク・供給制限",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ut2tut/the_us_gives_iran_a_24_hour_deadline_to_publicly/",
@@ -219,7 +219,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -328,8 +328,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1utc8hu/us_pain_at_the_pump_worsens_after_more_usiran/",
@@ -346,8 +346,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ut9dqa/trump_on_truth_social_threatens_iran_with_a/",
@@ -364,8 +364,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html",
