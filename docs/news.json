@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T11:00:30.585527+09:00",
+  "updated_at": "2026-07-13T11:30:29.007183+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 74.52999877929688,
+  "wti_price": 74.5199966430664,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uuxznm/the_aghajari_oil_and_gas_airport_in_omidiyeh_iran/",
@@ -21,7 +21,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -186,24 +186,6 @@
       "is_new": false,
       "verified": true,
       "correct": false
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Oils-Calm-Is-Over-as-Middle-East-Risks-Return.html",
-      "source": "OilPrice.com",
-      "title": "Oil’s Calm Is Over as Middle East Risks Return",
-      "summary": "米イラン衝突で地政学リスク復活。ホルムズ海峡通航量減少、供給途絶懸念で油価上昇",
-      "link": "https://oilprice.com/Energy/Energy-General/Oils-Calm-Is-Over-as-Middle-East-Risks-Return.html",
-      "pub": "Fri, 10 Jul 2026 11:01:00 -0500",
-      "pub_ts": 1783699260,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uus7pb/oman_proposes_twocorridor_navigation_scheme_for/",
@@ -420,6 +402,24 @@
       "is_new": false,
       "verified": true,
       "correct": false
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uuyhr2/a_water_pumping_station_in_mahshahr_southwestern/",
+      "source": "Reddit r/oil",
+      "title": "A water pumping station in Mahshahr, southwestern Iran, was struck by US airstrikes, killing one and injuring four, per the Deputy Governor of Khuzestan.",
+      "summary": "イラン南西部の水ポンプ場が米空爆で被害。死傷者あり。",
+      "link": "https://www.reddit.com/r/oil/comments/1uuyhr2/a_water_pumping_station_in_mahshahr_southwestern/",
+      "pub": "2026-07-13T02:08:39+00:00",
+      "pub_ts": 1783908519,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uuww4f/chevron_offers_rival_drillers_its_chemical/",
