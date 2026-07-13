@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T02:00:40.270565+09:00",
+  "updated_at": "2026-07-14T02:30:32.476142+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 75.66000366210938,
+  "wti_price": 75.8499984741211,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uvdtpx/president_trump_says_the_us_is_reinstating_a/",
@@ -309,7 +309,7 @@
       "time_horizon": "medium",
       "main_factor": "供給確保",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
