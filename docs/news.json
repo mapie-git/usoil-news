@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T06:29:40.029802+09:00",
+  "updated_at": "2026-07-14T06:30:30.057033+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
@@ -453,7 +453,7 @@
       "time_horizon": "long",
       "main_factor": "LNG市場構造変化",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     }
