@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-13T15:00:35.102380+09:00",
+  "updated_at": "2026-07-13T15:30:34.204586+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 74.8499984741211,
+  "wti_price": 74.31999969482422,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-and-LNG-Tankers-Go-Dark-Again-as-Hormuz-Crisis-Deepens.html",
+      "source": "OilPrice.com",
+      "title": "Oil and LNG Tankers Go Dark Again as Hormuz Crisis Deepens",
+      "summary": "ホルムズ海峡での緊張激化により、タンカーがトランスポンダーを消止。供給中断リスク高まる。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-and-LNG-Tankers-Go-Dark-Again-as-Hormuz-Crisis-Deepens.html",
+      "pub": "Mon, 13 Jul 2026 01:15:00 -0500",
+      "pub_ts": 1783923300,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-4-as-US-Iran-Escalation-Rekindles-Supply-Fears.html",
       "source": "OilPrice.com",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "需要減少（航空運輸）",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uuyhr2/a_water_pumping_station_in_mahshahr_southwestern/",
-      "source": "Reddit r/oil",
-      "title": "A water pumping station in Mahshahr, southwestern Iran, was struck by US airstrikes, killing one and injuring four, per the Deputy Governor of Khuzestan.",
-      "summary": "イラン南西部の水ポンプ場が米空爆で被害。死傷者あり。",
-      "link": "https://www.reddit.com/r/oil/comments/1uuyhr2/a_water_pumping_station_in_mahshahr_southwestern/",
-      "pub": "2026-07-13T02:08:39+00:00",
-      "pub_ts": 1783908519,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
       "verified": false,
