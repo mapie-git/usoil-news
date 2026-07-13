@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T12:00:27.901820+09:00",
+  "updated_at": "2026-07-13T12:30:41.847164+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 74.20999908447266,
+  "wti_price": 74.43000030517578,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uuxznm/the_aghajari_oil_and_gas_airport_in_omidiyeh_iran/",
@@ -404,6 +404,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uuzr1w/jordan_grounds_all_air_travel_as_reality_verges/",
+      "source": "Reddit r/oil",
+      "title": "Jordan grounds all Air travel as reality verges further from the market Oil price",
+      "summary": "ヨルダンが全航空便を停止。市場現実乖離を指摘する投稿。",
+      "link": "https://www.reddit.com/r/oil/comments/1uuzr1w/jordan_grounds_all_air_travel_as_reality_verges/",
+      "pub": "2026-07-13T03:09:11+00:00",
+      "pub_ts": 1783912151,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "需要減少（航空運輸）",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uuyhr2/a_water_pumping_station_in_mahshahr_southwestern/",
       "source": "Reddit r/oil",
       "title": "A water pumping station in Mahshahr, southwestern Iran, was struck by US airstrikes, killing one and injuring four, per the Deputy Governor of Khuzestan.",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給増加の可能性",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-War-Related-Profits-Anger-Governments.html",
-      "source": "OilPrice.com",
-      "title": "Big Oil’s War-Related Profits Anger Governments",
-      "summary": "大手石油企業の戦争関連利益増加により各国政府が反発。政治的圧力の可能性を示唆。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-War-Related-Profits-Anger-Governments.html",
-      "pub": "Sun, 12 Jul 2026 18:00:00 -0500",
-      "pub_ts": 1783897200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "medium",
-      "main_factor": "政治的リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
