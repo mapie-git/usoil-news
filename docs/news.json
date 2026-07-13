@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T19:30:32.026662+09:00",
+  "updated_at": "2026-07-13T20:00:32.773550+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 73.41000366210938,
+  "wti_price": 73.7699966430664,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Tanker-Traffic-Falls-to-Five-Week-Low.html",
@@ -21,7 +21,25 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/oil_jumps_after_battle_for_hormuz_control_escalates-13-jul-2026-184118-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Oil Jumps After Battle for Hormuz Control Escalates",
+      "summary": "ホルムズ海峡の制御権をめぐる米イラン間の軍事衝突が激化し、石油輸送の安全保障へのリスク高まる",
+      "link": "https://www.rigzone.com/news/oil_jumps_after_battle_for_hormuz_control_escalates-13-jul-2026-184118-article/?rss=true",
+      "pub": "Mon, 13 Jul 2026 09:43:23 GMT",
+      "pub_ts": 1783935803,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -429,24 +447,6 @@
       "link": "https://www.reddit.com/r/oil/comments/1utxohr/strait_of_hormuz_officially_closed_until_further/",
       "pub": "2026-07-11T22:30:25+00:00",
       "pub_ts": 1783809025,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uts68v/iran_rejects_qatars_new_proposal_in_muscat_for_a/",
-      "source": "Reddit r/oil",
-      "title": "Iran rejects Qatar's new proposal in Muscat for a third shipping lane in the Strait of Hormuz. This would be the middle lane that Iran has fully mined, separate from Omani's southern lane and Iran's northern lane, and was to be declared free and open, per informed source to Tasnim.",
-      "summary": "イランがカタール提案の第3航路を拒否。ホルムズ海峡の航路制限継続で供給リスク高まる。",
-      "link": "https://www.reddit.com/r/oil/comments/1uts68v/iran_rejects_qatars_new_proposal_in_muscat_for_a/",
-      "pub": "2026-07-11T18:44:52+00:00",
-      "pub_ts": 1783795492,
       "impact": 3,
       "impact_group": "mid",
       "direction": "bullish",
