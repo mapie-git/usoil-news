@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T08:30:32.501608+09:00",
+  "updated_at": "2026-07-13T09:00:34.593466+09:00",
   "accuracy": {
     "total": 424,
     "correct": 126,
     "rate": 30
   },
-  "wti_price": 73.66999816894531,
+  "wti_price": 73.69000244140625,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uuuc7y/weekly_megathread_july_12_2026_us_blockade_of_the/",
@@ -21,7 +21,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク・供給遮断",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
