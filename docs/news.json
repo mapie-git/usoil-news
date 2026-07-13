@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T09:00:34.593466+09:00",
+  "updated_at": "2026-07-13T09:03:46.350351+09:00",
   "accuracy": {
-    "total": 424,
-    "correct": 126,
+    "total": 427,
+    "correct": 129,
     "rate": 30
   },
-  "wti_price": 73.69000244140625,
+  "wti_price": 73.73999786376953,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uuuc7y/weekly_megathread_july_12_2026_us_blockade_of_the/",
@@ -58,8 +58,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1utxw6n/irans_irgc_announces_the_full_absolute_closure_of/",
@@ -256,8 +256,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1utynpu/iran_is_mining_the_oman_route/",
@@ -274,8 +274,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1utxohr/strait_of_hormuz_officially_closed_until_further/",
