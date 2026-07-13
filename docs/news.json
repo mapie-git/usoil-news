@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-13T19:00:32.810069+09:00",
+  "updated_at": "2026-07-13T19:30:32.026662+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 72.83000183105469,
+  "wti_price": 73.41000366210938,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Tanker-Traffic-Falls-to-Five-Week-Low.html",
+      "source": "OilPrice.com",
+      "title": "Strait of Hormuz Tanker Traffic Falls to Five-Week Low",
+      "summary": "ホルムズ海峡のタンカー通航量が5週間ぶりの低水準。米国とイラン間の緊張激化で海運業者の安全懸念が増加",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Tanker-Traffic-Falls-to-Five-Week-Low.html",
+      "pub": "Mon, 13 Jul 2026 05:15:00 -0500",
+      "pub_ts": 1783937700,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Warns-US-Interference-Could-Trigger-Further-Oil-and-Gas-Disruptions.html",
       "source": "OilPrice.com",
@@ -429,24 +447,6 @@
       "link": "https://www.reddit.com/r/oil/comments/1uts68v/iran_rejects_qatars_new_proposal_in_muscat_for_a/",
       "pub": "2026-07-11T18:44:52+00:00",
       "pub_ts": 1783795492,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1utc8hu/us_pain_at_the_pump_worsens_after_more_usiran/",
-      "source": "Reddit r/oil",
-      "title": "US pain at the pump worsens after more US-Iran fighting lifts oil prices",
-      "summary": "米国とイランの軍事衝突拡大でガソリン価格上昇。地政学リスク顕在化。",
-      "link": "https://www.reddit.com/r/oil/comments/1utc8hu/us_pain_at_the_pump_worsens_after_more_usiran/",
-      "pub": "2026-07-11T06:22:57+00:00",
-      "pub_ts": 1783750977,
       "impact": 3,
       "impact_group": "mid",
       "direction": "bullish",
