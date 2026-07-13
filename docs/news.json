@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T17:00:35.068262+09:00",
+  "updated_at": "2026-07-13T17:30:28.228992+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 73.9800033569336,
+  "wti_price": 73.25,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Jump-on-Hormuz-Escalation.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -255,7 +255,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
