@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T05:00:33.677677+09:00",
+  "updated_at": "2026-07-14T05:18:51.682177+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 77.79000091552734,
+  "wti_price": 77.80000305175781,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -40,6 +40,24 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/oil_soars_on_hormuz_blockade-13-jul-2026-184124-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Oil Soars on Hormuz Blockade",
+      "summary": "トランプ大統領がホルムズ海峡のイラン船舶封鎖と通航料金徴収計画を発表。地政学的緊張が急速に高まる。",
+      "link": "https://www.rigzone.com/news/wire/oil_soars_on_hormuz_blockade-13-jul-2026-184124-article/?rss=true",
+      "pub": "Mon, 13 Jul 2026 20:01:10 GMT",
+      "pub_ts": 1783972870,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uulfrp/iran_has_struck_gulf_energy_infrastructure/",
-      "source": "Reddit r/oil",
-      "title": "Iran has struck Gulf energy infrastructure. Kuwaiti oil platform hit.",
-      "summary": "イランがクウェート油田施設を攻撃。供給リスク顕在化だが詳細不足",
-      "link": "https://www.reddit.com/r/oil/comments/1uulfrp/iran_has_struck_gulf_energy_infrastructure/",
-      "pub": "2026-07-12T17:16:54+00:00",
-      "pub_ts": 1783876614,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
