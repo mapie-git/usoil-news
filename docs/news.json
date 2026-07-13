@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T14:00:30.058894+09:00",
+  "updated_at": "2026-07-13T14:30:27.402078+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 74.5199966430664,
+  "wti_price": 74.51000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-4-as-US-Iran-Escalation-Rekindles-Supply-Fears.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -39,7 +39,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
