@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T20:17:44.864429+09:00",
+  "updated_at": "2026-07-13T20:30:30.399916+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 73.66999816894531,
+  "wti_price": 73.98999786376953,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Tanker-Traffic-Falls-to-Five-Week-Low.html",
@@ -296,6 +296,24 @@
       "correct": true
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Nigerias-Oil-Production-Hits-Six-Year-High-as-Middle-East-Risks-Return.html",
+      "source": "OilPrice.com",
+      "title": "Nigeria’s Oil Production Hits Six-Year High as Middle East Risks Return",
+      "summary": "ナイジェリアの原油生産が6年ぶりの高水準に達した一方、イランの緊張がホルムズ海峡を脅かす",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Nigerias-Oil-Production-Hits-Six-Year-High-as-Middle-East-Risks-Return.html",
+      "pub": "Mon, 13 Jul 2026 06:30:00 -0500",
+      "pub_ts": 1783942200,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "供給増減要因混在",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uv4uiz/us_has_struck_kharg_islands_oil_infrastructure/",
       "source": "Reddit r/oil",
       "title": "US has struck Kharg Island's oil infrastructure.",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1utxohr/strait_of_hormuz_officially_closed_until_further/",
-      "source": "Reddit r/oil",
-      "title": "Strait of Hormuz officially closed until further notice. Reports that Iran shot at a merchant vessel.",
-      "summary": "ホルムズ海峡閉鎖とイランによる商船への砲撃報告。通航不可状態が続く可能性。",
-      "link": "https://www.reddit.com/r/oil/comments/1utxohr/strait_of_hormuz_officially_closed_until_further/",
-      "pub": "2026-07-11T22:30:25+00:00",
-      "pub_ts": 1783809025,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
