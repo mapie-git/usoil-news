@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T09:30:28.612705+09:00",
+  "updated_at": "2026-07-13T10:00:28.982870+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 73.9800033569336,
+  "wti_price": 74.25,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uuuc7y/weekly_megathread_july_12_2026_us_blockade_of_the/",
@@ -404,6 +404,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uuww4f/chevron_offers_rival_drillers_its_chemical/",
+      "source": "Reddit r/oil",
+      "title": "Chevron offers rival drillers its chemical technology to boost shale oil output",
+      "summary": "シェブロンが競合企業にシェールオイル生産増加のための化学技術を提供",
+      "link": "https://www.reddit.com/r/oil/comments/1uuww4f/chevron_offers_rival_drillers_its_chemical/",
+      "pub": "2026-07-13T00:53:14+00:00",
+      "pub_ts": 1783903994,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加の可能性",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-War-Related-Profits-Anger-Governments.html",
       "source": "OilPrice.com",
       "title": "Big Oil’s War-Related Profits Anger Governments",
@@ -435,24 +453,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク推測",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/Uruguays-Offshore-Oil-Province-Could-Be-Bigger-Than-Vaca-Muerta.html",
-      "source": "OilPrice.com",
-      "title": "Uruguay’s Offshore Oil Province Could Be Bigger Than Vaca Muerta",
-      "summary": "ウルグアイ沖合の油田開発計画。探査段階で不確実性が高く、実現まで長期要。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Uruguays-Offshore-Oil-Province-Could-Be-Bigger-Than-Vaca-Muerta.html",
-      "pub": "Sun, 12 Jul 2026 16:00:00 -0500",
-      "pub_ts": 1783890000,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "将来の供給増加可能性",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
