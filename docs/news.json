@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T20:30:30.399916+09:00",
+  "updated_at": "2026-07-13T21:00:27.743133+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 73.98999786376953,
+  "wti_price": 73.8499984741211,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Tanker-Traffic-Falls-to-Five-Week-Low.html",
@@ -309,7 +309,7 @@
       "time_horizon": "medium",
       "main_factor": "供給増減要因混在",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
