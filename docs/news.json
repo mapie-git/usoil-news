@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T07:00:30.286527+09:00",
+  "updated_at": "2026-07-14T07:30:33.278409+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 78.0,
+  "wti_price": 77.91999816894531,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -296,24 +296,6 @@
       "correct": null
     },
     {
-      "id": "https://www.hellenicshippingnews.com/oil-markets-brace-for-more-turbulence-ahead-amid-geopolitical-risks-supply-demand-dynamics/",
-      "source": "Hellenic Shipping",
-      "title": "Oil markets brace for more turbulence ahead amid geopolitical risks, supply-demand dynamics",
-      "summary": "米国がイラン攻撃を再開、地政学リスクでブレント原油5%以上上昇。ホルムズ海峡の供給遮断リスク顕在化",
-      "link": "https://www.hellenicshippingnews.com/oil-markets-brace-for-more-turbulence-ahead-amid-geopolitical-risks-supply-demand-dynamics/",
-      "pub": "Sun, 12 Jul 2026 21:00:20 +0000",
-      "pub_ts": 1783890020,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Cuts-Demand-Forecast-Again-as-the-Oil-Market-Starts-Looking-Past-Hormuz.html",
       "source": "OilPrice.com",
       "title": "OPEC Cuts Demand Forecast Again as the Oil Market Starts Looking Past Hormuz",
@@ -440,19 +422,37 @@
       "correct": null
     },
     {
-      "id": "https://www.hellenicshippingnews.com/iea-cuts-russian-oil-output-forecast-amid-ukraine-drone-strikes/",
-      "source": "Hellenic Shipping",
-      "title": "IEA cuts Russian oil output forecast amid Ukraine drone strikes",
-      "summary": "IEAがウクライナドローン攻撃によるロシア原油生産を3%減に修正。ロシア供給見通し85,000b/d下方修正",
-      "link": "https://www.hellenicshippingnews.com/iea-cuts-russian-oil-output-forecast-amid-ukraine-drone-strikes/",
-      "pub": "Sun, 12 Jul 2026 21:00:18 +0000",
-      "pub_ts": 1783890018,
-      "impact": 3,
+      "id": "https://oilprice.com/Energy/Crude-Oil/America-Extends-Its-Lead-Over-Russia-and-Saudi-Arabia-in-Oil-Output.html",
+      "source": "OilPrice.com",
+      "title": "America Extends Its Lead Over Russia and Saudi Arabia in Oil Output",
+      "summary": "米国の石油生産量が世界最大であることを確認する後追い報道。既知事実の言い換え。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/America-Extends-Its-Lead-Over-Russia-and-Saudi-Arabia-in-Oil-Output.html",
+      "pub": "Mon, 13 Jul 2026 17:00:00 -0500",
+      "pub_ts": 1783980000,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "供給減少",
-      "reliability": "A",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "米国供給能力",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Natural-Gas/Why-the-UAE-Is-Taking-a-Bigger-Piece-of-Americas-LNG-Crown-Jewel.html",
+      "source": "OilPrice.com",
+      "title": "Why the UAE Is Taking a Bigger Piece of America’s LNG Crown Jewel",
+      "summary": "UAEがUS LNG施設の権益を追加取得。エネルギー競争における権益再配分だが、WTI価格への直接的影響は限定的",
+      "link": "https://oilprice.com/Energy/Natural-Gas/Why-the-UAE-Is-Taking-a-Bigger-Piece-of-Americas-LNG-Crown-Jewel.html",
+      "pub": "Mon, 13 Jul 2026 16:00:00 -0500",
+      "pub_ts": 1783976400,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "LNG市場構造変化",
+      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
