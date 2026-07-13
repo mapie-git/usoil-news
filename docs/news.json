@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-13T12:30:41.847164+09:00",
+  "updated_at": "2026-07-13T13:00:27.974175+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 74.43000030517578,
+  "wti_price": null,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uuxznm/the_aghajari_oil_and_gas_airport_in_omidiyeh_iran/",
@@ -417,7 +417,7 @@
       "time_horizon": "short",
       "main_factor": "需要減少（航空運輸）",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
