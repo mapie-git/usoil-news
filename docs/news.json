@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T01:00:36.956833+09:00",
+  "updated_at": "2026-07-14T01:30:35.587151+09:00",
   "accuracy": {
     "total": 427,
     "correct": 129,
     "rate": 30
   },
-  "wti_price": 74.70999908447266,
+  "wti_price": 75.05000305175781,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uvdtpx/president_trump_says_the_us_is_reinstating_a/",
@@ -296,6 +296,24 @@
       "correct": null
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uvg5d4/senior_houthi_official_announces_bab_almandab/",
+      "source": "Reddit r/oil",
+      "title": "Senior Houthi official announces \"Bab al-Mandab will also be closed like the Strait of Hormuz, oil prices will rise to $200 per barrel,\" per PressTV.",
+      "summary": "フーシ派指導者がバブ・エル・マンデブ海峡閉鎖を表明。原油200ドルまで上昇予想。PressTV報道だが未確認",
+      "link": "https://www.reddit.com/r/oil/comments/1uvg5d4/senior_houthi_official_announces_bab_almandab/",
+      "pub": "2026-07-13T16:18:06+00:00",
+      "pub_ts": 1783959486,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.rigzone.com/news/wire/uae_tells_opec_its_oil_production_surged_last_month-13-jul-2026-184122-article/?rss=true",
       "source": "Rigzone",
       "title": "UAE Tells OPEC Its Oil Production Surged Last Month",
@@ -438,24 +456,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1utytlt/iran_strikes_cargo_ships_in_strait_of_hormuz/",
-      "source": "Reddit r/oil",
-      "title": "Iran Strikes Cargo Ships in Strait of Hormuz",
-      "summary": "イランがホルムズ海峡でカーゴ船を攻撃したと報告。供給途絶リスク懸念",
-      "link": "https://www.reddit.com/r/oil/comments/1utytlt/iran_strikes_cargo_ships_in_strait_of_hormuz/",
-      "pub": "2026-07-11T23:21:38+00:00",
-      "pub_ts": 1783812098,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     }
   ]
 }
