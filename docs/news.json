@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T08:00:29.675222+09:00",
+  "updated_at": "2026-07-14T08:30:31.201700+09:00",
   "accuracy": {
-    "total": 427,
-    "correct": 129,
+    "total": 430,
+    "correct": 131,
     "rate": 30
   },
-  "wti_price": 78.36000061035156,
+  "wti_price": 78.93000030517578,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -292,8 +292,8 @@
       "main_factor": "地政学リスク・供給遮断",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Cuts-Demand-Forecast-Again-as-the-Oil-Market-Starts-Looking-Past-Hormuz.html",
@@ -435,7 +435,7 @@
       "time_horizon": "medium",
       "main_factor": "精製マージン拡大",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
