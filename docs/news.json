@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T19:30:27.845481+09:00",
+  "updated_at": "2026-07-14T20:00:31.861145+09:00",
   "accuracy": {
-    "total": 465,
-    "correct": 149,
+    "total": 468,
+    "correct": 151,
     "rate": 32
   },
-  "wti_price": 80.79000091552734,
+  "wti_price": 80.87999725341797,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -40,6 +40,24 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Importers-Pivot-to-US-Supplies-as-Hormuz-Risks-Intensify.html",
+      "source": "OilPrice.com",
+      "title": "Asian Oil Importers Pivot to U.S. Supplies as Hormuz Risks Intensify",
+      "summary": "アジアの石油輸入業者がホルムズ海峡の地政学リスク高まりを受け、米国産原油への切り替えを加速。供給懸念が支援材料。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Importers-Pivot-to-US-Supplies-as-Hormuz-Risks-Intensify.html",
+      "pub": "Tue, 14 Jul 2026 05:45:00 -0500",
+      "pub_ts": 1784025900,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -220,8 +238,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.rigzone.com/news/oil_jumps_after_battle_for_hormuz_control_escalates-13-jul-2026-184118-article/?rss=true",
@@ -238,8 +256,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Warns-US-Interference-Could-Trigger-Further-Oil-and-Gas-Disruptions.html",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uvup1z/spr_drained_by_3_million_barrels_this_week_to_316/",
-      "source": "Reddit r/oil",
-      "title": "SPR drained by ~3 million barrels this week, to 316 million. Slowing down?",
-      "summary": "米国戦略石油備蓄（SPR）が週間約300万バレル取り崩され、在庫316百万バレル。ペースが鈍化している可能性。",
-      "link": "https://www.reddit.com/r/oil/comments/1uvup1z/spr_drained_by_3_million_barrels_this_week_to_316/",
-      "pub": "2026-07-14T01:32:34+00:00",
-      "pub_ts": 1783992754,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "SPR放出ペース鈍化",
       "reliability": "C",
       "is_new": false,
       "verified": false,
