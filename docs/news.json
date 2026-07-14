@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T02:00:31.217925+09:00",
+  "updated_at": "2026-07-15T02:24:17.469179+09:00",
   "accuracy": {
-    "total": 489,
-    "correct": 159,
+    "total": 491,
+    "correct": 161,
     "rate": 33
   },
-  "wti_price": 79.27999877929688,
+  "wti_price": 78.98999786376953,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -314,6 +314,24 @@
       "correct": null
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uwex9a/houthis_attempting_to_cutoff_oil_tanker_and/",
+      "source": "Reddit r/oil",
+      "title": "Houthis attempting to cutoff oil tanker and shipping traffic at Bab-el-Mandeb strait",
+      "summary": "フーシ派がバブエルマンデブ海峡の油送機能を遮断しようとしており、海上保険料上昇と運送コスト増加が見込まれる。",
+      "link": "https://www.reddit.com/r/oil/comments/1uwex9a/houthis_attempting_to_cutoff_oil_tanker_and/",
+      "pub": "2026-07-14T17:15:11+00:00",
+      "pub_ts": 1784049311,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Faces-a-Critical-Services-Bottleneck.html",
       "source": "OilPrice.com",
       "title": "Venezuela’s Oil Revival Faces a Critical Services Bottleneck",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "需要見通し低下",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/Iraqs-Oil-Lifeline-Has-Been-Saved-But-For-How-Long.html",
-      "source": "OilPrice.com",
-      "title": "Iraq’s Oil Lifeline Has Been Saved, But For How Long?",
-      "summary": "イラク北部のパイプライン輸出がトルコとの1年間の暫定協定により継続確保。供給安定化",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Iraqs-Oil-Lifeline-Has-Been-Saved-But-For-How-Long.html",
-      "pub": "Mon, 13 Jul 2026 12:00:00 -0500",
-      "pub_ts": 1783962000,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "供給確保",
       "reliability": "B",
       "is_new": false,
       "verified": false,
