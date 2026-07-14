@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T07:00:32.057667+09:00",
+  "updated_at": "2026-07-15T07:30:30.921593+09:00",
   "accuracy": {
     "total": 503,
     "correct": 163,
     "rate": 32
   },
-  "wti_price": 79.83000183105469,
+  "wti_price": 79.97000122070312,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uwlvg6/iran_announces_its_full_withdrawal_from_the/",
@@ -363,7 +363,7 @@
       "time_horizon": "long",
       "main_factor": "供給増加確定",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
