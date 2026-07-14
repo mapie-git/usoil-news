@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T19:00:28.798287+09:00",
+  "updated_at": "2026-07-14T19:18:24.592913+09:00",
   "accuracy": {
-    "total": 464,
-    "correct": 148,
+    "total": 465,
+    "correct": 149,
     "rate": 32
   },
-  "wti_price": 80.31999969482422,
+  "wti_price": 80.8499984741211,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -274,24 +274,6 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Jump-on-Hormuz-Escalation.html",
-      "source": "OilPrice.com",
-      "title": "European Natural Gas Prices Jump on Hormuz Escalation",
-      "summary": "ホルムズ海峡の緊張激化がLNG供給リスクを高め、欧州ガス価格が3%上昇。原油供給懸念も増幅",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Jump-on-Hormuz-Escalation.html",
-      "pub": "Mon, 13 Jul 2026 02:45:00 -0500",
-      "pub_ts": 1783928700,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
       "verified": true,
       "correct": true
     },
@@ -418,6 +400,24 @@
       "main_factor": "供給増減要因混在",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uw47lw/a_pipeline_in_british_columbia_is_replacing/",
+      "source": "Reddit r/oil",
+      "title": "A pipeline in British Columbia is replacing Iranian crude in Asia. Some of it probably doesnt go back.",
+      "summary": "カナダのパイプラインがイラン原油をアジアで置き換え中。TMXエクスポートが6月に500kbd超に達した。",
+      "link": "https://www.reddit.com/r/oil/comments/1uw47lw/a_pipeline_in_british_columbia_is_replacing/",
+      "pub": "2026-07-14T09:55:58+00:00",
+      "pub_ts": 1784022958,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "供給構成の変化",
+      "reliability": "C",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
