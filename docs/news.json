@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T01:00:36.280438+09:00",
+  "updated_at": "2026-07-15T01:30:36.761365+09:00",
   "accuracy": {
-    "total": 487,
-    "correct": 157,
-    "rate": 32
+    "total": 489,
+    "correct": 159,
+    "rate": 33
   },
-  "wti_price": 79.6500015258789,
+  "wti_price": 79.01000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -26,22 +26,22 @@
       "correct": null
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uvdtpx/president_trump_says_the_us_is_reinstating_a/",
+      "id": "https://www.reddit.com/r/oil/comments/1uwd2es/iran_is_launching_new_ballistic_missile_and_drone/",
       "source": "Reddit r/oil",
-      "title": "President Trump says the U.S. is \"reinstating\" a blockade on Iran in the Strait of Hormuz and will charge ships for safe passage.",
-      "summary": "トランプ大統領がホルムズ海峡封鎖を「再開」し通航料徴収を表明。極めて重大な地政学リスク。",
-      "link": "https://www.reddit.com/r/oil/comments/1uvdtpx/president_trump_says_the_us_is_reinstating_a/",
-      "pub": "2026-07-13T14:53:51+00:00",
-      "pub_ts": 1783954431,
-      "impact": 5,
+      "title": "Iran is launching new ballistic missile and drone attacks on Kuwait, with a plume of black smoke visible from the Iraqi border side, suggesting Kuwaiti oil infrastructure in the northern oil fields was the target.",
+      "summary": "イランがクウェート油田施設を標的とした弾道ミサイルおよびドローン攻撃を実施。中東の供給リスク急上昇。",
+      "link": "https://www.reddit.com/r/oil/comments/1uwd2es/iran_is_launching_new_ballistic_missile_and_drone/",
+      "pub": "2026-07-14T16:09:23+00:00",
+      "pub_ts": 1784045363,
+      "impact": 4,
       "impact_group": "high",
       "direction": "bullish",
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Oils-Oversupply-Narrative-Just-Died.html",
@@ -57,7 +57,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -314,24 +314,6 @@
       "correct": null
     },
     {
-      "id": "https://www.rigzone.com/news/wire/russian_refinery_runs_plunge_to_lowest_in_more_than_2_decades-13-jul-2026-184123-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Russian Refinery Runs Plunge to Lowest in More Than 2 Decades",
-      "summary": "ウクライナの攻撃によりロシアの製油所稼働率が21年ぶりの最低水準に低下。供給減少要因。",
-      "link": "https://www.rigzone.com/news/wire/russian_refinery_runs_plunge_to_lowest_in_more_than_2_decades-13-jul-2026-184123-article/?rss=true",
-      "pub": "Mon, 13 Jul 2026 14:46:24 GMT",
-      "pub_ts": 1783953984,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "供給減少",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
       "id": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Revival-Faces-a-Critical-Services-Bottleneck.html",
       "source": "OilPrice.com",
       "title": "Venezuela’s Oil Revival Faces a Critical Services Bottleneck",
@@ -452,6 +434,24 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "需要見通し低下",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Crude-Oil/Iraqs-Oil-Lifeline-Has-Been-Saved-But-For-How-Long.html",
+      "source": "OilPrice.com",
+      "title": "Iraq’s Oil Lifeline Has Been Saved, But For How Long?",
+      "summary": "イラク北部のパイプライン輸出がトルコとの1年間の暫定協定により継続確保。供給安定化",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Iraqs-Oil-Lifeline-Has-Been-Saved-But-For-How-Long.html",
+      "pub": "Mon, 13 Jul 2026 12:00:00 -0500",
+      "pub_ts": 1783962000,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "供給確保",
       "reliability": "B",
       "is_new": false,
       "verified": false,
