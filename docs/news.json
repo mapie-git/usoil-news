@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T18:00:31.412265+09:00",
+  "updated_at": "2026-07-14T18:30:30.988199+09:00",
   "accuracy": {
     "total": 464,
     "correct": 148,
     "rate": 32
   },
-  "wti_price": 80.56999969482422,
+  "wti_price": 80.37999725341797,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -57,7 +57,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -296,22 +296,22 @@
       "correct": true
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-and-LNG-Tankers-Go-Dark-Again-as-Hormuz-Crisis-Deepens.html",
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/China-Cuts-Saudi-Crude-Orders-as-Hormuz-Risks-and-Discounts-Reshape-Trade.html",
       "source": "OilPrice.com",
-      "title": "Oil and LNG Tankers Go Dark Again as Hormuz Crisis Deepens",
-      "summary": "ホルムズ海峡での緊張激化により、タンカーがトランスポンダーを消止。供給中断リスク高まる。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-and-LNG-Tankers-Go-Dark-Again-as-Hormuz-Crisis-Deepens.html",
-      "pub": "Mon, 13 Jul 2026 01:15:00 -0500",
-      "pub_ts": 1783923300,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
+      "title": "China Cuts Saudi Crude Orders as Hormuz Risks and Discounts Reshape Trade",
+      "summary": "中国の製油所がサウジアラビアからの原油購入を削減。需要低迷と他国との競争が影響。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Cuts-Saudi-Crude-Orders-as-Hormuz-Risks-and-Discounts-Reshape-Trade.html",
+      "pub": "Tue, 14 Jul 2026 04:30:00 -0500",
+      "pub_ts": 1784021400,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
+      "main_factor": "需要減少",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Sneaks-12-Million-Barrels-Past-Renewed-US-Oil-Blockade.html",
@@ -422,22 +422,22 @@
       "correct": null
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uv4uiz/us_has_struck_kharg_islands_oil_infrastructure/",
+      "id": "https://www.reddit.com/r/oil/comments/1uw3lqy/trumps_strait_of_hormuz_toll_could_add_32m_to/",
       "source": "Reddit r/oil",
-      "title": "US has struck Kharg Island's oil infrastructure.",
-      "summary": "米国がカルグ島油田施設を攻撃との未確認情報。ツイッター情報のためソース信頼性に課題",
-      "link": "https://www.reddit.com/r/oil/comments/1uv4uiz/us_has_struck_kharg_islands_oil_infrastructure/",
-      "pub": "2026-07-13T07:43:12+00:00",
-      "pub_ts": 1783928592,
-      "impact": 3,
+      "title": "Trump’s Strait of Hormuz toll could add $32m to every supertanker voyage",
+      "summary": "トランプ政権のホルムズ海峡通行料構想で、スーパータンカー当たり3200万ドルの追加コスト予測。",
+      "link": "https://www.reddit.com/r/oil/comments/1uw3lqy/trumps_strait_of_hormuz_toll_could_add_32m_to/",
+      "pub": "2026-07-14T09:19:56+00:00",
+      "pub_ts": 1784020796,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "ultra_short",
+      "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uvup1z/spr_drained_by_3_million_barrels_this_week_to_316/",
