@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T00:00:41.228567+09:00",
+  "updated_at": "2026-07-15T00:30:35.415701+09:00",
   "accuracy": {
     "total": 480,
     "correct": 153,
     "rate": 32
   },
-  "wti_price": 79.1500015258789,
+  "wti_price": 78.83000183105469,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -44,6 +44,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Rise-for-First-Time-Since-May-as-Iran-Ceasefire-Collapses.html",
+      "source": "OilPrice.com",
+      "title": "U.S. Gasoline Prices Rise for First Time Since May as Iran Ceasefire Collapses",
+      "summary": "米イラン仲介の停戦崩壊でガソリン価格が5月以降初上昇。地政学リスク拡大で原油売却圧力緩和",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Rise-for-First-Time-Since-May-as-Iran-Ceasefire-Collapses.html",
+      "pub": "Tue, 14 Jul 2026 10:30:00 -0500",
+      "pub_ts": 1784043000,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uwaj1x/trump_reposting_past_comments_re_kharg_island/",
       "source": "Reddit r/oil",
       "title": "Trump Reposting Past Comments RE Kharg Island",
@@ -57,7 +75,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -75,7 +93,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -309,7 +327,7 @@
       "time_horizon": "medium",
       "main_factor": "供給回復の可能性",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給確保",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uvg5d4/senior_houthi_official_announces_bab_almandab/",
-      "source": "Reddit r/oil",
-      "title": "Senior Houthi official announces \"Bab al-Mandab will also be closed like the Strait of Hormuz, oil prices will rise to $200 per barrel,\" per PressTV.",
-      "summary": "フーシ派指導者がバブ・エル・マンデブ海峡閉鎖を表明。原油200ドルまで上昇予想。PressTV報道だが未確認",
-      "link": "https://www.reddit.com/r/oil/comments/1uvg5d4/senior_houthi_official_announces_bab_almandab/",
-      "pub": "2026-07-13T16:18:06+00:00",
-      "pub_ts": 1783959486,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
