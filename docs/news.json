@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-15T07:30:30.921593+09:00",
+  "updated_at": "2026-07-15T08:00:17.787949+09:00",
   "accuracy": {
-    "total": 503,
+    "total": 505,
     "correct": 163,
     "rate": 32
   },
-  "wti_price": 79.97000122070312,
+  "wti_price": 79.94999694824219,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uwnv6m/trump_announces_starting_next_week_the_us_will/",
+      "source": "Reddit r/oil",
+      "title": "Trump announces starting next week the US will strike all of Iran's power plants, bridges, and energy sites. He says the US will also strike Iran \"hard tonight, tomorrow night, the night after.",
+      "summary": "トランプ氏がイランの電力・橋梁・エネルギー施設への攻撃を予告。米軍による複数夜間の攻撃を示唆。",
+      "link": "https://www.reddit.com/r/oil/comments/1uwnv6m/trump_announces_starting_next_week_the_us_will/",
+      "pub": "2026-07-14T22:43:47+00:00",
+      "pub_ts": 1784069027,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uwlvg6/iran_announces_its_full_withdrawal_from_the/",
       "source": "Reddit r/oil",
@@ -330,24 +348,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/oil_soars_on_hormuz_blockade-13-jul-2026-184124-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Oil Soars on Hormuz Blockade",
-      "summary": "トランプ大統領がホルムズ海峡のイラン船舶封鎖と通航料金徴収計画を発表。地政学的緊張が急速に高まる。",
-      "link": "https://www.rigzone.com/news/wire/oil_soars_on_hormuz_blockade-13-jul-2026-184124-article/?rss=true",
-      "pub": "Mon, 13 Jul 2026 20:01:10 GMT",
-      "pub_ts": 1783972870,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Canada-Ties-New-West-Coast-Pipeline-to-Oil-Sands-Expansion.html",
