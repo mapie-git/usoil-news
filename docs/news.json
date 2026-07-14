@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T11:30:27.071090+09:00",
+  "updated_at": "2026-07-14T12:00:29.653328+09:00",
   "accuracy": {
-    "total": 433,
-    "correct": 134,
+    "total": 434,
+    "correct": 135,
     "rate": 31
   },
-  "wti_price": 79.25,
+  "wti_price": 79.41999816894531,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
