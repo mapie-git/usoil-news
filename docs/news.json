@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T10:30:27.653478+09:00",
+  "updated_at": "2026-07-14T11:00:34.048000+09:00",
   "accuracy": {
-    "total": 431,
-    "correct": 132,
+    "total": 433,
+    "correct": 134,
     "rate": 31
   },
-  "wti_price": 79.13999938964844,
+  "wti_price": 79.33999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -256,8 +256,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uux5f1/oil_prices_jump_as_us_and_iran_step_up_titfortat/",
@@ -274,8 +274,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uuuc7y/weekly_megathread_july_12_2026_us_blockade_of_the/",
@@ -404,20 +404,20 @@
       "correct": null
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uus7pb/oman_proposes_twocorridor_navigation_scheme_for/",
+      "id": "https://www.reddit.com/r/oil/comments/1uvup1z/spr_drained_by_3_million_barrels_this_week_to_316/",
       "source": "Reddit r/oil",
-      "title": "Oman Proposes Two-Corridor Navigation Scheme for Strait of Hormuz",
-      "summary": "オマーンがホルムズ海峡の二回廊航行案を提案。米国とイランの軍事的緊張下での航行管理スキーム。",
-      "link": "https://www.reddit.com/r/oil/comments/1uus7pb/oman_proposes_twocorridor_navigation_scheme_for/",
-      "pub": "2026-07-12T21:33:02+00:00",
-      "pub_ts": 1783891982,
-      "impact": 3,
+      "title": "SPR drained by ~3 million barrels this week, to 316 million. Slowing down?",
+      "summary": "米国戦略石油備蓄（SPR）が週間約300万バレル取り崩され、在庫316百万バレル。ペースが鈍化している可能性。",
+      "link": "https://www.reddit.com/r/oil/comments/1uvup1z/spr_drained_by_3_million_barrels_this_week_to_316/",
+      "pub": "2026-07-14T01:32:34+00:00",
+      "pub_ts": 1783992754,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "SPR放出ペース鈍化",
       "reliability": "C",
-      "is_new": false,
+      "is_new": true,
       "verified": false,
       "correct": null
     },
