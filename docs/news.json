@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T03:00:32.133461+09:00",
+  "updated_at": "2026-07-15T03:30:34.742739+09:00",
   "accuracy": {
-    "total": 491,
-    "correct": 161,
+    "total": 494,
+    "correct": 162,
     "rate": 33
   },
-  "wti_price": 78.55999755859375,
+  "wti_price": 79.12999725341797,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -22,8 +22,8 @@
       "main_factor": "地政学リスク",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uwd2es/iran_is_launching_new_ballistic_missile_and_drone/",
@@ -327,7 +327,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
