@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T09:30:32.394859+09:00",
+  "updated_at": "2026-07-14T10:00:36.126744+09:00",
   "accuracy": {
-    "total": 430,
-    "correct": 131,
-    "rate": 30
+    "total": 431,
+    "correct": 132,
+    "rate": 31
   },
-  "wti_price": 80.30999755859375,
+  "wti_price": 79.77999877929688,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -422,6 +422,24 @@
       "correct": null
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOXVaMzlCZFRmZm5iNFJRcjRyNHhhR1hSYnFTVE9XUjZ3SWVmYmwzVDRxU052MUszMVhZN3VpN08yVmJmdFhINTVZLWRjR0E1S1pEbEM4ZGo2cFMtVnowSUhiUFRldzBpeFBTWDRIc1pjYVdqbF9GT2FWY1M4eUVtMUVuYVFjcUJPbkM1bg?oc=5",
+      "source": "Google News",
+      "title": "Crude Oil Prices Decline in June 2026: OPEC Report Highlights - News and Statistics - IndexBox",
+      "summary": "6月の原油価格低下をOPEC報告書が指摘。既発表データの言及",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOXVaMzlCZFRmZm5iNFJRcjRyNHhhR1hSYnFTVE9XUjZ3SWVmYmwzVDRxU052MUszMVhZN3VpN08yVmJmdFhINTVZLWRjR0E1S1pEbEM4ZGo2cFMtVnowSUhiUFRldzBpeFBTWDRIc1pjYVdqbF9GT2FWY1M4eUVtMUVuYVFjcUJPbkM1bg?oc=5",
+      "pub": "Tue, 14 Jul 2026 00:31:00 GMT",
+      "pub_ts": 1783989060,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "過去データ報道",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Refiners-Are-Cashing-In-on-a-Market-That-Wont-Stay-Broken.html",
       "source": "OilPrice.com",
       "title": "Oil Refiners Are Cashing In on a Market That Won’t Stay Broken",
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "medium",
       "main_factor": "精製マージン拡大",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/America-Extends-Its-Lead-Over-Russia-and-Saudi-Arabia-in-Oil-Output.html",
-      "source": "OilPrice.com",
-      "title": "America Extends Its Lead Over Russia and Saudi Arabia in Oil Output",
-      "summary": "米国の石油生産量が世界最大であることを確認する後追い報道。既知事実の言い換え。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/America-Extends-Its-Lead-Over-Russia-and-Saudi-Arabia-in-Oil-Output.html",
-      "pub": "Mon, 13 Jul 2026 17:00:00 -0500",
-      "pub_ts": 1783980000,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "米国供給能力",
       "reliability": "B",
       "is_new": false,
       "verified": false,
