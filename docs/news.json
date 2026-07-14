@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-14T22:00:35.343512+09:00",
+  "updated_at": "2026-07-14T22:30:36.102499+09:00",
   "accuracy": {
-    "total": 474,
+    "total": 475,
     "correct": 152,
     "rate": 32
   },
-  "wti_price": 80.83000183105469,
+  "wti_price": 80.47000122070312,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -273,7 +273,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -422,6 +422,24 @@
       "correct": false
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1uw7vw1/inflation_eased_to_35_in_june_just_before_energy/",
+      "source": "Reddit r/oil",
+      "title": "Inflation eased to 3.5% in June, just before energy prices spiked again",
+      "summary": "6月インフレ率が3.5%に低下したが、その後エネルギー価格が再び上昇したという観測。",
+      "link": "https://www.reddit.com/r/oil/comments/1uw7vw1/inflation_eased_to_35_in_june_just_before_energy/",
+      "pub": "2026-07-14T12:55:05+00:00",
+      "pub_ts": 1784033705,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "マクロ経済指標",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uw650i/the_world_no_longer_has_an_oil_problem_it_has_a/",
       "source": "Reddit r/oil",
       "title": "The world no longer has an oil problem. It has a gasoline problem",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "需給構造",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/escalations_damage_hormuz_media_narrative-14-jul-2026-184128-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Escalations Damage Hormuz Media Narrative",
-      "summary": "ホルムズ海峡緊張の報道姿勢が変化。標準チャータード銀行の分析家がメディア叙述の変動を指摘",
-      "link": "https://www.rigzone.com/news/escalations_damage_hormuz_media_narrative-14-jul-2026-184128-article/?rss=true",
-      "pub": "Tue, 14 Jul 2026 11:00:13 GMT",
-      "pub_ts": 1784026813,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク認識変化",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
