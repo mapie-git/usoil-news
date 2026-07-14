@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T05:00:34.845324+09:00",
+  "updated_at": "2026-07-15T05:16:12.326365+09:00",
   "accuracy": {
     "total": 497,
     "correct": 162,
     "rate": 33
   },
-  "wti_price": 79.6500015258789,
+  "wti_price": 79.87000274658203,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -24,6 +24,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/oil_hits_onemonth_high-14-jul-2026-184132-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Oil Hits One-Month High",
+      "summary": "中東紛争の激化により、ホルムズ海峡の供給懸念から原油が1ヶ月ぶりの高値に上昇",
+      "link": "https://www.rigzone.com/news/wire/oil_hits_onemonth_high-14-jul-2026-184132-article/?rss=true",
+      "pub": "Tue, 14 Jul 2026 20:05:56 GMT",
+      "pub_ts": 1784059556,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Trumps-Hormuz-Toll-Could-Upend-Global-Energy-Trade.html",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Races-for-Emergency-LNG-as-Strait-of-Hormuz-Traffic-Stalls.html",
-      "source": "OilPrice.com",
-      "title": "Pakistan Races for Emergency LNG as Strait of Hormuz Traffic Stalls",
-      "summary": "ホルムズ海峡の緊張激化でパキスタンがスポット市場でLNG緊急調達。供給懸念が浮上",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Races-for-Emergency-LNG-as-Strait-of-Hormuz-Traffic-Stalls.html",
-      "pub": "Tue, 14 Jul 2026 08:00:00 -0500",
-      "pub_ts": 1784034000,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
