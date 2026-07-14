@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T03:40:37.009228+09:00",
+  "updated_at": "2026-07-15T04:00:35.411662+09:00",
   "accuracy": {
-    "total": 494,
+    "total": 495,
     "correct": 162,
     "rate": 33
   },
-  "wti_price": 79.5,
+  "wti_price": 79.68000030517578,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-8-After-Trump-Reimposes-Iran-Blockade.html",
@@ -314,6 +314,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Geopolitics/Middle-East/Trump-Scraps-Hormuz-Toll-Plan-as-US-Iran-Conflict-Deepens.html",
+      "source": "OilPrice.com",
+      "title": "Trump Scraps Hormuz Toll Plan as U.S.-Iran Conflict Deepens",
+      "summary": "トランプ大統領がホルムズ海峡の通行料計画を撤回。イラン海運のブロックを維持しつつ湾岸諸国との協力強化へ。",
+      "link": "https://oilprice.com/Geopolitics/Middle-East/Trump-Scraps-Hormuz-Toll-Plan-as-US-Iran-Conflict-Deepens.html",
+      "pub": "Tue, 14 Jul 2026 14:00:00 -0500",
+      "pub_ts": 1784055600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uwfwoq/ukrainian_compliation_of_the_116_russian_vessels/",
       "source": "Reddit r/oil",
       "title": "Ukrainian compliation of the 116 Russian vessels hit in the last 9 days (majority Oil tankers)",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/China-Cuts-Saudi-Crude-Orders-as-Hormuz-Risks-and-Discounts-Reshape-Trade.html",
-      "source": "OilPrice.com",
-      "title": "China Cuts Saudi Crude Orders as Hormuz Risks and Discounts Reshape Trade",
-      "summary": "中国の製油所がサウジアラビアからの原油購入を削減。需要低迷と他国との競争が影響。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Cuts-Saudi-Crude-Orders-as-Hormuz-Risks-and-Discounts-Reshape-Trade.html",
-      "pub": "Tue, 14 Jul 2026 04:30:00 -0500",
-      "pub_ts": 1784021400,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "需要減少",
       "reliability": "B",
       "is_new": false,
       "verified": false,
