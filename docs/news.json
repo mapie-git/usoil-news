@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-16T00:00:44.304832+09:00",
+  "updated_at": "2026-07-16T00:30:38.918820+09:00",
   "accuracy": {
-    "total": 537,
+    "total": 538,
     "correct": 166,
     "rate": 31
   },
-  "wti_price": 78.81999969482422,
+  "wti_price": 78.7300033569336,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Surge-Runs-Into-a-135-Million-Barrel-Traffic-Jam.html",
+      "source": "OilPrice.com",
+      "title": "Russia’s Oil Export Surge Runs Into a 135 Million-Barrel Traffic Jam",
+      "summary": "ロシア産原油1億3500万バレルが洋上で滞留。供給懸念が高まる。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Surge-Runs-Into-a-135-Million-Barrel-Traffic-Jam.html",
+      "pub": "Wed, 15 Jul 2026 10:01:10 -0500",
+      "pub_ts": 1784127670,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "供給制約",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Energy-General/New-US-Sanctions-Bill-Targets-Russias-Oil-Exports-and-Shadow-Fleet.html",
       "source": "OilPrice.com",
@@ -238,8 +256,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uwaj1x/trump_reposting_past_comments_re_kharg_island/",
@@ -296,22 +314,22 @@
       "correct": false
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uw6wlj/trumps_20_hormuz_toll_jolts_markets_as_asia/",
-      "source": "Reddit r/oil",
-      "title": "Trump’s 20% Hormuz toll jolts markets as Asia adapts to oil shock",
-      "summary": "トランプホルムズ海峡20%関税提案。アジア石油流通構造に大きな衝撃",
-      "link": "https://www.reddit.com/r/oil/comments/1uw6wlj/trumps_20_hormuz_toll_jolts_markets_as_asia/",
-      "pub": "2026-07-14T12:11:29+00:00",
-      "pub_ts": 1784031089,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Inventories-Fall-17-Million-Barrels-As-Iran-Tensions-Rattle-Markets.html",
+      "source": "OilPrice.com",
+      "title": "U.S. Crude Inventories Fall 1.7 Million Barrels As Iran Tensions Rattle Markets",
+      "summary": "米国原油在庫が170万バレル減少。イラン緊張も材料視されている。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Inventories-Fall-17-Million-Barrels-As-Iran-Tensions-Rattle-Markets.html",
+      "pub": "Wed, 15 Jul 2026 10:28:17 -0500",
+      "pub_ts": 1784129297,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "政策リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "main_factor": "在庫減少",
+      "reliability": "A",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.eia.gov/todayinenergy/detail.php?id=67865",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
-      "source": "Reddit r/oil",
-      "title": "Oil depot hit in Kuwait",
-      "summary": "クウェートの石油施設が攻撃を受けたとの報告。詳細不明で確認待ち。",
-      "link": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
-      "pub": "2026-07-15T01:32:24+00:00",
-      "pub_ts": 1784079144,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
