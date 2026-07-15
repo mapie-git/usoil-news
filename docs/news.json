@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T02:30:33.010015+09:00",
+  "updated_at": "2026-07-16T02:48:47.385961+09:00",
   "accuracy": {
     "total": 545,
     "correct": 170,
     "rate": 31
   },
-  "wti_price": 79.30000305175781,
+  "wti_price": 79.0,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Five-Ways-China-Is-Shielding-Itself-as-the-Hormuz-Cease-Fire-Collapses.html",
