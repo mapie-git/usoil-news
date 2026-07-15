@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T04:18:08.000533+09:00",
+  "updated_at": "2026-07-16T04:30:33.666065+09:00",
   "accuracy": {
-    "total": 548,
-    "correct": 171,
+    "total": 549,
+    "correct": 172,
     "rate": 31
   },
-  "wti_price": 79.68000030517578,
+  "wti_price": 79.80000305175781,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uxd8z8/saudi_gulf_oil_loads_slump_as_iran_hits/",
