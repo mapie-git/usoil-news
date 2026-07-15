@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T08:30:42.448715+09:00",
+  "updated_at": "2026-07-15T09:00:35.000491+09:00",
   "accuracy": {
     "total": 506,
     "correct": 163,
     "rate": 32
   },
-  "wti_price": 79.94999694824219,
+  "wti_price": 79.83999633789062,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uwnv6m/trump_announces_starting_next_week_the_us_will/",
@@ -350,6 +350,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Energy/Crude-Oil/The-Next-Oil-Rally-May-Depend-On-China-Not-The-Middle-East.html",
+      "source": "OilPrice.com",
+      "title": "The Next Oil Rally May Depend On China, Not The Middle East",
+      "summary": "中国の精製業者がイラン紛争中に中東産原油の競争を停止し、欧州やインドへの供給が増加。市場の供給ショック予想に影響。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/The-Next-Oil-Rally-May-Depend-On-China-Not-The-Middle-East.html",
+      "pub": "Tue, 14 Jul 2026 19:00:00 -0500",
+      "pub_ts": 1784073600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "short",
+      "main_factor": "需給シフト",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Crude-Oil/Canada-Ties-New-West-Coast-Pipeline-to-Oil-Sands-Expansion.html",
       "source": "OilPrice.com",
       "title": "Canada Ties New West Coast Pipeline to Oil Sands Expansion",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給不足",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uwex9a/houthis_attempting_to_cutoff_oil_tanker_and/",
-      "source": "Reddit r/oil",
-      "title": "Houthis attempting to cutoff oil tanker and shipping traffic at Bab-el-Mandeb strait",
-      "summary": "フーシ派がバブエルマンデブ海峡の油送機能を遮断しようとしており、海上保険料上昇と運送コスト増加が見込まれる。",
-      "link": "https://www.reddit.com/r/oil/comments/1uwex9a/houthis_attempting_to_cutoff_oil_tanker_and/",
-      "pub": "2026-07-14T17:15:11+00:00",
-      "pub_ts": 1784049311,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
