@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-16T06:30:36.848363+09:00",
+  "updated_at": "2026-07-16T07:00:34.839969+09:00",
   "accuracy": {
-    "total": 555,
-    "correct": 176,
+    "total": 556,
+    "correct": 177,
     "rate": 32
   },
   "wti_price": 80.23999786376953,
@@ -314,6 +314,24 @@
       "correct": true
     },
     {
+      "id": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Sends-US-Electricity-Demand-to-New-High.html",
+      "source": "OilPrice.com",
+      "title": "AI Boom Sends U.S. Electricity Demand to New High",
+      "summary": "AI産業の成長に伴い米国電力需要が記録更新。長期的な電力消費増加がエネルギー需要を支援",
+      "link": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Sends-US-Electricity-Demand-to-New-High.html",
+      "pub": "Wed, 15 Jul 2026 17:00:00 -0500",
+      "pub_ts": 1784152800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "需要増加（AI・データセンター）",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Alternative-Energy/Solar-Energy/China-Just-Connected-the-Worlds-Biggest-Hybrid-Solar-Plant-to-the-Grid.html",
       "source": "OilPrice.com",
       "title": "China Just Connected the World's Biggest Hybrid Solar Plant to the Grid",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "需要見通し低下",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uwv5hn/iran_warns_that_in_direct_response_to_the_us/",
-      "source": "Reddit r/oil",
-      "title": "Iran warns that in direct response to the US naval blockade on Iranian oil and gas exports, \"other export routes for oil and gas which serve the interests of America and its allies\" will also be closed, including the UAE Fujairah pipeline and Saudi East-West pipeline",
-      "summary": "イラン、米国の海上封鎖に対抗してアラビア湾周辺の石油輸送ルート遮断を警告。地政学的リスク高まる。",
-      "link": "https://www.reddit.com/r/oil/comments/1uwv5hn/iran_warns_that_in_direct_response_to_the_us/",
-      "pub": "2026-07-15T04:12:23+00:00",
-      "pub_ts": 1784088743,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
