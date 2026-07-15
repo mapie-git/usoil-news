@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T16:30:45.067813+09:00",
+  "updated_at": "2026-07-15T17:00:31.558111+09:00",
   "accuracy": {
     "total": 513,
     "correct": 164,
     "rate": 32
   },
-  "wti_price": 80.19999694824219,
+  "wti_price": 80.25,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refinery-Runs-Crash-to-Pandemic-Lows-as-Crude-Imports-Collapse.html",
@@ -350,20 +350,20 @@
       "correct": false
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uvwr3f/the_crude_oil_market_experienced_a_sharp/",
-      "source": "Reddit r/oil",
-      "title": "The crude oil market experienced a sharp geopolitical shockwave as Iran declared the Strait of Hormuz closed indefinitely following renewed US-Iran hostilities",
-      "summary": "イランが米国との緊張激化でホルムズ海峡の無期限閉鎖を宣言。WTI・ブレント共に3～4%上昇の急騰",
-      "link": "https://www.reddit.com/r/oil/comments/1uvwr3f/the_crude_oil_market_experienced_a_sharp/",
-      "pub": "2026-07-14T03:06:39+00:00",
-      "pub_ts": 1783998399,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Backs-Iraq-Syria-Oil-Pipeline-to-Bypass-the-Strait-of-Hormuz.html",
+      "source": "OilPrice.com",
+      "title": "U.S. Backs Iraq-Syria Oil Pipeline to Bypass the Strait of Hormuz",
+      "summary": "米国がイラク・シリア間のパイプライン再建を支持。ホルムズ海峡迂回で供給リスク低減へ",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Backs-Iraq-Syria-Oil-Pipeline-to-Bypass-the-Strait-of-Hormuz.html",
+      "pub": "Wed, 15 Jul 2026 02:40:00 -0500",
+      "pub_ts": 1784101200,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク軽減",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -381,7 +381,7 @@
       "time_horizon": "medium",
       "main_factor": "需要見通し低下",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
