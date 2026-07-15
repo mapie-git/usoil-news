@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T04:30:33.666065+09:00",
+  "updated_at": "2026-07-16T05:00:33.817730+09:00",
   "accuracy": {
-    "total": 549,
-    "correct": 172,
+    "total": 550,
+    "correct": 173,
     "rate": 31
   },
-  "wti_price": 79.80000305175781,
+  "wti_price": 80.33999633789062,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uxd8z8/saudi_gulf_oil_loads_slump_as_iran_hits/",
@@ -274,6 +274,24 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
+      "verified": true,
+      "correct": true
+    },
+    {
+      "id": "https://oilprice.com/Alternative-Energy/Solar-Energy/China-Just-Connected-the-Worlds-Biggest-Hybrid-Solar-Plant-to-the-Grid.html",
+      "source": "OilPrice.com",
+      "title": "China Just Connected the World's Biggest Hybrid Solar Plant to the Grid",
+      "summary": "中国が世界最大のハイブリッド太陽光発電所を稼働。再生可能エネルギーの拡大が長期的な石油需要を圧迫する可能性を示唆",
+      "link": "https://oilprice.com/Alternative-Energy/Solar-Energy/China-Just-Connected-the-Worlds-Biggest-Hybrid-Solar-Plant-to-the-Grid.html",
+      "pub": "Wed, 15 Jul 2026 15:00:00 -0500",
+      "pub_ts": 1784145600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "long",
+      "main_factor": "長期需要減少",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/The-Next-Oil-Rally-May-Depend-On-China-Not-The-Middle-East.html",
-      "source": "OilPrice.com",
-      "title": "The Next Oil Rally May Depend On China, Not The Middle East",
-      "summary": "中国の精製業者がイラン紛争中に中東産原油の競争を停止し、欧州やインドへの供給が増加。市場の供給ショック予想に影響。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/The-Next-Oil-Rally-May-Depend-On-China-Not-The-Middle-East.html",
-      "pub": "Tue, 14 Jul 2026 19:00:00 -0500",
-      "pub_ts": 1784073600,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "需給シフト",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
