@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-16T01:30:35.182544+09:00",
+  "updated_at": "2026-07-16T02:00:35.584593+09:00",
   "accuracy": {
-    "total": 542,
-    "correct": 168,
+    "total": 543,
+    "correct": 169,
     "rate": 31
   },
-  "wti_price": 79.0999984741211,
+  "wti_price": 79.37999725341797,
   "articles": [
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Five-Ways-China-Is-Shielding-Itself-as-the-Hormuz-Cease-Fire-Collapses.html",
+      "source": "OilPrice.com",
+      "title": "Five Ways China Is Shielding Itself as the Hormuz Cease-Fire Collapses",
+      "summary": "ホルムズ海峡の停戦崩壊。米国がイラン沿岸への軍事行動を再開し、地政学的緊張が急速に高まっている。",
+      "link": "https://oilprice.com/Energy/Energy-General/Five-Ways-China-Is-Shielding-Itself-as-the-Hormuz-Cease-Fire-Collapses.html",
+      "pub": "Wed, 15 Jul 2026 12:00:00 -0500",
+      "pub_ts": 1784134800,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uxab6j/a_source_close_to_irans_ghalibaf_says_the_irgc/",
       "source": "Reddit r/oil",
@@ -21,7 +39,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
-      "source": "Reddit r/oil",
-      "title": "Oil depot hit in Kuwait",
-      "summary": "クウェートの石油施設が攻撃を受けたとの報告。詳細不明で確認待ち。",
-      "link": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
-      "pub": "2026-07-15T01:32:24+00:00",
-      "pub_ts": 1784079144,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
