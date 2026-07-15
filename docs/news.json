@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-15T22:30:31.557038+09:00",
+  "updated_at": "2026-07-15T23:00:40.145904+09:00",
   "accuracy": {
-    "total": 528,
+    "total": 530,
     "correct": 166,
     "rate": 31
   },
-  "wti_price": 80.13999938964844,
+  "wti_price": 80.04000091552734,
   "articles": [
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/New-US-Sanctions-Bill-Targets-Russias-Oil-Exports-and-Shadow-Fleet.html",
+      "source": "OilPrice.com",
+      "title": "New U.S. Sanctions Bill Targets Russia's Oil Exports and Shadow Fleet",
+      "summary": "米国の超党派議員グループがロシアの石油輸出とシャドーフリートを標的とした制裁案を提出。モスクワの戦争資金を締め付ける狙い。",
+      "link": "https://oilprice.com/Energy/Energy-General/New-US-Sanctions-Bill-Targets-Russias-Oil-Exports-and-Shadow-Fleet.html",
+      "pub": "Wed, 15 Jul 2026 09:00:00 -0500",
+      "pub_ts": 1784124000,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Intensifies-Attacks-on-Russian-Tankers-in-the-Black-Sea.html",
       "source": "OilPrice.com",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
-      "source": "Reddit r/oil",
-      "title": "Oil depot hit in Kuwait",
-      "summary": "クウェートの石油施設が攻撃を受けたとの報告。詳細不明で確認待ち。",
-      "link": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
-      "pub": "2026-07-15T01:32:24+00:00",
-      "pub_ts": 1784079144,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
