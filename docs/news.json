@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T20:00:31.975986+09:00",
+  "updated_at": "2026-07-15T20:30:32.735296+09:00",
   "accuracy": {
-    "total": 521,
+    "total": 522,
     "correct": 166,
     "rate": 32
   },
-  "wti_price": 80.08999633789062,
+  "wti_price": 79.83999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Intensifies-Attacks-on-Russian-Tankers-in-the-Black-Sea.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "供給リスク上昇",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
