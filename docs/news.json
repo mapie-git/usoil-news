@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T01:00:34.975427+09:00",
+  "updated_at": "2026-07-16T01:03:58.186784+09:00",
   "accuracy": {
     "total": 540,
     "correct": 166,
     "rate": 31
   },
-  "wti_price": 78.69999694824219,
+  "wti_price": 78.58999633789062,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1ux9u0l/iran_hits_us_fifth_fleet_fuel_and_stores_warns_on/",
@@ -314,24 +314,6 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Above-87-as-Russia-Ukraine-Black-Sea-Attacks-Escalate.html",
-      "source": "OilPrice.com",
-      "title": "Oil Jumps Above $87 as Russia-Ukraine Black Sea Attacks Escalate",
-      "summary": "ロシアの無人機がウクライナ商船を攻撃し5人が死亡。黒海での供給リスク急増が原油上昇を牽引。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Above-87-as-Russia-Ukraine-Black-Sea-Attacks-Escalate.html",
-      "pub": "Tue, 14 Jul 2026 09:30:00 -0500",
-      "pub_ts": 1784039400,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Inventories-Fall-17-Million-Barrels-As-Iran-Tensions-Rattle-Markets.html",
       "source": "OilPrice.com",
       "title": "U.S. Crude Inventories Fall 1.7 Million Barrels As Iran Tensions Rattle Markets",
@@ -447,6 +429,24 @@
       "link": "https://www.reddit.com/r/oil/comments/1uwv5hn/iran_warns_that_in_direct_response_to_the_us/",
       "pub": "2026-07-15T04:12:23+00:00",
       "pub_ts": 1784088743,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uwuhvp/the_us_has_struck_a_wheat_storage_silo_in/",
+      "source": "Reddit r/oil",
+      "title": "The US has struck a wheat storage silo in Hoveizeh County and a silo location in Dasht Azadegan County, southwestern Iran, an hour ago, per the Deputy Governor of Khuzestan Province. First US strike on Iranian food supply infrastructure of the war.",
+      "summary": "米国がイラン南西部の穀物サイロを初めて攻撃。食糧インフラへの直接的な軍事行動は地政学リスク上昇を示唆。",
+      "link": "https://www.reddit.com/r/oil/comments/1uwuhvp/the_us_has_struck_a_wheat_storage_silo_in/",
+      "pub": "2026-07-15T03:40:30+00:00",
+      "pub_ts": 1784086830,
       "impact": 3,
       "impact_group": "mid",
       "direction": "bullish",
