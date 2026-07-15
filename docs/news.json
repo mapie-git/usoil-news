@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-15T17:30:27.905933+09:00",
+  "updated_at": "2026-07-15T17:55:59.613146+09:00",
   "accuracy": {
-    "total": 513,
-    "correct": 164,
+    "total": 516,
+    "correct": 165,
     "rate": 32
   },
-  "wti_price": 80.44999694824219,
+  "wti_price": 79.6500015258789,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html",
+      "source": "OilPrice.com",
+      "title": "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days",
+      "summary": "米国ガソリン価格が数日内に1ガロン4ドルに達する可能性。米イラン停戦崩壊で中東緊張激化が原油上昇を主導",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Could-Hit-4-Per-Gallon-Within-Days.html",
+      "pub": "Wed, 15 Jul 2026 03:45:00 -0500",
+      "pub_ts": 1784105100,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refinery-Runs-Crash-to-Pandemic-Lows-as-Crude-Imports-Collapse.html",
       "source": "OilPrice.com",
@@ -292,8 +310,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Crude-Oil-Imports-Crash-to-Decade-Low-as-Hormuz-Crisis-Bites.html",
@@ -330,24 +348,6 @@
       "is_new": false,
       "verified": true,
       "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uvxctg/chinas_crude_oil_imports_plunge_to_lowest_in/",
-      "source": "Reddit r/oil",
-      "title": "China’s Crude Oil Imports Plunge to Lowest in Nearly a Decade",
-      "summary": "中国の原油輸入が10年近くの最低水準に低下。需要減少懸念が価格下押し要因に",
-      "link": "https://www.reddit.com/r/oil/comments/1uvxctg/chinas_crude_oil_imports_plunge_to_lowest_in/",
-      "pub": "2026-07-14T03:35:36+00:00",
-      "pub_ts": 1784000136,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "需要減少",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Backs-Iraq-Syria-Oil-Pipeline-to-Bypass-the-Strait-of-Hormuz.html",
