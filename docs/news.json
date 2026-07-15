@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T14:00:27.575223+09:00",
+  "updated_at": "2026-07-15T14:30:28.592081+09:00",
   "accuracy": {
     "total": 510,
     "correct": 163,
     "rate": 32
   },
-  "wti_price": 79.72000122070312,
+  "wti_price": 79.79000091552734,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uwnv6m/trump_announces_starting_next_week_the_us_will/",
