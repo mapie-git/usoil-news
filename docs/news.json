@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T03:00:33.551159+09:00",
+  "updated_at": "2026-07-16T03:30:34.706611+09:00",
   "accuracy": {
     "total": 547,
     "correct": 171,
     "rate": 31
   },
-  "wti_price": 78.87999725341797,
+  "wti_price": 79.2699966430664,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uxd8z8/saudi_gulf_oil_loads_slump_as_iran_hits/",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -296,24 +296,6 @@
       "correct": true
     },
     {
-      "id": "https://oilprice.com/Energy/Crude-Oil/Oils-Oversupply-Narrative-Just-Died.html",
-      "source": "OilPrice.com",
-      "title": "Oil’s Oversupply Narrative Just Died",
-      "summary": "米国とイラン対立激化でブレント85ドル超。供給過剰懸念から供給不足懸念へシフト。2026年LNG供給過剰も回避見通し",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Oils-Oversupply-Narrative-Just-Died.html",
-      "pub": "Tue, 14 Jul 2026 11:00:00 -0500",
-      "pub_ts": 1784044800,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Inventories-Fall-17-Million-Barrels-As-Iran-Tensions-Rattle-Markets.html",
       "source": "OilPrice.com",
       "title": "U.S. Crude Inventories Fall 1.7 Million Barrels As Iran Tensions Rattle Markets",
@@ -451,6 +433,24 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
+      "source": "Reddit r/oil",
+      "title": "Oil depot hit in Kuwait",
+      "summary": "クウェートの石油施設が攻撃を受けたとの報告。詳細不明で確認待ち。",
+      "link": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
+      "pub": "2026-07-15T01:32:24+00:00",
+      "pub_ts": 1784079144,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
