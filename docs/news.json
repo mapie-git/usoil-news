@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T16:00:38.880973+09:00",
+  "updated_at": "2026-07-15T16:30:45.067813+09:00",
   "accuracy": {
-    "total": 512,
+    "total": 513,
     "correct": 164,
     "rate": 32
   },
-  "wti_price": 79.73999786376953,
+  "wti_price": 80.19999694824219,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refinery-Runs-Crash-to-Pandemic-Lows-as-Crude-Imports-Collapse.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "中国需要減少",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -310,8 +310,8 @@
       "main_factor": "供給制約、地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Have-Jumped-12-Since-Friday-as-War-Risks-Return.html",
@@ -364,6 +364,24 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZGs5V0UzTmxWclJvQ0JkeHpDblBHS2hIQ0FIQTU1QnUySlFOS0luaTltT0pEc0tqRWxEMmYxQU9rNkM0SDhOWENfaTJiVXNLVEZBTEdxai04VS1nc0x0dVJMT1c2bWpqb0xPVEZRdHRGNjIwYm1xUkVpNzFaOFV6WkIwcW5DNmJsdlR6UXFibU1iNVZiNzlOUGxhNjRDcTRjc0c3TDVCNXhacmhUdzZ3TEpIV3FIQ3BEQjIyRkpR?oc=5",
+      "source": "Google News",
+      "title": "Natural Gas and Oil Forecast: OPEC Cuts Demand Outlook Can WTI Clear $80? - FXEmpire",
+      "summary": "OPECが需要見通しを引き下げ。WTIが80ドルを超えられるかが焦点。",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZGs5V0UzTmxWclJvQ0JkeHpDblBHS2hIQ0FIQTU1QnUySlFOS0luaTltT0pEc0tqRWxEMmYxQU9rNkM0SDhOWENfaTJiVXNLVEZBTEdxai04VS1nc0x0dVJMT1c2bWpqb0xPVEZRdHRGNjIwYm1xUkVpNzFaOFV6WkIwcW5DNmJsdlR6UXFibU1iNVZiNzlOUGxhNjRDcTRjc0c3TDVCNXhacmhUdzZ3TEpIV3FIQ3BEQjIyRkpR?oc=5",
+      "pub": "Wed, 15 Jul 2026 07:05:00 GMT",
+      "pub_ts": 1784099100,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "需要見通し低下",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "short",
       "main_factor": "需給シフト",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/Canada-Ties-New-West-Coast-Pipeline-to-Oil-Sands-Expansion.html",
-      "source": "OilPrice.com",
-      "title": "Canada Ties New West Coast Pipeline to Oil Sands Expansion",
-      "summary": "カナダの新西海岸パイプライン計画が進展。日産100万バレルの油砂生産増が見込まれる。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Canada-Ties-New-West-Coast-Pipeline-to-Oil-Sands-Expansion.html",
-      "pub": "Tue, 14 Jul 2026 17:00:00 -0500",
-      "pub_ts": 1784066400,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "供給増加確定",
       "reliability": "B",
       "is_new": false,
       "verified": false,
