@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T22:00:29.131306+09:00",
+  "updated_at": "2026-07-15T22:30:31.557038+09:00",
   "accuracy": {
-    "total": 527,
+    "total": 528,
     "correct": 166,
     "rate": 31
   },
-  "wti_price": 79.69999694824219,
+  "wti_price": 80.13999938964844,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-Intensifies-Attacks-on-Russian-Tankers-in-the-Black-Sea.html",
@@ -314,22 +314,22 @@
       "correct": false
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Importers-Pivot-to-US-Supplies-as-Hormuz-Risks-Intensify.html",
-      "source": "OilPrice.com",
-      "title": "Asian Oil Importers Pivot to U.S. Supplies as Hormuz Risks Intensify",
-      "summary": "アジアの石油輸入業者がホルムズ海峡の地政学リスク高まりを受け、米国産原油への切り替えを加速。供給懸念が支援材料。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Importers-Pivot-to-US-Supplies-as-Hormuz-Risks-Intensify.html",
-      "pub": "Tue, 14 Jul 2026 05:45:00 -0500",
-      "pub_ts": 1784025900,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://www.eia.gov/todayinenergy/detail.php?id=67865",
+      "source": "EIA",
+      "title": "Petroleum markets responded to disruptions in the Middle East in the second quarter",
+      "summary": "中東ホルムズ海峡の混乱が2Q26の原油価格変動性上昇と価格押し上げに寄与したとEIA報告",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67865",
+      "pub": "Wed, 15 Jul 2026 09:00:00 EST",
+      "pub_ts": 1784124000,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "short",
+      "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.rigzone.com/news/wire/ukraine_says_it_hit_russian_oil_gas_tankers_in_black_sea-15-jul-2026-184133-article/?rss=true",
