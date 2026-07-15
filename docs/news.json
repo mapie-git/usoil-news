@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T07:05:52.375490+09:00",
+  "updated_at": "2026-07-16T07:30:27.890260+09:00",
   "accuracy": {
     "total": 556,
     "correct": 177,
@@ -327,7 +327,7 @@
       "time_horizon": "long",
       "main_factor": "需要増加（AI・データセンター）",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
