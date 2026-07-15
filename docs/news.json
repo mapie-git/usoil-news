@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-16T05:35:15.877176+09:00",
+  "updated_at": "2026-07-16T06:00:46.454443+09:00",
   "accuracy": {
-    "total": 551,
+    "total": 552,
     "correct": 174,
     "rate": 32
   },
-  "wti_price": 80.29000091552734,
+  "wti_price": 80.30000305175781,
   "articles": [
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Five-Oil-and-Gas-Stocks-Ready-for-a-Hormuz-Spike-and-a-Hawkish-Fed.html",
+      "source": "OilPrice.com",
+      "title": "Five Oil and Gas Stocks Ready for a Hormuz Spike and a Hawkish Fed",
+      "summary": "イラン革命防衛隊がホルムズ海峡閉鎖を宣言。世界の海上石油取引の約20%が影響を受ける地政学リスク",
+      "link": "https://oilprice.com/Energy/Energy-General/Five-Oil-and-Gas-Stocks-Ready-for-a-Hormuz-Spike-and-a-Hawkish-Fed.html",
+      "pub": "Wed, 15 Jul 2026 16:00:00 -0500",
+      "pub_ts": 1784149200,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uxd8z8/saudi_gulf_oil_loads_slump_as_iran_hits/",
       "source": "Reddit r/oil",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
-      "source": "Reddit r/oil",
-      "title": "Oil depot hit in Kuwait",
-      "summary": "クウェートの石油施設が攻撃を受けたとの報告。詳細不明で確認待ち。",
-      "link": "https://www.reddit.com/r/oil/comments/1uwrsjr/oil_depot_hit_in_kuwait/",
-      "pub": "2026-07-15T01:32:24+00:00",
-      "pub_ts": 1784079144,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
