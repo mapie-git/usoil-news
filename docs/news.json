@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-15T19:30:31.016276+09:00",
+  "updated_at": "2026-07-15T19:56:07.690750+09:00",
   "accuracy": {
     "total": 520,
     "correct": 166,
     "rate": 32
   },
-  "wti_price": 80.11000061035156,
+  "wti_price": 79.9800033569336,
   "articles": [
+    {
+      "id": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-for-Fourth-Day-as-Iran-Threatens-New-Energy-Chokepoints.html",
+      "source": "OilPrice.com",
+      "title": "Oil Prices Climb for Fourth Day as Iran Threatens New Energy Chokepoints",
+      "summary": "イラン情勢の悪化で4日連続上昇。ホルムズ海峡の緊張とイランによるエネルギー回廊閉鎖脅威が価格を押し上げ。",
+      "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-for-Fourth-Day-as-Iran-Threatens-New-Energy-Chokepoints.html",
+      "pub": "Wed, 15 Jul 2026 05:30:00 -0500",
+      "pub_ts": 1784111400,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Futures-Flip-to-Backwardation-as-Middle-East-Supply-Risks-Return.html",
       "source": "OilPrice.com",
@@ -435,24 +453,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/The-Next-Oil-Rally-May-Depend-On-China-Not-The-Middle-East.html",
-      "source": "OilPrice.com",
-      "title": "The Next Oil Rally May Depend On China, Not The Middle East",
-      "summary": "中国の精製業者がイラン紛争中に中東産原油の競争を停止し、欧州やインドへの供給が増加。市場の供給ショック予想に影響。",
-      "link": "https://oilprice.com/Energy/Crude-Oil/The-Next-Oil-Rally-May-Depend-On-China-Not-The-Middle-East.html",
-      "pub": "Tue, 14 Jul 2026 19:00:00 -0500",
-      "pub_ts": 1784073600,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "short",
-      "main_factor": "需給シフト",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
