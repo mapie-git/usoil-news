@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T19:00:32.274786+09:00",
+  "updated_at": "2026-07-15T19:30:31.016276+09:00",
   "accuracy": {
-    "total": 519,
+    "total": 520,
     "correct": 166,
     "rate": 32
   },
-  "wti_price": 80.05000305175781,
+  "wti_price": 80.11000061035156,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Futures-Flip-to-Backwardation-as-Middle-East-Supply-Risks-Return.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク、供給タイト化",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -314,24 +314,6 @@
       "correct": false
     },
     {
-      "id": "https://www.rigzone.com/news/wire/houthis_strike_saudi_arabia_in_major_escalation-14-jul-2026-184125-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Houthis Strike Saudi Arabia in Major Escalation",
-      "summary": "イラン支援フーシ派がサウジアラビアへ大規模ミサイル・ドローン攻撃。中東地政学リスク急上昇",
-      "link": "https://www.rigzone.com/news/wire/houthis_strike_saudi_arabia_in_major_escalation-14-jul-2026-184125-article/?rss=true",
-      "pub": "Tue, 14 Jul 2026 08:19:46 GMT",
-      "pub_ts": 1784017186,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
-    },
-    {
       "id": "https://www.rigzone.com/news/wire/ukraine_says_it_hit_russian_oil_gas_tankers_in_black_sea-15-jul-2026-184133-article/?rss=true",
       "source": "Rigzone",
       "title": "Ukraine Says It Hit Russian Oil, Gas Tankers in Black Sea",
@@ -345,6 +327,24 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク、供給混乱",
       "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uwzh1e/is_the_gulf_rebuilding_its_oil_network_to_bypass/",
+      "source": "Reddit r/oil",
+      "title": "Is The Gulf Rebuilding Its Oil Network to Bypass the Strait of Hormuz?",
+      "summary": "ペルシャ湾岸諸国がホルムズ海峡迂回のためのパイプライン整備を検討中。中期的なインフラ構想だが詳細不明。",
+      "link": "https://www.reddit.com/r/oil/comments/1uwzh1e/is_the_gulf_rebuilding_its_oil_network_to_bypass/",
+      "pub": "2026-07-15T08:07:00+00:00",
+      "pub_ts": 1784102820,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "供給ルート多様化",
+      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
