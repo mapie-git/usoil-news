@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T02:30:33.231031+09:00",
+  "updated_at": "2026-07-17T02:47:07.412221+09:00",
   "accuracy": {
     "total": 601,
     "correct": 197,
     "rate": 33
   },
-  "wti_price": 78.4800033569336,
+  "wti_price": 78.5,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/EU-Sets-Target-To-Double-Electrification-Rate-Cut-Oil-Gas-Use.html",
@@ -260,24 +260,6 @@
       "correct": true
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1ux9u0l/iran_hits_us_fifth_fleet_fuel_and_stores_warns_on/",
-      "source": "Reddit r/oil",
-      "title": "Iran hits US Fifth Fleet fuel and stores, warns on exports",
-      "summary": "イランがバーレーン米軍基地を攻撃。地政学リスク上昇で原油供給途絶懸念。",
-      "link": "https://www.reddit.com/r/oil/comments/1ux9u0l/iran_hits_us_fifth_fleet_fuel_and_stores_warns_on/",
-      "pub": "2026-07-15T15:53:51+00:00",
-      "pub_ts": 1784130831,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
       "id": "https://oilprice.com/Energy/Crude-Oil/India-Is-Becoming-the-Worlds-Refining-Swing-Producer.html",
       "source": "OilPrice.com",
       "title": "India Is Becoming the World's Refining Swing Producer",
@@ -452,6 +434,24 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "供給制限",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uxnwx2/ft_oil_traders_warn_market_is_close_to_running_on/",
+      "source": "Reddit r/oil",
+      "title": "FT: Oil traders warn market is close to running on empty as Hormuz shuts again",
+      "summary": "ホルムズ海峡閉鎖の可能性について市場が警告。供給逼迫リスクが指摘されている。",
+      "link": "https://www.reddit.com/r/oil/comments/1uxnwx2/ft_oil_traders_warn_market_is_close_to_running_on/",
+      "pub": "2026-07-16T00:48:05+00:00",
+      "pub_ts": 1784162885,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
       "verified": false,
