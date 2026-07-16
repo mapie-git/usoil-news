@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-17T00:30:34.931238+09:00",
+  "updated_at": "2026-07-17T01:00:32.883614+09:00",
   "accuracy": {
     "total": 594,
     "correct": 194,
     "rate": 33
   },
-  "wti_price": 79.55999755859375,
+  "wti_price": 78.87000274658203,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Instructs-Houthis-to-Prepare-Red-Sea-Shipping-Attacks.html",
+      "source": "OilPrice.com",
+      "title": "Iran Instructs Houthis to Prepare Red Sea Shipping Attacks",
+      "summary": "イランがホーシ派に紅海バブエルマンデブ海峡封鎖準備を指示。米国の攻撃脅威に対抗。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Instructs-Houthis-to-Prepare-Red-Sea-Shipping-Attacks.html",
+      "pub": "Thu, 16 Jul 2026 10:45:51 -0500",
+      "pub_ts": 1784216751,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給経路リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uy1x9g/iraqi_oil_loadings_briefly_suspended_after_drone/",
       "source": "Reddit r/oil",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "long",
       "main_factor": "需要増加（AI・データセンター）",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Alternative-Energy/Solar-Energy/China-Just-Connected-the-Worlds-Biggest-Hybrid-Solar-Plant-to-the-Grid.html",
-      "source": "OilPrice.com",
-      "title": "China Just Connected the World's Biggest Hybrid Solar Plant to the Grid",
-      "summary": "中国が世界最大のハイブリッド太陽光発電所を稼働。再生可能エネルギーの拡大が長期的な石油需要を圧迫する可能性を示唆",
-      "link": "https://oilprice.com/Alternative-Energy/Solar-Energy/China-Just-Connected-the-Worlds-Biggest-Hybrid-Solar-Plant-to-the-Grid.html",
-      "pub": "Wed, 15 Jul 2026 15:00:00 -0500",
-      "pub_ts": 1784145600,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "long",
-      "main_factor": "長期需要減少",
       "reliability": "B",
       "is_new": false,
       "verified": false,
