@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T01:30:38.220624+09:00",
+  "updated_at": "2026-07-17T02:00:45.101916+09:00",
   "accuracy": {
-    "total": 600,
+    "total": 601,
     "correct": 197,
     "rate": 33
   },
-  "wti_price": 79.38999938964844,
+  "wti_price": 78.73999786376953,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Instructs-Houthis-to-Prepare-Red-Sea-Shipping-Attacks.html",
@@ -220,8 +220,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uxab6j/a_source_close_to_irans_ghalibaf_says_the_irgc/",
@@ -260,22 +260,22 @@
       "correct": true
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Surge-Runs-Into-a-135-Million-Barrel-Traffic-Jam.html",
+      "id": "https://oilprice.com/Energy/Crude-Oil/India-Is-Becoming-the-Worlds-Refining-Swing-Producer.html",
       "source": "OilPrice.com",
-      "title": "Russia’s Oil Export Surge Runs Into a 135 Million-Barrel Traffic Jam",
-      "summary": "ロシア産原油1億3500万バレルが洋上で滞留。供給懸念が高まる。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Surge-Runs-Into-a-135-Million-Barrel-Traffic-Jam.html",
-      "pub": "Wed, 15 Jul 2026 10:01:10 -0500",
-      "pub_ts": 1784127670,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
+      "title": "India Is Becoming the World's Refining Swing Producer",
+      "summary": "インドが世界的な石油精製スイングプロデューサーとして台頭。サウジアラビアの役割が変化する可能性を示唆。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/India-Is-Becoming-the-Worlds-Refining-Swing-Producer.html",
+      "pub": "Thu, 16 Jul 2026 12:00:00 -0500",
+      "pub_ts": 1784221200,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "neutral",
       "time_horizon": "medium",
-      "main_factor": "供給制約",
+      "main_factor": "供給構造の変化",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Shuts-Down-Khor-Mor-Gas-Field-Amid-Security-Threats.html",
@@ -291,7 +291,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
