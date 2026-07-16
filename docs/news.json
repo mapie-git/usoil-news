@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T08:01:20.063398+09:00",
+  "updated_at": "2026-07-17T08:30:32.514715+09:00",
   "accuracy": {
     "total": 612,
     "correct": 198,
     "rate": 32
   },
-  "wti_price": 79.0,
+  "wti_price": 78.98999786376953,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/China-Could-Be-About-to-Remove-Oils-Biggest-Safety-Net.html",
@@ -21,7 +21,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク、供給不安定性",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
