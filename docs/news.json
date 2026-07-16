@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T23:30:31.818826+09:00",
+  "updated_at": "2026-07-16T23:33:53.910486+09:00",
   "accuracy": {
     "total": 587,
     "correct": 192,
     "rate": 33
   },
-  "wti_price": 79.97000122070312,
+  "wti_price": 80.27999877929688,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uy1x9g/iraqi_oil_loadings_briefly_suspended_after_drone/",
