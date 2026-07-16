@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T01:00:32.883614+09:00",
+  "updated_at": "2026-07-17T01:20:12.946517+09:00",
   "accuracy": {
-    "total": 594,
-    "correct": 194,
+    "total": 597,
+    "correct": 196,
     "rate": 33
   },
-  "wti_price": 78.87000274658203,
+  "wti_price": 79.0199966430664,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Instructs-Houthis-to-Prepare-Red-Sea-Shipping-Attacks.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "供給経路リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -256,8 +256,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Oil-Export-Surge-Runs-Into-a-135-Million-Barrel-Traffic-Jam.html",
