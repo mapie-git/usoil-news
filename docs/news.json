@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T00:00:46.144082+09:00",
+  "updated_at": "2026-07-17T00:30:34.931238+09:00",
   "accuracy": {
-    "total": 588,
-    "correct": 192,
+    "total": 594,
+    "correct": 194,
     "rate": 33
   },
-  "wti_price": 79.76000213623047,
+  "wti_price": 79.55999755859375,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uy1x9g/iraqi_oil_loadings_briefly_suspended_after_drone/",
@@ -256,8 +256,8 @@
       "main_factor": "供給制約",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.eia.gov/todayinenergy/detail.php?id=67866",
