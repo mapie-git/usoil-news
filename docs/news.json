@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T12:30:34.435745+09:00",
+  "updated_at": "2026-07-16T13:00:28.096578+09:00",
   "accuracy": {
     "total": 563,
     "correct": 182,
     "rate": 32
   },
-  "wti_price": 79.70999908447266,
+  "wti_price": null,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/As-Ukraine-Cripples-Russian-Refining-Global-Diesel-Markets-Pay-the-Price.html",
