@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-17T08:00:30.548790+09:00",
+  "updated_at": "2026-07-17T08:01:20.063398+09:00",
   "accuracy": {
-    "total": 611,
+    "total": 612,
     "correct": 198,
     "rate": 32
   },
@@ -238,8 +238,8 @@
       "main_factor": "供給減少",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Five-Oil-and-Gas-Stocks-Ready-for-a-Hormuz-Spike-and-a-Hawkish-Fed.html",
