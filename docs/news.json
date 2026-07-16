@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T19:28:43.515098+09:00",
+  "updated_at": "2026-07-16T19:30:34.867605+09:00",
   "accuracy": {
-    "total": 575,
-    "correct": 187,
+    "total": 577,
+    "correct": 188,
     "rate": 33
   },
-  "wti_price": 79.5,
+  "wti_price": 79.54000091552734,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/usairan_skirmishes_worsen_as_hormuz_traffic_dwindles-16-jul-2026-184141-article/?rss=true",
