@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T01:20:12.946517+09:00",
+  "updated_at": "2026-07-17T01:30:38.220624+09:00",
   "accuracy": {
-    "total": 597,
-    "correct": 196,
+    "total": 600,
+    "correct": 197,
     "rate": 33
   },
-  "wti_price": 79.0199966430664,
+  "wti_price": 79.38999938964844,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Instructs-Houthis-to-Prepare-Red-Sea-Shipping-Attacks.html",
@@ -238,8 +238,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1ux9u0l/iran_hits_us_fifth_fleet_fuel_and_stores_warns_on/",
@@ -276,6 +276,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Shuts-Down-Khor-Mor-Gas-Field-Amid-Security-Threats.html",
+      "source": "OilPrice.com",
+      "title": "Iraq Shuts Down Khor Mor Gas Field Amid Security Threats",
+      "summary": "イラク・クルド自治区のコルモルガス田が安全保障上の脅威により操業停止。地域の不安定化が供給リスクを生じさせる。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Shuts-Down-Khor-Mor-Gas-Field-Amid-Security-Threats.html",
+      "pub": "Thu, 16 Jul 2026 11:30:00 -0500",
+      "pub_ts": 1784219400,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.eia.gov/todayinenergy/detail.php?id=67866",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Sends-US-Electricity-Demand-to-New-High.html",
-      "source": "OilPrice.com",
-      "title": "AI Boom Sends U.S. Electricity Demand to New High",
-      "summary": "AI産業の成長に伴い米国電力需要が記録更新。長期的な電力消費増加がエネルギー需要を支援",
-      "link": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Sends-US-Electricity-Demand-to-New-High.html",
-      "pub": "Wed, 15 Jul 2026 17:00:00 -0500",
-      "pub_ts": 1784152800,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "需要増加（AI・データセンター）",
       "reliability": "B",
       "is_new": false,
       "verified": false,
