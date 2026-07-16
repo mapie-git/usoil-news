@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-17T07:00:36.164285+09:00",
+  "updated_at": "2026-07-17T07:30:32.874402+09:00",
   "accuracy": {
     "total": 611,
     "correct": 198,
     "rate": 32
   },
-  "wti_price": 78.88999938964844,
+  "wti_price": 79.05000305175781,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uyhgek/the_us_has_begun_major_strikes_on_iranian/",
+      "source": "Reddit r/oil",
+      "title": "The US has begun major strikes on Iranian infrastructure",
+      "summary": "米国がイラン基盤施設への大規模攻撃を開始。地政学リスク急上昇で原油供給懸念",
+      "link": "https://www.reddit.com/r/oil/comments/1uyhgek/the_us_has_begun_major_strikes_on_iranian/",
+      "pub": "2026-07-16T22:25:16+00:00",
+      "pub_ts": 1784240716,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/IEA-Predicts-First-Decrease-in-Global-Oil-Demand-Since-2020.html",
       "source": "OilPrice.com",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "需要見通し悪化",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Hikes-Diesel-and-Jet-Fuel-Export-Tax.html",
-      "source": "OilPrice.com",
-      "title": "India Hikes Diesel and Jet Fuel Export Tax",
-      "summary": "インドがディーゼルとジェット燃料の輸出税を引き上げ。供給逼迫への懸念が高まる。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Hikes-Diesel-and-Jet-Fuel-Export-Tax.html",
-      "pub": "Thu, 16 Jul 2026 03:30:00 -0500",
-      "pub_ts": 1784190600,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給制限",
       "reliability": "B",
       "is_new": false,
       "verified": false,
