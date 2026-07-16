@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-16T17:30:30.380689+09:00",
+  "updated_at": "2026-07-16T18:00:29.402016+09:00",
   "accuracy": {
-    "total": 571,
+    "total": 572,
     "correct": 187,
     "rate": 33
   },
-  "wti_price": 79.44000244140625,
+  "wti_price": 79.41999816894531,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Warns-World-Has-Just-Weeks-to-Avoid-Hormuz-Economic-Shock.html",
@@ -274,8 +274,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Refinery-Runs-Crash-to-Pandemic-Lows-as-Crude-Imports-Collapse.html",
@@ -296,6 +296,24 @@
       "correct": true
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ2xSSGNDY1ZVZWhQLXVkV0tkUWxyT3d3dFZhdDZEcEV4Y1ROelhrMDhSRW1NdHpOcEVwTTAxNWotbUx3eWp0UGxjNnJJc1dhQ0RSWUpBR1BEOTlyenFnVDRCV1dqSkVObXNUaklUd3hCazJiSWUxeDhIdVVYRWRWVmtpVUEwN19YWUU1emo3ZUdiNW9XUWx2aTNNRE1hWE5Y?oc=5",
+      "source": "Google News",
+      "title": "OPEC cuts 2026 oil demand forecast amid rising output and Middle East tensions; WTI nears $80 resistance. - Pluang",
+      "summary": "OPECが2026年の石油需要予測を引き下げ。産出量増加と中東緊張が背景。WTI80ドル抵抗線付近。",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ2xSSGNDY1ZVZWhQLXVkV0tkUWxyT3d3dFZhdDZEcEV4Y1ROelhrMDhSRW1NdHpOcEVwTTAxNWotbUx3eWp0UGxjNnJJc1dhQ0RSWUpBR1BEOTlyenFnVDRCV1dqSkVObXNUaklUd3hCazJiSWUxeDhIdVVYRWRWVmtpVUEwN19YWUU1emo3ZUdiNW9XUWx2aTNNRE1hWE5Y?oc=5",
+      "pub": "Thu, 16 Jul 2026 08:41:24 GMT",
+      "pub_ts": 1784191284,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "需要見通し悪化",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Hikes-Diesel-and-Jet-Fuel-Export-Tax.html",
       "source": "OilPrice.com",
       "title": "India Hikes Diesel and Jet Fuel Export Tax",
@@ -309,7 +327,7 @@
       "time_horizon": "short",
       "main_factor": "供給制限",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -438,24 +456,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Backs-Iraq-Syria-Oil-Pipeline-to-Bypass-the-Strait-of-Hormuz.html",
-      "source": "OilPrice.com",
-      "title": "U.S. Backs Iraq-Syria Oil Pipeline to Bypass the Strait of Hormuz",
-      "summary": "米国がイラク・シリア間のパイプライン再建を支持。ホルムズ海峡迂回で供給リスク低減へ",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Backs-Iraq-Syria-Oil-Pipeline-to-Bypass-the-Strait-of-Hormuz.html",
-      "pub": "Wed, 15 Jul 2026 02:40:00 -0500",
-      "pub_ts": 1784101200,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク軽減",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": false
     }
   ]
 }
