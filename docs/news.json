@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T03:30:35.725700+09:00",
+  "updated_at": "2026-07-17T04:00:33.696924+09:00",
   "accuracy": {
-    "total": 604,
+    "total": 605,
     "correct": 197,
     "rate": 33
   },
-  "wti_price": 78.12999725341797,
+  "wti_price": 78.37999725341797,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/EU-Sets-Target-To-Double-Electrification-Rate-Cut-Oil-Gas-Use.html",
