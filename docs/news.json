@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-17T06:36:31.589921+09:00",
+  "updated_at": "2026-07-17T07:00:36.164285+09:00",
   "accuracy": {
-    "total": 609,
+    "total": 611,
     "correct": 198,
-    "rate": 33
+    "rate": 32
   },
   "wti_price": 78.88999938964844,
   "articles": [
@@ -255,7 +255,7 @@
       "time_horizon": "short",
       "main_factor": "供給逼迫",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
