@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T02:47:07.412221+09:00",
+  "updated_at": "2026-07-17T03:00:31.615898+09:00",
   "accuracy": {
-    "total": 601,
+    "total": 603,
     "correct": 197,
     "rate": 33
   },
-  "wti_price": 78.5,
+  "wti_price": 78.29000091552734,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/EU-Sets-Target-To-Double-Electrification-Rate-Cut-Oil-Gas-Use.html",
@@ -21,7 +21,7 @@
       "time_horizon": "long",
       "main_factor": "長期需要減少",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -220,8 +220,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Five-Ways-China-Is-Shielding-Itself-as-the-Hormuz-Cease-Fire-Collapses.html",
