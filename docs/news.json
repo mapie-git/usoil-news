@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-17T06:30:29.922975+09:00",
+  "updated_at": "2026-07-17T06:36:31.589921+09:00",
   "accuracy": {
-    "total": 608,
+    "total": 609,
     "correct": 198,
     "rate": 33
   },
@@ -238,8 +238,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uyfocq/eia_admits_were_near_tank_bottoms_negative_spot/",
