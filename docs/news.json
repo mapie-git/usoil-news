@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T17:00:29.145105+09:00",
+  "updated_at": "2026-07-17T17:30:36.651882+09:00",
   "accuracy": {
-    "total": 620,
+    "total": 621,
     "correct": 199,
     "rate": 32
   },
-  "wti_price": 78.7699966430664,
+  "wti_price": 78.63999938964844,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/rystad_outlines_4_potential_usairan_scenarios-17-jul-2026-184150-article/?rss=true",
@@ -242,6 +242,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Linked-LPG-Tankers-Turn-Back-as-US-Blockade-Tightens.html",
+      "source": "OilPrice.com",
+      "title": "Iran-Linked LPG Tankers Turn Back as U.S. Blockade Tightens",
+      "summary": "米国の海軍封鎖によりイラン関連LPGタンカーがUターン。ホルムズ海峡での供給懸念が浮上。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Linked-LPG-Tankers-Turn-Back-as-US-Blockade-Tightens.html",
+      "pub": "Fri, 17 Jul 2026 03:30:00 -0500",
+      "pub_ts": 1784277000,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.rigzone.com/news/wire/iranlinked_tankers_uturn_zigzag-17-jul-2026-184152-article/?rss=true",
       "source": "Rigzone",
       "title": "Iran-Linked Tankers U-Turn, Zig-Zag",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_almost_2mm_barrels_wow-16-jul-2026-184143-article/?rss=true",
-      "source": "Rigzone",
-      "title": "USA Crude Oil Stocks Drop Almost 2MM Barrels WoW",
-      "summary": "米原油在庫が週間で約200万バレル減少。需給引き締まり示唆。",
-      "link": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_almost_2mm_barrels_wow-16-jul-2026-184143-article/?rss=true",
-      "pub": "Thu, 16 Jul 2026 09:42:48 GMT",
-      "pub_ts": 1784194968,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給減少",
-      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
