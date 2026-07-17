@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T18:00:37.551788+09:00",
+  "updated_at": "2026-07-17T18:28:07.504359+09:00",
   "accuracy": {
     "total": 622,
     "correct": 200,
     "rate": 32
   },
-  "wti_price": 79.05000305175781,
+  "wti_price": 79.5,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/rystad_outlines_4_potential_usairan_scenarios-17-jul-2026-184150-article/?rss=true",
