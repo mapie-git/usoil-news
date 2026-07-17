@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-17T14:30:31.032719+09:00",
+  "updated_at": "2026-07-17T15:00:33.711109+09:00",
   "accuracy": {
-    "total": 616,
+    "total": 617,
     "correct": 199,
     "rate": 32
   },
-  "wti_price": 79.05000305175781,
+  "wti_price": 78.33999633789062,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Set-for-Biggest-Weekly-Surge-Since-April-as-Iran-War-Escalates.html",
+      "source": "OilPrice.com",
+      "title": "Oil Prices Set for Biggest Weekly Surge Since April as Iran War Escalates",
+      "summary": "中東紛争激化とホルムズ海峡流量減少により、週間12%の上昇。1ヶ月ぶりの高値へ上昇",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Set-for-Biggest-Weekly-Surge-Since-April-as-Iran-War-Escalates.html",
+      "pub": "Fri, 17 Jul 2026 00:41:26 -0500",
+      "pub_ts": 1784266886,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/China-Could-Be-About-to-Remove-Oils-Biggest-Safety-Net.html",
       "source": "OilPrice.com",
@@ -220,8 +238,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uyky40/chinese_crude_imports_have_plunged/",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ2xSSGNDY1ZVZWhQLXVkV0tkUWxyT3d3dFZhdDZEcEV4Y1ROelhrMDhSRW1NdHpOcEVwTTAxNWotbUx3eWp0UGxjNnJJc1dhQ0RSWUpBR1BEOTlyenFnVDRCV1dqSkVObXNUaklUd3hCazJiSWUxeDhIdVVYRWRWVmtpVUEwN19YWUU1emo3ZUdiNW9XUWx2aTNNRE1hWE5Y?oc=5",
-      "source": "Google News",
-      "title": "OPEC cuts 2026 oil demand forecast amid rising output and Middle East tensions; WTI nears $80 resistance. - Pluang",
-      "summary": "OPECが2026年の石油需要予測を引き下げ。産出量増加と中東緊張が背景。WTI80ドル抵抗線付近。",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ2xSSGNDY1ZVZWhQLXVkV0tkUWxyT3d3dFZhdDZEcEV4Y1ROelhrMDhSRW1NdHpOcEVwTTAxNWotbUx3eWp0UGxjNnJJc1dhQ0RSWUpBR1BEOTlyenFnVDRCV1dqSkVObXNUaklUd3hCazJiSWUxeDhIdVVYRWRWVmtpVUEwN19YWUU1emo3ZUdiNW9XUWx2aTNNRE1hWE5Y?oc=5",
-      "pub": "Thu, 16 Jul 2026 08:41:24 GMT",
-      "pub_ts": 1784191284,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "需要見通し悪化",
       "reliability": "B",
       "is_new": false,
       "verified": false,
