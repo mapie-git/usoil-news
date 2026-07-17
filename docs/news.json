@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T20:07:46.648418+09:00",
+  "updated_at": "2026-07-17T20:30:34.808648+09:00",
   "accuracy": {
-    "total": 626,
-    "correct": 204,
+    "total": 629,
+    "correct": 205,
     "rate": 33
   },
-  "wti_price": 80.01000213623047,
+  "wti_price": 80.30000305175781,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uyvezy/the_strategic_implications_of_a_potential_bab/",
@@ -224,6 +224,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Bets-on-Red-Sea-Route-as-Hormuz-Disruptions-Persist.html",
+      "source": "OilPrice.com",
+      "title": "South Korea Bets on Red Sea Route as Hormuz Disruptions Persist",
+      "summary": "イラン紛争によるホルムズ海峡の混乱が続く中、韓国が紅海経由のサウジアラビア輸出ターミナルへのシフトを進めている。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/South-Korea-Bets-on-Red-Sea-Route-as-Hormuz-Disruptions-Persist.html",
+      "pub": "Fri, 17 Jul 2026 06:30:00 -0500",
+      "pub_ts": 1784287800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1uyvqhj/is_the_bab_elmandeb_shutting_down_disrupting_the/",
       "source": "Reddit r/oil",
       "title": "Is the Bab el-Mandeb shutting down disrupting the transit of 7 mbpd of oil? Armed men take over chemical tanker off Yemen’s coast",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "供給混乱リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uy1l6b/chinas_oil_imports_may_be_set_to_recover_as/",
-      "source": "Reddit r/oil",
-      "title": "China’s Oil Imports May Be Set to Recover as Stockpiling Returns",
-      "summary": "中国の石油輸入が備蓄再開に伴い回復する可能性が指摘されている",
-      "link": "https://www.reddit.com/r/oil/comments/1uy1l6b/chinas_oil_imports_may_be_set_to_recover_as/",
-      "pub": "2026-07-16T12:33:55+00:00",
-      "pub_ts": 1784205235,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "需要回復",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
