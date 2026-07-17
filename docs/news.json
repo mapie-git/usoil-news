@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T21:00:36.307382+09:00",
+  "updated_at": "2026-07-17T21:30:34.474219+09:00",
   "accuracy": {
-    "total": 629,
-    "correct": 205,
+    "total": 632,
+    "correct": 207,
     "rate": 33
   },
-  "wti_price": 80.08999633789062,
+  "wti_price": 80.25,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uyvezy/the_strategic_implications_of_a_potential_bab/",
@@ -202,24 +202,24 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOXg4TnVRa0NTMXpFMHR0YW1udzRkb2dteEFlOHVubGs0UXdzQzNJSEZNNk5wcWRhdVJfQ25WTzRNa3A3Y0JCbVZzY2toQWcweWJhLXM3Zk9iYTdBQmZPdjlJaXE1TG5JLXBNZVNoRnJwTThmRE1tWEI1NGx6TXAwSHNQeE1MdmQyd0dwM0cyM3A4VWRjR3dZbXVnSjVtR0dIX2Q4MzlNNjAtblNVckppOHRTWWc4RHE0YV9xeHlIaw?oc=5",
-      "source": "Google News",
-      "title": "Crude oil loading suspended at all Iraqi terminals after drone incident – Reuters - FXStreet",
-      "summary": "イラク全ターミナルでドローン攻撃後、原油積み込み停止。供給減少で価格上昇圧力。",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOXg4TnVRa0NTMXpFMHR0YW1udzRkb2dteEFlOHVubGs0UXdzQzNJSEZNNk5wcWRhdVJfQ25WTzRNa3A3Y0JCbVZzY2toQWcweWJhLXM3Zk9iYTdBQmZPdjlJaXE1TG5JLXBNZVNoRnJwTThmRE1tWEI1NGx6TXAwSHNQeE1MdmQyd0dwM0cyM3A4VWRjR3dZbXVnSjVtR0dIX2Q4MzlNNjAtblNVckppOHRTWWc4RHE0YV9xeHlIaw?oc=5",
-      "pub": "Thu, 16 Jul 2026 09:50:01 GMT",
-      "pub_ts": 1784195401,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
-      "is_new": false,
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/China-Seeks-Long-Term-LNG-Deals-Beyond-the-Strait-of-Hormuz.html",
+      "source": "OilPrice.com",
+      "title": "China Seeks Long-Term LNG Deals Beyond the Strait of Hormuz",
+      "summary": "中国が中東迂回のLNG長期契約を検討。ホルムズ海峡依存低減を目指す",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Seeks-Long-Term-LNG-Deals-Beyond-the-Strait-of-Hormuz.html",
+      "pub": "Fri, 17 Jul 2026 07:30:00 -0500",
+      "pub_ts": 1784291400,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給先多様化、地政学リスク低減",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -237,7 +237,7 @@
       "time_horizon": "long",
       "main_factor": "供給増加見通し",
       "reliability": "A",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
