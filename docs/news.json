@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-18T05:28:26.286684+09:00",
+  "updated_at": "2026-07-18T06:25:38.295056+09:00",
   "accuracy": {
-    "total": 660,
-    "correct": 221,
-    "rate": 33
+    "total": 662,
+    "correct": 222,
+    "rate": 34
   },
-  "wti_price": 81.55999755859375,
+  "wti_price": 81.7699966430664,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Ignore-Mounting-Risks-at-Their-Own-Peril.html",
@@ -202,8 +202,8 @@
       "main_factor": "需要減少予測",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Yemens-Houthis-Threaten-New-Oil-Shock-as-Civil-War-Reignites.html",
@@ -258,6 +258,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1uzc3g1/chevron_signed_2_oil_deals_in_iraq_hit_hard_by/",
+      "source": "Reddit r/oil",
+      "title": "Chevron signed 2 oil deals in Iraq, hit hard by Iran conflict, & is considering a pipeline via Iraq-Syria to avoid Hormuz as Iraqi shipments plummet in June.",
+      "summary": "シェブロンがイラク油田契約を締結し、イラン紛争回避とホルムズ海峡迂回パイプライン検討。供給網リスク軽減の動き。",
+      "link": "https://www.reddit.com/r/oil/comments/1uzc3g1/chevron_signed_2_oil_deals_in_iraq_hit_hard_by/",
+      "pub": "2026-07-17T21:01:24+00:00",
+      "pub_ts": 1784322084,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク軽減",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uz8cod/canadian_oil_refinery_shutdown_could_crimp/",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/iranlinked_tankers_uturn_zigzag-17-jul-2026-184152-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Iran-Linked Tankers U-Turn, Zig-Zag",
-      "summary": "米国制裁下のイラン関連タンカーがペルシャ湾で不規則な航行パターンを示している。",
-      "link": "https://www.rigzone.com/news/wire/iranlinked_tankers_uturn_zigzag-17-jul-2026-184152-article/?rss=true",
-      "pub": "Fri, 17 Jul 2026 07:08:22 GMT",
-      "pub_ts": 1784272102,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
