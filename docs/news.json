@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-17T08:30:32.514715+09:00",
+  "updated_at": "2026-07-17T09:00:33.924585+09:00",
   "accuracy": {
-    "total": 612,
-    "correct": 198,
+    "total": 613,
+    "correct": 199,
     "rate": 32
   },
   "wti_price": 78.98999786376953,
@@ -260,22 +260,22 @@
       "correct": false
     },
     {
-      "id": "https://www.rigzone.com/news/wire/oil_settles_higher-15-jul-2026-184140-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Oil Settles Higher",
-      "summary": "米国がイラン攻撃を強化し、中東原油供給への懸念が高まった。米燃料需要は弱含み。",
-      "link": "https://www.rigzone.com/news/wire/oil_settles_higher-15-jul-2026-184140-article/?rss=true",
-      "pub": "Wed, 15 Jul 2026 20:12:44 GMT",
-      "pub_ts": 1784146364,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://www.reddit.com/r/oil/comments/1uyil5t/how_will_the_oil_situation_end/",
+      "source": "Reddit r/oil",
+      "title": "How will the oil situation end?",
+      "summary": "地政学リスク（停戦違反、海峡閉鎖懸念）や在庫低下への懸念を述べた匿名投稿。確実性は低い。",
+      "link": "https://www.reddit.com/r/oil/comments/1uyil5t/how_will_the_oil_situation_end/",
+      "pub": "2026-07-16T23:12:07+00:00",
+      "pub_ts": 1784243527,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
-      "reliability": "B",
+      "reliability": "C",
       "is_new": false,
-      "verified": true,
-      "correct": false
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uyfocq/eia_admits_were_near_tank_bottoms_negative_spot/",
