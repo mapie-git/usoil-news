@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T19:30:40.908763+09:00",
+  "updated_at": "2026-07-17T20:00:34.076858+09:00",
   "accuracy": {
-    "total": 625,
-    "correct": 203,
-    "rate": 32
+    "total": 626,
+    "correct": 204,
+    "rate": 33
   },
-  "wti_price": 80.0199966430664,
+  "wti_price": 79.83000183105469,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uyvezy/the_strategic_implications_of_a_potential_bab/",
@@ -21,7 +21,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -237,7 +237,7 @@
       "time_horizon": "short",
       "main_factor": "輸送障害リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
