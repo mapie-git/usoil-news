@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T18:28:07.504359+09:00",
+  "updated_at": "2026-07-17T18:30:31.902912+09:00",
   "accuracy": {
     "total": 622,
     "correct": 200,
     "rate": 32
   },
-  "wti_price": 79.5,
+  "wti_price": 79.55000305175781,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/rystad_outlines_4_potential_usairan_scenarios-17-jul-2026-184150-article/?rss=true",
@@ -242,6 +242,24 @@
       "correct": false
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Declares-Major-Oil-Discovery-Commercial-as-Production-Revival-Gains-Pace.html",
+      "source": "OilPrice.com",
+      "title": "Libya Declares Major Oil Discovery Commercial as Production Revival Gains Pace",
+      "summary": "リビアがOMVと共同でエッサル油田を商業開発化。OPEC第2位のアフリカ産油国の生産復興が進展",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Libya-Declares-Major-Oil-Discovery-Commercial-as-Production-Revival-Gains-Pace.html",
+      "pub": "Fri, 17 Jul 2026 04:30:00 -0500",
+      "pub_ts": 1784280600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Linked-LPG-Tankers-Turn-Back-as-US-Blockade-Tightens.html",
       "source": "OilPrice.com",
       "title": "Iran-Linked LPG Tankers Turn Back as U.S. Blockade Tightens",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "需要回復",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1uy1f1x/iran_tells_houthis_to_close_red_sea_gateway_if_us/",
-      "source": "Reddit r/oil",
-      "title": "Iran tells Houthis to close Red Sea gateway if US hits power network, sources say",
-      "summary": "イランがフーシ派に紅海封鎖を指示との報道。供給断絶リスク上昇の懸念",
-      "link": "https://www.reddit.com/r/oil/comments/1uy1f1x/iran_tells_houthis_to_close_red_sea_gateway_if_us/",
-      "pub": "2026-07-16T12:26:29+00:00",
-      "pub_ts": 1784204789,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
       "verified": false,
