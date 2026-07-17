@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-17T20:00:34.076858+09:00",
+  "updated_at": "2026-07-17T20:07:46.648418+09:00",
   "accuracy": {
     "total": 626,
     "correct": 204,
     "rate": 33
   },
-  "wti_price": 79.83000183105469,
+  "wti_price": 80.01000213623047,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1uyvezy/the_strategic_implications_of_a_potential_bab/",
