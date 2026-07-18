@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-19T01:31:28.483337+09:00",
+  "updated_at": "2026-07-19T02:58:16.264860+09:00",
   "accuracy": {
-    "total": 698,
-    "correct": 241,
+    "total": 703,
+    "correct": 246,
     "rate": 35
   },
   "wti_price": 81.77999877929688,
@@ -21,6 +21,24 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "B",
+      "is_new": false,
+      "verified": true,
+      "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1v00l5t/iran_has_struck_the_kuwait_national_petroleum/",
+      "source": "Reddit r/oil",
+      "title": "Iran has struck the Kuwait National Petroleum Company North Pier crude oil export facility at the Mina Al Ahmadi hub in Kuwait, with the facility on fire and smoke visible on Sentinel-2 satellite imagery.",
+      "summary": "イラン、クウェートの原油輸出施設を攻撃。施設火災で供給リスク発生",
+      "link": "https://www.reddit.com/r/oil/comments/1v00l5t/iran_has_struck_the_kuwait_national_petroleum/",
+      "pub": "2026-07-18T16:37:17+00:00",
+      "pub_ts": 1784392637,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク・供給途絶",
+      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -112,8 +130,8 @@
       "main_factor": "供給不足懸念",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Geopolitics/Middle-East/US-Expands-Iran-Strikes-as-Tehran-Retaliates-Across-the-Gulf.html",
@@ -206,22 +224,22 @@
       "correct": null
     },
     {
-      "id": "https://www.rigzone.com/news/rystad_outlines_4_potential_usairan_scenarios-17-jul-2026-184150-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Rystad Outlines 4 Potential USA-Iran Scenarios",
-      "summary": "Rystad Energy がホルムズ海峡周辺の安全保障悪化を受け、米国・イラン情勢シナリオ分析を更新。",
-      "link": "https://www.rigzone.com/news/rystad_outlines_4_potential_usairan_scenarios-17-jul-2026-184150-article/?rss=true",
-      "pub": "Fri, 17 Jul 2026 06:54:05 GMT",
-      "pub_ts": 1784271245,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://www.reddit.com/r/oil/comments/1v02eih/at_least_two_us_service_members_killed_by_iranian/",
+      "source": "Reddit r/oil",
+      "title": "At least two U.S. service members killed by Iranian missiles in Jordan.",
+      "summary": "米兵がイランのミサイル攻撃で殺傷。中東地政学緊張の高まり",
+      "link": "https://www.reddit.com/r/oil/comments/1v02eih/at_least_two_us_service_members_killed_by_iranian/",
+      "pub": "2026-07-18T17:47:57+00:00",
+      "pub_ts": 1784396877,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uzq8rx/additional_attacks_on_power_infrastructure_and/",
@@ -310,8 +328,8 @@
       "main_factor": "供給増加見通し",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.rigzone.com/news/wire/bp_and_conoco_partner_in_one_of_iraqs_oldest_oilfields-17-jul-2026-184157-article/?rss=true",
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.hellenicshippingnews.com/global-gas-markets-after-the-hormuz-shock/",
-      "source": "Hellenic Shipping",
-      "title": "Global gas markets after the Hormuz shock",
-      "summary": "ホルムズ海峡混乱で全球LNG取引の5分の1が脅威。供給チェーン逼迫リスク",
-      "link": "https://www.hellenicshippingnews.com/global-gas-markets-after-the-hormuz-shock/",
-      "pub": "Fri, 17 Jul 2026 10:00:33 +0000",
-      "pub_ts": 1784282433,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
