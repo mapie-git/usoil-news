@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-18T13:08:09.772010+09:00",
+  "updated_at": "2026-07-18T15:29:21.664689+09:00",
   "accuracy": {
-    "total": 671,
-    "correct": 226,
+    "total": 673,
+    "correct": 227,
     "rate": 34
   },
-  "wti_price": 81.7699966430664,
+  "wti_price": 81.77999877929688,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Ignore-Mounting-Risks-at-Their-Own-Peril.html",
@@ -220,8 +220,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uzc3g1/chevron_signed_2_oil_deals_in_iraq_hit_hard_by/",
