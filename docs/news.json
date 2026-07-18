@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-19T00:30:15.914580+09:00",
+  "updated_at": "2026-07-19T01:31:28.483337+09:00",
   "accuracy": {
-    "total": 693,
-    "correct": 240,
+    "total": 698,
+    "correct": 241,
     "rate": 35
   },
   "wti_price": 81.77999877929688,
@@ -328,8 +328,8 @@
       "main_factor": "生産体制",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": false
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1uz04q1/iran_has_attacked_and_hit_a_water_desalination/",
