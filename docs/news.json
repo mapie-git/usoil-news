@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-19T06:25:38.967809+09:00",
+  "updated_at": "2026-07-19T07:25:33.282742+09:00",
   "accuracy": {
-    "total": 708,
-    "correct": 249,
-    "rate": 35
+    "total": 728,
+    "correct": 267,
+    "rate": 37
   },
   "wti_price": 81.77999877929688,
   "articles": [
@@ -76,8 +76,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.hellenicshippingnews.com/oil-prices-heading-for-weekly-surge-as-u-s-iran-exchange-strikes/",
@@ -94,8 +94,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.rigzone.com/news/wire/oil_jumps_on_fears_of_wider_iran_war-17-jul-2026-184159-article/?rss=true",
@@ -112,8 +112,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Jeff-Currie-Illusion-of-Oil-Abundance-Is-Gone.html",
@@ -454,8 +454,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     }
   ]
 }
