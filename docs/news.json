@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-19T08:28:36.438484+09:00",
+  "updated_at": "2026-07-19T10:05:06.801787+09:00",
   "accuracy": {
-    "total": 729,
-    "correct": 268,
+    "total": 730,
+    "correct": 269,
     "rate": 37
   },
   "wti_price": 81.77999877929688,
@@ -188,24 +188,6 @@
       "correct": true
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uyvezy/the_strategic_implications_of_a_potential_bab/",
-      "source": "Reddit r/oil",
-      "title": "The Strategic Implications of a Potential Bab el-Mandeb Closure on Global Energy Markets",
-      "summary": "バブエルマンデブ海峡の閉鎖リスク。イラン系武装勢力が活動中。世界石油供給の3〜5%に影響",
-      "link": "https://www.reddit.com/r/oil/comments/1uyvezy/the_strategic_implications_of_a_potential_bab/",
-      "pub": "2026-07-17T10:03:52+00:00",
-      "pub_ts": 1784282632,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
       "id": "https://oilprice.com/Energy/Energy-General/Europes-Heatwave-Is-Becoming-an-Energy-Crisis.html",
       "source": "OilPrice.com",
       "title": "Europe's Heatwave Is Becoming an Energy Crisis",
@@ -219,7 +201,7 @@
       "time_horizon": "medium",
       "main_factor": "供給混乱",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -456,6 +438,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1v05jx1/what_are_the_chances_trump_will_restrict_american/",
+      "source": "Reddit r/oil",
+      "title": "What are the chances Trump will restrict American oil exports?",
+      "summary": "トランプ政権による米国原油輸出規制の可能性について検討。国内価格維持戦略の投機的観測。",
+      "link": "https://www.reddit.com/r/oil/comments/1v05jx1/what_are_the_chances_trump_will_restrict_american/",
+      "pub": "2026-07-18T19:51:24+00:00",
+      "pub_ts": 1784404284,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "政策不確実性",
+      "reliability": "C",
+      "is_new": false,
+      "verified": false,
+      "correct": null
     }
   ]
 }
