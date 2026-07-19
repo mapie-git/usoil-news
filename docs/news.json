@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T00:32:00.998525+09:00",
+  "updated_at": "2026-07-20T01:00:30.823930+09:00",
   "accuracy": {
     "total": 730,
     "correct": 269,
@@ -381,7 +381,7 @@
       "time_horizon": "long",
       "main_factor": "地政学リスク・供給増加期待",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
