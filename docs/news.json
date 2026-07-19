@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T02:30:30.480152+09:00",
+  "updated_at": "2026-07-20T03:00:33.423568+09:00",
   "accuracy": {
     "total": 730,
     "correct": 269,
@@ -39,7 +39,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -201,7 +201,7 @@
       "time_horizon": "long",
       "main_factor": "供給ルート多様化",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -399,7 +399,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
