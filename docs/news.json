@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T08:01:58.256240+09:00",
+  "updated_at": "2026-07-20T08:30:40.295551+09:00",
   "accuracy": {
-    "total": 752,
-    "correct": 278,
+    "total": 753,
+    "correct": 279,
     "rate": 37
   },
-  "wti_price": 84.1500015258789,
+  "wti_price": 83.98999786376953,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/oil-volatility-is-creating-a-win-win-trade-strategy/",
@@ -292,8 +292,8 @@
       "main_factor": "供給混乱",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1v063zb/trump_has_ordered_us_centcom_to_open_the_gates_of/",
