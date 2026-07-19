@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T00:00:32.947962+09:00",
+  "updated_at": "2026-07-20T00:30:30.081352+09:00",
   "accuracy": {
     "total": 730,
     "correct": 269,
@@ -39,7 +39,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -183,7 +183,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -368,22 +368,22 @@
       "correct": false
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uz04q1/iran_has_attacked_and_hit_a_water_desalination/",
+      "id": "https://www.reddit.com/r/oil/comments/1v0tipl/donald_j_trump_realdonaldtrump/",
       "source": "Reddit r/oil",
-      "title": "Iran has attacked and hit a water desalination and power generation plant in Kuwait, causing widespread damage including a fire and damage to a large number of electricity generation units, prompting emergency plans to be activated. First Iranian strike on water desalination.",
-      "summary": "イランがクウェートの水淡水化・発電施設を攻撃。初のインフラ攻撃で地域不安定化",
-      "link": "https://www.reddit.com/r/oil/comments/1uz04q1/iran_has_attacked_and_hit_a_water_desalination/",
-      "pub": "2026-07-17T13:43:01+00:00",
-      "pub_ts": 1784295781,
-      "impact": 3,
+      "title": "Donald J. Trump (@realDonaldTrump)",
+      "summary": "トランプ氏がスコットランドの北海油田の完全開放を主張。ただしReddit発信で信頼性が低く、政策実現の確実性不明。",
+      "link": "https://www.reddit.com/r/oil/comments/1v0tipl/donald_j_trump_realdonaldtrump/",
+      "pub": "2026-07-19T15:29:24+00:00",
+      "pub_ts": 1784474964,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
+      "time_horizon": "long",
+      "main_factor": "地政学リスク・供給増加期待",
       "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Energy/Energy-General/Energy-Storage-Key-To-Avoiding-The-Next-Energy-Crisis.html",
@@ -399,7 +399,7 @@
       "time_horizon": "long",
       "main_factor": "需要構造の長期変化",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
