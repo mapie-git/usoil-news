@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-19T10:05:06.801787+09:00",
+  "updated_at": "2026-07-19T13:51:21.876768+09:00",
   "accuracy": {
     "total": 730,
     "correct": 269,
     "rate": 37
   },
-  "wti_price": 81.77999877929688,
+  "wti_price": null,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Oil-Markets-Ignore-Mounting-Risks-at-Their-Own-Peril.html",
@@ -422,22 +422,22 @@
       "correct": true
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uyvqhj/is_the_bab_elmandeb_shutting_down_disrupting_the/",
+      "id": "https://www.reddit.com/r/oil/comments/1v0dfy9/how_indias_cooking_fuel_shortage_is_driving_up/",
       "source": "Reddit r/oil",
-      "title": "Is the Bab el-Mandeb shutting down disrupting the transit of 7 mbpd of oil? Armed men take over chemical tanker off Yemen’s coast",
-      "summary": "イエメン沖でケミカルタンカーが武装勢力に占拠。バブエルマンデブ経由で日量7Mbbl輸送中",
-      "link": "https://www.reddit.com/r/oil/comments/1uyvqhj/is_the_bab_elmandeb_shutting_down_disrupting_the/",
-      "pub": "2026-07-17T10:22:06+00:00",
-      "pub_ts": 1784283726,
-      "impact": 3,
+      "title": "How India's cooking fuel shortage is driving up California gas prices",
+      "summary": "インド政府がLPG生産最大化を指示し、石油製品供給構造に変化。カリフォルニア州ガス価格への間接的影響の観測。",
+      "link": "https://www.reddit.com/r/oil/comments/1v0dfy9/how_indias_cooking_fuel_shortage_is_driving_up/",
+      "pub": "2026-07-19T01:38:21+00:00",
+      "pub_ts": 1784425101,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "輸送障害リスク",
-      "reliability": "B",
+      "time_horizon": "medium",
+      "main_factor": "LPG供給再編成",
+      "reliability": "C",
       "is_new": false,
-      "verified": true,
-      "correct": true
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1v05jx1/what_are_the_chances_trump_will_restrict_american/",
