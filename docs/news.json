@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T09:00:35.774380+09:00",
+  "updated_at": "2026-07-20T10:05:52.923669+09:00",
   "accuracy": {
-    "total": 753,
+    "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 83.95999908447266,
+  "wti_price": 83.62999725341797,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/oil-volatility-is-creating-a-win-win-trade-strategy/",
@@ -404,6 +404,24 @@
       "correct": true
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1v173s8/trump_says_oil_prices_will_continue_to_be_brought/",
+      "source": "Reddit r/oil",
+      "title": "Trump says oil prices will continue to be brought \"down\" and are \"dropping fast\"",
+      "summary": "トランプ前大統領が油価は下落し続けると発言。政治的コメントだが市場への直接的影響は限定的",
+      "link": "https://www.reddit.com/r/oil/comments/1v173s8/trump_says_oil_prices_will_continue_to_be_brought/",
+      "pub": "2026-07-20T00:56:15+00:00",
+      "pub_ts": 1784508975,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "ultra_short",
+      "main_factor": "政治発言",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1v15flh/brent_oil_tops_90_as_middle_east_attacks_threaten/",
       "source": "Reddit r/oil",
       "title": "Brent Oil Tops $90 as Middle East Attacks Threaten Hormuz Flows",
@@ -417,7 +435,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "long",
       "main_factor": "地政学リスク、供給不確実性",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.hellenicshippingnews.com/is-nigerias-deepwater-roaring-back/",
-      "source": "Hellenic Shipping",
-      "title": "Is Nigeria’s deepwater roaring back?",
-      "summary": "ナイジェリア深海油田開発が注目。次10年のポートフォリオ強化に有望も詳細不足",
-      "link": "https://www.hellenicshippingnews.com/is-nigerias-deepwater-roaring-back/",
-      "pub": "Sun, 19 Jul 2026 21:00:21 +0000",
-      "pub_ts": 1784494821,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "供給増加見込み",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
