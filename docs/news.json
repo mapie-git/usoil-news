@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T17:30:31.654408+09:00",
+  "updated_at": "2026-07-20T18:00:31.899327+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 81.70999908447266,
+  "wti_price": 81.33999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Shipments-Through-Strait-of-Hormuz-Grind-to-a-Halt-as-Conflict-Escalates.html",
@@ -147,7 +147,7 @@
       "time_horizon": "short",
       "main_factor": "中国燃料油需要増加",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -417,7 +417,7 @@
       "time_horizon": "medium",
       "main_factor": "米在庫低下",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
