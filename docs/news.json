@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T20:30:30.449401+09:00",
+  "updated_at": "2026-07-20T21:00:30.846115+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 81.55999755859375,
+  "wti_price": 80.33999633789062,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/the-commodities-feed-persian-gulf-escalation-pushes-brent-above-90/",
@@ -184,6 +184,24 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-60-as-Iran-War-Drives-Prices-Higher.html",
+      "source": "OilPrice.com",
+      "title": "India’s Crude Oil Import Bill Soars 60% as Iran War Drives Prices Higher",
+      "summary": "インドの原油輸入額が前年比60%増加。価格上昇が主因で供給逼迫を示唆。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-60-as-Iran-War-Drives-Prices-Higher.html",
+      "pub": "Mon, 20 Jul 2026 07:00:00 -0500",
+      "pub_ts": 1784548800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -433,24 +451,6 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v02eih/at_least_two_us_service_members_killed_by_iranian/",
-      "source": "Reddit r/oil",
-      "title": "At least two U.S. service members killed by Iranian missiles in Jordan.",
-      "summary": "米兵がイランのミサイル攻撃で殺傷。中東地政学緊張の高まり",
-      "link": "https://www.reddit.com/r/oil/comments/1v02eih/at_least_two_us_service_members_killed_by_iranian/",
-      "pub": "2026-07-18T17:47:57+00:00",
-      "pub_ts": 1784396877,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
