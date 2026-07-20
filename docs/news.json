@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-20T18:00:31.899327+09:00",
+  "updated_at": "2026-07-20T18:30:34.854552+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 81.33999633789062,
+  "wti_price": 81.3499984741211,
   "articles": [
+    {
+      "id": "https://www.rigzone.com/news/wire/us_strikes_after_troops_killed_as_iran_quits_deal-20-jul-2026-184160-article/?rss=true",
+      "source": "Rigzone",
+      "title": "US Strikes after Troops Killed as Iran Quits Deal",
+      "summary": "米国がイラン攻撃で報復。地政学リスク高まり原油供給懸念が強まる",
+      "link": "https://www.rigzone.com/news/wire/us_strikes_after_troops_killed_as_iran_quits_deal-20-jul-2026-184160-article/?rss=true",
+      "pub": "Mon, 20 Jul 2026 07:59:47 GMT",
+      "pub_ts": 1784534387,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "A",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Shipments-Through-Strait-of-Hormuz-Grind-to-a-Halt-as-Conflict-Escalates.html",
       "source": "OilPrice.com",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "ultra_short",
       "main_factor": "政治発言",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v15flh/brent_oil_tops_90_as_middle_east_attacks_threaten/",
-      "source": "Reddit r/oil",
-      "title": "Brent Oil Tops $90 as Middle East Attacks Threaten Hormuz Flows",
-      "summary": "Brent原油が90ドルを超過。中東攻撃によるホルムズ海峡流通への脅威が背景。",
-      "link": "https://www.reddit.com/r/oil/comments/1v15flh/brent_oil_tops_90_as_middle_east_attacks_threaten/",
-      "pub": "2026-07-19T23:42:09+00:00",
-      "pub_ts": 1784504529,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
       "verified": false,
