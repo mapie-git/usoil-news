@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T21:00:30.846115+09:00",
+  "updated_at": "2026-07-20T21:30:34.898357+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 80.33999633789062,
+  "wti_price": 81.58000183105469,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/the-commodities-feed-persian-gulf-escalation-pushes-brent-above-90/",
@@ -188,6 +188,24 @@
       "correct": null
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1v1jo69/breaking_the_houthis_have_announced_a_ban_on/",
+      "source": "Reddit r/oil",
+      "title": "Breaking - the Houthis have announced a ban on Saudi shipping",
+      "summary": "イエメンの親イラン系フーシ派がサウジアラビアへの海上封鎖を発表。紅海での海運リスク増加が懸念される。",
+      "link": "https://www.reddit.com/r/oil/comments/1v1jo69/breaking_the_houthis_have_announced_a_ban_on/",
+      "pub": "2026-07-20T12:08:16+00:00",
+      "pub_ts": 1784549296,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-60-as-Iran-War-Drives-Prices-Higher.html",
       "source": "OilPrice.com",
       "title": "India’s Crude Oil Import Bill Soars 60% as Iran War Drives Prices Higher",
@@ -201,7 +219,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給混乱",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v063zb/trump_has_ordered_us_centcom_to_open_the_gates_of/",
-      "source": "Reddit r/oil",
-      "title": "Trump has ordered US CENTCOM to open \"the gates of hell\" upon Iran after US casualties in Jordan",
-      "summary": "トランプ大統領がイラン攻撃を命令した可能性。中東紛争激化による地政学リスク上昇が示唆される。",
-      "link": "https://www.reddit.com/r/oil/comments/1v063zb/trump_has_ordered_us_centcom_to_open_the_gates_of/",
-      "pub": "2026-07-18T20:13:22+00:00",
-      "pub_ts": 1784405602,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": true,
       "correct": true
