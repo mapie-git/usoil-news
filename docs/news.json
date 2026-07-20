@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T05:07:42.428916+09:00",
+  "updated_at": "2026-07-21T05:30:34.662212+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 82.5,
+  "wti_price": 82.44999694824219,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Declare-Naval-Blockade-on-Saudi-Arabia-as-Red-Sea-Crisis-Deepens.html",
