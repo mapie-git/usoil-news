@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T17:00:33.141662+09:00",
+  "updated_at": "2026-07-20T17:25:43.992185+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 82.36000061035156,
+  "wti_price": 81.76000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Shipments-Through-Strait-of-Hormuz-Grind-to-a-Halt-as-Conflict-Escalates.html",
@@ -134,22 +134,22 @@
       "correct": true
     },
     {
-      "id": "https://www.hellenicshippingnews.com/hormuz-blockade-risks-reignite-upward-pressure-on-crude-oil-prices/",
-      "source": "Hellenic Shipping",
-      "title": "Hormuz blockade risks reignite upward pressure on Crude Oil prices",
-      "summary": "米イラン対立激化でホルムズ海峡リスク再燃。WTI80ドル近辺へ上昇圧力",
-      "link": "https://www.hellenicshippingnews.com/hormuz-blockade-risks-reignite-upward-pressure-on-crude-oil-prices/",
-      "pub": "Fri, 17 Jul 2026 21:00:23 +0000",
-      "pub_ts": 1784322023,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Fuel-Oil-Exports-Hit-2026-High-as-Shipping-Demand-Rebounds.html",
+      "source": "OilPrice.com",
+      "title": "China’s Fuel Oil Exports Hit 2026 High as Shipping Demand Rebounds",
+      "summary": "中国の燃料油輸出が月577,000バレルで年初来高水準。シッピング需要の回復を反映",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Fuel-Oil-Exports-Hit-2026-High-as-Shipping-Demand-Rebounds.html",
+      "pub": "Mon, 20 Jul 2026 03:20:00 -0500",
+      "pub_ts": 1784535600,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク",
+      "main_factor": "中国燃料油需要増加",
       "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlpyd1ZobWRZcFM4Q3Ffb19XTXhkMEo1RGFaeXk5M3NkUFBUMlBVNUw4SWp2bjZNYUtKaVhwRXFzZXVFOEo5NkFEYkp6QjZKVy1pVnFlZmNUMndmWDc2Q3FwSWRrcVRtTlVqUHd3SkJ0amRRcnVvT0x2MmQza2dWeU12T0MzMVV3cm84TFlSeC0tZDhTSXhhZlpTX2RXaERNZElvOFJYVTU0QnNoUGE0Yi1IcVM3YmE2LUlVOHpyLWV6UG1BdUU3NVVrNEhHczE1SVE?oc=5",
@@ -404,22 +404,22 @@
       "correct": true
     },
     {
-      "id": "https://www.reddit.com/r/oil/comments/1uzc3g1/chevron_signed_2_oil_deals_in_iraq_hit_hard_by/",
+      "id": "https://www.reddit.com/r/oil/comments/1v1feqn/total_crude_inventory_in_the_us_commercial_plus/",
       "source": "Reddit r/oil",
-      "title": "Chevron signed 2 oil deals in Iraq, hit hard by Iran conflict, & is considering a pipeline via Iraq-Syria to avoid Hormuz as Iraqi shipments plummet in June.",
-      "summary": "シェブロンがイラク油田契約を締結し、イラン紛争回避とホルムズ海峡迂回パイプライン検討。供給網リスク軽減の動き。",
-      "link": "https://www.reddit.com/r/oil/comments/1uzc3g1/chevron_signed_2_oil_deals_in_iraq_hit_hard_by/",
-      "pub": "2026-07-17T21:01:24+00:00",
-      "pub_ts": 1784322084,
-      "impact": 3,
+      "title": "Total crude inventory in the US (Commercial plus SPR) has dropped to an equivalent of 43 days of consumption, lowest level in 45 years.",
+      "summary": "米国の粗油在庫が45年ぶりの低水準（消費45日分相当）に低下したとReddit投稿",
+      "link": "https://www.reddit.com/r/oil/comments/1v1feqn/total_crude_inventory_in_the_us_commercial_plus/",
+      "pub": "2026-07-20T08:18:02+00:00",
+      "pub_ts": 1784535482,
+      "impact": 2,
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "medium",
-      "main_factor": "地政学リスク軽減",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
+      "main_factor": "米在庫低下",
+      "reliability": "C",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1v173s8/trump_says_oil_prices_will_continue_to_be_brought/",
