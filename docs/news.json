@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T07:30:32.549518+09:00",
+  "updated_at": "2026-07-21T08:00:29.525625+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 82.58000183105469,
+  "wti_price": 82.66000366210938,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Oil-Market-Loses-Its-Safety-Net-as-Iran-Conflict-Reignites.html",
@@ -242,6 +242,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Energy/Crude-Oil/With-The-US-Iran-Deal-Collapsing-How-Exposed-Are-Oil-Markets-Right-Now.html",
+      "source": "OilPrice.com",
+      "title": "With The U.S.-Iran Deal Collapsing, How Exposed Are Oil Markets Right Now?",
+      "summary": "米国とイランの協議が崩壊。地政学リスクが高まり、供給懸念が台頭。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/With-The-US-Iran-Deal-Collapsing-How-Exposed-Are-Oil-Markets-Right-Now.html",
+      "pub": "Mon, 20 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1784588400,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.hellenicshippingnews.com/europe-gas-prices-surge-3-to-multi-month-highs-on-strait-of-hormuz-tanker-fire/",
       "source": "Hellenic Shipping",
       "title": "Europe gas prices surge 3% to multi-month highs on Strait of Hormuz tanker fire",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.hellenicshippingnews.com/venezuelas-upstream-revival-turning-policy-momentum-into-production-growth/",
-      "source": "Hellenic Shipping",
-      "title": "Venezuela’s upstream revival: Turning policy momentum into production growth",
-      "summary": "ベネズエラ石油産業改革で生産再開の可能性。2026年段階で実現性を注視",
-      "link": "https://www.hellenicshippingnews.com/venezuelas-upstream-revival-turning-policy-momentum-into-production-growth/",
-      "pub": "Mon, 20 Jul 2026 10:00:25 +0000",
-      "pub_ts": 1784541625,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "供給回復",
       "reliability": "B",
       "is_new": false,
       "verified": false,
