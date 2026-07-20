@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-20T21:30:34.898357+09:00",
+  "updated_at": "2026-07-20T22:00:31.754279+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 81.58000183105469,
+  "wti_price": 81.83999633789062,
   "articles": [
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1v1kqcu/irans_houthi_allies_in_yemen_declare_maritime/",
+      "source": "Reddit r/oil",
+      "title": "Iran’s Houthi allies in Yemen declare maritime embargo of Saudi Arabia",
+      "summary": "イランの同盟勢力フーシ派がサウジアラビアの海上禁輸を宣言。バブ・エル・マンデブ海峡の脅威継続で供給リスク",
+      "link": "https://www.reddit.com/r/oil/comments/1v1kqcu/irans_houthi_allies_in_yemen_declare_maritime/",
+      "pub": "2026-07-20T12:54:49+00:00",
+      "pub_ts": 1784552089,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.hellenicshippingnews.com/the-commodities-feed-persian-gulf-escalation-pushes-brent-above-90/",
       "source": "Hellenic Shipping",
@@ -201,7 +219,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -438,24 +456,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Europes-Heatwave-Is-Becoming-an-Energy-Crisis.html",
-      "source": "OilPrice.com",
-      "title": "Europe's Heatwave Is Becoming an Energy Crisis",
-      "summary": "欧州の熱波が河川水位低下を招き、エネルギー供給と電力生産を混乱させている。",
-      "link": "https://oilprice.com/Energy/Energy-General/Europes-Heatwave-Is-Becoming-an-Energy-Crisis.html",
-      "pub": "Sat, 18 Jul 2026 18:00:00 -0500",
-      "pub_ts": 1784415600,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "供給混乱",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     }
   ]
 }
