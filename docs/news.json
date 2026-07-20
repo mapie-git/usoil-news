@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T04:30:30.357253+09:00",
+  "updated_at": "2026-07-21T05:00:30.716033+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 82.77999877929688,
+  "wti_price": 82.44000244140625,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Declare-Naval-Blockade-on-Saudi-Arabia-as-Red-Sea-Crisis-Deepens.html",
@@ -242,24 +242,6 @@
       "correct": null
     },
     {
-      "id": "https://www.hellenicshippingnews.com/oil-volatility-is-creating-a-win-win-trade-strategy/",
-      "source": "Hellenic Shipping",
-      "title": "Oil volatility is creating a ‘win-win’ trade strategy",
-      "summary": "トランプ大統領がホルムズ海峡封鎖再開。イラン-米軍事衝突で価格上昇。オプション市場に機会",
-      "link": "https://www.hellenicshippingnews.com/oil-volatility-is-creating-a-win-win-trade-strategy/",
-      "pub": "Sun, 19 Jul 2026 21:00:23 +0000",
-      "pub_ts": 1784494823,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://oilprice.com/Energy/Crude-Oil/Nigeria-Targets-Record-3-Million-Bpd-Oil-Output-by-2030.html",
       "source": "OilPrice.com",
       "title": "Nigeria Targets Record 3 Million Bpd Oil Output by 2030",
@@ -452,6 +434,24 @@
       "direction": "neutral",
       "time_horizon": "medium",
       "main_factor": "地政学リスク、供給調整",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Briefly-Recovered-to-Pre-War-Levels-Before-Latest-Escalation.html",
+      "source": "OilPrice.com",
+      "title": "Gulf Oil Exports Briefly Recovered to Pre-War Levels Before Latest Escalation",
+      "summary": "ペルシャ湾の原油輸出が戦前水準に回復も、最新の緊張激化で継続困難な見通し",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Briefly-Recovered-to-Pre-War-Levels-Before-Latest-Escalation.html",
+      "pub": "Mon, 20 Jul 2026 00:47:37 -0500",
+      "pub_ts": 1784526457,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
       "verified": false,
