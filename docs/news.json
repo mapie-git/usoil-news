@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T20:00:33.604409+09:00",
+  "updated_at": "2026-07-20T20:23:35.715668+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 81.7699966430664,
+  "wti_price": 81.63999938964844,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/the-commodities-feed-persian-gulf-escalation-pushes-brent-above-90/",
@@ -186,24 +186,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v00l5t/iran_has_struck_the_kuwait_national_petroleum/",
-      "source": "Reddit r/oil",
-      "title": "Iran has struck the Kuwait National Petroleum Company North Pier crude oil export facility at the Mina Al Ahmadi hub in Kuwait, with the facility on fire and smoke visible on Sentinel-2 satellite imagery.",
-      "summary": "イラン、クウェートの原油輸出施設を攻撃。施設火災で供給リスク発生",
-      "link": "https://www.reddit.com/r/oil/comments/1v00l5t/iran_has_struck_the_kuwait_national_petroleum/",
-      "pub": "2026-07-18T16:37:17+00:00",
-      "pub_ts": 1784392637,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク・供給途絶",
-      "reliability": "C",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     },
     {
       "id": "https://www.hellenicshippingnews.com/venezuelas-upstream-revival-turning-policy-momentum-into-production-growth/",
@@ -451,6 +433,24 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "ultra_short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": false,
+      "verified": true,
+      "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1v02eih/at_least_two_us_service_members_killed_by_iranian/",
+      "source": "Reddit r/oil",
+      "title": "At least two U.S. service members killed by Iranian missiles in Jordan.",
+      "summary": "米兵がイランのミサイル攻撃で殺傷。中東地政学緊張の高まり",
+      "link": "https://www.reddit.com/r/oil/comments/1v02eih/at_least_two_us_service_members_killed_by_iranian/",
+      "pub": "2026-07-18T17:47:57+00:00",
+      "pub_ts": 1784396877,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
