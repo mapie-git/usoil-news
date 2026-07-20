@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T22:30:28.087151+09:00",
+  "updated_at": "2026-07-20T23:00:34.082140+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 81.62999725341797,
+  "wti_price": 81.43000030517578,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Brent-Briefly-Breaks-90-After-Fresh-Iran-War-Escalation.html",
@@ -21,7 +21,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -39,7 +39,7 @@
       "time_horizon": "short",
       "main_factor": "供給逼迫",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
