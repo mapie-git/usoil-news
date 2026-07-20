@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T16:30:34.585645+09:00",
+  "updated_at": "2026-07-20T17:00:33.141662+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 83.80999755859375,
+  "wti_price": 82.36000061035156,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Shipments-Through-Strait-of-Hormuz-Grind-to-a-Halt-as-Conflict-Escalates.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
