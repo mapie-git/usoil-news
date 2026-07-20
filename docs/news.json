@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-21T00:00:39.204770+09:00",
+  "updated_at": "2026-07-21T00:30:30.691886+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 81.70999908447266,
+  "wti_price": 81.66999816894531,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Halts-Exports-at-Strategic-Black-Sea-Oil-Terminal.html",
+      "source": "OilPrice.com",
+      "title": "Drone Strike Halts Exports at Strategic Black Sea Oil Terminal",
+      "summary": "黒海のCPC石油ターミナルがドローン攻撃により輸出停止。24時間以内に2度目の中断。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Drone-Strike-Halts-Exports-at-Strategic-Black-Sea-Oil-Terminal.html",
+      "pub": "Mon, 20 Jul 2026 10:25:00 -0500",
+      "pub_ts": 1784561100,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給途絶リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Geopolitics/Middle-East/US-Iran-Conflict-Enters-Dangerous-New-Phase-With-Fresh-Missile-Exchanges.html",
       "source": "OilPrice.com",
@@ -21,7 +39,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.hellenicshippingnews.com/asia-lng-prices-climb-to-four-month-high-amid-gulf-tensions/",
-      "source": "Hellenic Shipping",
-      "title": "Asia LNG prices climb to four-month high amid Gulf tensions",
-      "summary": "ホルムズ海峡の米イラン軍事衝突でアジアLNG価格4ヶ月高値更新。供給途絶懸念",
-      "link": "https://www.hellenicshippingnews.com/asia-lng-prices-climb-to-four-month-high-amid-gulf-tensions/",
-      "pub": "Sun, 19 Jul 2026 21:00:19 +0000",
-      "pub_ts": 1784494819,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
