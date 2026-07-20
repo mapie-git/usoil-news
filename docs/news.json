@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T06:44:46.706173+09:00",
+  "updated_at": "2026-07-21T07:00:34.198679+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
@@ -242,24 +242,6 @@
       "correct": null
     },
     {
-      "id": "https://www.rigzone.com/news/wire/us_strikes_after_troops_killed_as_iran_quits_deal-20-jul-2026-184160-article/?rss=true",
-      "source": "Rigzone",
-      "title": "US Strikes after Troops Killed as Iran Quits Deal",
-      "summary": "米国がイラン攻撃で報復。地政学リスク高まり原油供給懸念が強まる",
-      "link": "https://www.rigzone.com/news/wire/us_strikes_after_troops_killed_as_iran_quits_deal-20-jul-2026-184160-article/?rss=true",
-      "pub": "Mon, 20 Jul 2026 07:59:47 GMT",
-      "pub_ts": 1784534387,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://www.hellenicshippingnews.com/europe-gas-prices-surge-3-to-multi-month-highs-on-strait-of-hormuz-tanker-fire/",
       "source": "Hellenic Shipping",
       "title": "Europe gas prices surge 3% to multi-month highs on Strait of Hormuz tanker fire",
@@ -452,6 +434,24 @@
       "direction": "bearish",
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.hellenicshippingnews.com/venezuelas-upstream-revival-turning-policy-momentum-into-production-growth/",
+      "source": "Hellenic Shipping",
+      "title": "Venezuela’s upstream revival: Turning policy momentum into production growth",
+      "summary": "ベネズエラ石油産業改革で生産再開の可能性。2026年段階で実現性を注視",
+      "link": "https://www.hellenicshippingnews.com/venezuelas-upstream-revival-turning-policy-momentum-into-production-growth/",
+      "pub": "Mon, 20 Jul 2026 10:00:25 +0000",
+      "pub_ts": 1784541625,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "long",
+      "main_factor": "供給回復",
       "reliability": "B",
       "is_new": false,
       "verified": false,
