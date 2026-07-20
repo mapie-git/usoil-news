@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-20T18:30:34.854552+09:00",
+  "updated_at": "2026-07-20T19:00:30.032361+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 81.3499984741211,
+  "wti_price": 81.29000091552734,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Tankers-Fear-Hormuz-Transits-as-Iran-Stops-Vessels.html",
+      "source": "OilPrice.com",
+      "title": "Tankers Fear Hormuz Transit as Iran Stops Vessels",
+      "summary": "イラン情勢悪化によりホルムズ海峡の通航リスク上昇。タンカー通行阻害で供給懸念",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Tankers-Fear-Hormuz-Transits-as-Iran-Stops-Vessels.html",
+      "pub": "Mon, 20 Jul 2026 04:35:00 -0500",
+      "pub_ts": 1784540100,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.rigzone.com/news/wire/us_strikes_after_troops_killed_as_iran_quits_deal-20-jul-2026-184160-article/?rss=true",
       "source": "Rigzone",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "medium",
       "main_factor": "米在庫低下",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v173s8/trump_says_oil_prices_will_continue_to_be_brought/",
-      "source": "Reddit r/oil",
-      "title": "Trump says oil prices will continue to be brought \"down\" and are \"dropping fast\"",
-      "summary": "トランプ前大統領が油価は下落し続けると発言。政治的コメントだが市場への直接的影響は限定的",
-      "link": "https://www.reddit.com/r/oil/comments/1v173s8/trump_says_oil_prices_will_continue_to_be_brought/",
-      "pub": "2026-07-20T00:56:15+00:00",
-      "pub_ts": 1784508975,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "ultra_short",
-      "main_factor": "政治発言",
       "reliability": "C",
       "is_new": false,
       "verified": false,
