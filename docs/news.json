@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T08:00:29.525625+09:00",
+  "updated_at": "2026-07-21T08:04:00.397060+09:00",
   "accuracy": {
-    "total": 755,
+    "total": 756,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 82.66000366210938,
+  "wti_price": 82.66999816894531,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/Oil-Market-Loses-Its-Safety-Net-as-Iran-Conflict-Reignites.html",
