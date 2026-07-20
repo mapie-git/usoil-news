@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T11:00:42.766040+09:00",
+  "updated_at": "2026-07-20T11:30:29.526607+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 83.7699966430664,
+  "wti_price": 83.77999877929688,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/oil-volatility-is-creating-a-win-win-trade-strategy/",
@@ -183,7 +183,7 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
