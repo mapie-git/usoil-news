@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-20T15:30:27.870473+09:00",
+  "updated_at": "2026-07-20T16:00:34.806328+09:00",
   "accuracy": {
     "total": 755,
     "correct": 279,
     "rate": 37
   },
-  "wti_price": 84.12999725341797,
+  "wti_price": 83.80000305175781,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/oil-volatility-is-creating-a-win-win-trade-strategy/",
@@ -150,6 +150,24 @@
       "is_new": false,
       "verified": true,
       "correct": true
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlpyd1ZobWRZcFM4Q3Ffb19XTXhkMEo1RGFaeXk5M3NkUFBUMlBVNUw4SWp2bjZNYUtKaVhwRXFzZXVFOEo5NkFEYkp6QjZKVy1pVnFlZmNUMndmWDc2Q3FwSWRrcVRtTlVqUHd3SkJ0amRRcnVvT0x2MmQza2dWeU12T0MzMVV3cm84TFlSeC0tZDhTSXhhZlpTX2RXaERNZElvOFJYVTU0QnNoUGE0Yi1IcVM3YmE2LUlVOHpyLWV6UG1BdUU3NVVrNEhHczE1SVE?oc=5",
+      "source": "Google News",
+      "title": "Natural Gas and Oil Forecast: OPEC Demand Cut Meets Hormuz Tensions What’s Next for Oil? - FXEmpire",
+      "summary": "OPEC需要削減とホルムズ海峡緊張を組み合わせた油価見通し。複数要因が混在する予測記事。",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTlpyd1ZobWRZcFM4Q3Ffb19XTXhkMEo1RGFaeXk5M3NkUFBUMlBVNUw4SWp2bjZNYUtKaVhwRXFzZXVFOEo5NkFEYkp6QjZKVy1pVnFlZmNUMndmWDc2Q3FwSWRrcVRtTlVqUHd3SkJ0amRRcnVvT0x2MmQza2dWeU12T0MzMVV3cm84TFlSeC0tZDhTSXhhZlpTX2RXaERNZElvOFJYVTU0QnNoUGE0Yi1IcVM3YmE2LUlVOHpyLWV6UG1BdUU3NVVrNEhHczE1SVE?oc=5",
+      "pub": "Mon, 20 Jul 2026 06:34:00 GMT",
+      "pub_ts": 1784529240,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク、供給調整",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Gulf-Oil-Exports-Briefly-Recovered-to-Pre-War-Levels-Before-Latest-Escalation.html",
@@ -435,24 +453,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.hellenicshippingnews.com/opec-review-of-crude-and-product-price-movements-in-the-first-half-of-2026/",
-      "source": "Hellenic Shipping",
-      "title": "OPEC: Review of crude and product price movements in the first half of 2026",
-      "summary": "OPEC発表：2026年上半期にブレント33.5%、WTI22.1%上昇。地政学リスクと供給不確実性が主因",
-      "link": "https://www.hellenicshippingnews.com/opec-review-of-crude-and-product-price-movements-in-the-first-half-of-2026/",
-      "pub": "Sun, 19 Jul 2026 21:00:25 +0000",
-      "pub_ts": 1784494825,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "long",
-      "main_factor": "地政学リスク、供給不確実性",
-      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
