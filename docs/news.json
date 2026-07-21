@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-21T15:30:33.716514+09:00",
+  "updated_at": "2026-07-21T16:00:45.528552+09:00",
   "accuracy": {
-    "total": 763,
+    "total": 764,
     "correct": 282,
     "rate": 37
   },
@@ -255,7 +255,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク軽減",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
