@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T01:00:32.816036+09:00",
+  "updated_at": "2026-07-22T01:26:01.961979+09:00",
   "accuracy": {
-    "total": 803,
-    "correct": 304,
+    "total": 806,
+    "correct": 306,
     "rate": 38
   },
-  "wti_price": 84.56999969482422,
+  "wti_price": 84.33999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Houthi-Threats-Ignite-New-Oil-Price-Surge.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク・供給途絶懸念",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
