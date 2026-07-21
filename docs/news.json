@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-22T05:30:31.243561+09:00",
+  "updated_at": "2026-07-22T06:00:38.438955+09:00",
   "accuracy": {
-    "total": 815,
-    "correct": 310,
+    "total": 818,
+    "correct": 312,
     "rate": 38
   },
-  "wti_price": 84.48999786376953,
+  "wti_price": 84.47000122070312,
   "articles": [
+    {
+      "id": "https://www.hellenicshippingnews.com/gas-queues-grow-as-ukraine-targets-russias-fuel-supply/",
+      "source": "Hellenic Shipping",
+      "title": "Gas queues grow as Ukraine targets Russia’s fuel supply",
+      "summary": "ウクライナの攻撃によりロシアの燃料供給が深刻化。ガソリンスタンドに長時間行列。供給逼迫で原油需給に影響。",
+      "link": "https://www.hellenicshippingnews.com/gas-queues-grow-as-ukraine-targets-russias-fuel-supply/",
+      "pub": "Tue, 21 Jul 2026 21:00:01 +0000",
+      "pub_ts": 1784667601,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給制約・地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Kazakhstan-Suspends-Major-Oil-Exports-as-Black-Sea-Risks-Escalate.html",
       "source": "OilPrice.com",
@@ -237,24 +255,6 @@
       "time_horizon": "ultra_short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Oil-Market-Loses-Its-Safety-Net-as-Iran-Conflict-Reignites.html",
-      "source": "OilPrice.com",
-      "title": "Oil Market Loses Its Safety Net as Iran Conflict Reignites",
-      "summary": "中東情勢再悪化で原油市場の安全弁が消失。供給ショック緩衝能力が低下し価格上昇リスク増加",
-      "link": "https://oilprice.com/Energy/Energy-General/Oil-Market-Loses-Its-Safety-Net-as-Iran-Conflict-Reignites.html",
-      "pub": "Mon, 20 Jul 2026 16:00:00 -0500",
-      "pub_ts": 1784581200,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
