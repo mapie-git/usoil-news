@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T04:00:38.708106+09:00",
+  "updated_at": "2026-07-22T04:30:32.794986+09:00",
   "accuracy": {
     "total": 813,
     "correct": 310,
     "rate": 38
   },
-  "wti_price": 84.43000030517578,
+  "wti_price": 84.62999725341797,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Kazakhstan-Suspends-Major-Oil-Exports-as-Black-Sea-Risks-Escalate.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク・供給途絶",
       "reliability": "A",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
