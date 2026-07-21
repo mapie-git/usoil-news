@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T13:30:37.381063+09:00",
+  "updated_at": "2026-07-21T13:49:02.993084+09:00",
   "accuracy": {
     "total": 762,
     "correct": 281,
     "rate": 37
   },
-  "wti_price": 82.11000061035156,
+  "wti_price": 82.1500015258789,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v21u7h/houthi_leaders_in_yemen_have_declared_a_naval/",
@@ -224,24 +224,6 @@
       "correct": null
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Tankers-Fear-Hormuz-Transits-as-Iran-Stops-Vessels.html",
-      "source": "OilPrice.com",
-      "title": "Tankers Fear Hormuz Transit as Iran Stops Vessels",
-      "summary": "イラン情勢悪化によりホルムズ海峡の通航リスク上昇。タンカー通行阻害で供給懸念",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Tankers-Fear-Hormuz-Transits-as-Iran-Stops-Vessels.html",
-      "pub": "Mon, 20 Jul 2026 04:35:00 -0500",
-      "pub_ts": 1784540100,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://oilprice.com/Energy/Crude-Oil/Higher-For-Longer-Oil-Scenario-Is-Here-To-Stay.html",
       "source": "OilPrice.com",
       "title": "Higher-For-Longer Oil Scenario Is Here To Stay",
@@ -451,6 +433,24 @@
       "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-60-as-Iran-War-Drives-Prices-Higher.html",
+      "source": "OilPrice.com",
+      "title": "India’s Crude Oil Import Bill Soars 60% as Iran War Drives Prices Higher",
+      "summary": "インドの原油輸入額が前年比60%増加。価格上昇が主因で供給逼迫を示唆。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-60-as-Iran-War-Drives-Prices-Higher.html",
+      "pub": "Mon, 20 Jul 2026 07:00:00 -0500",
+      "pub_ts": 1784548800,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
