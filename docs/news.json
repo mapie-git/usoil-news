@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T00:00:39.473178+09:00",
+  "updated_at": "2026-07-22T00:30:35.775133+09:00",
   "accuracy": {
-    "total": 802,
-    "correct": 303,
+    "total": 803,
+    "correct": 304,
     "rate": 38
   },
-  "wti_price": 84.5,
+  "wti_price": 84.08999633789062,
   "articles": [
     {
       "id": "https://oilprice.com/Geopolitics/International/Houthis-Force-Saudi-Oil-Tankers-To-U-Turn-in-Red-Sea.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク・海運混乱",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -206,19 +206,19 @@
       "correct": null
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Declare-Naval-Blockade-on-Saudi-Arabia-as-Red-Sea-Crisis-Deepens.html",
-      "source": "OilPrice.com",
-      "title": "Houthis Declare Naval Blockade on Saudi Arabia as Red Sea Crisis Deepens",
-      "summary": "フーシ派がサウジアラビアへの海上封鎖を宣言。紅海危機が深刻化し、ホルムズ海峡迂回ルートが脅威に。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Declare-Naval-Blockade-on-Saudi-Arabia-as-Red-Sea-Crisis-Deepens.html",
-      "pub": "Mon, 20 Jul 2026 11:30:00 -0500",
-      "pub_ts": 1784565000,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
+      "id": "https://www.rigzone.com/news/neptun_deep_production_unit_installed-21-jul-2026-184180-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Neptun Deep Production Unit Installed",
+      "summary": "OMVペトロムがネプチュンディープ生産プラットフォームをインストール。ルーマニアの天然ガス供給増加。",
+      "link": "https://www.rigzone.com/news/neptun_deep_production_unit_installed-21-jul-2026-184180-article/?rss=true",
+      "pub": "Tue, 21 Jul 2026 14:57:16 GMT",
+      "pub_ts": 1784645836,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加",
+      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
