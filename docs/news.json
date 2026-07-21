@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T18:30:33.117999+09:00",
+  "updated_at": "2026-07-21T19:00:33.520967+09:00",
   "accuracy": {
-    "total": 769,
-    "correct": 283,
+    "total": 770,
+    "correct": 284,
     "rate": 37
   },
-  "wti_price": 82.1500015258789,
+  "wti_price": 82.9800033569336,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/hormuz_sees_another_ship_attack_as_houthis_deepen_risks-21-jul-2026-184171-article/?rss=true",
