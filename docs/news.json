@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T07:30:34.956143+09:00",
+  "updated_at": "2026-07-22T08:00:33.444063+09:00",
   "accuracy": {
-    "total": 826,
-    "correct": 317,
+    "total": 827,
+    "correct": 318,
     "rate": 38
   },
-  "wti_price": 84.61000061035156,
+  "wti_price": 84.69999694824219,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/iea-executive-director-statement-on-oil-markets/",
