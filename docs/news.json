@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T01:26:01.961979+09:00",
+  "updated_at": "2026-07-22T01:30:32.392348+09:00",
   "accuracy": {
-    "total": 806,
-    "correct": 306,
+    "total": 808,
+    "correct": 308,
     "rate": 38
   },
-  "wti_price": 84.33999633789062,
+  "wti_price": 84.30000305175781,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Houthi-Threats-Ignite-New-Oil-Price-Surge.html",
