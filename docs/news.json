@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T22:00:36.795915+09:00",
+  "updated_at": "2026-07-21T22:30:33.282308+09:00",
   "accuracy": {
-    "total": 790,
-    "correct": 295,
+    "total": 796,
+    "correct": 298,
     "rate": 37
   },
-  "wti_price": 84.02999877929688,
+  "wti_price": 84.22000122070312,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Top-90-as-Kuwaiti-Tanker-Hit-in-Strait-of-Hormuz.html",
@@ -255,7 +255,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
