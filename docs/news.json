@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T04:37:21.387972+09:00",
+  "updated_at": "2026-07-22T05:00:36.782416+09:00",
   "accuracy": {
-    "total": 813,
+    "total": 815,
     "correct": 310,
     "rate": 38
   },
-  "wti_price": 84.54000091552734,
+  "wti_price": 84.68000030517578,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Kazakhstan-Suspends-Major-Oil-Exports-as-Black-Sea-Risks-Escalate.html",
@@ -260,20 +260,20 @@
       "correct": null
     },
     {
-      "id": "https://www.rigzone.com/news/wire/brent_nears_90_on_conflict_risks-20-jul-2026-184170-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Brent Nears $90 on Conflict Risks",
-      "summary": "ブレント油が90ドル近くへ上昇。中東紛争激化で供給懸念が高まる一方、外交努力も進行中。",
-      "link": "https://www.rigzone.com/news/wire/brent_nears_90_on_conflict_risks-20-jul-2026-184170-article/?rss=true",
-      "pub": "Mon, 20 Jul 2026 20:30:55 GMT",
-      "pub_ts": 1784579455,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
-      "is_new": false,
+      "id": "https://oilprice.com/Energy/Crude-Oil/Norways-Oil-Output-Beats-Forecasts-as-Hormuz-Traffic-Stays-Near-Crisis-Lows.html",
+      "source": "OilPrice.com",
+      "title": "Norway's Oil Output Beats Forecasts as Hormuz Traffic Stays Near Crisis Lows",
+      "summary": "ノルウェー原油生産が予測超過。季節的保守から復帰したオフショア油田が供給増加をもたらす。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Norways-Oil-Output-Beats-Forecasts-as-Hormuz-Traffic-Stays-Near-Crisis-Lows.html",
+      "pub": "Tue, 21 Jul 2026 15:00:00 -0500",
+      "pub_ts": 1784664000,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "供給増加",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
