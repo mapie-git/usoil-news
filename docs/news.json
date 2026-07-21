@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T02:54:58.613679+09:00",
+  "updated_at": "2026-07-22T03:00:44.438816+09:00",
   "accuracy": {
-    "total": 810,
-    "correct": 309,
+    "total": 812,
+    "correct": 310,
     "rate": 38
   },
-  "wti_price": 84.41999816894531,
+  "wti_price": 84.30999755859375,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Says-China-Has-Slashed-Iranian-Oil-Purchases-by-40.html",
