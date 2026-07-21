@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T21:30:34.087836+09:00",
+  "updated_at": "2026-07-21T22:00:36.795915+09:00",
   "accuracy": {
-    "total": 788,
-    "correct": 293,
+    "total": 790,
+    "correct": 295,
     "rate": 37
   },
-  "wti_price": 83.93000030517578,
+  "wti_price": 84.02999877929688,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Top-90-as-Kuwaiti-Tanker-Hit-in-Strait-of-Hormuz.html",
@@ -242,20 +242,20 @@
       "correct": null
     },
     {
-      "id": "https://www.rigzone.com/news/wire/saudi_led_coalition_vows_to_protect_ships_from_houthis-20-jul-2026-184166-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Saudi Led Coalition Vows to Protect Ships from Houthis",
-      "summary": "サウジ主導連合がフーシ派からの攻撃からの船舶保護を誓約。紅海の供給リスク軽減",
-      "link": "https://www.rigzone.com/news/wire/saudi_led_coalition_vows_to_protect_ships_from_houthis-20-jul-2026-184166-article/?rss=true",
-      "pub": "Mon, 20 Jul 2026 14:06:33 GMT",
-      "pub_ts": 1784556393,
-      "impact": 4,
-      "impact_group": "high",
+      "id": "https://www.reddit.com/r/oil/comments/1v2h6ez/oil_prices_remain_close_to_onemonth_high_as_yemen/",
+      "source": "Reddit r/oil",
+      "title": "Oil prices remain close to one-month high as Yemen announces Red Sea blockade",
+      "summary": "イエメンが紅海封鎖を発表。供給リスク懸念から油価は1ヶ月高値近辺で推移。",
+      "link": "https://www.reddit.com/r/oil/comments/1v2h6ez/oil_prices_remain_close_to_onemonth_high_as_yemen/",
+      "pub": "2026-07-21T12:35:18+00:00",
+      "pub_ts": 1784637318,
+      "impact": 3,
+      "impact_group": "mid",
       "direction": "bullish",
       "time_horizon": "short",
-      "main_factor": "地政学リスク軽減",
-      "reliability": "B",
-      "is_new": false,
+      "main_factor": "地政学リスク",
+      "reliability": "C",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -273,7 +273,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
