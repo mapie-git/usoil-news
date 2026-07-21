@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-22T02:30:32.979313+09:00",
+  "updated_at": "2026-07-22T02:54:58.613679+09:00",
   "accuracy": {
     "total": 810,
     "correct": 309,
     "rate": 38
   },
-  "wti_price": 84.26000213623047,
+  "wti_price": 84.41999816894531,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Says-China-Has-Slashed-Iranian-Oil-Purchases-by-40.html",
+      "source": "OilPrice.com",
+      "title": "U.S. Says China Has Slashed Iranian Oil Purchases by 40%",
+      "summary": "米国がイラン制裁強化によりイラン原油の中国購入が40%削減されたと発表。供給縮小でWTI上昇圧力",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Says-China-Has-Slashed-Iranian-Oil-Purchases-by-40.html",
+      "pub": "Tue, 21 Jul 2026 12:45:00 -0500",
+      "pub_ts": 1784655900,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "供給減少、地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Crude-Oil/Houthi-Threats-Ignite-New-Oil-Price-Surge.html",
       "source": "OilPrice.com",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "供給回復",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.hellenicshippingnews.com/oil-prices-ease-after-brent-crosses-90-amid-escalating-u-s-iran-conflict/",
-      "source": "Hellenic Shipping",
-      "title": "Oil prices ease after Brent crosses $90 amid escalating U.S.-Iran conflict",
-      "summary": "イラン外務省が米国との交渉再開可能性を示唆。ブレント油は$90突破後に調整し$88.26で小幅上昇",
-      "link": "https://www.hellenicshippingnews.com/oil-prices-ease-after-brent-crosses-90-amid-escalating-u-s-iran-conflict/",
-      "pub": "Mon, 20 Jul 2026 21:00:02 +0000",
-      "pub_ts": 1784581202,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク緩和",
       "reliability": "B",
       "is_new": false,
       "verified": false,
