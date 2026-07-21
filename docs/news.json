@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-21T14:30:27.709491+09:00",
+  "updated_at": "2026-07-21T15:00:33.264189+09:00",
   "accuracy": {
     "total": 762,
     "correct": 281,
     "rate": 37
   },
-  "wti_price": 82.2699966430664,
+  "wti_price": 81.83000183105469,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Oil-Could-Hit-120-as-Middle-East-War-Drags-On.html",
+      "source": "OilPrice.com",
+      "title": "Goldman Warns Oil Could Hit $120 as Middle East War Drags On",
+      "summary": "ゴールドマンサックス、中東紛争長期化で年末に原油が120ドルに達する可能性を警告。ホルムズ海峡閉鎖リスク指摘",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Oil-Could-Hit-120-as-Middle-East-War-Drags-On.html",
+      "pub": "Tue, 21 Jul 2026 00:36:45 -0500",
+      "pub_ts": 1784612205,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1v21u7h/houthi_leaders_in_yemen_have_declared_a_naval/",
       "source": "Reddit r/oil",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "供給遮断リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v1jo69/breaking_the_houthis_have_announced_a_ban_on/",
-      "source": "Reddit r/oil",
-      "title": "Breaking - the Houthis have announced a ban on Saudi shipping",
-      "summary": "イエメンの親イラン系フーシ派がサウジアラビアへの海上封鎖を発表。紅海での海運リスク増加が懸念される。",
-      "link": "https://www.reddit.com/r/oil/comments/1v1jo69/breaking_the_houthis_have_announced_a_ban_on/",
-      "pub": "2026-07-20T12:08:16+00:00",
-      "pub_ts": 1784549296,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
       "verified": false,
