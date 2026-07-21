@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T18:00:45.571125+09:00",
+  "updated_at": "2026-07-21T18:30:33.117999+09:00",
   "accuracy": {
-    "total": 767,
-    "correct": 282,
+    "total": 769,
+    "correct": 283,
     "rate": 37
   },
-  "wti_price": 82.18000030517578,
+  "wti_price": 82.1500015258789,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/hormuz_sees_another_ship_attack_as_houthis_deepen_risks-21-jul-2026-184171-article/?rss=true",
@@ -182,6 +182,24 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.rigzone.com/news/wire/saudi_led_coalition_vows_to_protect_ships_from_houthis-20-jul-2026-184166-article/?rss=true",
+      "source": "Rigzone",
+      "title": "Saudi Led Coalition Vows to Protect Ships from Houthis",
+      "summary": "サウジ主導連合がフーシ派からの攻撃からの船舶保護を誓約。紅海の供給リスク軽減",
+      "link": "https://www.rigzone.com/news/wire/saudi_led_coalition_vows_to_protect_ships_from_houthis-20-jul-2026-184166-article/?rss=true",
+      "pub": "Mon, 20 Jul 2026 14:06:33 GMT",
+      "pub_ts": 1784556393,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク軽減",
       "reliability": "B",
       "is_new": false,
       "verified": false,
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク、停戦交渉",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html",
-      "source": "OilPrice.com",
-      "title": "U.S. Gasoline Prices Climb Back Above $4 Per Gallon",
-      "summary": "中東紛争激化とホルムズ海峡閉鎖懸念で原油上昇、米ガソリン平均が1ガロン4ドル超に。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Gasoline-Prices-Climb-Back-Above-4-Per-Gallon.html",
-      "pub": "Mon, 20 Jul 2026 09:15:00 -0500",
-      "pub_ts": 1784556900,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
