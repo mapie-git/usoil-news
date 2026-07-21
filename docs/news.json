@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T15:00:33.264189+09:00",
+  "updated_at": "2026-07-21T15:30:33.716514+09:00",
   "accuracy": {
-    "total": 762,
-    "correct": 281,
+    "total": 763,
+    "correct": 282,
     "rate": 37
   },
-  "wti_price": 81.83000183105469,
+  "wti_price": 82.08000183105469,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Oil-Could-Hit-120-as-Middle-East-War-Drags-On.html",
@@ -21,7 +21,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -242,6 +242,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Reverses-Gains-on-Renewed-Hope-of-Peace-in-Iran.html",
+      "source": "OilPrice.com",
+      "title": "Oil Reverses Gains on Renewed Hope of Peace in Iran",
+      "summary": "米国とイランの停戦交渉報道により原油価格が下落。ブレント原油は90ドル超から88.77ドルへ後退",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Reverses-Gains-on-Renewed-Hope-of-Peace-in-Iran.html",
+      "pub": "Tue, 21 Jul 2026 01:09:31 -0500",
+      "pub_ts": 1784614171,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク軽減",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1v28c54/saudi_oil_loadings_drop_by_36_as_houthi_threats/",
       "source": "Reddit r/oil",
       "title": "Saudi oil loadings drop by 36% as Houthi threats disrupt Bab Al Mandeb passage",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.rigzone.com/news/wire/houthis_to_impose_maritime_blockade_on_saudi_arabia-20-jul-2026-184166-article/?rss=true",
-      "source": "Rigzone",
-      "title": "Houthis to Impose Maritime Blockade on Saudi Arabia",
-      "summary": "イラン支援のイエメン勢力フーシが、サウジアラビアへの海上封鎖を宣言。紅海経由の供給途絶リスクが顕在化。",
-      "link": "https://www.rigzone.com/news/wire/houthis_to_impose_maritime_blockade_on_saudi_arabia-20-jul-2026-184166-article/?rss=true",
-      "pub": "Mon, 20 Jul 2026 14:06:33 GMT",
-      "pub_ts": 1784556393,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "供給遮断リスク",
       "reliability": "B",
       "is_new": false,
       "verified": false,
