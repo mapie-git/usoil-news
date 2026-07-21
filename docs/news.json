@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-21T10:30:29.595294+09:00",
+  "updated_at": "2026-07-21T11:00:32.255719+09:00",
   "accuracy": {
-    "total": 758,
+    "total": 759,
     "correct": 280,
     "rate": 37
   },
-  "wti_price": 82.08999633789062,
+  "wti_price": 82.33999633789062,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v21u7h/houthi_leaders_in_yemen_have_declared_a_naval/",
