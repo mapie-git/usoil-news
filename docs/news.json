@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T03:30:28.067447+09:00",
+  "updated_at": "2026-07-23T04:00:31.860075+09:00",
   "accuracy": {
-    "total": 874,
+    "total": 873,
     "correct": 338,
     "rate": 39
   },
-  "wti_price": 86.98999786376953,
+  "wti_price": 86.95999908447266,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/houthi-maritime-strikes-keep-european-gas-futures-pinned-near-multi-month-peaks/",
@@ -39,6 +39,24 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
+      "source": "EIA",
+      "title": "Commercial crude oil inventories increased by 2.0 million barrels",
+      "summary": "EIA発表：商業原油在庫200万バレル増加。411.7百万バレル、5年平均下回る。",
+      "link": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
+      "pub": "Wed, 22 Jul 2026 09:00:00 EST",
+      "pub_ts": 1784728800,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "在庫増加",
+      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -272,24 +290,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "地政学リスク・供給途絶懸念",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
-      "id": "https://oilprice.com/Geopolitics/International/Houthis-Force-Saudi-Oil-Tankers-To-U-Turn-in-Red-Sea.html",
-      "source": "OilPrice.com",
-      "title": "Houthis Force Saudi Oil Tankers To U-Turn in Red Sea",
-      "summary": "フーシ派の紅海での攻撃によるタンカー迂回で海運混乱。ホルムズ海峡通航減少でリスク上昇",
-      "link": "https://oilprice.com/Geopolitics/International/Houthis-Force-Saudi-Oil-Tankers-To-U-Turn-in-Red-Sea.html",
-      "pub": "Tue, 21 Jul 2026 10:00:00 -0500",
-      "pub_ts": 1784646000,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク・海運混乱",
       "reliability": "B",
       "is_new": false,
       "verified": true,
