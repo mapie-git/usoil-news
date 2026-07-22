@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T11:00:29.354873+09:00",
+  "updated_at": "2026-07-22T11:30:36.410727+09:00",
   "accuracy": {
     "total": 830,
     "correct": 320,
     "rate": 39
   },
-  "wti_price": 85.55999755859375,
+  "wti_price": 85.19999694824219,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/iea-executive-director-statement-on-oil-markets/",
@@ -260,6 +260,24 @@
       "correct": null
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1v32a3a/ieas_birol_says_the_iea_can_follow_up_the_400/",
+      "source": "Reddit r/oil",
+      "title": "IEA's Birol says the IEA can follow up the 400 million barrel release with another 1.6 billion",
+      "summary": "IEAが追加で16億バレルの放出可能性を示唆。供給増加が原油価格に下押し圧力。",
+      "link": "https://www.reddit.com/r/oil/comments/1v32a3a/ieas_birol_says_the_iea_can_follow_up_the_400/",
+      "pub": "2026-07-22T01:53:44+00:00",
+      "pub_ts": 1784685224,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "medium",
+      "main_factor": "供給増加",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Oil-Prices/Chinas-Next-Move-Could-Decide-Where-Oil-Prices-Go-This-Year.html",
       "source": "OilPrice.com",
       "title": "China's Next Move Could Decide Where Oil Prices Go This Year",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給逼迫",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Reverses-Gains-on-Renewed-Hope-of-Peace-in-Iran.html",
-      "source": "OilPrice.com",
-      "title": "Oil Reverses Gains on Renewed Hope of Peace in Iran",
-      "summary": "米国とイランの停戦交渉報道により原油価格が下落。ブレント原油は90ドル超から88.77ドルへ後退",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Reverses-Gains-on-Renewed-Hope-of-Peace-in-Iran.html",
-      "pub": "Tue, 21 Jul 2026 01:09:31 -0500",
-      "pub_ts": 1784614171,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク軽減",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
