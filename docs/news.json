@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T00:20:37.076879+09:00",
+  "updated_at": "2026-07-23T00:30:38.323959+09:00",
   "accuracy": {
-    "total": 867,
+    "total": 870,
     "correct": 336,
     "rate": 39
   },
-  "wti_price": 87.05999755859375,
+  "wti_price": 86.80999755859375,
   "articles": [
     {
       "id": "https://oilprice.com/Geopolitics/Asia/The-Hormuz-Crisis-Is-Driving-a-Geopolitical-Shift-Across-Asia.html",
@@ -296,6 +296,24 @@
       "correct": true
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1v3i8g6/eia_report_july_22nd/",
+      "source": "Reddit r/oil",
+      "title": "EIA Report July 22nd",
+      "summary": "EIA週間報告：7月17日週の米国原油精製投入量が前週比58千バレル/日減少し17.1百万バレル/日",
+      "link": "https://www.reddit.com/r/oil/comments/1v3i8g6/eia_report_july_22nd/",
+      "pub": "2026-07-22T14:45:46+00:00",
+      "pub_ts": 1784731546,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "精製需要減少",
+      "reliability": "A",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Product-Inventories-See-Builds-Across-the-Board.html",
       "source": "OilPrice.com",
       "title": "US Oil, Product Inventories See Builds Across the Board",
@@ -434,24 +452,6 @@
       "direction": "neutral",
       "time_horizon": "medium",
       "main_factor": "中国需要動向",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Build-As-Hormuz-Shipping-Headache-Drags-On.html",
-      "source": "OilPrice.com",
-      "title": "US Crude Oil Inventories Build As Hormuz Shipping Headache Drags On",
-      "summary": "米国原油在庫が週間260万バレル増加。供給過剰圧力が存在するが、既に報道されている可能性。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Build-As-Hormuz-Shipping-Headache-Drags-On.html",
-      "pub": "Tue, 21 Jul 2026 16:10:00 -0500",
-      "pub_ts": 1784668200,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "在庫増加",
       "reliability": "B",
       "is_new": false,
       "verified": false,
