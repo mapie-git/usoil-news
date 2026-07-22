@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-22T20:00:34.206845+09:00",
+  "updated_at": "2026-07-22T20:12:34.504421+09:00",
   "accuracy": {
     "total": 850,
     "correct": 327,
     "rate": 38
   },
-  "wti_price": 87.1500015258789,
+  "wti_price": 87.36000061035156,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Nearly-4-as-Houthis-Threaten-Red-Sea-Blockade.html",
+      "source": "OilPrice.com",
+      "title": "Oil Jumps Nearly 4% as Houthis Threaten Red Sea Blockade",
+      "summary": "フーシ派の紅海封鎖脅迫でBrent原油が3.75%上昇。中東供給リスク懸念が高まる",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Nearly-4-as-Houthis-Threaten-Red-Sea-Blockade.html",
+      "pub": "Wed, 22 Jul 2026 06:10:00 -0500",
+      "pub_ts": 1784718600,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.reddit.com/r/oil/comments/1v3c99j/the_iran_war_is_spreading_into_a_global_shipping/",
       "source": "Reddit r/oil",
@@ -21,7 +39,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v2h6ez/oil_prices_remain_close_to_onemonth_high_as_yemen/",
-      "source": "Reddit r/oil",
-      "title": "Oil prices remain close to one-month high as Yemen announces Red Sea blockade",
-      "summary": "イエメンが紅海封鎖を発表。供給リスク懸念から油価は1ヶ月高値近辺で推移。",
-      "link": "https://www.reddit.com/r/oil/comments/1v2h6ez/oil_prices_remain_close_to_onemonth_high_as_yemen/",
-      "pub": "2026-07-21T12:35:18+00:00",
-      "pub_ts": 1784637318,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
