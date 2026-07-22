@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T01:00:32.581191+09:00",
+  "updated_at": "2026-07-23T01:30:29.096725+09:00",
   "accuracy": {
     "total": 871,
     "correct": 337,
     "rate": 39
   },
-  "wti_price": 85.8499984741211,
+  "wti_price": 86.18000030517578,
   "articles": [
     {
       "id": "https://oilprice.com/Geopolitics/Asia/The-Hormuz-Crisis-Is-Driving-a-Geopolitical-Shift-Across-Asia.html",
@@ -291,7 +291,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
