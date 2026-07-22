@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T13:00:27.948202+09:00",
+  "updated_at": "2026-07-22T13:30:31.341123+09:00",
   "accuracy": {
     "total": 830,
     "correct": 320,
     "rate": 39
   },
-  "wti_price": null,
+  "wti_price": 85.4000015258789,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-US-Iran-Conflict-Shows-No-Signs-of-Slowing.html",
