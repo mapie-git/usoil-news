@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T04:00:31.860075+09:00",
+  "updated_at": "2026-07-23T04:30:30.879244+09:00",
   "accuracy": {
-    "total": 873,
-    "correct": 338,
+    "total": 875,
+    "correct": 340,
     "rate": 39
   },
-  "wti_price": 86.95999908447266,
+  "wti_price": 87.0999984741211,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/houthi-maritime-strikes-keep-european-gas-futures-pinned-near-multi-month-peaks/",
@@ -238,8 +238,8 @@
       "main_factor": "地政学リスク・供給途絶",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/India-Pulls-Back-From-Iraqi-Oil-as-Hormuz-Turns-Too-Dangerous.html",
@@ -256,8 +256,8 @@
       "main_factor": "地政学リスク・需要減少",
       "reliability": "A",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Says-China-Has-Slashed-Iranian-Oil-Purchases-by-40.html",
