@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T09:00:37.640444+09:00",
+  "updated_at": "2026-07-22T09:30:30.891359+09:00",
   "accuracy": {
     "total": 830,
     "correct": 320,
     "rate": 39
   },
-  "wti_price": 84.8499984741211,
+  "wti_price": 84.62000274658203,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/iea-executive-director-statement-on-oil-markets/",
@@ -291,7 +291,7 @@
       "time_horizon": "medium",
       "main_factor": "中国需要動向",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
