@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T15:30:33.218062+09:00",
+  "updated_at": "2026-07-22T16:00:32.178924+09:00",
   "accuracy": {
     "total": 834,
     "correct": 322,
     "rate": 39
   },
-  "wti_price": 85.83000183105469,
+  "wti_price": 86.33000183105469,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Iran-Conflict-Threatens-Long-Term-Energy-Shock-Across-Asia.html",
@@ -21,7 +21,7 @@
       "time_horizon": "long",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
