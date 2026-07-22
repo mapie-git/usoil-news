@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-22T10:00:31.299294+09:00",
+  "updated_at": "2026-07-22T10:30:29.893723+09:00",
   "accuracy": {
     "total": 830,
     "correct": 320,
     "rate": 39
   },
-  "wti_price": 84.6500015258789,
+  "wti_price": 85.20999908447266,
   "articles": [
     {
       "id": "https://www.hellenicshippingnews.com/iea-executive-director-statement-on-oil-markets/",
@@ -260,24 +260,6 @@
       "correct": null
     },
     {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Oil-Could-Hit-120-as-Middle-East-War-Drags-On.html",
-      "source": "OilPrice.com",
-      "title": "Goldman Warns Oil Could Hit $120 as Middle East War Drags On",
-      "summary": "ゴールドマンサックス、中東紛争長期化で年末に原油が120ドルに達する可能性を警告。ホルムズ海峡閉鎖リスク指摘",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Oil-Could-Hit-120-as-Middle-East-War-Drags-On.html",
-      "pub": "Tue, 21 Jul 2026 00:36:45 -0500",
-      "pub_ts": 1784612205,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
       "id": "https://oilprice.com/Energy/Oil-Prices/Chinas-Next-Move-Could-Decide-Where-Oil-Prices-Go-This-Year.html",
       "source": "OilPrice.com",
       "title": "China's Next Move Could Decide Where Oil Prices Go This Year",
@@ -453,6 +435,24 @@
       "time_horizon": "medium",
       "main_factor": "供給逼迫",
       "reliability": "A",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Reverses-Gains-on-Renewed-Hope-of-Peace-in-Iran.html",
+      "source": "OilPrice.com",
+      "title": "Oil Reverses Gains on Renewed Hope of Peace in Iran",
+      "summary": "米国とイランの停戦交渉報道により原油価格が下落。ブレント原油は90ドル超から88.77ドルへ後退",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Reverses-Gains-on-Renewed-Hope-of-Peace-in-Iran.html",
+      "pub": "Tue, 21 Jul 2026 01:09:31 -0500",
+      "pub_ts": 1784614171,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク軽減",
+      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
