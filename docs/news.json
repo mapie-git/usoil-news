@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-22T12:00:34.680072+09:00",
+  "updated_at": "2026-07-22T12:30:29.728437+09:00",
   "accuracy": {
     "total": 830,
     "correct": 320,
     "rate": 39
   },
-  "wti_price": 85.18000030517578,
+  "wti_price": 85.26000213623047,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-US-Iran-Conflict-Shows-No-Signs-of-Slowing.html",
+      "source": "OilPrice.com",
+      "title": "Oil Prices Climb as U.S.-Iran Conflict Shows No Signs of Slowing",
+      "summary": "米国とイランの紛争激化により原油価格が上昇。ブレント原油92.44ドル、WTI85.51ドルで推移。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-US-Iran-Conflict-Shows-No-Signs-of-Slowing.html",
+      "pub": "Tue, 21 Jul 2026 22:08:20 -0500",
+      "pub_ts": 1784689700,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.hellenicshippingnews.com/iea-executive-director-statement-on-oil-markets/",
       "source": "Hellenic Shipping",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給過剰",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.hellenicshippingnews.com/us-strategic-petroleum-reserve-drops-to-lowest-since-1983-2/",
-      "source": "Hellenic Shipping",
-      "title": "US Strategic Petroleum Reserve drops to lowest since 1983",
-      "summary": "米国の戦略備蓄が1983年以来の最低水準に低下し311.4百万バレルに",
-      "link": "https://www.hellenicshippingnews.com/us-strategic-petroleum-reserve-drops-to-lowest-since-1983-2/",
-      "pub": "Tue, 21 Jul 2026 10:00:27 +0000",
-      "pub_ts": 1784628027,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "供給逼迫",
-      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
