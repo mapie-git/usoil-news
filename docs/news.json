@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T06:18:51.759969+09:00",
+  "updated_at": "2026-07-23T06:30:32.403547+09:00",
   "accuracy": {
     "total": 886,
     "correct": 345,
@@ -21,7 +21,7 @@
       "time_horizon": "medium",
       "main_factor": "供給懸念、LNG逼迫",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -206,6 +206,24 @@
       "correct": true
     },
     {
+      "id": "https://www.reddit.com/r/oil/comments/1v3tnie/houthis_attack_a_saudi_tanker_70_miles_away_from/",
+      "source": "Reddit r/oil",
+      "title": "Houthis attack a Saudi Tanker 70 miles away from Al Shaqiq, Saudi Arabia",
+      "summary": "フーシ派がサウジアラビア沖でタンカーを攻撃。紅海の地政学リスク再燃による供給懸念",
+      "link": "https://www.reddit.com/r/oil/comments/1v3tnie/houthis_attack_a_saudi_tanker_70_miles_away_from/",
+      "pub": "2026-07-22T21:24:19+00:00",
+      "pub_ts": 1784755459,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.hellenicshippingnews.com/dwindling-fuel-reserves-leave-energy-markets-exposed-to-renewed-middle-east-shocks-imf/",
       "source": "Hellenic Shipping",
       "title": "Dwindling fuel reserves leave energy markets exposed to renewed Middle East shocks: IMF",
@@ -219,7 +237,7 @@
       "time_horizon": "medium",
       "main_factor": "地政学リスク、在庫低下",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -237,7 +255,7 @@
       "time_horizon": "medium",
       "main_factor": "供給リスク低減",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -255,7 +273,7 @@
       "time_horizon": "short",
       "main_factor": "需要強化",
       "reliability": "A",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "在庫増加",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v390m1/tankers_carrying_saudi_oil_make_uturn_in_red_sea/",
-      "source": "Reddit r/oil",
-      "title": "Tankers carrying Saudi oil make U-turn in Red Sea after Houthi threats",
-      "summary": "サウジアラビア産原油を運ぶタンカーが、フーシ派の脅威によって紅海でUターン。地政学的緊張が供給ルート混乱を示唆。",
-      "link": "https://www.reddit.com/r/oil/comments/1v390m1/tankers_carrying_saudi_oil_make_uturn_in_red_sea/",
-      "pub": "2026-07-22T07:30:31+00:00",
-      "pub_ts": 1784705431,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
