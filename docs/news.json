@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-23T06:30:32.403547+09:00",
+  "updated_at": "2026-07-23T07:00:36.908093+09:00",
   "accuracy": {
-    "total": 886,
-    "correct": 345,
+    "total": 889,
+    "correct": 346,
     "rate": 39
   },
   "wti_price": 86.4800033569336,
   "articles": [
+    {
+      "id": "https://oilprice.com/Energy/Oil-Prices/Houthi-Red-Sea-Blockade-Could-Shatter-Hopes-for-Lower-Oil-Prices.html",
+      "source": "OilPrice.com",
+      "title": "Houthi Red Sea Blockade Could Shatter Hopes for Lower Oil Prices",
+      "summary": "フーシ派による紅海封鎖がサウジの原油輸出400万バレル/日を脅かし、ホルムズ海峡の供給リスクと相まって油価上昇圧力となる",
+      "link": "https://oilprice.com/Energy/Oil-Prices/Houthi-Red-Sea-Blockade-Could-Shatter-Hopes-for-Lower-Oil-Prices.html",
+      "pub": "Wed, 22 Jul 2026 17:00:00 -0500",
+      "pub_ts": 1784757600,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク・供給途絶",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://www.hellenicshippingnews.com/iea-head-flags-european-exposure-to-longer-hormuz-lng-disruptions/",
       "source": "Hellenic Shipping",
@@ -188,24 +206,6 @@
       "correct": null
     },
     {
-      "id": "https://www.hellenicshippingnews.com/iea-executive-director-statement-on-oil-markets/",
-      "source": "Hellenic Shipping",
-      "title": "IEA Executive Director statement on oil markets",
-      "summary": "IEA事務局長がホルムズ海峡の緊張激化とエネルギーインフラへの脅威を指摘。供給リスク懸念が高まる。",
-      "link": "https://www.hellenicshippingnews.com/iea-executive-director-statement-on-oil-markets/",
-      "pub": "Tue, 21 Jul 2026 21:00:29 +0000",
-      "pub_ts": 1784667629,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "medium",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
-      "is_new": false,
-      "verified": true,
-      "correct": true
-    },
-    {
       "id": "https://www.reddit.com/r/oil/comments/1v3tnie/houthis_attack_a_saudi_tanker_70_miles_away_from/",
       "source": "Reddit r/oil",
       "title": "Houthis attack a Saudi Tanker 70 miles away from Al Shaqiq, Saudi Arabia",
@@ -219,7 +219,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
