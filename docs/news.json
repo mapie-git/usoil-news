@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T03:00:32.398655+09:00",
+  "updated_at": "2026-07-24T03:30:42.095258+09:00",
   "accuracy": {
     "total": 927,
     "correct": 362,
     "rate": 39
   },
-  "wti_price": 93.0,
+  "wti_price": 92.62000274658203,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4igpi/trump_says_he_is_considering_a_massive_attack_on/",
@@ -183,7 +183,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク・輸送インフラ障害",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
