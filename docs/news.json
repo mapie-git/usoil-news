@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T22:05:40.548698+09:00",
+  "updated_at": "2026-07-23T22:30:31.656177+09:00",
   "accuracy": {
     "total": 912,
     "correct": 354,
     "rate": 39
   },
-  "wti_price": 90.93000030517578,
+  "wti_price": 90.75,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Refinery-Utilization-Hits-962-as-Fuel-Markets-Tighten-Worldwide.html",
@@ -186,24 +186,6 @@
       "is_new": false,
       "verified": false,
       "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Nearly-4-as-Houthis-Threaten-Red-Sea-Blockade.html",
-      "source": "OilPrice.com",
-      "title": "Oil Jumps Nearly 4% as Houthis Threaten Red Sea Blockade",
-      "summary": "フーシ派の紅海封鎖脅迫でBrent原油が3.75%上昇。中東供給リスク懸念が高まる",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Nearly-4-as-Houthis-Threaten-Red-Sea-Blockade.html",
-      "pub": "Wed, 22 Jul 2026 06:10:00 -0500",
-      "pub_ts": 1784718600,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
-      "is_new": false,
-      "verified": true,
-      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4cn4a/oil_prices_surge_toward_triple_digits_after_red/",
@@ -453,6 +435,24 @@
       "time_horizon": "short",
       "main_factor": "在庫増加",
       "reliability": "A",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1v3gxgp/navy_admiral_warns_iran_may_try_to_shut_down_the/",
+      "source": "Reddit r/oil",
+      "title": "Navy Admiral warns Iran may try to shut down the Suez Canal",
+      "summary": "米海軍高官がイランによるスエズ運河封鎖の可能性を警告。実現時は供給途絶リスクが大幅増加。",
+      "link": "https://www.reddit.com/r/oil/comments/1v3gxgp/navy_admiral_warns_iran_may_try_to_shut_down_the/",
+      "pub": "2026-07-22T13:57:08+00:00",
+      "pub_ts": 1784728628,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
