@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-23T11:00:28.030071+09:00",
+  "updated_at": "2026-07-23T11:30:37.806758+09:00",
   "accuracy": {
-    "total": 894,
+    "total": 896,
     "correct": 346,
     "rate": 39
   },
-  "wti_price": 88.06999969482422,
+  "wti_price": 88.1500015258789,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Nears-96-as-US-Strikes-Iran-for-12th-Consecutive-Night.html",
+      "source": "OilPrice.com",
+      "title": "Brent Nears $96 as U.S. Strikes Iran for 12th Consecutive Night",
+      "summary": "米国とイランの12日連続の報復攻撃が継続。WTI$88.05で上昇。地政学リスク拡大で原油買われる。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Nears-96-as-US-Strikes-Iran-for-12th-Consecutive-Night.html",
+      "pub": "Wed, 22 Jul 2026 21:26:49 -0500",
+      "pub_ts": 1784773609,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Houthi-Red-Sea-Blockade-Could-Shatter-Hopes-for-Lower-Oil-Prices.html",
       "source": "OilPrice.com",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Scrambles-for-Oil-Alternatives-as-Hormuz-Red-Sea-Risks-Mount.html",
-      "source": "OilPrice.com",
-      "title": "Pakistan Scrambles for Oil Alternatives as Hormuz, Red Sea Risks Mount",
-      "summary": "パキスタンがホルムズ海峡・紅海リスク回避で米国やナイジェリアからの原油調達を検討中。供給懸念を反映。",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Scrambles-for-Oil-Alternatives-as-Hormuz-Red-Sea-Risks-Mount.html",
-      "pub": "Wed, 22 Jul 2026 07:30:00 -0500",
-      "pub_ts": 1784723400,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
