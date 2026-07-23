@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T13:00:31.288874+09:00",
+  "updated_at": "2026-07-23T13:30:40.041287+09:00",
   "accuracy": {
     "total": 897,
     "correct": 347,
     "rate": 39
   },
-  "wti_price": null,
+  "wti_price": 88.36000061035156,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Nears-96-as-US-Strikes-Iran-for-12th-Consecutive-Night.html",
