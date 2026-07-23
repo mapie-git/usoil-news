@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-23T15:00:30.941325+09:00",
+  "updated_at": "2026-07-23T15:30:39.883918+09:00",
   "accuracy": {
-    "total": 897,
-    "correct": 347,
+    "total": 898,
+    "correct": 348,
     "rate": 39
   },
-  "wti_price": 88.12999725341797,
+  "wti_price": 88.06999969482422,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Two-Saudi-Oil-Tankers-Targeted-as-Houthi-Blockade-Disrupts-Red-Sea-Shipping.html",
+      "source": "OilPrice.com",
+      "title": "Two Saudi Oil Tankers Targeted as Houthi Blockade Disrupts Red Sea Shipping",
+      "summary": "フーシ派がサウジアラビアのタンカー2隻を攻撃。紅海での通航路遮断により供給懸念が高まる。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Two-Saudi-Oil-Tankers-Targeted-as-Houthi-Blockade-Disrupts-Red-Sea-Shipping.html",
+      "pub": "Thu, 23 Jul 2026 01:30:00 -0500",
+      "pub_ts": 1784788200,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Nears-96-as-US-Strikes-Iran-for-12th-Consecutive-Night.html",
       "source": "OilPrice.com",
@@ -202,8 +220,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-US-Iran-Conflict-Shows-No-Signs-of-Slowing.html",
@@ -429,24 +447,6 @@
       "link": "https://www.reddit.com/r/oil/comments/1v3gxgp/navy_admiral_warns_iran_may_try_to_shut_down_the/",
       "pub": "2026-07-22T13:57:08+00:00",
       "pub_ts": 1784728628,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v3erxu/tanker_rerouting_and_renewed_hormuz_risk_push_wti/",
-      "source": "Reddit r/oil",
-      "title": "Tanker rerouting and renewed Hormuz risk push WTI above $88 — second premium cycle this year",
-      "summary": "ホルムズ海峡周辺の地政学リスク再燃により、WTIが6週間ぶり高値の88ドル超に上昇。タンカー迂回報告。",
-      "link": "https://www.reddit.com/r/oil/comments/1v3erxu/tanker_rerouting_and_renewed_hormuz_risk_push_wti/",
-      "pub": "2026-07-22T12:30:33+00:00",
-      "pub_ts": 1784723433,
       "impact": 3,
       "impact_group": "mid",
       "direction": "bullish",
