@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T03:47:13.396410+09:00",
+  "updated_at": "2026-07-24T04:00:34.239609+09:00",
   "accuracy": {
-    "total": 927,
+    "total": 929,
     "correct": 362,
     "rate": 39
   },
-  "wti_price": 92.0999984741211,
+  "wti_price": 92.20999908447266,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4lcgd/iran_war_expands_to_red_sea_as_houthi_attacks/",
@@ -440,20 +440,20 @@
       "correct": null
     },
     {
-      "id": "https://www.hellenicshippingnews.com/us-jet-fuel-demand-hits-record-2-15-million-bpd-last-week-eia-says/",
-      "source": "Hellenic Shipping",
-      "title": "US jet fuel demand hits record 2.15 million bpd last week, EIA says",
-      "summary": "米ジェット燃料需要が過去最高の215万bpdに達。需要堅調が原油買い圧力に",
-      "link": "https://www.hellenicshippingnews.com/us-jet-fuel-demand-hits-record-2-15-million-bpd-last-week-eia-says/",
-      "pub": "Wed, 22 Jul 2026 21:00:02 +0000",
-      "pub_ts": 1784754002,
-      "impact": 3,
+      "id": "https://oilprice.com/Energy/Energy-General/Commodities-Beat-Tech-This-Decade-and-Wall-Street-Still-Wont-Buy-In.html",
+      "source": "OilPrice.com",
+      "title": "Commodities Beat Tech This Decade, and Wall Street Still Won't Buy In",
+      "summary": "過去10年間の商品指数パフォーマンス評価。WTI価格の直接的な変動要因ではなく、市場センチメント分析。",
+      "link": "https://oilprice.com/Energy/Energy-General/Commodities-Beat-Tech-This-Decade-and-Wall-Street-Still-Wont-Buy-In.html",
+      "pub": "Thu, 23 Jul 2026 14:00:00 -0500",
+      "pub_ts": 1784833200,
+      "impact": 2,
       "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "需要強化",
-      "reliability": "A",
-      "is_new": false,
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "市場認識、資金フロー",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     }
