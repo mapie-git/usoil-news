@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T18:27:18.315962+09:00",
+  "updated_at": "2026-07-23T18:30:34.653258+09:00",
   "accuracy": {
-    "total": 902,
+    "total": 903,
     "correct": 349,
     "rate": 39
   },
-  "wti_price": 90.0199966430664,
+  "wti_price": 90.02999877929688,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-Toward-100-as-Red-Sea-Risks-Rise.html",
