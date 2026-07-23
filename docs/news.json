@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T08:00:31.113272+09:00",
+  "updated_at": "2026-07-24T08:30:47.421036+09:00",
   "accuracy": {
-    "total": 947,
+    "total": 949,
     "correct": 371,
     "rate": 39
   },
-  "wti_price": 92.12000274658203,
+  "wti_price": 92.18000030517578,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/oil_surges_above_100-23-jul-2026-184203-article/?rss=true",
@@ -422,6 +422,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Trump-Administration-Eyes-Offshore-Nuclear-to-Power-AI-Boom.html",
+      "source": "OilPrice.com",
+      "title": "Trump Administration Eyes Offshore Nuclear to Power AI Boom",
+      "summary": "トランプ政権がAI産業向けの洋上原子力発電導入を検討。エネルギー需要への長期的な影響を注視",
+      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Trump-Administration-Eyes-Offshore-Nuclear-to-Power-AI-Boom.html",
+      "pub": "Thu, 23 Jul 2026 18:00:00 -0500",
+      "pub_ts": 1784847600,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "long",
+      "main_factor": "エネルギー政策転換",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://oilprice.com/Energy/Crude-Oil/OPEC-Set-to-Raise-Output-AgainEven-as-Members-Cant-Pump-It.html",
       "source": "OilPrice.com",
       "title": "OPEC+ Set to Raise Output Again—Even as Members Can't Pump It",
@@ -435,24 +453,6 @@
       "time_horizon": "medium",
       "main_factor": "供給政策",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v4nr72/houthis_attack_saudi_oil_tankers_in_red_sea/",
-      "source": "Reddit r/oil",
-      "title": "Houthis Attack Saudi Oil Tankers in Red Sea",
-      "summary": "フーシ派によるサウジ油送船攻撃。赤海での海上リスク既知の話題で市場織り込み済み",
-      "link": "https://www.reddit.com/r/oil/comments/1v4nr72/houthis_attack_saudi_oil_tankers_in_red_sea/",
-      "pub": "2026-07-23T19:18:57+00:00",
-      "pub_ts": 1784834337,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
