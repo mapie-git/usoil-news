@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T02:27:09.665900+09:00",
+  "updated_at": "2026-07-24T02:30:33.685851+09:00",
   "accuracy": {
-    "total": 924,
-    "correct": 360,
+    "total": 927,
+    "correct": 362,
     "rate": 39
   },
-  "wti_price": 92.63999938964844,
+  "wti_price": 92.69999694824219,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4igpi/trump_says_he_is_considering_a_massive_attack_on/",
