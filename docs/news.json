@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T02:30:33.685851+09:00",
+  "updated_at": "2026-07-24T03:00:32.398655+09:00",
   "accuracy": {
     "total": 927,
     "correct": 362,
     "rate": 39
   },
-  "wti_price": 92.69999694824219,
+  "wti_price": 93.0,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4igpi/trump_says_he_is_considering_a_massive_attack_on/",
@@ -166,6 +166,24 @@
       "main_factor": "供給懸念、LNG逼迫",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/Ukraines-Drone-War-Is-Choking-Kazakhstans-Oil-Exports.html",
+      "source": "OilPrice.com",
+      "title": "Ukraine’s Drone War Is Choking Kazakhstan’s Oil Exports",
+      "summary": "ウクライナのドローン攻撃がカザフスタンの石油輸出を阻害。ロシア経由の輸送ルートが被害を受け、供給減少のリスク",
+      "link": "https://oilprice.com/Energy/Energy-General/Ukraines-Drone-War-Is-Choking-Kazakhstans-Oil-Exports.html",
+      "pub": "Thu, 23 Jul 2026 13:00:00 -0500",
+      "pub_ts": 1784829600,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bearish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク・輸送インフラ障害",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "short",
       "main_factor": "供給ショック（既知情報）",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v4i59i/iranian_speaker_of_the_parliament_mb_ghalibaf/",
-      "source": "Reddit r/oil",
-      "title": "Iranian Speaker of the Parliament MB Ghalibaf posted on X \"They punished themselves with triple-digit Oil instead\"",
-      "summary": "イラン議会議長がイランへの制裁を皮肉る発言。既に市場で織り込まれた政治的言及",
-      "link": "https://www.reddit.com/r/oil/comments/1v4i59i/iranian_speaker_of_the_parliament_mb_ghalibaf/",
-      "pub": "2026-07-23T16:03:04+00:00",
-      "pub_ts": 1784822584,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "ultra_short",
-      "main_factor": "地政学的言及",
       "reliability": "C",
       "is_new": false,
       "verified": false,
