@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T18:30:34.653258+09:00",
+  "updated_at": "2026-07-23T19:00:32.004105+09:00",
   "accuracy": {
     "total": 903,
     "correct": 349,
     "rate": 39
   },
-  "wti_price": 90.02999877929688,
+  "wti_price": 89.97000122070312,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-Toward-100-as-Red-Sea-Risks-Rise.html",
@@ -21,7 +21,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "A",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
