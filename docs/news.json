@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T07:00:32.197201+09:00",
+  "updated_at": "2026-07-24T07:30:32.880111+09:00",
   "accuracy": {
-    "total": 946,
-    "correct": 370,
+    "total": 947,
+    "correct": 371,
     "rate": 39
   },
-  "wti_price": 92.36000061035156,
+  "wti_price": 92.16000366210938,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/oil_surges_above_100-23-jul-2026-184203-article/?rss=true",
@@ -435,7 +435,7 @@
       "time_horizon": "medium",
       "main_factor": "供給政策",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
