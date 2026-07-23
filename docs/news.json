@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T20:26:33.340114+09:00",
+  "updated_at": "2026-07-23T20:30:33.711127+09:00",
   "accuracy": {
     "total": 909,
     "correct": 352,
     "rate": 39
   },
-  "wti_price": 90.51000213623047,
+  "wti_price": 90.8499984741211,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-Toward-100-as-Red-Sea-Risks-Rise.html",
@@ -224,6 +224,24 @@
       "correct": true
     },
     {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Tankers-Push-Through-Bab-el-Mandeb-Despite-Houthi-Blockade-Threats.html",
+      "source": "OilPrice.com",
+      "title": "Chinese Tankers Push Through Bab el-Mandeb Despite Houthi Blockade Threats",
+      "summary": "中国タンカーがホシー攻撃の脅威にもかかわらずバブエルマンデブ海峡を通過継続。地政学的リスク存在。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Tankers-Push-Through-Bab-el-Mandeb-Despite-Houthi-Blockade-Threats.html",
+      "pub": "Thu, 23 Jul 2026 06:30:00 -0500",
+      "pub_ts": 1784806200,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1v47vyk/oil_jumps_to_98_after_houthis_attack_two_saudi/",
       "source": "Reddit r/oil",
       "title": "Oil jumps to $98 after Houthis attack two Saudi Arabian tankers",
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "在庫増加",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v3gxgp/navy_admiral_warns_iran_may_try_to_shut_down_the/",
-      "source": "Reddit r/oil",
-      "title": "Navy Admiral warns Iran may try to shut down the Suez Canal",
-      "summary": "米海軍高官がイランによるスエズ運河封鎖の可能性を警告。実現時は供給途絶リスクが大幅増加。",
-      "link": "https://www.reddit.com/r/oil/comments/1v3gxgp/navy_admiral_warns_iran_may_try_to_shut_down_the/",
-      "pub": "2026-07-22T13:57:08+00:00",
-      "pub_ts": 1784728628,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
