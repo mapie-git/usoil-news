@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T04:00:34.239609+09:00",
+  "updated_at": "2026-07-24T04:30:38.910502+09:00",
   "accuracy": {
-    "total": 929,
+    "total": 930,
     "correct": 362,
     "rate": 39
   },
-  "wti_price": 92.20999908447266,
+  "wti_price": 91.7699966430664,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4lcgd/iran_war_expands_to_red_sea_as_houthi_attacks/",
@@ -453,7 +453,7 @@
       "time_horizon": "long",
       "main_factor": "市場認識、資金フロー",
       "reliability": "B",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     }
