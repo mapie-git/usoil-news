@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T19:30:33.246288+09:00",
+  "updated_at": "2026-07-23T20:00:30.345689+09:00",
   "accuracy": {
-    "total": 906,
-    "correct": 350,
+    "total": 907,
+    "correct": 351,
     "rate": 39
   },
-  "wti_price": 90.41000366210938,
+  "wti_price": 90.33000183105469,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-Toward-100-as-Red-Sea-Risks-Rise.html",
@@ -202,8 +202,8 @@
       "main_factor": "地政学リスク",
       "reliability": "C",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.hellenicshippingnews.com/the-commodities-feed-oil-moves-higher-as-supply-risks-build/",
