@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T09:00:30.086318+09:00",
+  "updated_at": "2026-07-23T09:03:33.463297+09:00",
   "accuracy": {
-    "total": 892,
+    "total": 893,
     "correct": 346,
     "rate": 39
   },
-  "wti_price": 87.83000183105469,
+  "wti_price": 87.76000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Houthi-Red-Sea-Blockade-Could-Shatter-Hopes-for-Lower-Oil-Prices.html",
