@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-23T21:00:34.854104+09:00",
+  "updated_at": "2026-07-23T21:30:32.779672+09:00",
   "accuracy": {
     "total": 909,
     "correct": 352,
     "rate": 39
   },
-  "wti_price": 90.43000030517578,
+  "wti_price": 90.88999938964844,
   "articles": [
+    {
+      "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Refinery-Utilization-Hits-962-as-Fuel-Markets-Tighten-Worldwide.html",
+      "source": "OilPrice.com",
+      "title": "U.S. Refinery Utilization Hits 96.2% as Fuel Markets Tighten Worldwide",
+      "summary": "米国製油所稼働率96.2%。イラン情勢とホルムズ海峡閉鎖で世界的に燃料逼迫。米国燃料輸出が過去最高。",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Refinery-Utilization-Hits-962-as-Fuel-Markets-Tighten-Worldwide.html",
+      "pub": "Thu, 23 Jul 2026 07:30:00 -0500",
+      "pub_ts": 1784809800,
+      "impact": 4,
+      "impact_group": "high",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "供給逼迫、地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-Toward-100-as-Red-Sea-Risks-Rise.html",
       "source": "OilPrice.com",
@@ -434,24 +452,6 @@
       "direction": "bearish",
       "time_horizon": "short",
       "main_factor": "精製需要減少",
-      "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Product-Inventories-See-Builds-Across-the-Board.html",
-      "source": "OilPrice.com",
-      "title": "US Oil, Product Inventories See Builds Across the Board",
-      "summary": "米国原油在庫が200万バレル増加し、商業備蓄は411.7百万バレルに達した（EIA発表）",
-      "link": "https://oilprice.com/Energy/Crude-Oil/US-Oil-Product-Inventories-See-Builds-Across-the-Board.html",
-      "pub": "Wed, 22 Jul 2026 09:44:00 -0500",
-      "pub_ts": 1784731440,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "short",
-      "main_factor": "在庫増加",
       "reliability": "A",
       "is_new": false,
       "verified": false,
