@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T22:30:31.656177+09:00",
+  "updated_at": "2026-07-23T23:00:34.274434+09:00",
   "accuracy": {
-    "total": 912,
-    "correct": 354,
+    "total": 917,
+    "correct": 357,
     "rate": 39
   },
-  "wti_price": 90.75,
+  "wti_price": 91.62999725341797,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Refinery-Utilization-Hits-962-as-Fuel-Markets-Tighten-Worldwide.html",
@@ -148,8 +148,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.eia.gov/todayinenergy/detail.php?id=67868",
@@ -183,6 +183,24 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "B",
+      "is_new": false,
+      "verified": true,
+      "correct": true
+    },
+    {
+      "id": "https://www.reddit.com/r/oil/comments/1v4dz29/oil_prices_leap_to_100_a_barrel_after_attacks_in/",
+      "source": "Reddit r/oil",
+      "title": "Oil prices leap to $100 a barrel after attacks in Red Sea",
+      "summary": "紅海での攻撃によりWTI原油が$100/バレルに上昇。供給リスク懸念で価格急騰。",
+      "link": "https://www.reddit.com/r/oil/comments/1v4dz29/oil_prices_leap_to_100_a_barrel_after_attacks_in/",
+      "pub": "2026-07-23T13:29:17+00:00",
+      "pub_ts": 1784813357,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "short",
+      "main_factor": "地政学リスク",
+      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "在庫増加",
       "reliability": "A",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://www.reddit.com/r/oil/comments/1v3gxgp/navy_admiral_warns_iran_may_try_to_shut_down_the/",
-      "source": "Reddit r/oil",
-      "title": "Navy Admiral warns Iran may try to shut down the Suez Canal",
-      "summary": "米海軍高官がイランによるスエズ運河封鎖の可能性を警告。実現時は供給途絶リスクが大幅増加。",
-      "link": "https://www.reddit.com/r/oil/comments/1v3gxgp/navy_admiral_warns_iran_may_try_to_shut_down_the/",
-      "pub": "2026-07-22T13:57:08+00:00",
-      "pub_ts": 1784728628,
-      "impact": 3,
-      "impact_group": "mid",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "C",
       "is_new": false,
       "verified": false,
       "correct": null
