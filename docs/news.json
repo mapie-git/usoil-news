@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T22:00:38.158765+09:00",
+  "updated_at": "2026-07-23T22:05:40.548698+09:00",
   "accuracy": {
-    "total": 911,
-    "correct": 353,
+    "total": 912,
+    "correct": 354,
     "rate": 39
   },
-  "wti_price": 90.86000061035156,
+  "wti_price": 90.93000030517578,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/US-Refinery-Utilization-Hits-962-as-Fuel-Markets-Tighten-Worldwide.html",
@@ -219,7 +219,7 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": true,
+      "is_new": false,
       "verified": false,
       "correct": null
     },
