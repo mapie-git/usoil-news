@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-23T20:00:30.345689+09:00",
+  "updated_at": "2026-07-23T20:26:33.340114+09:00",
   "accuracy": {
-    "total": 907,
-    "correct": 351,
+    "total": 909,
+    "correct": 352,
     "rate": 39
   },
-  "wti_price": 90.33000183105469,
+  "wti_price": 90.51000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-Toward-100-as-Red-Sea-Risks-Rise.html",
@@ -184,8 +184,8 @@
       "main_factor": "地政学リスク",
       "reliability": "B",
       "is_new": false,
-      "verified": false,
-      "correct": null
+      "verified": true,
+      "correct": true
     },
     {
       "id": "https://www.reddit.com/r/oil/comments/1v3c99j/the_iran_war_is_spreading_into_a_global_shipping/",
