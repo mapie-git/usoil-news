@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T07:30:32.880111+09:00",
+  "updated_at": "2026-07-24T08:00:31.113272+09:00",
   "accuracy": {
     "total": 947,
     "correct": 371,
     "rate": 39
   },
-  "wti_price": 92.16000366210938,
+  "wti_price": 92.12000274658203,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/oil_surges_above_100-23-jul-2026-184203-article/?rss=true",
