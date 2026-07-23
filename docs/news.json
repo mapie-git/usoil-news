@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T05:30:46.506032+09:00",
+  "updated_at": "2026-07-24T06:00:29.999880+09:00",
   "accuracy": {
     "total": 933,
     "correct": 363,
     "rate": 39
   },
-  "wti_price": 91.80999755859375,
+  "wti_price": 92.2300033569336,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4lcgd/iran_war_expands_to_red_sea_as_houthi_attacks/",
@@ -166,6 +166,24 @@
       "main_factor": "地政学リスク・供給途絶",
       "reliability": "B",
       "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Energy-General/The-AI-Paradox-Reshaping-Clean-Energy-Research.html",
+      "source": "OilPrice.com",
+      "title": "The AI Paradox Reshaping Clean Energy Research",
+      "summary": "AIデータセンター拡大により電力需要が急増、エネルギー部門への需要圧力が高まる可能性。",
+      "link": "https://oilprice.com/Energy/Energy-General/The-AI-Paradox-Reshaping-Clean-Energy-Research.html",
+      "pub": "Thu, 23 Jul 2026 16:00:00 -0500",
+      "pub_ts": 1784840400,
+      "impact": 3,
+      "impact_group": "mid",
+      "direction": "bullish",
+      "time_horizon": "medium",
+      "main_factor": "需要増加",
+      "reliability": "B",
+      "is_new": true,
       "verified": false,
       "correct": null
     },
@@ -435,24 +453,6 @@
       "time_horizon": "short",
       "main_factor": "地政学リスク",
       "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Commodities-Beat-Tech-This-Decade-and-Wall-Street-Still-Wont-Buy-In.html",
-      "source": "OilPrice.com",
-      "title": "Commodities Beat Tech This Decade, and Wall Street Still Won't Buy In",
-      "summary": "過去10年間の商品指数パフォーマンス評価。WTI価格の直接的な変動要因ではなく、市場センチメント分析。",
-      "link": "https://oilprice.com/Energy/Energy-General/Commodities-Beat-Tech-This-Decade-and-Wall-Street-Still-Wont-Buy-In.html",
-      "pub": "Thu, 23 Jul 2026 14:00:00 -0500",
-      "pub_ts": 1784833200,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "市場認識、資金フロー",
-      "reliability": "B",
       "is_new": false,
       "verified": false,
       "correct": null
