@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T11:00:32.099414+09:00",
+  "updated_at": "2026-07-24T11:30:28.018633+09:00",
   "accuracy": {
     "total": 952,
     "correct": 373,
     "rate": 39
   },
-  "wti_price": 91.58000183105469,
+  "wti_price": 91.76000213623047,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4ux2b/iran_has_rejected_a_ceasefire_proposal_from_trump/",
