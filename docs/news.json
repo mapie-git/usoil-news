@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T12:00:33.143181+09:00",
+  "updated_at": "2026-07-24T12:30:33.326297+09:00",
   "accuracy": {
     "total": 953,
     "correct": 374,
     "rate": 39
   },
-  "wti_price": 91.87999725341797,
+  "wti_price": 92.02999877929688,
   "articles": [
     {
       "id": "https://www.reddit.com/r/oil/comments/1v4ux2b/iran_has_rejected_a_ceasefire_proposal_from_trump/",
@@ -440,20 +440,20 @@
       "correct": null
     },
     {
-      "id": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Trump-Administration-Eyes-Offshore-Nuclear-to-Power-AI-Boom.html",
-      "source": "OilPrice.com",
-      "title": "Trump Administration Eyes Offshore Nuclear to Power AI Boom",
-      "summary": "トランプ政権がAI産業向けの洋上原子力発電導入を検討。エネルギー需要への長期的な影響を注視",
-      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Trump-Administration-Eyes-Offshore-Nuclear-to-Power-AI-Boom.html",
-      "pub": "Thu, 23 Jul 2026 18:00:00 -0500",
-      "pub_ts": 1784847600,
+      "id": "https://www.reddit.com/r/oil/comments/1v4zd4q/another_coordinated_iea_release/",
+      "source": "Reddit r/oil",
+      "title": "Another Coordinated IEA Release?",
+      "summary": "IEAの戦略備蓄放出の可能性について掲示板ユーザーが議論。既知情報の推測段階",
+      "link": "https://www.reddit.com/r/oil/comments/1v4zd4q/another_coordinated_iea_release/",
+      "pub": "2026-07-24T03:12:50+00:00",
+      "pub_ts": 1784862770,
       "impact": 2,
       "impact_group": "mid",
       "direction": "neutral",
-      "time_horizon": "long",
-      "main_factor": "エネルギー政策転換",
-      "reliability": "B",
-      "is_new": false,
+      "time_horizon": "medium",
+      "main_factor": "備蓄放出予測",
+      "reliability": "C",
+      "is_new": true,
       "verified": false,
       "correct": null
     }
