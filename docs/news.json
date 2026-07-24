@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T18:00:32.020094+09:00",
+  "updated_at": "2026-07-24T18:30:28.173574+09:00",
   "accuracy": {
-    "total": 957,
+    "total": 958,
     "correct": 377,
     "rate": 39
   },
-  "wti_price": 89.56999969482422,
+  "wti_price": 89.0,
   "articles": [
     {
       "id": "https://www.rigzone.com/news/wire/china_snaps_up_russian_oil_as_mideast_risks_mount-24-jul-2026-184204-article/?rss=true",
