@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T22:53:59.352280+09:00",
+  "updated_at": "2026-07-24T23:00:33.836782+09:00",
   "accuracy": {
-    "total": 969,
+    "total": 971,
     "correct": 378,
     "rate": 39
   },
-  "wti_price": 90.41999816894531,
+  "wti_price": 90.02999877929688,
   "articles": [
     {
       "id": "https://oilprice.com/Energy/Energy-General/WTI-Explodes-Higher-as-Middle-East-Shipping-Risks-Multiply.html",
@@ -422,6 +422,24 @@
       "correct": null
     },
     {
+      "id": "https://oilprice.com/Geopolitics/Europe/No-Breakthrough-as-Top-US-and-Russian-Diplomats-Meet-Over-Ukraine.html",
+      "source": "OilPrice.com",
+      "title": "No Breakthrough as Top U.S. and Russian Diplomats Meet Over Ukraine",
+      "summary": "米露外交官がウクライナ問題で会談したが進展なし。地政学リスクの継続を示唆。",
+      "link": "https://oilprice.com/Geopolitics/Europe/No-Breakthrough-as-Top-US-and-Russian-Diplomats-Meet-Over-Ukraine.html",
+      "pub": "Fri, 24 Jul 2026 09:00:00 -0500",
+      "pub_ts": 1784901600,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "地政学リスク",
+      "reliability": "B",
+      "is_new": true,
+      "verified": false,
+      "correct": null
+    },
+    {
       "id": "https://www.reddit.com/r/oil/comments/1v58668/a_comparison_of_oil_barrels_lost_due_to_war_or/",
       "source": "Reddit r/oil",
       "title": "A comparison of oil barrels lost due to war or political rupture in the Middle East - projections suggest Iran War will be deepest oil shock in history",
@@ -434,24 +452,6 @@
       "direction": "bullish",
       "time_horizon": "long",
       "main_factor": "地政学リスク",
-      "reliability": "C",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Energy-General/Trumps-Nuclear-Gamble-Could-Spell-Disaster-for-the-Middle-East.html",
-      "source": "OilPrice.com",
-      "title": "Trump’s Nuclear Gamble Could Spell Disaster for the Middle East",
-      "summary": "トランプ政権の中東外交姿勢変化可能性。サウジアラビアとの交渉条件変更示唆。不確実性高い。",
-      "link": "https://oilprice.com/Energy/Energy-General/Trumps-Nuclear-Gamble-Could-Spell-Disaster-for-the-Middle-East.html",
-      "pub": "Fri, 24 Jul 2026 06:00:00 -0500",
-      "pub_ts": 1784890800,
-      "impact": 2,
-      "impact_group": "mid",
-      "direction": "bearish",
-      "time_horizon": "medium",
-      "main_factor": "政治・交渉動向",
       "reliability": "C",
       "is_new": false,
       "verified": false,
