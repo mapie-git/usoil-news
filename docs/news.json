@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T16:30:30.306900+09:00",
+  "updated_at": "2026-07-24T17:00:29.369538+09:00",
   "accuracy": {
     "total": 955,
     "correct": 375,
     "rate": 39
   },
-  "wti_price": 90.5199966430664,
+  "wti_price": 90.26000213623047,
   "articles": [
     {
       "id": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Threatens-Iran-After-Houthi-Tanker-Attacks.html",
@@ -147,24 +147,6 @@
       "time_horizon": "short",
       "main_factor": "供給逼迫、地政学リスク",
       "reliability": "B",
-      "is_new": false,
-      "verified": false,
-      "correct": null
-    },
-    {
-      "id": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-Toward-100-as-Red-Sea-Risks-Rise.html",
-      "source": "OilPrice.com",
-      "title": "Oil Prices Climb Toward $100 as Red Sea Risks Rise",
-      "summary": "フーシ派の紅海攻撃激化により、中東供給懸念が高まりWTI価格が5日連続上昇し98ドル超へ",
-      "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Climb-Toward-100-as-Red-Sea-Risks-Rise.html",
-      "pub": "Thu, 23 Jul 2026 04:02:43 -0500",
-      "pub_ts": 1784797363,
-      "impact": 4,
-      "impact_group": "high",
-      "direction": "bullish",
-      "time_horizon": "short",
-      "main_factor": "地政学リスク",
-      "reliability": "A",
       "is_new": false,
       "verified": false,
       "correct": null
@@ -452,6 +434,24 @@
       "direction": "neutral",
       "time_horizon": "long",
       "main_factor": "エネルギー政策転換",
+      "reliability": "B",
+      "is_new": false,
+      "verified": false,
+      "correct": null
+    },
+    {
+      "id": "https://oilprice.com/Energy/Crude-Oil/OPEC-Set-to-Raise-Output-AgainEven-as-Members-Cant-Pump-It.html",
+      "source": "OilPrice.com",
+      "title": "OPEC+ Set to Raise Output Again—Even as Members Can't Pump It",
+      "summary": "OPEC+が8月2日に減産緩和を承認予定。実現可能性が低く市場への影響限定的。",
+      "link": "https://oilprice.com/Energy/Crude-Oil/OPEC-Set-to-Raise-Output-AgainEven-as-Members-Cant-Pump-It.html",
+      "pub": "Thu, 23 Jul 2026 17:00:00 -0500",
+      "pub_ts": 1784844000,
+      "impact": 2,
+      "impact_group": "mid",
+      "direction": "neutral",
+      "time_horizon": "medium",
+      "main_factor": "供給政策",
       "reliability": "B",
       "is_new": false,
       "verified": false,
